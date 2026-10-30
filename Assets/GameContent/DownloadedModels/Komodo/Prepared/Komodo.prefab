@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2919738118665806162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272520823479869203}
+  - component: {fileID: 3608307789940579184}
+  m_Layer: 0
+  m_Name: Komodo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272520823479869203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919738118665806162}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7175246597317545800}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3608307789940579184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919738118665806162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01aa2ddf822668b41942e0a424af604e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LostRealmsOW.OpenWorldImportedModel
+  Idle: {fileID: 7400000, guid: 26b6c1b4d0f05c946b97aad0d23d82e8, type: 2}
+  Walk: {fileID: 7400000, guid: f0aa6b95497fb714eb067fe05d7c6b97, type: 2}
+  Attack: {fileID: 0}
+  Hit: {fileID: 0}
+  Death: {fileID: 0}
+  Talk: {fileID: 0}
+  Run: {fileID: 7400000, guid: f0aa6b95497fb714eb067fe05d7c6b97, type: 2}
+  Graze: {fileID: 0}
+  Rest: {fileID: 0}
+  Roar: {fileID: 0}
+  Fly: {fileID: 0}
+  Attack2: {fileID: 0}
+  Trot: {fileID: 0}
+  Canter: {fileID: 0}
+  WalkSpeed: 0.9
+  TrotSpeed: 0
+  CanterSpeed: 0
+  RunSpeed: 0.9
+  TuckTime: -1
+  State: idle
+  RestartVersion: 0
+  Driver: {fileID: 0}
+--- !u!1001 &7212833381867595939
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 272520823479869203}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 107.884674
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 107.88468
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 107.88468
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.10742597
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.14661375
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.48102528
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.023839558
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.9997158
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_Quality
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_DirtyAABB
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_AABB.m_Center.x
+      value: -0.065675855
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_AABB.m_Center.y
+      value: 0.21272305
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_AABB.m_Center.z
+      value: 0.13633606
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_AABB.m_Extent.x
+      value: 0.39007252
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_AABB.m_Extent.y
+      value: 0.8486768
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_AABB.m_Extent.z
+      value: 0.17183453
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7176023820430950870, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 6b485ec4a0d4da941b9ce9bdfd728981, type: 2}
+    - target: {fileID: 919132149155446097, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      propertyPath: m_Name
+      value: Komodo
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 9fd21884900915746936634b67ea0261, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6217895568289631433}
+  m_SourcePrefab: {fileID: 100100000, guid: 9fd21884900915746936634b67ea0261, type: 3}
+--- !u!4 &7175246597317545800 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9fd21884900915746936634b67ea0261, type: 3}
+  m_PrefabInstance: {fileID: 7212833381867595939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7554868017469920754 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9fd21884900915746936634b67ea0261, type: 3}
+  m_PrefabInstance: {fileID: 7212833381867595939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6217895568289631433
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7554868017469920754}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
