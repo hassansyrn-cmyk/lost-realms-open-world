@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ef3297edaa9834a469f193b36cdd471c
+timeCreated: 1521389129
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114445
+  packageName: Character Elf
+  packageVersion: 1.0
+  assetPath: Assets/Character_Elf/Scene.unity
+  uploadId: 236095

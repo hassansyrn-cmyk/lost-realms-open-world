@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b2d53c8017ae1d4da2e9c842d73aa2e
+timeCreated: 1507749581
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102410
+  packageName: Creature Rhinoceros
+  packageVersion: 1.0
+  assetPath: Assets/Creature_Rhinoceros/Animation/Materials/Rhinoceros_diffuse.mat
+  uploadId: 205623

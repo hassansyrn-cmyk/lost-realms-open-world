@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fdc7c645919f60047929b2f994266803
+timeCreated: 1507749659
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102410
+  packageName: Creature Rhinoceros
+  packageVersion: 1.0
+  assetPath: Assets/Creature_Rhinoceros/Prefab/Rhinoceros.prefab
+  uploadId: 205623

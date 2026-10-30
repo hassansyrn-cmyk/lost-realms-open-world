@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2c169ebb482516542888a6e2fee8b109
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 166680
+  packageName: PB Frontier Settlement
+  packageVersion: 1.6
+  assetPath: Assets/3DForge/Blueprints/PremiumBlueprints/PB_VIK_VEK/FrontierSettlement/BLUEPRINTS/Frontiers/PB_FS_Settlement01.prefab
+  uploadId: 776789

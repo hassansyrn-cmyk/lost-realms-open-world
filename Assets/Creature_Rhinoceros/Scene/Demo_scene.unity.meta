@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43e20e86ea60bc24b998829eea0afd0c
+timeCreated: 1507752155
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 102410
+  packageName: Creature Rhinoceros
+  packageVersion: 1.0
+  assetPath: Assets/Creature_Rhinoceros/Scene/Demo_scene.unity
+  uploadId: 205623
