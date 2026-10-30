@@ -1,0 +1,43 @@
+Spike capture 'takeover_after_storm_first' — frames 0..11 — 14:04:50
+12 frames, mean 121.9 ms, worst 623.5 ms, 10 over 45 ms
+
+== frame 2: 623.5 ms
+  top level: PlayerLoop 530.9, EditorLoop 69.5, Profiler.FlushCounters 22.8, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 530.9 > UpdateScene 475.1 > PreLateUpdate.ScriptRunBehaviourLateUpdate 464.7 > LateBehaviourUpdate 464.7 > Unity.ResourceManager.dll!UnityEngine.ResourceManagement.Util::DelayedActionManager.LateUpdate() [Invoke] 464.4 > Loading.ReadObject 464.1 > Loading.LoadRemainingPreallocatedObjects 457.0 > Loading.ReadObjectThreaded 456.6 > ReadObjectFromSerializedFile 456.5
+  self time: ReadObjectFromSerializedFile 316.6, Loading.LoadFileHeaders 128.0, EditorLoop 69.5, Profiler.FlushMemoryCounters 22.7, Idle 20.2, RenderLoop.ScheduleDraw 20.1, File.Read 16.0, AsyncReadManager.SyncRequest 6.4, UnityEditor.CoreModule.dll!UnityEditor::MaterialEditor.ApplyMaterialPropertyDrawersFromNative() [Invoke] 1.3, UnityEngine.CoreModule.dll!UnityEngine.Serialization::SerializationBackendManagedCommands.SerializationBufferToObject() [Invoke] 1.3, QueuePrepareIntegrateMainThreadObjects 1.2, File.Close 1.2, Instantiate.Produce 1.1, Loading.ReadObject 0.8
+
+== frame 1: 136.4 ms
+  top level: PlayerLoop 80.3, EditorLoop 53.9, Profiler.FlushCounters 1.9, Profiler.CollectEditorStats 0.2, Profiler.SessionMetadata 0.0
+  hot path: PlayerLoop 80.3 > UpdateScene 42.4 > PreLateUpdate.DirectorUpdateAnimationEnd 18.9 > Director.ProcessFrame 18.9 > Animators.Update 18.9 > Animators.WriteJob 18.4 > WaitForJobGroupID 18.3 > Idle 18.2
+  self time: EditorLoop 53.9, Idle 30.7, AsyncReadManager.SyncRequest 10.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldRegionDiscoveriesRuntime.Update() [Invoke] 7.5, ReadObjectFromSerializedFile 2.0, UnityEditor.CoreModule.dll!UnityEditor::MaterialEditor.ApplyMaterialPropertyDrawersFromNative() [Invoke] 1.9, QueuePrepareIntegrateMainThreadObjects 1.8, Profiler.FlushMemoryCounters 1.7, Loading.LoadFileHeaders 1.5, Loading.ReadObject 1.4, Destroy 1.3, GameObject.ActivateAwakeRecursively 1.2, WaitForJobGroupID 1.0, ParticleSystem.Update 1.0
+
+== frame 9: 111.5 ms
+  top level: PlayerLoop 90.7, EditorLoop 19.0, Profiler.FlushCounters 1.7, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 90.7 > UpdateScene 62.4 > Update.ScriptRunDelayedDynamicFrameRate 42.6 > CoroutinesDelayedCalls 42.6 > Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 42.5 > Animation.AddClip [Triggers RebuildInternalState] 37.3
+  self time: Animation.AddClip [Triggers RebuildInternalState] 37.3, EditorLoop 19.0, Idle 11.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 5.2, ReadObjectFromSerializedFile 4.8, Instantiate.Produce 2.8, QueuePrepareIntegrateMainThreadObjects 2.4, WaitForJobGroupID 1.8, Profiler.FlushMemoryCounters 1.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldPopulation.Update() [Invoke] 1.0, Inl_On Record Render Graph 1.0, LOD.ComputeLOD 1.0, Instantiate.Awake 0.9, PrepareSceneCullingParameters 0.7
+
+== frame 11: 98.5 ms
+  top level: PlayerLoop 93.4, EditorLoop 3.5, Profiler.FlushCounters 1.4, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 93.4 > UpdateScene 74.1 > Update.ScriptRunDelayedDynamicFrameRate 45.7 > CoroutinesDelayedCalls 45.7 > Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 45.2 > Animation.AddClip [Triggers RebuildInternalState] 44.4
+  self time: Animation.AddClip [Triggers RebuildInternalState] 44.4, TransformChangeSystem 13.1, Idle 10.4, EditorLoop 3.5, Instantiate.Produce 2.2, Animation.RebuildInternalState 1.6, Profiler.FlushMemoryCounters 1.4, QueuePrepareIntegrateMainThreadObjects 1.3, AsyncReadManager.SyncRequest 1.2, WaitForJobGroupID 1.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 1.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 0.8, CanvasUpdate.PreRender 0.8, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWhistleHudDriver.LateUpdate() [Invoke] 0.8
+
+== frame 0: 93.5 ms
+  top level: PlayerLoop 82.1, EditorLoop 4.8, Unaccounted time between: Profiler.SessionMetadata and PlayerLoop 4.6, Profiler.FlushCounters 1.9, Profiler.CollectEditorStats 0.1, Profiler.SessionMetadata 0.0
+  hot path: PlayerLoop 82.1 > UpdateScene 72.9 > Update.ScriptRunBehaviourUpdate 44.7 > BehaviourUpdate 44.7 > Assembly-CSharp.dll!LostRealmsOW::OpenWorldRealm.Update() [Invoke] 25.6 > TransformHandle.SetParent 22.1 > GameObject.ActivateAwakeRecursively 9.1
+  self time: PostLateUpdate.MemoryFrameMaintenance 16.0, Assembly-CSharp.dll!LostRealmsOW::OpenWorldRegionDiscoveriesRuntime.Update() [Invoke] 14.9, GameObject.ActivateAwakeRecursively 9.2, TransformHandle.SetParent 6.6, EditorLoop 4.8, Unaccounted time between: Profiler.SessionMetadata and PlayerLoop 4.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldRealm.Update() [Invoke] 3.5, WaitForJobGroupID 2.8, Physics.HandleColliderHierarchyChanges 2.7, Idle 2.7, SceneDataContainer.TransformHierarchyChangedSetParentCallback 2.4, Profiler.FlushMemoryCounters 1.7, QueuePrepareIntegrateMainThreadObjects 1.2, SceneVisibilityState.IsFlagSetInParents 1.2
+
+== frame 6: 78.4 ms
+  top level: PlayerLoop 73.1, EditorLoop 3.6, Profiler.FlushCounters 1.6, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 73.1 > UpdateScene 67.4 > TimeUpdate.WaitForLastPresentationAndUpdateTime 56.8 > GfxDeviceD3D12.WaitForLastPresentation 56.8 > GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 56.8
+  self time: GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 56.8, EditorLoop 3.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedContent.Load() [Coroutine: MoveNext] [Invoke] 2.0, Profiler.FlushMemoryCounters 1.5, Instantiate.Produce 1.5, QueuePrepareIntegrateMainThreadObjects 0.8, Instantiate.Awake 0.7, Idle 0.6, WaitForJobGroupID 0.5, GameObject.AddComponent 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldAtmosphere.Update() [Invoke] 0.3, Assembly-CSharp.dll!LostRealmsOW::OpenWorldRealm.Update() [Invoke] 0.3, Terrain.Trees.OnWillRender 0.3, ExecuteRenderQueueJob 0.2
+  Render Thread (78.7 ms): Semaphore.WaitForSignal 68.6, WaitForJobGroupID 3.9, RenderLoop 3.3, DrawOpaqueObjects 0.7, CreateResourceWithTag 0.5, DrawTransparentObjects 0.4, ExecuteRenderGraph 0.4, Canvas.RenderOverlays 0.3, BufferD3D12.InitializeResource 0.1, ColorGradingLUT 0.1
+
+== frame 10: 77.9 ms
+  top level: PlayerLoop 51.1, EditorLoop 24.8, Profiler.FlushCounters 1.8, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 51.1 > UpdateScene 27.5 > Update.ScriptRunDelayedDynamicFrameRate 14.6 > CoroutinesDelayedCalls 14.5 > Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 14.5 > Animation.AddClip [Triggers RebuildInternalState] 13.8
+  self time: EditorLoop 24.8, Animation.AddClip [Triggers RebuildInternalState] 13.8, Idle 12.6, Instantiate.Produce 2.1, WaitForJobGroupID 2.0, Profiler.FlushMemoryCounters 1.7, QueuePrepareIntegrateMainThreadObjects 1.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 1.2, Instantiate.Awake 0.8, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 0.7, UnityEditor.CoreModule.dll!UnityEditor::MaterialEditor.ApplyMaterialPropertyDrawersFromNative() [Invoke] 0.6, ReadObjectFromSerializedFile 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldRealm.Update() [Invoke] 0.4, Terrain.Trees.OnWillRender 0.4
+
+== frame 4: 75.8 ms
+  top level: PlayerLoop 49.4, EditorLoop 24.5, Profiler.FlushCounters 1.7, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 49.4 > UpdateScene 34.3 > FixedUpdate.PhysicsFixedUpdate 22.2 > Physics.RunSimulationStage 22.1 > Physics.Simulate 22.1 > PxScene.simulate 22.1
+  self time: EditorLoop 24.5, PxScene.simulate 21.7, QueuePrepareIntegrateMainThreadObjects 1.9, Profiler.FlushMemoryCounters 1.6, WaitForJobGroupID 1.5, Idle 1.3, Instantiate.Produce 1.0, UnityEditor.CoreModule.dll!UnityEditor::MaterialEditor.ApplyMaterialPropertyDrawersFromNative() [Invoke] 0.7, Instantiate.Awake 0.7, ReadObjectFromSerializedFile 0.6, ParticleSystem.Update 0.6, CanvasUpdate.PreRender 0.6, AudioSource.Update 0.5, Loading.LoadFileHeaders 0.5

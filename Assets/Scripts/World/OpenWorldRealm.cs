@@ -179,6 +179,7 @@ namespace LostRealmsOW {
   }
 
   void Refresh(int cx, int cz, Vector3 focus, bool immediate) {
+   long stamp = OpenWorldStreamingDiagnostics.Start();
    int reach = Mathf.CeilToInt(streamRadius / CellSize);
    var wanted = new HashSet<long>();
    var near = new List<(float d, long k)>();
@@ -204,12 +205,14 @@ namespace LostRealmsOW {
     if (immediate && n.d < 140f) { while (!IsFilled(n.k)) FillCell(n.k, 512); }
     else spawnQueue.Enqueue(n.k);
    }
+   OpenWorldStreamingDiagnostics.End(OpenWorldStreamingDiagnostics.Work.RealmRefresh, stamp);
   }
 
   void Release(long k) {
    active.Remove(k);
    fillCursor.Remove(k);
    if (!live.TryGetValue(k, out var objs)) return;
+   long stamp = OpenWorldStreamingDiagnostics.Start();
    foreach (var go in objs) {
     if (!go) continue;
     if (poolKey.TryGetValue(go, out var key)) {
@@ -218,6 +221,7 @@ namespace LostRealmsOW {
      stack.Push(go);
     } else Destroy(go);
    }
+   OpenWorldStreamingDiagnostics.End(OpenWorldStreamingDiagnostics.Work.RealmRelease, stamp, objs.Count);
    objs.Clear();
   }
 

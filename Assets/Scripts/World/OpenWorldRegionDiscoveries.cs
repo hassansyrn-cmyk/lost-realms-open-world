@@ -58,83 +58,106 @@ namespace LostRealmsOW {
     Position = new Vector3(258f, 0f, -296f), Gold = 40, Gems = 3, PropResource = "Props/Expansion/SecretCache", PropTexture = "Props/Expansion/Textures/SecretCache_basecolor", Cache = true },
   };
 
+  public static IReadOnlyList<RegionDiscovery> RegionalDiscoveries => Discoveries;
   internal void TickRegionDiscoveries(OpenWorldManager gm) {
    if (!gm.Hero || !gm.ActiveTerrain) return;
-   if (discRoot == null) {
-    discRoot = new GameObject("Region discoveries");
-    discRoot.transform.SetParent(gm.WorldRoot, false);
-    BuildMarkers(gm);
+   if (!discRoot) {
+    discMarkers.Clear();discRoot=new GameObject("Region discoveries");discRoot.transform.SetParent(gm.WorldRoot,false);
+    foreach(var data in Discoveries){
+     var root=new GameObject("Discovery "+data.Id);root.transform.SetParent(discRoot.transform,false);root.transform.position=gm.HuntGround(data.Position);
+     var tag=root.AddComponent<RegionDiscoveryTag>();tag.Data=data;discMarkers.Add(root);
+    }
    }
-   Vector3 hp = gm.Hero.transform.position;
-   foreach (var marker in discMarkers) {
-    if (!marker) continue;
-    var disc = marker.GetComponent<RegionDiscoveryTag>();
-    if (disc == null || gm.CollectedWorldIds.Contains(disc.Id)) { if (marker.activeSelf) marker.SetActive(false); continue; }
-    float d = Vector3.Distance(hp, marker.transform.position);
-    bool show = d < 30f;
-    if (marker.activeSelf != show) marker.SetActive(show);
+   bool built=false;
+   foreach(var marker in discMarkers){
+    if(!marker)continue;var tag=marker.GetComponent<RegionDiscoveryTag>();
+    float d=Vector3.Distance(gm.Hero.transform.position,marker.transform.position);
+    if(d<65&&!tag.LoadingStarted){tag.Request();break;} // Start only one site's requests in a frame.
    }
-  }
-
-  void BuildMarkers(OpenWorldManager gm) {
-   foreach (var disc in Discoveries) {
-    if (gm.CollectedWorldIds.Contains(disc.Id)) continue;
-    Vector3 spot = gm.HuntGround(disc.Position);
-    if (OpenWorldTerrainSculptor.WaterAt(spot.x, spot.z, out _, out _)) spot = gm.HuntGround(spot + new Vector3(8f, 0f, 8f));
-    var root = new GameObject("Discovery " + disc.Id); root.transform.SetParent(discRoot.transform, false); root.transform.position = spot;
-    var tag = root.AddComponent<RegionDiscoveryTag>(); tag.Id = disc.Id; tag.Title = disc.Title; tag.Gold = disc.Gold; tag.Gems = disc.Gems; tag.Region = disc.Region;
-    var model = OpenWorldMaterialHelper.SpawnModel(disc.PropResource, disc.PropTexture, root.transform, spot + Vector3.up * 0.2f, disc.Cache ? 0.9f : 1.4f, disc.Cache ? new Color(0.75f, 0.6f, 0.35f) : new Color(0.6f, 0.62f, 0.66f));
-    if (model) Destroy(model.GetComponent<Collider>());
-    var label = new GameObject("Marker label"); label.transform.SetParent(root.transform, false); label.transform.localPosition = Vector3.up * 1.9f;
-    var text = label.AddComponent<TextMesh>(); text.text = disc.Title + "\n[READ — F]"; text.anchor = TextAnchor.MiddleCenter; text.characterSize = .05f; text.fontSize = 30;
-    text.color = disc.Cache ? new Color(1f, .84f, .52f) : new Color(.8f, .88f, 1f);
-    discMarkers.Add(root);
+   foreach(var marker in discMarkers){
+    if(!marker)continue;var tag=marker.GetComponent<RegionDiscoveryTag>();float d=Vector3.Distance(gm.Hero.transform.position,marker.transform.position);
+    if(!tag.Ready&&tag.Loaded&&d<55&&!built&&Time.unscaledTime>=tag.RetryAt){built=true;tag.Build(gm);}
+    bool show=tag.Ready&&d<45;marker.SetActive(show);
+    bool collected=gm.CollectedWorldIds.Contains(tag.Id);
+    if(tag.Model)tag.Model.SetActive(!tag.Data.Cache||!collected);
+    if(tag.Label){tag.Label.gameObject.SetActive(show&&!collected&&d<11);if(Camera.main)tag.Label.transform.rotation=Camera.main.transform.rotation;}
    }
   }
-
-  // Called from the shared GLM interact hook: reads a note or opens a cache once.
-  public bool TryDiscover(OpenWorldManager gm) {
-   foreach (var marker in discMarkers) {
-    if (!marker || !marker.activeSelf) continue;
-    var disc = marker.GetComponent<RegionDiscoveryTag>();
-    if (disc == null || gm.CollectedWorldIds.Contains(disc.Id)) continue;
-    if (Vector3.Distance(gm.Hero.transform.position, marker.transform.position) > 3.5f) continue;
-    gm.CollectedWorldIds.Add(disc.Id);
-    gm.Gold += disc.Gold; gm.Gems += disc.Gems;
-    gm.MarkProgressDirty();
-    gm.ShowBanner(disc.Title + " • " + disc.Gold + " gold, " + disc.Gems + " gems • " + disc.Region);
-    OpenWorldAudio.Play("sfx_upgrade", .5f);
-    System.IO.File.AppendAllText("Docs/glm-discoveries-validation.txt", System.DateTime.Now.ToString("HH:mm:ss ") + "discovered " + disc.Id + " (+" + disc.Gold + "g +" + disc.Gems + " gems)\n");
-    return true;
+  RegionDiscoveryTag NearestRegionDiscovery(OpenWorldManager gm){
+   if(!gm||!gm.Hero||gm.Hero.Dead||gm.Hero.IsMounted||gm.IsModalOpen)return null;
+   RegionDiscoveryTag best=null;float range=3.5f;
+   foreach(var marker in discMarkers){
+    if(!marker||!marker.activeInHierarchy)continue;var tag=marker.GetComponent<RegionDiscoveryTag>();
+    if(!tag.Ready||gm.CollectedWorldIds.Contains(tag.Id))continue;
+    float distance=Vector3.Distance(gm.Hero.transform.position,marker.transform.position);if(distance>=range)continue;
+    Vector3 from=gm.Hero.transform.position+Vector3.up,to=marker.transform.position+Vector3.up*.9f;
+    if(Physics.Linecast(from,to,out var hit,~0,QueryTriggerInteraction.Ignore)&&!hit.transform.IsChildOf(gm.Hero.transform))continue;
+    best=tag;range=distance;
    }
-   return false;
+   return best;
   }
-  // Bridge check (call after warping within range): the discovery pays exactly once, its flag saves.
-  public static void Discover(string id) {
-   var gm = OpenWorldManager.I;
-   if (!gm || !gm.Hero) throw new System.Exception("World required");
-   var hud = OpenWorldMobileHud.Instance;
-   if (!hud) throw new System.Exception("HUD missing");
-   int gold = gm.Gold, gems = gm.Gems;
-   int before = 0;
-   foreach (var f in gm.CollectedWorldIds) if (f.StartsWith("glm-disc:")) before++;
-   if (!hud.TryDiscover(gm)) throw new System.Exception("Discovery " + id + " did not pay (not in range or already collected)");
-   if (!gm.CollectedWorldIds.Contains(id)) throw new System.Exception("Flag missing for " + id);
-   if (gm.Gold - gold <= 0 && gm.Gems - gems <= 0) throw new System.Exception("No reward paid for " + id);
-   if (hud.TryDiscover(gm)) throw new System.Exception("Discovery " + id + " paid twice");
-   int after = 0;
-   foreach (var f in gm.CollectedWorldIds) if (f.StartsWith("glm-disc:")) after++;
-   if (after != before + 1) throw new System.Exception("Flag count wrong for " + id);
-   FileAppendDisc("PASS: " + id + " paid once (+" + (gm.Gold - gold) + " gold, +" + (gm.Gems - gems) + " gems), flag saved");
+  public string RegionDiscoveryPrompt {
+   get{var tag=NearestRegionDiscovery(OpenWorldManager.I);return tag?(tag.Data.Cache?"OPEN CACHE":"READ NOTE"):null;}
   }
-  static void FileAppendDisc(string line) {
-   System.IO.File.AppendAllText("Docs/glm-discoveries-validation.txt", System.DateTime.Now.ToString("HH:mm:ss ") + line + "\n");
+  public bool TryDiscover(OpenWorldManager gm){
+   var tag=NearestRegionDiscovery(gm);if(!tag||!gm.CollectedWorldIds.Add(tag.Id))return false;
+   gm.Gold+=tag.Data.Gold;gm.Gems+=tag.Data.Gems;
+   OpenWorldQuestJournal.Instance?.Record(tag.Title,tag.Data.Note);
+   gm.MarkProgressDirty();gm.ShowBanner(tag.Title+": "+tag.Data.Note+" • +"+tag.Data.Gold+" gold, +"+tag.Data.Gems+" gems");
+   OpenWorldAudio.Play("sfx_upgrade",.5f);TickRegionDiscoveries(gm);return true;
   }
+#if UNITY_EDITOR
+  // Legacy bridge helper belongs to the HUD partial; runtime gameplay never writes into Docs.
+  public static void Discover(string id){
+   var gm=OpenWorldManager.I;var hud=Instance;if(!gm||!hud)throw new System.Exception("World/HUD required");
+   int gold=gm.Gold,gems=gm.Gems;
+   if(!hud.TryDiscover(gm)||!gm.CollectedWorldIds.Contains(id))throw new System.Exception("Discovery not in reach: "+id);
+   if(hud.TryDiscover(gm))throw new System.Exception("Discovery paid twice: "+id);
+   System.IO.Directory.CreateDirectory("Docs");System.IO.File.AppendAllText("Docs/glm-discoveries-validation.txt","PASS: "+id+" paid once (+"+(gm.Gold-gold)+" gold, +"+(gm.Gems-gems)+" gems)\n");
+  }
+#endif
  }
+ public sealed class RegionDiscoveryTag:MonoBehaviour {
+  public RegionDiscovery Data;
+  public string Id=>Data.Id;
+  public string Title=>Data.Title;
+  public string Region=>Data.Region;
+  public bool Ready{get;private set;}
+  public string PreparationState{get;private set;}="waiting";
+  public bool LoadingStarted{get;private set;}
+  public float RetryAt{get;private set;}
+  ResourceRequest prefab,texture,normal;
+  public bool Loaded=>LoadingStarted&&prefab.isDone&&texture.isDone&&normal.isDone;
+  public GameObject Model{get;private set;}
+  public TextMesh Label{get;private set;}
+  // SpawnModel materials belong to the shared material cache; never destroy another site's material.
+  public void Request(){LoadingStarted=true;prefab=Resources.LoadAsync<GameObject>(Data.PropResource);texture=Resources.LoadAsync<Texture2D>(Data.PropTexture);normal=Resources.LoadAsync<Texture2D>(Data.PropTexture.Replace("_basecolor","_normal"));}
+  public void Build(OpenWorldManager gm){
+   RetryAt=Time.unscaledTime+2;
+   if(!FindSpot(gm,out var spot))return;
+   transform.position=spot;
+   Model=OpenWorldMaterialHelper.SpawnModel(Data.PropResource,Data.PropTexture,transform,spot,Data.Cache ? .9f : 1.4f,Color.white,false);
+   if(!Model){PreparationState="prefab unavailable";return;}
+   OpenWorldGrounding.SupportBuilding(Model,gm.ActiveTerrain);
+   foreach(var collider in Model.GetComponentsInChildren<Collider>(true))collider.enabled=false;
+   if(!Data.Cache){var paper=new GameObject("Letter stand");paper.transform.SetParent(transform,false);var baseAt=spot+new Vector3(.25f,0,-.65f);float baseY=gm.ActiveTerrain.SampleHeight(baseAt)+gm.ActiveTerrain.transform.position.y;paper.transform.localPosition=Vector3.back*.8f+Vector3.up*(baseY-spot.y);OpenWorldTrailNote.Build(paper.transform);}
+   var label=new GameObject("Marker label");label.transform.SetParent(transform,false);label.transform.localPosition=Vector3.up*1.9f;
+   Label=label.AddComponent<TextMesh>();Label.text=Data.Title+"\n"+(Data.Cache?"OPEN CACHE":"READ NOTE");Label.anchor=TextAnchor.MiddleCenter;Label.characterSize=.05f;Label.fontSize=30;
+   Label.color=Data.Cache?new Color(1,.84f,.52f):new Color(.8f,.88f,1);Ready=true;PreparationState="ready";
+  }
+  bool FindSpot(OpenWorldManager gm,out Vector3 best){
+   best=Vector3.zero;float score=float.PositiveInfinity,minRelief=float.PositiveInfinity;var terrain=gm.ActiveTerrain;int dry=0,clear=0;
+   for(int ring=0;ring<=8;ring++)for(int angle=0;angle<(ring==0?1:12);angle++){
+    float a=angle*Mathf.PI/6;var p=Data.Position+new Vector3(Mathf.Cos(a),0,Mathf.Sin(a))*ring*4;
+    p.y=terrain.SampleHeight(p)+terrain.transform.position.y;
+    if(OpenWorldTerrainSculptor.WaterAt(p.x,p.z,out _,out _))continue;dry++;if(OpenWorldPopulation.Blocked(p,1.5f,1.1f))continue;clear++;
+    float lo=p.y,hi=p.y;
+    for(int x=-1;x<=1;x++)for(int z=-1;z<=1;z++){var q=p+new Vector3(x,0,z)*1.1f;float y=terrain.SampleHeight(q)+terrain.transform.position.y;lo=Mathf.Min(lo,y);hi=Mathf.Max(hi,y);}
+    minRelief=Mathf.Min(minRelief,hi-lo);if(hi-lo>.35f)continue;
+    float value=ring*4+(hi-lo)*20;if(value>=score)continue;score=value;best=new Vector3(p.x,hi+.015f,p.z);
+   }
+   PreparationState="dry "+dry+", clear "+clear+", minimum relief "+minRelief.ToString("F2")+" m";return score<float.PositiveInfinity;
+  }
 
- public sealed class RegionDiscoveryTag : MonoBehaviour {
-  public string Id, Title;
-  public int Gold, Gems;
-  public string Region;
  }
 }

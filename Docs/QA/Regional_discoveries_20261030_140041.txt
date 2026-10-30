@@ -1,0 +1,12 @@
+Regional discoveries — 10/30/2026 2:00:41 PM
+PASS: eight unique discoveries across four regions
+PASS: prepared prop ready: glm-disc:frozen-note
+SITE glm-disc:frozen-note anchor (-160.00, 0.00, 288.00), placed (-160.00, 33.93, 288.00), prop bottom 33.925, centre ground 33.910
+PASS: dry grounded prop: glm-disc:frozen-note
+PASS: valid prop materials: glm-disc:frozen-note
+PASS: note has physical raised parchment: glm-disc:frozen-note
+PASS: normal interaction prompt available: glm-disc:frozen-note
+PASS: solid cover blocks discovery interaction
+PASS: normal interaction pays exact reward once: glm-disc:frozen-note
+PASS: lore displayed and retained in journal: glm-disc:frozen-note
+PASS: repeat reward refused: glm-disc:frozen-note

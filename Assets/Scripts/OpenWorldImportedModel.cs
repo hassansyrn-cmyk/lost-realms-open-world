@@ -333,7 +333,7 @@ namespace LostRealmsOW {
      if(bankedGallop&&GallopContactPhases!=null&&GallopContactPhases.Length>0){
       double phase=StridePhase(current);
       contactY=Mathf.Max(ground,transform.TransformPoint(hoofRestLocal[i]).y);
-      planted=GallopContactPhases[Mathf.Min(GallopContactPhases.Length-1,(int)(phase*GallopContactPhases.Length))][i]>.5f||p.y<=contactY+.035f;
+      planted=GallopContactPhases[Mathf.Min(GallopContactPhases.Length-1,(int)(phase*GallopContactPhases.Length))][i]>.5f||p.y<=contactY+.12f;
      }
      if (planted) {
       if (!isPlanted[i]) {
@@ -341,6 +341,8 @@ namespace LostRealmsOW {
        plantPos[i] = p;
       plantPos[i].y = banked?Mathf.Max(ground,Mathf.Min(p.y,contactY)):ground;
       }
+      // Keep the authored lift/landing height: stance correction only anchors horizontal travel.
+      if(bankedGallop)plantPos[i].y=p.y;
       Vector3 diff = plantPos[i] - p;
       diff.y = 0f;
       float limit=banked ? ((current==SRunLeft||current==SRunRight) ? .65f : .45f) : .22f;

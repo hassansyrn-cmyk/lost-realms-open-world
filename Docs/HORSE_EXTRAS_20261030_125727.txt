@@ -1,0 +1,29 @@
+Horse extras + discovery polish 10/30/2026 12:57:27 PM
+PASS: 28/14 degree turn hysteresis and direction reversal
+PASS: raised parchment replaces ground square without new UI
+PASS: two prepared world-kit rocks frame the cache
+PASS: raised note retains original interaction
+PASS: cache remains accessible from southern opening
+PASS: found dry unobstructed riding circuit at (-60.00, 9.54, -190.00), ground height range 2.98
+PASS: prepared horse exists
+PASS: all eight additional source clips prepared
+PASS: banked clips share straight gait natural speed
+PASS: first wild mount accepted
+PASS: dismount blocked during initial mount/buck
+PASS: buck plays once and movement stays locked until complete
+PASS: still touch stick holds walking gait without repeated input events
+PASS: held sprint reaches gallop
+Sharp reverse: start 10.08 m/s, minimum 2.21, final heading 180.0 degrees
+PASS: sharp gallop reversal brakes before completing turn
+PASS: solid obstacle blocks horse and brakes movement
+Slope lane: (-71.75, 7.41, -175.50) -> (-64.25, 9.40, -188.50), rise 1.99 m
+PASS: dry unobstructed slope found for riding check
+Slope up: 8.09 m, rise 1.12 m, end speed 3.02 m/s
+PASS: rider traverses uphill on real terrain
+Slope down: 8.14 m, rise -1.07 m, end speed 4.42 m/s
+PASS: rider traverses downhill on real terrain
+PASS: normal dismount restores foot control without glider
+PASS: whistle uses real horse summon behaviour
+Whistle final distance 3.08 m; mode Idle
+PASS: whistled horse approaches Aster and stops within mounting reach
+PASS: arrived horse mounts through the normal interaction without another buck

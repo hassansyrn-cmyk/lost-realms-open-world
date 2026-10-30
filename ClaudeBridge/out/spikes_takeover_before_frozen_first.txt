@@ -1,0 +1,42 @@
+Spike capture 'takeover_before_frozen_first' — frames 0..36 — 13:36:37
+37 frames, mean 185.9 ms, worst 4369.6 ms, 9 over 45 ms
+
+== frame 5: 4369.6 ms
+  top level: PlayerLoop 4350.7, EditorLoop 17.7, Profiler.FlushCounters 1.1, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 4350.7 > UpdateScene 4348.1 > PreLateUpdate.ScriptRunBehaviourLateUpdate 4334.1 > LateBehaviourUpdate 4334.1 > Unity.ResourceManager.dll!UnityEngine.ResourceManagement.Util::DelayedActionManager.LateUpdate() [Invoke] 4333.5 > Loading.ReadObject 4333.3 > Loading.LoadRemainingPreallocatedObjects 4319.3 > Loading.ReadObjectThreaded 4319.0 > ReadObjectFromSerializedFile 4318.9
+  self time: ReadObjectFromSerializedFile 2778.0, Loading.LoadFileHeaders 1172.9, File.Read 346.0, AsyncReadManager.SyncRequest 20.0, EditorLoop 17.7, GenerateMuscleClip 6.7, Sort BuildCurveKeys 2.8, PxScene.simulate 2.3, UnityEngine.CoreModule.dll!UnityEngine.Serialization::SerializationBackendManagedCommands.SerializationBufferToObject() [Invoke] 2.1, Idle 2.1, WaitForJobGroupID 1.6, FinalizeUpdateTask 1.2, Profiler.FlushMemoryCounters 1.0, OpenWin32Handle 0.8
+
+== frame 16: 814.7 ms
+  top level: PlayerLoop 801.4, EditorLoop 11.5, Profiler.FlushCounters 1.5, Profiler.CollectEditorStats 0.2
+  hot path: PlayerLoop 801.4 > UpdateScene 799.2 > PreLateUpdate.ScriptRunBehaviourLateUpdate 795.0 > LateBehaviourUpdate 795.0 > Unity.ResourceManager.dll!UnityEngine.ResourceManagement.Util::DelayedActionManager.LateUpdate() [Invoke] 794.8 > Loading.ReadObject 794.6 > Loading.LoadRemainingPreallocatedObjects 784.1 > Loading.ReadObjectThreaded 783.7 > ReadObjectFromSerializedFile 783.6 > UnityEngine.CoreModule.dll!UnityEngine.Serialization::SerializationBackendManagedCommands.SerializationBufferToObject() [Invoke] 383.5 > Loading.LoadFileHeaders 380.6 > AsyncReadManager.SyncRequest 228.4 > File.Read 117.3
+  self time: ReadObjectFromSerializedFile 386.7, Loading.LoadFileHeaders 152.4, File.Read 130.1, OpenWin32Handle 108.0, EditorLoop 11.5, AsyncReadManager.SyncRequest 7.3, GenerateMuscleClip 3.7, UnityEngine.CoreModule.dll!UnityEngine.Serialization::SerializationBackendManagedCommands.SerializationBufferToObject() [Invoke] 2.9, Sort BuildCurveKeys 1.4, Profiler.FlushMemoryCounters 1.4, WaitForJobGroupID 0.9, Loading.LoadRemainingPreallocatedObjects 0.4, Instantiate.Produce 0.3, Idle 0.3
+
+== frame 2: 344.6 ms
+  top level: PlayerLoop 331.7, EditorLoop 11.4, Profiler.FlushCounters 1.4, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 331.7 > UpdateScene 329.0 > PreLateUpdate.ScriptRunBehaviourLateUpdate 320.8 > LateBehaviourUpdate 320.8 > Unity.ResourceManager.dll!UnityEngine.ResourceManagement.Util::DelayedActionManager.LateUpdate() [Invoke] 320.3 > Loading.ReadObject 320.1 > IntegrateAllThreadedObjects 221.3 > Loading.AwakeFromLoad 221.0 > Loading.ReadObject 217.7 > Loading.LoadFileHeaders 216.7 > AsyncReadManager.SyncRequest 216.3
+  self time: AsyncReadManager.SyncRequest 218.3, ReadObjectFromSerializedFile 49.7, File.Read 22.3, Loading.LoadFileHeaders 16.3, EditorLoop 11.4, OpenWin32Handle 8.8, GenerateMuscleClip 1.8, Sort BuildCurveKeys 1.4, Profiler.FlushMemoryCounters 1.3, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 1.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWildlife.Update() [Invoke] 0.7, Instantiate.Produce 0.7, WaitForJobGroupID 0.6, UnityEngine.CoreModule.dll!UnityEngine.Serialization::SerializationBackendManagedCommands.SerializationBufferToObject() [Invoke] 0.3
+
+== frame 4: 134.7 ms
+  top level: EditorLoop 122.9, PlayerLoop 7.3, Profiler.FlushCounters 4.1, Profiler.CollectEditorStats 0.3
+  hot path: EditorLoop 122.9
+  self time: EditorLoop 122.9, Profiler.FlushMemoryCounters 4.0, WaitForJobGroupID 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWhistleHudDriver.LateUpdate() [Invoke] 0.4, PxScene.simulate 0.3, FinalizeUpdateTask 0.2, Profiler.CollectUIStats 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.2, Inl_On Record Render Graph 0.2, CanvasUpdate.PreRender 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMountainDragonFlight.Update() [Invoke] 0.1, PlayableOutput.PrepareFrame 0.1
+
+== frame 0: 91.6 ms
+  top level: PlayerLoop 61.6, EditorLoop 20.5, Unaccounted time between: Profiler.SessionMetadata and PlayerLoop 6.2, Profiler.FlushCounters 2.8, Profiler.CollectEditorStats 0.1, Profiler.SessionMetadata 0.0
+  hot path: PlayerLoop 61.6 > UpdateScene 34.1 > Update.ScriptRunBehaviourUpdate 19.7 > BehaviourUpdate 19.7 > Assembly-CSharp.dll!LostRealmsOW::OpenWorldRealm.Update() [Invoke] 13.0 > TransformHandle.SetParent 10.4 > GameObject.ActivateAwakeRecursively 4.4
+  self time: EditorLoop 20.5, Loading.LoadFileHeaders 17.1, Unaccounted time between: Profiler.SessionMetadata and PlayerLoop 6.2, GameObject.ActivateAwakeRecursively 4.7, TransformHandle.SetParent 2.8, PxScene.simulate 2.2, Profiler.FlushMemoryCounters 1.9, AsyncReadManager.SyncRequest 1.8, Assembly-CSharp.dll!LostRealmsOW::OpenWorldRealm.Update() [Invoke] 1.8, Physics.HandleColliderHierarchyChanges 1.4, SceneDataContainer.TransformHierarchyChangedSetParentCallback 1.2, UnityEditor.CoreModule.dll!UnityEditor::MaterialEditor.ApplyMaterialPropertyDrawersFromNative() [Invoke] 1.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 1.2, Destroy 1.1
+
+== frame 3: 78.5 ms
+  top level: PlayerLoop 64.3, EditorLoop 12.9, Profiler.FlushCounters 1.2, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 64.3 > RenderPlayModeViewCameras 39.3 > UnityEngine.CoreModule.dll!UnityEngine.Rendering::RenderPipelineManager.DoRenderLoop_Internal() [Invoke] 39.1 > Inl_UniversalRenderTotal 39.1 > Inl_RenderCameraStack 39.0 > Inl_UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera 38.4 > CullScriptable 37.6 > CullResults.CreateSharedRendererScene 35.7 > EndRenderQueueExtraction 35.7 > QueuePrepareIntegrateMainThreadObjects 35.7 > Loading.ReadObject 34.9 > Loading.LoadFileHeaders 32.2 > AsyncReadManager.SyncRequest 31.9
+  self time: AsyncReadManager.SyncRequest 23.4, EditorLoop 12.9, OpenWin32Handle 10.2, Destroy 6.2, GameObject.ActivateAwakeRecursively 2.6, PxScene.simulate 1.3, Assembly-CSharp.dll!LostRealmsOW::OpenWorldPopulation.Update() [Invoke] 1.2, Profiler.FlushMemoryCounters 1.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldDownloadedActors.Spawn() [Coroutine: MoveNext] [Invoke] 1.0, PostLateUpdate.MemoryFrameMaintenance 1.0, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 0.9, WaitForJobGroupID 0.8, Instantiate.Produce 0.8, Update.DirectorUpdate 0.8
+
+== frame 1: 49.1 ms
+  top level: PlayerLoop 27.3, EditorLoop 18.3, Profiler.FlushCounters 3.2, Profiler.SessionMetadata 0.2, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 27.3 > UpdateScene 22.6 > Update.ScriptRunBehaviourUpdate 14.8 > BehaviourUpdate 14.8
+  self time: EditorLoop 18.3, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 3.9, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWildlife.Update() [Invoke] 2.4, Profiler.CollectUIToolkitStats 1.6, Profiler.FlushMemoryCounters 1.5, Instantiate.Produce 1.3, WaitForJobGroupID 1.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.8, Idle 0.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.LateUpdate() [Invoke] 0.6, Instantiate.Awake 0.6, GameObject.ActivateAwakeRecursively 0.5, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.5, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 0.5
+
+== frame 7: 49.1 ms
+  top level: EditorLoop 41.3, PlayerLoop 5.2, Profiler.FlushCounters 2.4, Profiler.CollectEditorStats 0.2
+  hot path: EditorLoop 41.3
+  self time: EditorLoop 41.3, Profiler.FlushMemoryCounters 2.2, WaitForJobGroupID 0.5, PxScene.simulate 0.3, Profiler.CollectUIStats 0.2, Inl_On Record Render Graph 0.2, FinalizeUpdateTask 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.1, CanvasUpdate.PreRender 0.1, TransformChangeSystem 0.1, UIElements.CollectLayoutNodes 0.1, Profiler.CollectAudioStats 0.1

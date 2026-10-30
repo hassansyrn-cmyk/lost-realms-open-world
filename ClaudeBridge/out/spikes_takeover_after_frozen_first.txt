@@ -1,0 +1,2 @@
+Spike capture 'takeover_after_frozen_first' — frames -1..-1 — 14:03:27
+0 frames, mean 0.0 ms, worst 0.0 ms, 0 over 45 ms

@@ -97,13 +97,14 @@ namespace LostRealmsOW {
     var audio = Addressables.LoadAssetAsync<AudioClip>(entry.address);
     audioHandles.Add(audio);
     yield return audio;
-    if (!disposed && audio.Status == AsyncOperationStatus.Succeeded) sounds[entry.key] = audio.Result;
+    if (disposed || !audio.IsValid()) { loading.Remove(entry.key); yield break; }
+    if (audio.Status == AsyncOperationStatus.Succeeded) sounds[entry.key] = audio.Result;
     else failed.Add(entry.key);
    } else {
     var handle = Addressables.LoadAssetAsync<GameObject>(entry.address);
     models[entry.key] = handle;
     yield return handle;
-    if (disposed) yield break;
+    if (disposed || !handle.IsValid()) { loading.Remove(entry.key); models.Remove(entry.key); yield break; }
     if (handle.Status != AsyncOperationStatus.Succeeded) {
      failed.Add(entry.key); Release(entry.key);
     } else if (desired.Contains(entry.key)) Spawn(entry, handle.Result);

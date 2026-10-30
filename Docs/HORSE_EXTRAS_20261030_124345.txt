@@ -1,0 +1,32 @@
+Horse extras + discovery polish 10/30/2026 12:43:45 PM
+PASS: 28/14 degree turn hysteresis and direction reversal
+PASS: raised parchment replaces ground square without new UI
+PASS: two prepared world-kit rocks frame the cache
+PASS: raised note retains original interaction
+PASS: cache remains accessible from southern opening
+PASS: found dry unobstructed riding circuit at (-60.00, 9.54, -190.00), ground height range 2.98
+PASS: prepared horse exists
+PASS: all eight additional source clips prepared
+PASS: banked clips share straight gait natural speed
+PASS: first wild mount accepted
+PASS: dismount blocked during initial mount/buck
+PASS: buck plays once and movement stays locked until complete
+Contacts walk_l: BN_L_Toe_2_055_0 y 0.173..0.377, planted 75/151; BN_R_Toe_2_059_0 y 0.186..0.401, planted 65/151; BN_L_Toe_042_0 y 0.183..0.365, planted 70/151; BN_R_Toe_047_0 y 0.195..0.375, planted 44/151
+[Review] skate extra_walk_l: body 1.56 m/s | hoof at its lowest (3 cm): moves 0.10 m/s (6%), along travel -0.01 | lowest 30%: moves 0.11 m/s (7%), along travel +0.01 | clip natural 1.51 m/s, playback x1.02 | BN_L_Toe_2_055_0 0.05/+0.02, BN_R_Toe_2_059_0 0.07/+0.03, BN_L_Toe_042_0 0.07/-0.02, BN_R_Toe_047_0 0.19/-0.07 | states walk:149
+walk_l: active 151/151, peak 1.63 m/s
+PASS: turning circle selects walk_l
+Contacts walk_r: BN_L_Toe_2_055_0 y 0.181..0.385, planted 77/151; BN_R_Toe_2_059_0 y 0.176..0.391, planted 65/151; BN_L_Toe_042_0 y 0.198..0.374, planted 48/151; BN_R_Toe_047_0 y 0.166..0.368, planted 74/151
+[Review] skate extra_walk_r: body 1.53 m/s | hoof at its lowest (3 cm): moves 0.09 m/s (6%), along travel -0.01 | lowest 30%: moves 0.08 m/s (5%), along travel +0.00 | clip natural 1.51 m/s, playback x1.04 | BN_L_Toe_2_055_0 0.06/+0.01, BN_R_Toe_2_059_0 0.07/+0.01, BN_L_Toe_042_0 0.14/-0.02, BN_R_Toe_047_0 0.09/-0.02 | states walk:149
+walk_r: active 151/151, peak 1.58 m/s
+PASS: turning circle selects walk_r
+Contacts gallop_l: BN_L_Toe_2_055_0 y 0.293..1.231, planted 46/151; BN_R_Toe_2_059_0 y 0.271..0.944, planted 43/151; BN_L_Toe_042_0 y 0.179..0.908, planted 47/151; BN_R_Toe_047_0 y 0.164..0.931, planted 47/151
+[Review] skate extra_gallop_l: body 8.79 m/s | hoof at its lowest (3 cm): moves 0.07 m/s (1%), along travel +0.06 | lowest 30%: moves 1.21 m/s (14%), along travel +0.27 | clip natural 6.28 m/s, playback x1.24 | BN_L_Toe_2_055_0 0.01/+0.00, BN_R_Toe_2_059_0 0.09/+0.09, BN_L_Toe_042_0 0.11/+0.11, BN_R_Toe_047_0 0.07/+0.05 | states gallop:149
+gallop_l: active 149/151, peak 9.82 m/s
+PASS: turning circle selects gallop_l
+Contacts gallop_r: BN_L_Toe_2_055_0 y 0.299..1.281, planted 48/151; BN_R_Toe_2_059_0 y 0.270..0.937, planted 47/151; BN_L_Toe_042_0 y 0.227..1.012, planted 48/151; BN_R_Toe_047_0 y 0.143..0.938, planted 48/151
+[Review] skate extra_gallop_r: body 8.88 m/s | hoof at its lowest (3 cm): moves 0.06 m/s (1%), along travel +0.02 | lowest 30%: moves 1.01 m/s (11%), along travel +0.27 | clip natural 6.28 m/s, playback x1.37 | BN_L_Toe_2_055_0 0.03/+0.01, BN_R_Toe_2_059_0 0.02/-0.01, BN_L_Toe_042_0 0.08/+0.07, BN_R_Toe_047_0 0.09/-0.01 | states gallop:149
+gallop_r: active 151/151, peak 10.08 m/s
+PASS: turning circle selects gallop_r
+PASS: release from gallop starts authored stop
+PASS: stop finishes into stationary idle
+PASS: remount of tamed horse does not replay buck

@@ -29,7 +29,10 @@ namespace LostRealmsOW {
   const string BridgePlayKey = "ClaudeBridge.BridgePlay";
   static double nextPoll, nextHeartbeat;
   static string lastState = "ready";
-  static bool pausedLogged;
+  static bool pausedLogged, statusWritten;
+  static double nextFreeSpace; static string cachedFreeSpace;
+  static string commandFile; static DateTime commandStamp; static string[] commandLines;
+  static readonly Dictionary<string, MemberInfo> boolMembers = new Dictionary<string, MemberInfo>();
   // Last failure to append to console.log (null while appends succeed); shown in status.txt so a silent
   // capture failure (locked file, full disk) is visible from outside.
   static volatile string consoleError;
@@ -72,8 +75,11 @@ namespace LostRealmsOW {
   }
 
   static string FreeSpace() {
-   try { return (new DriveInfo(Path.GetPathRoot(Root)).AvailableFreeSpace / 1073741824.0).ToString("0.00", System.Globalization.CultureInfo.InvariantCulture) + " GB"; }
-   catch (Exception e) { return "unknown (" + e.GetType().Name + ")"; }
+   if (cachedFreeSpace != null && EditorApplication.timeSinceStartup < nextFreeSpace) return cachedFreeSpace;
+   nextFreeSpace = EditorApplication.timeSinceStartup + 30;
+   try { cachedFreeSpace = (new DriveInfo(Path.GetPathRoot(Root)).AvailableFreeSpace / 1073741824.0).ToString("0.00", System.Globalization.CultureInfo.InvariantCulture) + " GB"; }
+   catch (Exception e) { cachedFreeSpace = "unknown (" + e.GetType().Name + ")"; }
+   return cachedFreeSpace;
   }
 
   // Diagnostics for the console capture, appended to ClaudeBridge/out/bridge_probe.txt: play state, Unity
@@ -124,21 +130,26 @@ namespace LostRealmsOW {
    WriteStatus("playmode " + change);
   }
 
-  static void WriteStatus(string state) {
+  static void WriteStatus(string state, bool force = false) {
+   if (statusWritten && !force && state == lastState) return;
    lastState = state;
    try {
-    File.WriteAllText(StatusPath,
+    File.WriteAllText(StatusPath + ".next",
      "time=" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "\nstate=" + state + "\ncompiling=" + EditorApplication.isCompiling +
      "\nupdating=" + EditorApplication.isUpdating + "\nplaying=" + EditorApplication.isPlaying +
      "\nuserplay=" + UserPlaying +
      "\nactive=" + SessionState.GetString(ActiveKey, "") + ":" + SessionState.GetInt(LineKey, 0) +
      "\nconsole=" + (consoleError ?? "ok") + "\nfree=" + FreeSpace() + "\n");
+     // Atomic replacement tolerates readers mapping the previous status file.
+     if (File.Exists(StatusPath)) File.Replace(StatusPath + ".next", StatusPath, null);
+     else File.Move(StatusPath + ".next", StatusPath);
+     statusWritten = true;
    } catch { }
   }
 
   static void Poll() {
    double now = EditorApplication.timeSinceStartup;
-   if (now >= nextHeartbeat) { nextHeartbeat = now + 2.0; WriteStatus(lastState); }
+   if (now >= nextHeartbeat) { nextHeartbeat = now + 2.0; WriteStatus(lastState, true); }
    if (now < nextPoll) return;
    nextPoll = now + 0.5;
    if (EditorApplication.isCompiling || EditorApplication.isUpdating) return;
@@ -160,7 +171,11 @@ namespace LostRealmsOW {
     SessionState.SetInt(LineKey, 0);
     Debug.Log("[Bridge] begin " + Path.GetFileName(active));
    }
-   var lines = File.ReadAllLines(active);
+   DateTime stamp = File.GetLastWriteTimeUtc(active);
+   if (commandLines == null || commandFile != active || commandStamp != stamp) {
+    commandLines = File.ReadAllLines(active); commandFile = active; commandStamp = stamp;
+   }
+   var lines = commandLines;
    int index = SessionState.GetInt(LineKey, 0);
    if (index >= lines.Length) { Finish(active); return; }
    string line = lines[index].Trim();
@@ -263,10 +278,15 @@ namespace LostRealmsOW {
    int dot = qualified.LastIndexOf('.');
    if (dot <= 0) return false;
    string typeName = qualified.Substring(0, dot), member = qualified.Substring(dot + 1);
-   var type = AppDomain.CurrentDomain.GetAssemblies().Select(a => a.GetType(typeName)).FirstOrDefault(t => t != null);
-   if (type == null) return false;
-   const BindingFlags flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static;
-   object value = type.GetProperty(member, flags)?.GetValue(null) ?? type.GetField(member, flags)?.GetValue(null);
+   if (!boolMembers.TryGetValue(qualified, out var resolved)) {
+    var type = AppDomain.CurrentDomain.GetAssemblies().Select(a => a.GetType(typeName)).FirstOrDefault(t => t != null);
+    if (type == null) return false;
+    const BindingFlags flags = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static;
+    resolved = (MemberInfo)type.GetProperty(member, flags) ?? type.GetField(member, flags);
+    if (resolved == null) return false;
+    boolMembers[qualified] = resolved;
+   }
+   object value = resolved is PropertyInfo property ? property.GetValue(null) : ((FieldInfo)resolved).GetValue(null);
    return value is bool b && b;
   }
 

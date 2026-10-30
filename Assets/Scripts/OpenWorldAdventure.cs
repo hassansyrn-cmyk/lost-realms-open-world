@@ -134,6 +134,7 @@ namespace LostRealmsOW {
   public string InteractionPrompt {
    get {
     if (Hero && Hero.IsMounted) return "DISMOUNT";
+      if (OpenWorldMobileHud.Instance && OpenWorldMobileHud.Instance.RegionDiscoveryPrompt is string discoveryPrompt) return discoveryPrompt;
     if (NearVerdantTracks) return "INSPECT TRACKS";
     if (NearVerdantCampfire) return RawMeat > 0 ? "COOK OAKVALE'S MEAL (1 MEAT)" : "COOK MEAL • NEED RAW MEAT";
     if (Near(SanctuaryPosition)) {

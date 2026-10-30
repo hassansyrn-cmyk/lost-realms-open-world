@@ -1,0 +1,46 @@
+Spike capture 'takeover_after_storm_repeat' — frames 0..79 — 14:05:16
+80 frames, mean 59.5 ms, worst 226.3 ms, 56 over 45 ms
+
+== frame 56: 226.3 ms
+  top level: PlayerLoop 215.7, EditorLoop 8.8, Profiler.FlushCounters 1.7, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 215.7 > RenderPlayModeViewCameras 178.3 > Gfx.EndAsyncJobFrame 153.0 > WaitForRenderJobs 153.0 > WaitForJobGroupID 153.0 > Idle 152.4
+  self time: Idle 170.6, Physics.RaycastAll 15.9, EditorLoop 8.8, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 4.9, Physics.Raycast 2.5, Canvas.BuildBatch 2.0, Profiler.FlushMemoryCounters 1.6, QueuePrepareIntegrateMainThreadObjects 1.4, TransformChangeSystem 1.3, WaitForJobGroupID 1.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 0.7, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.7, ParticleSystem.Update 0.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCombatAwarenessDriver.LateUpdate() [Invoke] 0.6
+
+== frame 54: 185.1 ms
+  top level: EditorLoop 137.7, PlayerLoop 43.2, Profiler.FlushCounters 3.8, Profiler.CollectEditorStats 0.3
+  hot path: EditorLoop 137.7
+  self time: EditorLoop 137.7, Idle 23.3, Profiler.FlushMemoryCounters 3.5, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 1.2, QueuePrepareIntegrateMainThreadObjects 1.0, WaitForJobGroupID 0.9, PxScene.simulate 0.8, Assembly-CSharp.dll!LostRealmsOW::OpenWorldTelegraph.OnDestroy() [Invoke] 0.7, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWhistleHudDriver.LateUpdate() [Invoke] 0.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 0.5, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.5, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.4, SRPBatcher.Flush 0.4, Terrain.Trees.OnWillRender 0.3
+
+== frame 0: 121.4 ms
+  top level: PlayerLoop 109.2, EditorLoop 6.8, Unaccounted time between: Profiler.SessionMetadata and PlayerLoop 3.1, Profiler.FlushCounters 2.0, Profiler.CollectEditorStats 0.2, Profiler.SessionMetadata 0.0
+  hot path: PlayerLoop 109.2 > UpdateScene 99.7 > Update.ScriptRunDelayedDynamicFrameRate 51.8 > CoroutinesDelayedCalls 51.8 > Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 28.9 > Animation.AddClip [Triggers RebuildInternalState] 27.9
+  self time: Animation.AddClip [Triggers RebuildInternalState] 27.9, Destroy 21.4, PxScene.simulate 18.1, EditorLoop 6.8, GameObject.ActivateAwakeRecursively 6.4, Unaccounted time between: Profiler.SessionMetadata and PlayerLoop 3.1, TransformHandle.SetParent 2.9, Profiler.FlushMemoryCounters 1.9, WaitForJobGroupID 1.8, Assembly-CSharp.dll!LostRealmsOW::OpenWorldRealm.Update() [Invoke] 1.7, QueuePrepareIntegrateMainThreadObjects 1.7, Instantiate.Produce 1.4, Idle 1.3, SceneDataContainer.TransformHierarchyChangedSetParentCallback 1.3
+
+== frame 4: 117.9 ms
+  top level: PlayerLoop 104.9, EditorLoop 10.6, Profiler.FlushCounters 2.1, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 104.9 > UpdateScene 77.7 > TimeUpdate.WaitForLastPresentationAndUpdateTime 51.0 > GfxDeviceD3D12.WaitForLastPresentation 51.0 > GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 51.0
+  self time: GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 51.0, Terrain.Trees.Render 14.5, Animation.AddClip [Triggers RebuildInternalState] 14.0, EditorLoop 10.6, Animation.RebuildInternalState 2.3, Profiler.FlushMemoryCounters 2.0, QueuePrepareIntegrateMainThreadObjects 1.4, WaitForJobGroupID 1.4, GameObject.ActivateAwakeRecursively 1.2, ScScene.broadPhase 1.0, Instantiate.Produce 1.0, Idle 1.0, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 0.7, PxScene.simulate 0.7
+  Render Thread (119.8 ms): Semaphore.WaitForSignal 100.8, RenderLoop 10.0, DrawTransparentObjects 3.5, DrawOpaqueObjects 2.5, CreateResourceWithTag 0.7, ExecuteRenderGraph 0.6, Canvas.RenderOverlays 0.3, BloomDownsample 0.2, BufferD3D12.UpdateInternal 0.2, BufferD3D12.InitializeResource 0.1
+
+== frame 8: 105.7 ms
+  top level: PlayerLoop 98.6, EditorLoop 5.3, Profiler.FlushCounters 1.7, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 98.6 > UpdateScene 91.2 > TimeUpdate.WaitForLastPresentationAndUpdateTime 73.6 > GfxDeviceD3D12.WaitForLastPresentation 73.6 > GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 73.6
+  self time: GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 73.6, EditorLoop 5.3, Instantiate.Produce 2.2, Profiler.FlushMemoryCounters 1.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 1.3, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 1.1, QueuePrepareIntegrateMainThreadObjects 1.0, Assembly-CSharp.dll!LostRealmsOW::OpenWorldPopulation.Update() [Invoke] 1.0, WaitForJobGroupID 0.9, Idle 0.8, GameObject.AddComponent 0.8, Animator.Initialize 0.8, PxScene.simulate 0.7, FinalizeUpdateTask 0.5
+  Render Thread (105.7 ms): Semaphore.WaitForSignal 94.4, RenderLoop 5.0, WaitForJobGroupID 3.6, CreateResourceWithTag 0.8, ExecuteRenderGraph 0.4, Canvas.RenderOverlays 0.3, BufferD3D12.InitializeResource 0.2, BloomDownsample 0.1, ScheduleGeometryJobs 0.1, DrawOpaqueObjects 0.1
+
+== frame 75: 99.2 ms
+  top level: PlayerLoop 66.3, Profiler.FlushCounters 27.2, EditorLoop 5.4, Profiler.CollectEditorStats 0.2
+  hot path: PlayerLoop 66.3 > UpdateScene 43.3 > TimeUpdate.WaitForLastPresentationAndUpdateTime 33.6 > GfxDeviceD3D12.WaitForLastPresentation 33.6 > GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 33.5
+  self time: GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 33.5, Profiler.FlushMemoryCounters 27.0, Idle 17.2, EditorLoop 5.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 1.1, QueuePrepareIntegrateMainThreadObjects 1.1, WaitForJobGroupID 0.9, PxScene.simulate 0.6, FinalizeUpdateTask 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.4, Physics.SwapPhysXBuffersJob 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.3, ParticleSystem.Update 0.3
+  Render Thread (99.3 ms): Semaphore.WaitForSignal 89.1, RenderLoop 5.7, PlayerEndOfFrame 2.0, ExecuteRenderGraph 0.5, CreateCommittedResourceWithTag 0.3, Canvas.RenderOverlays 0.3, CreateResourceWithTag 0.3, Gfx.UpdateAsyncReadbackData 0.1, BufferD3D12.UpdateInternal 0.1, BloomDownsample 0.1
+
+== frame 1: 99.1 ms
+  top level: PlayerLoop 92.7, EditorLoop 4.4, Profiler.FlushCounters 1.9, Profiler.CollectEditorStats 0.1, Profiler.SessionMetadata 0.0
+  hot path: PlayerLoop 92.7 > RenderPlayModeViewCameras 47.4 > UnityEngine.CoreModule.dll!UnityEngine.Rendering::RenderPipelineManager.DoRenderLoop_Internal() [Invoke] 29.3 > Inl_UniversalRenderTotal 29.3 > Inl_RenderCameraStack 29.2 > Inl_ScriptableRenderContext.Submit 14.6 > Shadows.PrepareDrawShadows 13.7 > EndRenderQueueExtraction 13.5 > WaitForJobGroupID 13.4 > Idle 13.3
+  self time: ParticleSystem.Draw 17.3, Assembly-CSharp.dll!LostRealmsOW::OpenWorldPopulation.Update() [Invoke] 15.9, Animation.AddClip [Triggers RebuildInternalState] 13.9, Idle 13.3, EditorLoop 4.4, QueuePrepareIntegrateMainThreadObjects 3.4, ParticleSystem.Update 2.7, WaitForJobGroupID 2.3, Profiler.FlushMemoryCounters 1.7, GameObject.ActivateAwakeRecursively 1.3, Inl_RenderCameraStack 1.2, Instantiate.Produce 0.9, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 0.9, CanvasUpdate.PreRender 0.9
+
+== frame 42: 96.1 ms
+  top level: PlayerLoop 87.0, EditorLoop 6.9, Profiler.FlushCounters 2.0, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 87.0 > UpdateScene 54.2 > Update.DirectorUpdate 22.1 > Director.PrepareFrame 22.1 > WaitForJobGroupID 22.1 > EngineJob 22.0 > Director.PrepareFrameJob 22.0 > PlayableOutput.PrepareFrame 22.0
+  self time: PlayableOutput.PrepareFrame 22.0, Idle 17.1, GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 15.3, PostUpdateScreenManagerAndInput 8.2, EditorLoop 6.9, QueuePrepareIntegrateMainThreadObjects 2.9, Profiler.FlushMemoryCounters 1.9, WaitForJobGroupID 1.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 0.9, Terrain.Trees.OnWillRender 0.8, CullAllVisibleLights 0.8, SceneCulling 0.8, PxScene.simulate 0.7, LODTreeInstanceRenderer.UpdateWind 0.5
+  Render Thread (97.1 ms): Semaphore.WaitForSignal 83.2, RenderLoop 9.0, WaitForJobGroupID 2.3, Canvas.RenderOverlays 0.5, ExecuteRenderGraph 0.5, CreateResourceWithTag 0.4, BufferD3D12.UpdateInternal 0.2, BloomDownsample 0.1, DrawOpaqueObjects 0.1, ScheduleGeometryJobs 0.1

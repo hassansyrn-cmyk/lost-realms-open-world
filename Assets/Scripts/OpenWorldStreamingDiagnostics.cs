@@ -3,7 +3,7 @@ using System.Diagnostics;
 using UnityEngine;
 namespace LostRealmsOW {
  public static class OpenWorldStreamingDiagnostics {
-  public enum Work { RealmTick, RealmFill, PopulationTick, PopulationSpawn }
+  public enum Work { RealmTick, RealmFill, PopulationTick, PopulationSpawn, RealmRefresh, RealmRelease }
   public struct Sample {public Work Kind;public double At,Milliseconds;public int Items;}
   static readonly Sample[] samples=new Sample[8192];
   public static int Count{get;private set;}

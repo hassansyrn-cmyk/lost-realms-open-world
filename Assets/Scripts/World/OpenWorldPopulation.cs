@@ -26,7 +26,7 @@ namespace LostRealmsOW {
   sealed class Species {
    public string source, role, display; public Kind kind; public float height; public OWBiome biome; public int groups, minSize, maxSize;
    public float minVillage, maxVillage, minSlopeFree = 24f, damage = 1f, health = 1f;
-   public string address; public AsyncOperationHandle<GameObject> handle; public bool requested; public float lastUse;
+   public string address; public AsyncOperationHandle<GameObject> handle; public bool requested; public float lastUse, retryAt;
    public GameObject direct; // baked prefab shipped in Resources (villager palettes); no Addressables load
    // Behaviour
    public OpenWorldWildlife.Temper temper = OpenWorldWildlife.Temper.Skittish;
@@ -331,10 +331,12 @@ namespace LostRealmsOW {
     else if (g.active && d > enter + 55f && !g.live.Exists(Ridden)) Despawn(g, gm);
     else if (g.active && g.species.kind == Kind.Enemy && g.live.Count == 0) {
      // A defeated pack returns after a while, as wildlife would.
-     g.active = false; g.spawning = false; g.spawnCursor = 0; g.clearedUntil = Time.time + 240f;
+     if (pendingGroup == g) pendingGroup = null;
+   g.active = false; g.spawning = false; g.spawnCursor = 0; g.clearedUntil = Time.time + 240f;
     } else if (g.active && g.species.kind != Kind.Enemy && g.species.kind != Kind.Villager && g.live.Count == 0 && d > 60f) {
      // A herd hunted out of existence regrows once Aster is out of sight.
-     g.active = false; g.spawning = false; g.spawnCursor = 0; g.clearedUntil = Time.time + 180f;
+     if (pendingGroup == g) pendingGroup = null;
+   g.active = false; g.spawning = false; g.spawnCursor = 0; g.clearedUntil = Time.time + 180f;
     }
     if (g.active) g.species.lastUse = Time.time;
    }
@@ -369,7 +371,7 @@ namespace LostRealmsOW {
     if (used) continue;
     // Species sharing a prefab (deer and elk) each hold their own reference-counted handle.
     if (sp.handle.IsValid()) Addressables.Release(sp.handle);
-    sp.requested = false;
+    sp.requested = false; sp.handle = default;
    }
    OpenWorldStreamingDiagnostics.End(OpenWorldStreamingDiagnostics.Work.PopulationTick, tickStamp);
   }
@@ -383,16 +385,22 @@ namespace LostRealmsOW {
 
   bool Ensure(Species sp) {
    if (sp.direct) return true;
+   // A released/failed handle must be reacquired, including while a multi-frame group is pending.
+   if (sp.requested && !sp.handle.IsValid()) sp.requested = false;
    if (!sp.requested) {
-    sp.requested = true; sp.lastUse = Time.time;
-    try { sp.handle = Addressables.LoadAssetAsync<GameObject>(sp.address); }
-    catch (Exception e) { Debug.LogWarning("[Population] cannot load " + sp.source + ": " + e.Message); return false; }
+    if (Time.time < sp.retryAt) return false;
+    sp.lastUse = Time.time;
+    try { sp.handle = Addressables.LoadAssetAsync<GameObject>(sp.address);sp.requested = true; }
+    catch (Exception e) { sp.requested = false;sp.handle = default;sp.retryAt = Time.time + 10;Debug.LogWarning("[Population] cannot load " + sp.source + ": " + e.Message); }
     return false;
    }
-   return sp.handle.IsValid() && sp.handle.IsDone && sp.handle.Status == AsyncOperationStatus.Succeeded && sp.handle.Result;
+   if (!sp.handle.IsDone) return false;
+   if (sp.handle.Status == AsyncOperationStatus.Succeeded && sp.handle.Result) return true;
+   Addressables.Release(sp.handle);sp.handle = default;sp.requested = false;sp.retryAt = Time.time + 10;
+   Debug.LogWarning("[Population] load failed; retrying later: " + sp.source);return false;
   }
-
   void Spawn(Group g, OpenWorldManager gm) {
+   if (!Ensure(g.species)) return;
    long spawnStamp = OpenWorldStreamingDiagnostics.Start();
    if (!g.spawning) { g.active = true; g.generation++; g.spawnCursor = 0; g.spawning = true; }
    var prefab = g.species.direct ? g.species.direct : g.species.handle.Result;
@@ -524,6 +532,7 @@ namespace LostRealmsOW {
   }
 
   void Despawn(Group g, OpenWorldManager gm) {
+   if (pendingGroup == g) pendingGroup = null;
    g.active = false; g.spawning = false; g.spawnCursor = 0;
    foreach (var go in g.live) {
     if (!go) continue;

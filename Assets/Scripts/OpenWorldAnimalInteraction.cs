@@ -29,6 +29,7 @@ namespace LostRealmsOW {
   float speed, yawRate, lastYaw, bank;
   // Mounting: Aster's root travels from where she stood to the saddle along an arc.
   const float MountTime = 0.55f;
+  const float InteractionReach = 3.2f;
   float mountT = 1f, mountHipsHeight = 0.95f;
   Vector3 mountFrom; Quaternion mountFromRot;
   float splashAt;
@@ -113,16 +114,17 @@ namespace LostRealmsOW {
   }
   public static OpenWorldAnimalInteraction Nearest(OpenWorldHero hero) {
    if (!hero || hero.Dead) return null;
-   OpenWorldAnimalInteraction best = null; float distance = 3f;
+   // A summoned horse stops just inside 3.2 m; its prompt must share the action range.
+   OpenWorldAnimalInteraction best = null; float distance = InteractionReach;
    foreach (var a in live) {
     if (!a || a.Rider || (a.Deer && !a.Dead)) continue;
     float d = Vector3.Distance(hero.transform.position, a.transform.position);
-    if (d < distance) { best = a; distance = d; }
+    if (d < distance && (a.Horse || d < 3f)) { best = a; distance = d; }
    }
    return best;
   }
   public void Interact(OpenWorldManager gm) {
-   if (!gm || !gm.Hero || Vector3.Distance(gm.Hero.transform.position, transform.position) > 3.2f) return;
+   if (!gm || !gm.Hero || Vector3.Distance(gm.Hero.transform.position, transform.position) > InteractionReach) return;
    if (Dead) {
     if (gm.RawMeat > 999 - Meat) { gm.ShowBanner("Meat pouch full • Cook a meal first"); return; }
     if (!Deer || string.IsNullOrEmpty(PersistentId) || !gm.CollectedWorldIds.Add(PersistentId)) return;

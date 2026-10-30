@@ -1,0 +1,79 @@
+Regional discoveries — 10/30/2026 2:19:50 PM
+PASS: eight unique discoveries across four regions
+PASS: prepared prop ready: glm-disc:frozen-note (ready)
+SITE glm-disc:frozen-note anchor (-160.00, 0.00, 288.00), placed (-160.00, 33.93, 288.00), prop bottom 33.950, centre ground 33.910
+PASS: dry grounded prop: glm-disc:frozen-note
+PASS: valid prop materials: glm-disc:frozen-note
+PASS: note has physical raised parchment: glm-disc:frozen-note
+PASS: normal interaction prompt available: glm-disc:frozen-note
+PASS: solid cover blocks discovery interaction
+PASS: normal interaction pays exact reward once: glm-disc:frozen-note
+PASS: lore displayed and retained in journal: glm-disc:frozen-note
+PASS: repeat reward refused: glm-disc:frozen-note
+PASS: prepared prop ready: glm-disc:frozen-cache (ready)
+SITE glm-disc:frozen-cache anchor (-96.00, 0.00, 300.00), placed (-84.00, 40.34, 300.00), prop bottom 40.283, centre ground 40.131
+PASS: dry grounded prop: glm-disc:frozen-cache
+PASS: valid prop materials: glm-disc:frozen-cache
+PASS: note has physical raised parchment: glm-disc:frozen-cache
+PASS: normal interaction prompt available: glm-disc:frozen-cache
+PASS: normal interaction pays exact reward once: glm-disc:frozen-cache
+PASS: lore displayed and retained in journal: glm-disc:frozen-cache
+PASS: repeat reward refused: glm-disc:frozen-cache
+PASS: prepared prop ready: glm-disc:dunes-note (ready)
+SITE glm-disc:dunes-note anchor (296.00, 0.00, -8.00), placed (292.00, 7.71, -8.00), prop bottom 7.737, centre ground 7.697
+PASS: dry grounded prop: glm-disc:dunes-note
+PASS: valid prop materials: glm-disc:dunes-note
+PASS: note has physical raised parchment: glm-disc:dunes-note
+PASS: normal interaction prompt available: glm-disc:dunes-note
+PASS: normal interaction pays exact reward once: glm-disc:dunes-note
+PASS: lore displayed and retained in journal: glm-disc:dunes-note
+PASS: repeat reward refused: glm-disc:dunes-note
+PASS: prepared prop ready: glm-disc:dunes-cache (ready)
+SITE glm-disc:dunes-cache anchor (372.00, 0.00, 88.00), placed (370.00, 14.11, 84.54), prop bottom 14.043, centre ground 13.900
+PASS: dry grounded prop: glm-disc:dunes-cache
+PASS: valid prop materials: glm-disc:dunes-cache
+PASS: note has physical raised parchment: glm-disc:dunes-cache
+PASS: normal interaction prompt available: glm-disc:dunes-cache
+PASS: normal interaction pays exact reward once: glm-disc:dunes-cache
+PASS: lore displayed and retained in journal: glm-disc:dunes-cache
+PASS: repeat reward refused: glm-disc:dunes-cache
+PASS: prepared prop ready: glm-disc:marches-note (ready)
+SITE glm-disc:marches-note anchor (-190.00, 0.00, -206.00), placed (-194.00, 1.66, -206.00), prop bottom 1.688, centre ground 1.648
+PASS: dry grounded prop: glm-disc:marches-note
+PASS: valid prop materials: glm-disc:marches-note
+PASS: note has physical raised parchment: glm-disc:marches-note
+PASS: normal interaction prompt available: glm-disc:marches-note
+PASS: normal interaction pays exact reward once: glm-disc:marches-note
+PASS: lore displayed and retained in journal: glm-disc:marches-note
+PASS: repeat reward refused: glm-disc:marches-note
+PASS: prepared prop ready: glm-disc:marches-cache (ready)
+SITE glm-disc:marches-cache anchor (-238.00, 0.00, -244.00), placed (-238.00, 1.71, -244.00), prop bottom 1.729, centre ground 1.689
+PASS: dry grounded prop: glm-disc:marches-cache
+PASS: valid prop materials: glm-disc:marches-cache
+PASS: note has physical raised parchment: glm-disc:marches-cache
+PASS: normal interaction prompt available: glm-disc:marches-cache
+PASS: normal interaction pays exact reward once: glm-disc:marches-cache
+PASS: lore displayed and retained in journal: glm-disc:marches-cache
+PASS: repeat reward refused: glm-disc:marches-cache
+PASS: prepared prop ready: glm-disc:storm-note (ready)
+SITE glm-disc:storm-note anchor (222.00, 0.00, -250.00), placed (225.46, 40.15, -248.00), prop bottom 40.171, centre ground 40.131
+PASS: dry grounded prop: glm-disc:storm-note
+PASS: valid prop materials: glm-disc:storm-note
+PASS: note has physical raised parchment: glm-disc:storm-note
+PASS: normal interaction prompt available: glm-disc:storm-note
+PASS: normal interaction pays exact reward once: glm-disc:storm-note
+PASS: lore displayed and retained in journal: glm-disc:storm-note
+PASS: repeat reward refused: glm-disc:storm-note
+PASS: prepared prop ready: glm-disc:storm-cache (ready)
+SITE glm-disc:storm-cache anchor (258.00, 0.00, -296.00), placed (254.54, 38.85, -294.00), prop bottom 38.848, centre ground 38.757
+PASS: dry grounded prop: glm-disc:storm-cache
+PASS: valid prop materials: glm-disc:storm-cache
+PASS: note has physical raised parchment: glm-disc:storm-cache
+PASS: normal interaction prompt available: glm-disc:storm-cache
+PASS: normal interaction pays exact reward once: glm-disc:storm-cache
+PASS: lore displayed and retained in journal: glm-disc:storm-cache
+PASS: repeat reward refused: glm-disc:storm-cache
+PASS: all eight flags survive disk save/load
+PASS: restored save refuses duplicate collection
+PASS: distant discovery props deactivate
+COMPLETE: all eight discoveries, access, grounding, lore, rewards, persistence and distance checks passed. Scripted editor checks; no Android build.

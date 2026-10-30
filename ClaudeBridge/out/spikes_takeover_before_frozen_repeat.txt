@@ -1,0 +1,27 @@
+Spike capture 'takeover_before_frozen_repeat' — frames 0..205 — 13:36:52
+206 frames, mean 33.7 ms, worst 59.6 ms, 5 over 45 ms
+
+== frame 87: 59.6 ms
+  top level: PlayerLoop 42.6, EditorLoop 14.6, Profiler.FlushCounters 2.2, Profiler.CollectEditorStats 0.2
+  hot path: PlayerLoop 42.6 > RenderPlayModeViewCameras 21.4 > UnityEngine.CoreModule.dll!UnityEngine.Rendering::RenderPipelineManager.DoRenderLoop_Internal() [Invoke] 21.3 > Inl_UniversalRenderTotal 21.3 > Inl_RenderCameraStack 21.2 > Inl_UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera 18.3 > CullScriptable 15.9 > PrepareSceneCullingParameters 7.2 > TransformChangeSystem 5.5
+  self time: EditorLoop 14.6, Animators.ProcessAnimationsJob 8.5, TransformChangeSystem 5.8, WaitForJobGroupID 4.7, LODTreeInstanceRenderer.UpdateWind 3.7, Profiler.FlushMemoryCounters 2.1, SceneCulling 1.6, LOD.ComputeLOD 1.6, UnityEngine.InputModule.dll!UnityEngineInternal.Input::NativeInputSystem.ProcessInputUpdate() [Invoke] 1.0, Shadows.CullDirectionalShadowCasters 0.8, PlayableOutput.PrepareFrame 0.8, RenderLoop.ScheduleDraw 0.7, Inl_On Record Render Graph 0.7, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.6
+
+== frame 60: 59.6 ms
+  top level: EditorLoop 32.3, Profiler.FlushCounters 20.7, PlayerLoop 6.4, Profiler.CollectEditorStats 0.1
+  hot path: EditorLoop 32.3
+  self time: EditorLoop 32.3, Profiler.FlushMemoryCounters 16.4, Profiler.CollectAudioStats 4.2, WaitForJobGroupID 0.5, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.3, PlayableOutput.PrepareFrame 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 0.2, Inl_On Record Render Graph 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.1, BehaviourUpdate 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWildlife.Update() [Invoke] 0.1, Profiler.CollectUIStats 0.1, TransformChangeSystem 0.1
+
+== frame 7: 50.8 ms
+  top level: PlayerLoop 44.2, EditorLoop 4.7, Profiler.FlushCounters 1.7, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 44.2 > UpdateScene 38.8 > Update.ScriptRunBehaviourUpdate 21.5 > BehaviourUpdate 21.5 > Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 15.2
+  self time: Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 15.2, EditorLoop 4.7, Animators.ProcessGraphJob 3.8, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.LateUpdate() [Invoke] 2.9, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 2.2, Profiler.FlushMemoryCounters 1.7, Director.PrepareFrame 1.5, Canvas.BuildBatch 1.2, Idle 1.0, FinalizeUpdateTask 0.9, TransformChangeSystem 0.8, PxScene.simulate 0.8, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.7, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.7
+
+== frame 74: 48.3 ms
+  top level: EditorLoop 27.1, Profiler.FlushCounters 12.3, PlayerLoop 8.6, Profiler.CollectEditorStats 0.2
+  hot path: EditorLoop 27.1
+  self time: EditorLoop 27.1, Profiler.FlushMemoryCounters 12.2, WaitForJobGroupID 0.5, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWhistleHudDriver.LateUpdate() [Invoke] 0.4, Inl_On Record Render Graph 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 0.4, Idle 0.3, Profiler.CollectUIStats 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWildlife.Update() [Invoke] 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 0.2, Inl_UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera 0.1, QueuePrepareIntegrateMainThreadObjects 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.1
+
+== frame 89: 46.8 ms
+  top level: EditorLoop 34.1, PlayerLoop 8.3, Profiler.FlushCounters 4.0, Profiler.CollectEditorStats 0.3
+  hot path: EditorLoop 34.1
+  self time: EditorLoop 34.1, Profiler.FlushMemoryCounters 3.7, WaitForJobGroupID 0.5, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.5, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 0.5, Profiler.CollectUIStats 0.3, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWildlife.Update() [Invoke] 0.3, Inl_On Record Render Graph 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 0.2, Profiler.CollectUIToolkitStats 0.2, TransformChangeSystem 0.2, Idle 0.2, Terrain.Details.Render 0.2

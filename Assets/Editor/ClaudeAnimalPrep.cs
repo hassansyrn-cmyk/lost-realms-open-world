@@ -451,6 +451,7 @@ namespace LostRealmsOW {
    settings.loopTime = loop;
    AnimationUtility.SetAnimationClipSettings(copy, settings);
    if (stripTravel) travelled = StripTravel(copy, bindingRoot, key, lines);
+   if (key.StartsWith("expansion_bear_c_", StringComparison.Ordinal)) PreparedAnimalPayloadOptimization.CollapseConstants(copy);
    EditorUtility.SetDirty(copy);
    return copy;
   }
