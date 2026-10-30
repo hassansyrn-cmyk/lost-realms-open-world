@@ -1,0 +1,36 @@
+==================================================
+ [Turtle_dragon] - Documentation & ReadMe
+==================================================
+
+Thank you for purchasing this asset!
+
+1. Getting Started
+- Open the demo scene located at:
+  Assets/[Turtle_dragon]/Demo/Turtle_dragon.unity
+
+2. Pipeline & Requirements
+- Render Pipeline: Universal Render Pipeline (URP)
+- Created with Unity Shader Graph.
+
+3. Features
+- Pre-configured materials & shader graphs& script included in the package.
+- All assets are organized in dedicated folders.
+
+4. Equipment & Setup Types
+Optimized the bones using an export bone based on the root bone and added animations.
+
+
+5. Support
+Do the shaders or materials appear pink or washed out?
+ A. Ensure your project is set up for URP (Universal Render Pipeline).
+ B. Navigate to the Shader Graph folder, select the outline material, and then choose the "Shader Graph/Outline" shader.
+ C. Navigate to the Material folder, select the material, and then choose the "Shader Graph/Stylized_hyun" shader.
+ D. If the colors appear washed out, open the "Stylized_hyun" file in the Shader Graph folder. Locate the "Emission Rim Light" section, connect "matcap_rimLight" to the missing link in the "Simple Texture  2D" node, and then click "Save Asset" in the top-left corner to recompile.
+The connection sometimes drops when opening the file in a new project.
+
+If you have any questions or issues, please contact:
+Support: [dsc1666@naver.com]
+Portfolio: ArtStation: https://www.artstation.com/popp
+For customer support or business inquiries, please contact via Email
+
+Direct Messages (DM) on ArtStation are not monitored for support.

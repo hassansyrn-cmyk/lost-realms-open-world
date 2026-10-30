@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7c45a63021620884da108afca7a1a509
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/Example/Materials/Chests/Chest02_FatBottomBorderMaterial.mat
+  uploadId: 49708

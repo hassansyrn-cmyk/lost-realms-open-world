@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a2d48f6261da31849922abc9c6b0698d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 33030
+  packageName: Season2_TurtleDragon
+  packageVersion: Major2.0  Update Released
+  assetPath: Assets/Season2_Jackpot packV1.5/TurtleDragon/Shadergraph/Stylized_hyun.shadergraph
+  uploadId: 1016196

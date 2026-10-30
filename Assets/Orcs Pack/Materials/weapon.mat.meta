@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 24743cf700008456fb2f65da7e6cce6e
+timeCreated: 1506204514
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 108361
+  packageName: Orc Caster and Fighter Pack
+  packageVersion: 1.0
+  assetPath: Assets/Orcs Pack/Materials/weapon.mat
+  uploadId: 227106

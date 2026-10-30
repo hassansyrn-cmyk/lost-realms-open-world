@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3996f0d6aeef4d142b29cf6a10874839
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/Example/Materials/Chests/Chest04_FacinatingBaseMaterial.mat
+  uploadId: 49708

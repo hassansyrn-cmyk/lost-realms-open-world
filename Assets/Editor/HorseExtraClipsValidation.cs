@@ -9,11 +9,12 @@ namespace LostRealmsOW {
  public static class HorseExtraClipsValidation {
   public static bool Busy{get;private set;}
   static bool diagnostic;
-  static string Report=>diagnostic?"Docs/HORSE_EXTRA_CONTACT_DIAG.txt":"Docs/HORSE_EXTRAS_2026-10-30.txt";
+  static string reportPath;
+  static string Report=>reportPath;
   static void Check(bool ok,string text){if(!ok)throw new Exception(text);File.AppendAllText(Report,"PASS: "+text+"\n");}
   static void LogSkate(string message,string trace,LogType type){if(message.StartsWith("[Review] skate "))File.AppendAllText(Report,message+"\n");}
   public static void Begin(){Start(false);}public static void Diagnose(){Start(true);}
-  static void Start(bool diag){diagnostic=diag;VerdantExperienceValidation.Begin();OpenWorldMobileHud.DebugUI("hud");File.WriteAllText(Report,"Horse extras + discovery polish "+DateTime.Now+"\n");Busy=true;OpenWorldManager.I.StartCoroutine(Run());}
+  static void Start(bool diag){diagnostic=diag;reportPath="Docs/HORSE_EXTRAS_"+(diag?"DIAG_":"")+DateTime.Now.ToString("yyyyMMdd_HHmmss")+".txt";VerdantExperienceValidation.Begin();OpenWorldMobileHud.DebugUI("hud");File.WriteAllText(Report,"Horse extras + discovery polish "+DateTime.Now+"\n");Busy=true;OpenWorldManager.I.StartCoroutine(Run());}
   static Vector3 Arena(OpenWorldManager gm){
    Vector3 best=Vector3.zero;float score=float.MaxValue;
    for(int x=-150;x<=-20;x+=10)for(int z=-240;z<=-110;z+=10){

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1f6500f0e1699b4ea04d180af6d063c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/Example/Materials/Chests/Chest02_NewTopBorderMaterial.mat
+  uploadId: 49708

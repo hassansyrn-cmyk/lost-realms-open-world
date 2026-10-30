@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f6c5c7ef2a009f64d95353a55b0eaaec
+timeCreated: 1464196165
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63658
+  packageName: Rhino Cartoon
+  packageVersion: 1.0
+  assetPath: Assets/Rhino_Jahaziel/Model/Rhino_anim.controller
+  uploadId: 119484

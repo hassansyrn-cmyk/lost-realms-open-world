@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1621eb50b19ec86469b232f4b31cc904
+timeCreated: 1514923999
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 108361
+  packageName: Orc Caster and Fighter Pack
+  packageVersion: 1.0
+  assetPath: Assets/Orcs Pack/Prefabs/Orc Warrior with Sword and Shield.prefab
+  uploadId: 227106

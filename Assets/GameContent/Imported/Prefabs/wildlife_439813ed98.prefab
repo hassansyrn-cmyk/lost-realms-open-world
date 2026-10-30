@@ -486,6 +486,8 @@ MonoBehaviour:
   GallopLeftContactY: {x: 0, y: 0, z: 0, w: 0}
   GallopRightContactY: {x: 0, y: 0, z: 0, w: 0}
   GallopContactPhases: []
+  GallopLeftPhaseOffset: 0
+  GallopRightPhaseOffset: 0
   WalkSpeed: 0.5118837
   TrotSpeed: 0
   CanterSpeed: 0

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 921a202659d8c0c49b8115dc10665a34
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39866
+  packageName: Fantasy Skeleton
+  packageVersion: 1.0
+  assetPath: Assets/Skeleton/Prefabs/Skeleton.prefab
+  uploadId: 921896

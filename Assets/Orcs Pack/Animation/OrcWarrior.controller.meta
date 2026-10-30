@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 06042a9989e388940bebe663699092a9
+timeCreated: 1517351638
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 108361
+  packageName: Orc Caster and Fighter Pack
+  packageVersion: 1.0
+  assetPath: Assets/Orcs Pack/Animation/OrcWarrior.controller
+  uploadId: 227106

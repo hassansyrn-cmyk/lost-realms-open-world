@@ -1,4 +1,4 @@
-# Animal motion preparation — 2026-10-30 06:05
+# Animal motion preparation — 2026-10-30 06:32
 
 Clip picks per state, natural cycle speeds at the prepared prefab's scale (m/s, the runtime scales them with the spawned size), facing corrections and saddle measurements. Vendor packs were only read.
 
@@ -9,6 +9,7 @@ Clip picks per state, natural cycle speeds at the prepared prefab's scale (m/s, 
   - back profile, tail to head every 0.18 m (height above the hooves): 1.35 1.43 1.47 1.47 1.42 1.42 1.50 1.57 1.68 1.74 1.78 1.85 
   - saddle: seat 1.41 above the hooves at z 0.85 of 2.20 (bone BN_Spine_01_03); barrel half width 0.27; belly 0.58 below the seat; bit on BN_Head_00_016
   - banked toe contact heights at prefab scale (hierarchy order): walk L (0.052, 0.053, 0.053, 0.066), walk R (0.052, 0.051, 0.068, 0.051), gallop L (0.138, 0.150, 0.157, 0.100), gallop R (0.136, 0.147, 0.150, 0.098)
+Gallop stance calibration: robust near-ground windows, contacts per 96 samples (29.00, 29.00, 29.00, 29.00); avoids a single seam dip defining the whole contact window.
   - banked gallop: authored torso overlay over corrected straight-gallop legs; 96 calibrated contact-phase samples, shared natural speed and normalized phase.
   - extra horse clips: walk_l HorseRig|Horse_Walk_L, walk_r HorseRig|Horse_Walk_R, gallop_l HorseRig|Horse_Gallop_L, gallop_r HorseRig|Horse_Gallop_R, runstop HorseRig|Horse_RunStop, buck HorseRig|Horse_Buck, swim HorseRig|Horse_Swim, jump HorseRig|Horse_Jump; banked cycles share base gait speeds and phase.
   - material Horse_Body_Mat [Universal Render Pipeline/Lit] base Horse_Body_Albedo_2K 1024, normal Horse_Body_Normal_2K
@@ -139,3 +140,4 @@ Clip picks per state, natural cycle speeds at the prepared prefab's scale (m/s, 
 Processed 21 prepared animal prefabs.
 
 Banked torso phase alignment from 96 spine-height samples: L 0.0000, R 0.0000. Metadata only; source/prepared clip curves unchanged.
+Gallop stance calibration: robust near-ground windows, contacts per 96 samples (29.00, 29.00, 29.00, 29.00); avoids a single seam dip defining the whole contact window.

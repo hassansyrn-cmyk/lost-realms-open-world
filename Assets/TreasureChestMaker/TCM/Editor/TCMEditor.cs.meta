@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b1b51d76c1ab92d46807ce9229c09aef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/TCM/Editor/TCMEditor.cs
+  uploadId: 49708

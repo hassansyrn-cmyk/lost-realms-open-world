@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 262c8b9e31b795c48a70a0dda419bf3e
+timeCreated: 1464198810
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63658
+  packageName: Rhino Cartoon
+  packageVersion: 1.0
+  assetPath: Assets/Rhino_Jahaziel/Model/Materials/Skybox.mat
+  uploadId: 119484

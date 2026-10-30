@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f8649c3bf1e69f4aa15b7a25db2cfc6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/Example/Materials/Chests/Chest04_FacinatingBorderMaterial.mat
+  uploadId: 49708

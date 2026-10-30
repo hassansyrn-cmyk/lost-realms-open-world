@@ -332,8 +332,8 @@ namespace LostRealmsOW {
      bool planted = banked?p.y<=contactY+.035f:hAboveGround<=.045f;
      if(bankedGallop&&GallopContactPhases!=null&&GallopContactPhases.Length>0){
       double phase=StridePhase(current);
-      planted=GallopContactPhases[Mathf.Min(GallopContactPhases.Length-1,(int)(phase*GallopContactPhases.Length))][i]>.5f;
       contactY=Mathf.Max(ground,transform.TransformPoint(hoofRestLocal[i]).y);
+      planted=GallopContactPhases[Mathf.Min(GallopContactPhases.Length-1,(int)(phase*GallopContactPhases.Length))][i]>.5f||p.y<=contactY+.035f;
      }
      if (planted) {
       if (!isPlanted[i]) {
@@ -350,7 +350,8 @@ namespace LostRealmsOW {
         if(banked){
          // During turns, ankle rotation alone cannot compensate the sideways motion of the
          // shoulder/hip. Correct the cached local leg joints, bounded to avoid stretching.
-         for(int iteration=0;iteration<5;iteration++){
+         for(int iteration=0;iteration<10;iteration++){
+          if((h.position-plantPos[i]).sqrMagnitude<.000004f)break;
           foreach(var joint in stanceJoints[i]){
            Vector3 cur=h.position-joint.position,want=plantPos[i]-joint.position;
            if(cur.sqrMagnitude<1e-6f||want.sqrMagnitude<1e-6f)continue;

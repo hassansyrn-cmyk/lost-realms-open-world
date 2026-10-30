@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e31f601f5da4d61439e494f015f586ec
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/TCM/Prefabs/ChestLarge.prefab
+  uploadId: 49708

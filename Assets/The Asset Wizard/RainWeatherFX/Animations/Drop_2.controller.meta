@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: dfb1579b736c94de3a9de29694254f1d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 320579
+  packageName: Rainy Weather FX
+  packageVersion: 1.0.0
+  assetPath: Assets/The Asset Wizard/RainWeatherFX/Animations/Drop_2.controller
+  uploadId: 757666

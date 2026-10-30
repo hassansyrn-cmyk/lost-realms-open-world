@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 241941644942544d89b9c07a657d4f04
+timeCreated: 1505692580
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 108361
+  packageName: Orc Caster and Fighter Pack
+  packageVersion: 1.0
+  assetPath: Assets/Orcs Pack/Materials/magicorc.mat
+  uploadId: 227106

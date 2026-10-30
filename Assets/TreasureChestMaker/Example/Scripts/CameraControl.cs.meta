@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 11782da7e20d84a49bc4b92ee1d5b2d9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/Example/Scripts/CameraControl.cs
+  uploadId: 49708

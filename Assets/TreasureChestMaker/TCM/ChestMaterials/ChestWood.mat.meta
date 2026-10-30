@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4377d6cceb6a409428bab69bedc3d566
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/TCM/ChestMaterials/ChestWood.mat
+  uploadId: 49708

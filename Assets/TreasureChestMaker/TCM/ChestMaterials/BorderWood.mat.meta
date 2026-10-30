@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 85511fcd2fa3ccc49977a5e67d6cd1cc
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/TCM/ChestMaterials/BorderWood.mat
+  uploadId: 49708

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9fdb427bd9735214bb0143d5456f3ac7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/Example/Materials/Chests/Chest03_StupidTopBorderMaterial.mat
+  uploadId: 49708

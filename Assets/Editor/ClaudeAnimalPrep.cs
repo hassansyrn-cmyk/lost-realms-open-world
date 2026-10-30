@@ -73,10 +73,22 @@ namespace LostRealmsOW {
     float[] Profile(AnimationClip clip){var y=new float[n];for(int i=0;i<n;i++){clip.SampleAnimation(sampler,i/(float)n*clip.length);y[i]=root.transform.InverseTransformPoint(spine.position).y;}float mean=y.Average();for(int i=0;i<n;i++)y[i]-=mean;return y;}
     var reference=Profile(driver.Run);
     float Offset(AnimationClip bank){var values=Profile(bank);float best=float.PositiveInfinity;int offset=0;for(int shift=0;shift<n;shift++){float error=0;for(int i=0;i<n;i++){float d=reference[i]-values[(i+shift)%n];error+=d*d;}if(error<best){best=error;offset=shift;}}return offset/(float)n;}
-    driver.GallopLeftPhaseOffset=Offset(driver.GallopLeft);driver.GallopRightPhaseOffset=Offset(driver.GallopRight);driver.Idle.SampleAnimation(sampler,0);PrefabUtility.SaveAsPrefabAsset(root,path);
+    driver.GallopLeftPhaseOffset=Offset(driver.GallopLeft);driver.GallopRightPhaseOffset=Offset(driver.GallopRight);
+    var toes=root.GetComponentsInChildren<Transform>(true).Where(t=>t.name=="BN_L_Toe_042_0"||t.name=="BN_R_Toe_047_0"||t.name=="BN_L_Toe_2_055_0"||t.name=="BN_R_Toe_2_059_0").ToArray();
+    string contacts=CalibrateGallopContacts(root.transform,sampler,driver,toes);driver.Idle.SampleAnimation(sampler,0);PrefabUtility.SaveAsPrefabAsset(root,path);
     File.AppendAllText("Docs/AssetAudit/ANIMAL_PREPARATION_REPORT.md",$"\nBanked torso phase alignment from 96 spine-height samples: L {driver.GallopLeftPhaseOffset:F4}, R {driver.GallopRightPhaseOffset:F4}. Metadata only; source/prepared clip curves unchanged.\n");
     Debug.Log($"[AnimalPrep] gallop bank phase L {driver.GallopLeftPhaseOffset:F4}, R {driver.GallopRightPhaseOffset:F4}");
+    File.AppendAllText("Docs/AssetAudit/ANIMAL_PREPARATION_REPORT.md",contacts+"\n");
    }finally{PrefabUtility.UnloadPrefabContents(root);}
+  }
+
+  static string CalibrateGallopContacts(Transform root,GameObject sampler,OpenWorldImportedModel driver,Transform[] toes){
+   const int n=96;var heights=new Vector4[n];var sorted=new float[4][];for(int f=0;f<4;f++)sorted[f]=new float[n];
+   for(int frame=0;frame<n;frame++){driver.Run.SampleAnimation(sampler,frame/(float)n*driver.Run.length);for(int f=0;f<4;f++){float y=root.InverseTransformPoint(toes[f].position).y;heights[frame][f]=y;sorted[f][frame]=y;}}
+   var cutoff=Vector4.zero;for(int f=0;f<4;f++){Array.Sort(sorted[f]);cutoff[f]=Mathf.Max(sorted[f][0]+HeightOf(root)*.03f,sorted[f][Mathf.FloorToInt(n*.30f)]);}
+   driver.GallopContactPhases=new Vector4[n];var counts=Vector4.zero;
+   for(int frame=0;frame<n;frame++){var signal=Vector4.zero;for(int f=0;f<4;f++){signal[f]=heights[frame][f]<=cutoff[f]?1:0;counts[f]+=signal[f];}driver.GallopContactPhases[frame]=signal;}
+   return "Gallop stance calibration: robust near-ground windows, contacts per 96 samples "+counts+"; avoids a single seam dip defining the whole contact window.";
   }
 
   [MenuItem("Lost Realms OW/Content/Prepare Animal Motion (gaits, saddles)")]
@@ -105,6 +117,7 @@ namespace LostRealmsOW {
    report.Add($"Processed {done} prepared animal prefabs.");
    Directory.CreateDirectory("Docs/AssetAudit");
    File.WriteAllLines("Docs/AssetAudit/ANIMAL_PREPARATION_REPORT.md", report);
+   if(File.Exists(Output+"/Prefabs/wildlife_a868c1dd18.prefab"))CalibrateHorseBankPhases();
    Debug.Log("[AnimalPrep] " + done + " animal prefabs prepared; see Docs/AssetAudit/ANIMAL_PREPARATION_REPORT.md");
   }
 
@@ -381,12 +394,7 @@ namespace LostRealmsOW {
       driver.WalkLeftContactY=ContactHeights(driver.WalkLeft);driver.WalkRightContactY=ContactHeights(driver.WalkRight);
       driver.GallopLeftContactY=ContactHeights(driver.GallopLeft);driver.GallopRightContactY=ContactHeights(driver.GallopRight);
       lines.Add("  - banked toe contact heights at prefab scale (hierarchy order): walk L "+driver.WalkLeftContactY.ToString("F3")+", walk R "+driver.WalkRightContactY.ToString("F3")+", gallop L "+driver.GallopLeftContactY.ToString("F3")+", gallop R "+driver.GallopRightContactY.ToString("F3"));
-      var gallopLow=ContactHeights(driver.Run);driver.GallopContactPhases=new Vector4[96];
-      for(int frame=0;frame<96;frame++){
-       driver.Run.SampleAnimation(sampler,frame/96f*driver.Run.length);var contacts=Vector4.zero;
-       for(int f=0;f<4;f++)contacts[f]=root.transform.InverseTransformPoint(toes[f].position).y<=gallopLow[f]+height*.03f?1:0;
-       driver.GallopContactPhases[frame]=contacts;
-      }
+      lines.Add(CalibrateGallopContacts(root.transform,sampler,driver,toes));
       lines.Add("  - banked gallop: authored torso overlay over corrected straight-gallop legs; 96 calibrated contact-phase samples, shared natural speed and normalized phase.");
       driver.Idle.SampleAnimation(sampler,0);
      }

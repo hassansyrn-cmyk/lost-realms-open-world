@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a268f3b4b82d676489cd16e6dcf1bbc5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 20850
+  packageName: Treasure Chest Maker
+  packageVersion: 1.1
+  assetPath: Assets/TreasureChestMaker/Example/Materials/Chests/Chest01_OutBaseMaterial.mat
+  uploadId: 49708

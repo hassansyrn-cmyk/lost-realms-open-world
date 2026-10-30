@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: af8600e26e952664c8d2e43b6768c904
+timeCreated: 1514923849
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 108361
+  packageName: Orc Caster and Fighter Pack
+  packageVersion: 1.0
+  assetPath: Assets/Orcs Pack/Prefabs/Orc Wizard with Wand.prefab
+  uploadId: 227106

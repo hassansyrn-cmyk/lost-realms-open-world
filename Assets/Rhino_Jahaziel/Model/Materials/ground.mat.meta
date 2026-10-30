@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7fd822c1f6b00994ba9454947fec76e5
+timeCreated: 1464199797
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 63658
+  packageName: Rhino Cartoon
+  packageVersion: 1.0
+  assetPath: Assets/Rhino_Jahaziel/Model/Materials/ground.mat
+  uploadId: 119484

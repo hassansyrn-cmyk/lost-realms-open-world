@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a07ad4bdb5a414c47860689ced2d6672
+timeCreated: 1434909420
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 39866
+  packageName: Fantasy Skeleton
+  packageVersion: 1.0
+  assetPath: Assets/Skeleton/Materials/Skeleton_D.mat
+  uploadId: 921896

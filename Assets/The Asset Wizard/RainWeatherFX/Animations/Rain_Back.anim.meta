@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1be83e1f30f3c44d787d4376ab3fbc36
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 320579
+  packageName: Rainy Weather FX
+  packageVersion: 1.0.0
+  assetPath: Assets/The Asset Wizard/RainWeatherFX/Animations/Rain_Back.anim
+  uploadId: 757666

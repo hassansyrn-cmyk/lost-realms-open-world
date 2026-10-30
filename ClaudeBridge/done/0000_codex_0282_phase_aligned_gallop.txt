@@ -1,0 +1,16 @@
+refresh
+wait 10
+refresh
+wait 8
+exec LostRealmsOW.ClaudeAnimalPrep.CalibrateHorseBankPhases
+wait 3
+play
+waitplay 1
+exec UnityEditor.AssetDatabase.DisallowAutoRefresh
+waitplay 8
+exec LostRealmsOW.HorseExtraClipsValidation.Begin
+waitfor !LostRealmsOW.HorseExtraClipsValidation.Busy 180
+exec LostRealmsOW.HorseExtraClipsValidation.Cleanup
+stop
+exec UnityEditor.AssetDatabase.AllowAutoRefresh
+refresh

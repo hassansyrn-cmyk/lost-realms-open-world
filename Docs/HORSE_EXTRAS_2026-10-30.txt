@@ -1,4 +1,4 @@
-Horse extras + discovery polish 10/30/2026 6:18:54 AM
+Horse extras + discovery polish 10/30/2026 6:28:16 AM
 PASS: 28/14 degree turn hysteresis and direction reversal
 PASS: raised parchment replaces ground square without new UI
 PASS: two prepared world-kit rocks frame the cache
@@ -11,20 +11,20 @@ PASS: banked clips share straight gait natural speed
 PASS: first wild mount accepted
 PASS: dismount blocked during initial mount/buck
 PASS: buck plays once and movement stays locked until complete
-Contacts walk_l: BN_L_Toe_2_055_0 y 0.174..0.377, planted 75/151; BN_R_Toe_2_059_0 y 0.186..0.401, planted 65/151; BN_L_Toe_042_0 y 0.185..0.365, planted 70/151; BN_R_Toe_047_0 y 0.195..0.375, planted 44/151
-[Review] skate extra_walk_l: body 1.56 m/s | hoof at its lowest (3 cm): moves 0.10 m/s (7%), along travel -0.01 | lowest 30%: moves 0.11 m/s (7%), along travel +0.01 | clip natural 1.51 m/s, playback x1.02 | BN_L_Toe_2_055_0 0.06/+0.02, BN_R_Toe_2_059_0 0.08/+0.03, BN_L_Toe_042_0 0.07/-0.02, BN_R_Toe_047_0 0.20/-0.07 | states walk:149
+Contacts walk_l: BN_L_Toe_2_055_0 y 0.173..0.377, planted 75/151; BN_R_Toe_2_059_0 y 0.186..0.400, planted 65/151; BN_L_Toe_042_0 y 0.183..0.365, planted 70/151; BN_R_Toe_047_0 y 0.195..0.375, planted 43/151
+[Review] skate extra_walk_l: body 1.56 m/s | hoof at its lowest (3 cm): moves 0.10 m/s (6%), along travel -0.01 | lowest 30%: moves 0.12 m/s (8%), along travel +0.01 | clip natural 1.51 m/s, playback x1.02 | BN_L_Toe_2_055_0 0.06/+0.03, BN_R_Toe_2_059_0 0.07/+0.03, BN_L_Toe_042_0 0.07/-0.02, BN_R_Toe_047_0 0.20/-0.07 | states walk:149
 walk_l: active 151/151, peak 1.63 m/s
 PASS: turning circle selects walk_l
-Contacts walk_r: BN_L_Toe_2_055_0 y 0.184..0.385, planted 77/151; BN_R_Toe_2_059_0 y 0.177..0.391, planted 64/151; BN_L_Toe_042_0 y 0.203..0.375, planted 48/151; BN_R_Toe_047_0 y 0.169..0.367, planted 74/151
-[Review] skate extra_walk_r: body 1.53 m/s | hoof at its lowest (3 cm): moves 0.09 m/s (6%), along travel -0.01 | lowest 30%: moves 0.09 m/s (6%), along travel -0.01 | clip natural 1.51 m/s, playback x1.04 | BN_L_Toe_2_055_0 0.07/+0.01, BN_R_Toe_2_059_0 0.07/+0.00, BN_L_Toe_042_0 0.14/-0.02, BN_R_Toe_047_0 0.09/-0.02 | states walk:149
+Contacts walk_r: BN_L_Toe_2_055_0 y 0.183..0.385, planted 77/151; BN_R_Toe_2_059_0 y 0.177..0.391, planted 64/151; BN_L_Toe_042_0 y 0.200..0.375, planted 48/151; BN_R_Toe_047_0 y 0.167..0.367, planted 74/151
+[Review] skate extra_walk_r: body 1.53 m/s | hoof at its lowest (3 cm): moves 0.09 m/s (6%), along travel -0.01 | lowest 30%: moves 0.08 m/s (5%), along travel -0.01 | clip natural 1.51 m/s, playback x1.04 | BN_L_Toe_2_055_0 0.07/+0.00, BN_R_Toe_2_059_0 0.06/+0.00, BN_L_Toe_042_0 0.13/-0.01, BN_R_Toe_047_0 0.09/-0.02 | states walk:149
 walk_r: active 151/151, peak 1.58 m/s
 PASS: turning circle selects walk_r
-Contacts gallop_l: BN_L_Toe_2_055_0 y 0.219..1.224, planted 44/151; BN_R_Toe_2_059_0 y 0.208..0.940, planted 40/151; BN_L_Toe_042_0 y 0.173..0.903, planted 31/151; BN_R_Toe_047_0 y 0.171..0.932, planted 7/151
-[Review] skate extra_gallop_l: body 8.72 m/s | hoof at its lowest (3 cm): moves 1.56 m/s (18%), along travel +1.29 | lowest 30%: moves 3.00 m/s (34%), along travel +0.89 | clip natural 6.28 m/s, playback x1.27 | BN_L_Toe_2_055_0 0.93/+0.92, BN_R_Toe_2_059_0 1.39/+1.39, BN_L_Toe_042_0 0.53/+0.53, BN_R_Toe_047_0 3.40/+2.32 | states gallop:149
+Contacts gallop_l: BN_L_Toe_2_055_0 y 0.194..1.192, planted 44/151; BN_R_Toe_2_059_0 y 0.207..0.938, planted 40/151; BN_L_Toe_042_0 y 0.158..0.923, planted 40/151; BN_R_Toe_047_0 y 0.156..0.932, planted 42/151
+[Review] skate extra_gallop_l: body 8.72 m/s | hoof at its lowest (3 cm): moves 0.81 m/s (9%), along travel +0.41 | lowest 30%: moves 2.69 m/s (31%), along travel +0.93 | clip natural 6.28 m/s, playback x1.26 | BN_L_Toe_2_055_0 0.71/+0.70, BN_R_Toe_2_059_0 0.73/+0.73, BN_L_Toe_042_0 0.72/+0.71, BN_R_Toe_047_0 1.09/-0.51 | states gallop:149
 gallop_l: active 151/151, peak 10.04 m/s
 PASS: turning circle selects gallop_l
-Contacts gallop_r: BN_L_Toe_2_055_0 y 0.227..1.265, planted 41/151; BN_R_Toe_2_059_0 y 0.197..0.930, planted 40/151; BN_L_Toe_042_0 y 0.221..0.986, planted 32/151; BN_R_Toe_047_0 y 0.140..0.937, planted 6/151
-[Review] skate extra_gallop_r: body 8.88 m/s | hoof at its lowest (3 cm): moves 1.14 m/s (13%), along travel +0.95 | lowest 30%: moves 2.32 m/s (26%), along travel +0.70 | clip natural 6.28 m/s, playback x1.37 | BN_L_Toe_2_055_0 0.85/+0.85, BN_R_Toe_2_059_0 0.88/+0.85, BN_L_Toe_042_0 0.56/+0.54, BN_R_Toe_047_0 2.25/+1.54 | states gallop:149
+Contacts gallop_r: BN_L_Toe_2_055_0 y 0.212..1.280, planted 42/151; BN_R_Toe_2_059_0 y 0.188..0.934, planted 42/151; BN_L_Toe_042_0 y 0.217..0.990, planted 42/151; BN_R_Toe_047_0 y 0.127..0.938, planted 41/151
+[Review] skate extra_gallop_r: body 8.88 m/s | hoof at its lowest (3 cm): moves 0.71 m/s (8%), along travel +0.32 | lowest 30%: moves 2.20 m/s (25%), along travel +0.80 | clip natural 6.28 m/s, playback x1.37 | BN_L_Toe_2_055_0 0.73/+0.73, BN_R_Toe_2_059_0 0.62/+0.60, BN_L_Toe_042_0 0.56/+0.54, BN_R_Toe_047_0 0.92/-0.60 | states gallop:149
 gallop_r: active 151/151, peak 10.08 m/s
 PASS: turning circle selects gallop_r
 PASS: release from gallop starts authored stop
