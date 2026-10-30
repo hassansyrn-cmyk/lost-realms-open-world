@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1b0b02b700425d14b858d6d1ccf22fab
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Rendering/WaterDepthTarget.cs
+  uploadId: 977994

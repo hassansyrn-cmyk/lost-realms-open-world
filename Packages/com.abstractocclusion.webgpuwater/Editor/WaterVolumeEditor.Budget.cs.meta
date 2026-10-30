@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d8a67a5a4a78a7f4186e29b5933c449a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterVolumeEditor.Budget.cs
+  uploadId: 977994

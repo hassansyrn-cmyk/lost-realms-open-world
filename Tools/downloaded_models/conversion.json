@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Komodo",
+    "frames": [
+      1,
+      14,
+      26,
+      39,
+      52,
+      64,
+      77,
+      90,
+      102,
+      115,
+      128,
+      140,
+      153,
+      166,
+      178,
+      191
+    ],
+    "range": [
+      1.0,
+      191.0
+    ],
+    "textures": [
+      {
+        "material": "Body",
+        "image": "Image_0",
+        "links": [
+          "Principled BSDF:Base Color"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "MountainDragon",
+    "frames": [
+      0,
+      155,
+      310,
+      464,
+      619,
+      774,
+      929,
+      1084,
+      1239,
+      1393,
+      1548,
+      1703,
+      1858,
+      2013,
+      2168,
+      2322
+    ],
+    "range": [
+      0.007914550602436066,
+      2322.407958984375
+    ],
+    "textures": [
+      {
+        "material": "M_MountainDragon",
+        "image": "Image_2",
+        "links": [
+          "Principled BSDF:Emission Color"
+        ]
+      },
+      {
+        "material": "M_MountainDragon",
+        "image": "Image_0",
+        "links": [
+          "Principled BSDF:Base Color"
+        ]
+      },
+      {
+        "material": "M_MountainDragon",
+        "image": "Image_1",
+        "links": [
+          "Separate Color:Color"
+        ]
+      },
+      {
+        "material": "M_MountainDragon",
+        "image": "Image_3",
+        "links": [
+          "Normal Map:Color"
+        ]
+      },
+      {
+        "material": "M_MountainDragon",
+        "image": "Image_1",
+        "links": [
+          "Separate Color.001:Color"
+        ]
+      }
+    ]
+  }
+]

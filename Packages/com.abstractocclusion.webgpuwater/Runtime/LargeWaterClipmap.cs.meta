@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d02601f3c8e44d64a8833d321040a663
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/LargeWaterClipmap.cs
+  uploadId: 977994

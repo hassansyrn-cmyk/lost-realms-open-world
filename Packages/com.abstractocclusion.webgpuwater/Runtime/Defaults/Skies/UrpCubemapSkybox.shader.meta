@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 118bff4c24d146159e4eb78d25d6569b
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Defaults/Skies/UrpCubemapSkybox.shader
+  uploadId: 977994

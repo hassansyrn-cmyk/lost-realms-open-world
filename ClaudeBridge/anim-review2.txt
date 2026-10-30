@@ -1,0 +1,74 @@
+@frames 12
+@tile 130
+@rows 6
+# locomotion, body height against the KI idle
+ki_idle | Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx | | height ref=mean
+ki_walk | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Forward.fbx | | height ref=idle=Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+ki_run | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Forward.fbx | | height ref=idle=Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+ki_sprint | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Forward.fbx | | height ref=idle=Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+# jumps
+ki_jump_begin | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Begin.fbx | | height ref=idle=Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+ki_jump | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01.fbx | | height ref=idle=Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+ki_fall | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Fall01.fbx | | height ref=idle=Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+ki_land | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Land.fbx | | height ref=idle=Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+ex_jump | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Jump.FBX | | height ref=idle=Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Idle.FBX
+ex_fall | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Fall.FBX | | height ref=idle=Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Idle.FBX
+ex_jump_flip | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Jump-Flip.FBX | | height ref=first
+bl_jumps | Assets/Blink/Art/Animations/Movement/Jumps.fbx | | height ref=first
+# rolls, dash
+bl_roll_forward | Assets/Blink/Art/Animations/Movement/RollForward.fbx | | height ref=first
+ex_diveroll | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-DiveRoll-Forward1.FBX | | height ref=first
+ex_run | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Run-Forward.FBX | | height ref=idle=Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Idle.FBX
+dl_sprint | Assets/DoubleL/FBX Unity/One Hand Up/Movement/Sprint/Base/InPlace/1Hand_Up_Sprint_A_F_InPlace.fbx | | height ref=first
+# glider hang
+dl_ladder_idle | Assets/DoubleL/FBX Unity/Actions/Ladder/Ladder_Idle.fbx | | ref=first
+dl_ladder_up_start | Assets/DoubleL/FBX Unity/Actions/Ladder/InPlace/Ladder_Up_Start_InPlace.fbx | | ref=first
+# one-hand sword
+dl_1h_A1 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_1_InPlace.fbx | | height ref=first
+dl_1h_A2 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_2_InPlace.fbx | | height ref=first
+dl_1h_A3 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_3_InPlace.fbx | | height ref=first
+dl_1h_B1 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_1_InPlace.fbx | | height ref=first
+dl_1h_B2 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_2_InPlace.fbx | | height ref=first
+dl_1h_B3 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_3_InPlace.fbx | | height ref=first
+ki_1h_R | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/1H/HumanM@Attack1H01_R.fbx | | height ref=first
+# unarmed
+ex_un_L1 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L1.FBX | | height ref=first
+ex_un_L2 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L2.FBX | | height ref=first
+ex_un_L3 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L3.FBX | | height ref=first
+ex_un_R1 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R1.FBX | | height ref=first
+ex_un_R2 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R2.FBX | | height ref=first
+ex_un_R3 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R3.FBX | | height ref=first
+ex_un_run_attack | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Run-Forward-Attack1-Left.FBX | | height ref=first
+# two-hand
+ex_2h_a1 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack1.FBX | | height ref=first
+ex_2h_a3 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack3.FBX | | height ref=first
+ex_2h_a4 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack4.FBX | | height ref=first
+ex_2h_a5 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX | | height ref=first
+ex_2h_a6 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack6.FBX | | height ref=first
+ex_2h_a8 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack8.FBX | | height ref=first
+ex_2h_a9 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack9.FBX | | height ref=first
+ex_2h_a11 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack11.FBX | | height ref=first
+ki_2h | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/2H/HumanM@Attack2H01.fbx | | height ref=first
+ex_2h_run_attack | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward-Attack1.FBX | | height ref=first
+# spear
+ki_polearm | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Polearm/HumanM@AttackPolearm01.fbx | | height ref=first
+wp_knight | Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Knight Warrior Mecanim Animation Pack/Animations/Knight@Attack1.FBX | | height ref=first
+# casts and bursts
+wp_mage | Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Mage Warrior Mecanim Animation Pack/Animations/Mage@Attack1.FBX | | height ref=first
+wp_sorceress | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations/Sorceress@Attack1.FBX | | height ref=first
+wp_karate | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations/Karate@Attack1.FBX | | height ref=first
+bl_spellcast | Assets/Blink/Art/Animations/Combat/SpellCast.fbx | SpellCast | height ref=first
+bl_buff | Assets/Blink/Art/Animations/Combat/Buff.fbx | | height ref=first
+cur_cast | Assets/Resources/Animations/Aster/cast.anim | | ref=first
+wp_brute | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Animations/Brute@Attack1.FBX | | height ref=first
+wp_ninja | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Attack1.FBX | | height ref=first
+# spins
+bl_spin_2h | Assets/Blink/Art/Animations/Combat/SpinAttack_TwoHanded.fbx | | height ref=first
+bl_spinloop_2h | Assets/Blink/Art/Animations/Combat/SpinLoop_TwoHanded.fbx | | height ref=first
+bl_spintowin_1h | Assets/Blink/Art/Animations/Combat/SpinToWin_OneHanded.fbx | | height ref=first
+bl_spintowin_2h | Assets/Blink/Art/Animations/Combat/SpinToWin_TwoHanded.fbx | | height ref=first
+bl_spin_twoweapons | Assets/Blink/Art/Animations/Combat/SpinAttack_TwoWeapons.fbx | | height ref=first
+# misc
+dl_action_A_4_1 | Assets/DoubleL/FBX Unity/Actions/Action/Action_A_4_1.fbx | | height ref=first
+dl_action_A_5_1 | Assets/DoubleL/FBX Unity/Actions/Action/Action_A_5_1.fbx | | height ref=first
+dl_action_A_5_2 | Assets/DoubleL/FBX Unity/Actions/Action/Action_A_5_2.fbx | | height ref=first

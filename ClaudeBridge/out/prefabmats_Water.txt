@@ -1,0 +1,23 @@
+== Assets/Idyllic Fantasy Nature/Materials/Waterplants/Ocean.mat / Ocean shader=Idyllic Fantasy Nature/Water
+   keywords: 
+   _Refraction_Normal (Texture, "Refraction Normal") = Assets/Idyllic Fantasy Nature/Textures/Water/Water_Normal_01.png (1.00, 1.00)
+   _Second_Refraction_Normal (Texture, "Second Refraction Normal") = Assets/Idyllic Fantasy Nature/Textures/Water/Water_Normal_02.png (1.00, 1.00)
+   _Refraction_Strength (Range, "Refraction Strength") = 0.177
+   _Refraction_Scale (Vector, "Refraction Scale") = (140.000, 56.000, 0.000, 0.000)
+   _Normal_Strength (Range, "Normal Strength") = 0.2
+   _Water_Speed (Range, "Water Speed") = 0.3
+   _Shallow_Color (Color, "Shallow Color") = RGBA(0.310, 0.675, 0.812, 0.686)
+   _Deep_Color (Color, "Deep Color") = RGBA(0.000, 0.533, 0.690, 0.804)
+   _Depth_Distance (Range, "Depth Distance") = 0.25
+   _Coast_Opacity (Range, "Coast Opacity") = 0.149
+   _Smoothness (Range, "Smoothness") = 0.7
+   _Foam_Amount (Range, "Foam Amount") = 0.076
+   _Foam_Color (Color, "Foam Color") = RGBA(1.000, 1.000, 1.000, 1.000)
+   _Foam_Density (Range, "Foam Density") = 0.1
+   _Foam_Scale (Vector, "Foam Scale") = (1000.000, 1000.000, 0.000, 0.000)
+   _QueueOffset (Float, "_QueueOffset") = 0
+   _QueueControl (Float, "_QueueControl") = 0
+   _XRMotionVectorsPass (Float, "_XRMotionVectorsPass") = 1
+   unity_Lightmaps (Texture, "unity_Lightmaps") = none
+   unity_LightmapsInd (Texture, "unity_LightmapsInd") = none
+   unity_ShadowMasks (Texture, "unity_ShadowMasks") = none

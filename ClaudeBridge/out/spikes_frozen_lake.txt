@@ -1,0 +1,32 @@
+Spike capture 'frozen_lake' — frames 0..249 — 03:18:09
+250 frames, mean 47.9 ms, worst 3570.8 ms, 6 over 45 ms
+
+== frame 28: 3570.8 ms
+  top level: PlayerLoop 3555.6, EditorLoop 14.2, Profiler.FlushCounters 0.9, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 3555.6 > UpdateScene 3553.8 > PreLateUpdate.ScriptRunBehaviourLateUpdate 3550.4 > LateBehaviourUpdate 3550.4 > Unity.ResourceManager.dll!UnityEngine.ResourceManagement.Util::DelayedActionManager.LateUpdate() [Invoke] 3550.2 > Loading.ReadObject 3549.9 > Loading.LoadRemainingPreallocatedObjects 3514.4 > Loading.ReadObjectThreaded 3513.7 > ReadObjectFromSerializedFile 3513.5
+  self time: ReadObjectFromSerializedFile 2377.5, Loading.LoadFileHeaders 881.1, File.Read 238.4, AsyncReadManager.SyncRequest 29.6, EditorLoop 14.2, GenerateMuscleClip 9.7, Sort BuildCurveKeys 3.7, UnityEngine.CoreModule.dll!UnityEngine.Serialization::SerializationBackendManagedCommands.SerializationBufferToObject() [Invoke] 2.7, Idle 2.6, WaitForJobGroupID 1.4, OpenWin32Handle 0.8, Profiler.FlushMemoryCounters 0.8, Loading.LoadRemainingPreallocatedObjects 0.7, IntegrateAllThreadedObjects 0.5
+
+== frame 29: 85.0 ms
+  top level: PlayerLoop 76.2, EditorLoop 7.7, Profiler.FlushCounters 1.0, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 76.2 > RenderPlayModeViewCameras 66.7 > UnityEngine.CoreModule.dll!UnityEngine.Rendering::RenderPipelineManager.DoRenderLoop_Internal() [Invoke] 66.6 > Inl_UniversalRenderTotal 66.5 > Inl_RenderCameraStack 66.5 > Inl_UniversalRenderPipeline.RenderSingleCameraInternal: Main Camera 66.0 > CullScriptable 65.5 > CullResults.CreateSharedRendererScene 64.6 > EndRenderQueueExtraction 64.5 > QueuePrepareIntegrateMainThreadObjects 64.5 > Loading.ReadObject 64.0 > Loading.LoadFileHeaders 61.3 > AsyncReadManager.SyncRequest 61.0
+  self time: AsyncReadManager.SyncRequest 59.0, EditorLoop 7.7, File.Read 3.8, Assembly-CSharp.dll!LostRealmsOW::OpenWorldDownloadedActors.Spawn() [Coroutine: MoveNext] [Invoke] 1.0, Profiler.FlushMemoryCounters 0.9, Instantiate.Produce 0.7, PxScene.simulate 0.6, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 0.6, UnityEngine.CoreModule.dll!UnityEngine::Application.CallLogCallback() [Invoke] 0.5, Animator.Initialize 0.4, WaitForJobGroupID 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.4, ReadObjectFromSerializedFile 0.4, Physics.SwapPhysXBuffersJob 0.4
+
+== frame 30: 61.2 ms
+  top level: EditorLoop 53.5, PlayerLoop 6.4, Profiler.FlushCounters 1.2, Profiler.CollectEditorStats 0.1
+  hot path: EditorLoop 53.5
+  self time: EditorLoop 53.5, Profiler.FlushMemoryCounters 1.1, WaitForJobGroupID 0.5, PxScene.simulate 0.3, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 0.2, Instantiate.Produce 0.2, Physics.OverlapCapsuleNonAlloc 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldPopulation.Update() [Invoke] 0.2, Animator.Initialize 0.1, CanvasUpdate.PreRender 0.1, Inl_On Record Render Graph 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.1, BehaviourUpdate 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.1
+
+== frame 31: 58.2 ms
+  top level: PlayerLoop 51.0, EditorLoop 6.0, Profiler.FlushCounters 1.2, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 51.0 > UpdateScene 49.1 > TimeUpdate.WaitForLastPresentationAndUpdateTime 43.3 > GfxDeviceD3D12.WaitForLastPresentation 43.3 > GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 43.3
+  self time: GfxDeviceD3D12.WaitForLastPresentation.WaitForGPU 43.3, EditorLoop 6.0, FinalizeUpdateTask 1.6, Profiler.FlushMemoryCounters 1.1, WaitForJobGroupID 0.4, PxScene.simulate 0.4, Instantiate.Produce 0.2, Idle 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Start() [Invoke] 0.1, Inl_On Record Render Graph 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.1, Animator.Initialize 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldPopulation.Update() [Invoke] 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 0.1
+
+== frame 0: 51.9 ms
+  top level: PlayerLoop 21.6, EditorLoop 15.4, Profiler.FlushCounters 13.5, Profiler.CollectEditorStats 0.4, Profiler.SessionMetadata 0.0
+  hot path: PlayerLoop 21.6 > UpdateScene 11.3
+  self time: EditorLoop 15.4, Profiler.FlushCountersWithFlushOnEndOfFrame 12.5, Profiler.RequestScreenshot 6.9, Unity.ResourceManager.dll!::MonoBehaviourCallbackHooks.LateUpdate() [Invoke] 3.2, PxScene.simulate 1.5, BehaviourUpdate 1.0, Profiler.FlushMemoryCounters 1.0, WaitForJobGroupID 0.8, LateBehaviourUpdate 0.4, QueuePrepareIntegrateMainThreadObjects 0.4, Profiler.CollectUIStats 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 0.3, RenderPlayModeViewCameras 0.3, Idle 0.2
+
+== frame 119: 50.0 ms
+  top level: PlayerLoop 47.2, EditorLoop 1.8, Profiler.FlushCounters 0.9, Profiler.CollectEditorStats 0.1
+  hot path: PlayerLoop 47.2 > UpdateScene 45.2 > Update.ScriptRunBehaviourUpdate 42.8 > BehaviourUpdate 42.8 > UnityEngine.UI.dll!UnityEngine.EventSystems::EventSystem.Update() [Invoke] 41.6
+  self time: UnityEngine.UI.dll!UnityEngine.EventSystems::EventSystem.Update() [Invoke] 41.3, EditorLoop 1.8, Profiler.FlushMemoryCounters 0.9, WaitForJobGroupID 0.4, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWhistleHudDriver.LateUpdate() [Invoke] 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldImportedModel.Update() [Invoke] 0.2, Inl_On Record Render Graph 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldWildlife.Update() [Invoke] 0.2, Assembly-CSharp.dll!LostRealmsOW::OpenWorldMobileHud.Update() [Invoke] 0.1, UnityEngine.CoreModule.dll!UnityEngine.Pool::CollectionPool`2..cctor() 0.1, PxScene.simulate 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldEnemy.Update() [Invoke] 0.1, Animator.WriteTransforms 0.1, Assembly-CSharp.dll!LostRealmsOW::OpenWorldCharacterVisual.Update() [Invoke] 0.1

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8f5f81db5e68f1647a064d5fa8da05b2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterBuoyancyStressSpawner.cs
+  uploadId: 977994

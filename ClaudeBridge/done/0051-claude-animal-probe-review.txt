@@ -1,0 +1,32 @@
+log 0051 Claude: animal asset probe, population report, riding and hunting review captures
+refresh
+wait 3
+exec LostRealmsOW.ClaudeAnimalProbe.Run
+play
+waitplay 14
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+wait 1
+call LostRealmsOW.OpenWorldPopulation.DebugReport all
+# Riding: a horse near Oakvale, mounted, standing, walking, galloping, turning
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Horse
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.PreviewHorse
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride_side 54 3 side 0.6:fwd 0.6,2.2:fwd 1,2.6:sprint 1,4.4:sprint 0,4.9:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride_front 24 3 front 0:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride_follow 36 3 follow 0:fwd 1,0.5:sprint 1,1.8:move 0.7 0.7,3:sprint 0,3.3:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+exec LostRealmsOW.WildlifeExpansionValidation.Cleanup
+wait 1
+# Hunting: walk up to a deer group and attack
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Meadow Deer
+wait 4
+call LostRealmsOW.OpenWorldMotionCapture.Sequence deer_hunt 60 3 follow 0:weapon 0,0.3:fwd 1,2:attack,2.6:attack,3.2:attack,3.8:attack,4.4:attack,5:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldPopulation.DebugReport all
+timeofday 10:00 unlock
+stop
+log 0051 done

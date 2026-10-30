@@ -1,0 +1,14 @@
+World presentation 10/30/2026 3:00:25 AM
+PASS: selective cloth shader compiles and is included through Resources
+PASS: hostile and restored-captured banners use separate correct states
+PASS: both states retain the original embroidered texture
+PASS: banner shader has no compile error after first use
+PASS: live camp capture switches the same selective cloth state
+PASS: grapple uses four combined mesh assemblies
+PASS: astrolabe creates no traversal-blocking colliders
+PASS: astrolabe requires no extra realtime lights
+PASS: anchor silhouette remains bounded: (2.90, 3.03, 1.61)
+PASS: bounded mesh complexity: 7936 triangles
+PASS: ring animation leaves gameplay anchor pivot unchanged
+PASS: existing grapple action still accepts redesigned anchor
+PASS: grapple arrival and glider deployment remain functional

@@ -1,0 +1,1 @@
+PASS: Original Cinzel font and combat artwork in runtime HUD; complete atlas/arsenal/wardrobe/vault row counts; final arsenal row reachable by scrolling; locked equipment rejects click; pause stops time and resume restores it. Unity 6000.6.0f1 play-mode validation. Physical Android touch/readability remain unverified.

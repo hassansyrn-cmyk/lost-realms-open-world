@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 7499f09c6695424aa4560558d6dde3ed
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Tests/Runtime/WaterRiverSplineFeatureTests.cs
+  uploadId: 977994

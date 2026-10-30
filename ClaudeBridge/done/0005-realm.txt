@@ -1,0 +1,62 @@
+log 0005 render setup + realm bake starting
+refresh
+exec LostRealmsOW.OpenWorldRenderSetup.Configure
+exec LostRealmsOW.OpenWorldRealmBaker.Bake
+log 0005 bake done, entering play mode
+setting runInBackground
+play
+waitplay 25
+tp 0 -26 0 14
+wait 6
+shot realm_hub
+call LostRealmsOW.OpenWorldHero.DebugAction spell 0
+wait 0.7
+shot vfx_spell_ember
+wait 2
+call LostRealmsOW.OpenWorldHero.DebugAction burst 1
+wait 0.9
+shot vfx_burst_frost
+wait 2
+call LostRealmsOW.OpenWorldHero.DebugAction attack 2
+wait 0.2
+shot vfx_slash_gale
+timeofday golden
+wait 2
+shot realm_hub_golden
+timeofday night
+wait 2
+shot realm_hub_night
+timeofday midday
+tp -150 222 0 12
+wait 6
+shot realm_frostpine
+tp 268 -48 90 12
+wait 6
+shot realm_sunspire
+tp -188 -196 225 12
+wait 6
+shot realm_graveyard
+tp 210 -236 135 14
+wait 6
+shot realm_storm
+tp -150 104 0 12
+wait 6
+shot realm_mirrorlake
+tp 292 118 0 12
+wait 6
+shot realm_oasis
+tp 40 300 20 10
+wait 6
+shot realm_northpass
+view 0 360 -600 0 30 60
+wait 4
+shot realm_overview
+view -330 220 -360 45 28 60
+wait 3
+shot realm_aerial_sw
+view 330 220 330 225 28 60
+wait 3
+shot realm_aerial_ne
+follow
+stop
+log 0005 done

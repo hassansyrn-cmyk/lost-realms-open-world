@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1215f87fc776745428e30020ec4eb412
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/ReflectionsTrio/Pool.mat
+  uploadId: 977994

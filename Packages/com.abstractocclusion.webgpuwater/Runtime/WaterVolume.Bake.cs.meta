@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0e18f944ceea3284597b4c6c752a94a1
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterVolume.Bake.cs
+  uploadId: 977994

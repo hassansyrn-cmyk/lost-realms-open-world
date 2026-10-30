@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: dc71a9d732c9eba418c2864919571b08
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterFogTransparentEditor.cs
+  uploadId: 977994

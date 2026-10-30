@@ -1,0 +1,56 @@
+log 0133 Antigravity: horse skate check (walk, trot, canter, gallop) + riding captures
+refresh
+wait 4
+play
+waitplay 14
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+wait 1
+tp -40 -160 0 10
+wait 4
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Wild Horse
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence agy_mount 30 3 left 0:mount
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence agy_f1 2 2 left 0:faceopen
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 10
+call LostRealmsOW.ClaudeReviewChecks.SkateStart
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0.45 0
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport settle
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport walk
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0 0
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence agy_f2 2 2 left 0:faceopen
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 10
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0.72 0
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport settle
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport trot
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0 0
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence agy_f3 2 2 left 0:faceopen
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 10
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 1 0
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport settle
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport canter
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0 0
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence agy_f4 2 2 left 0:faceopen
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 10
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 1 1
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport settle
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport gallop
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0 0
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence agy_ride_side 40 3 left 0:faceopen,0.2:fwd 0.45,3:fwd 0.72,6:fwd 1,9:sprint 1
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+timeofday 10:00 unlock
+stop
+log 0133 done

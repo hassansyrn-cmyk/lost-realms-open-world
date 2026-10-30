@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9dfb2cdd39a9275429981d4b37deded6
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Scenes/2. Deep Lake.unity
+  uploadId: 977994

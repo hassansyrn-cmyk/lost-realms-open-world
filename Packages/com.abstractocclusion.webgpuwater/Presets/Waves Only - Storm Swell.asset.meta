@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: faebcb1c597d461b87d3469e6a7f8977
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Presets/Waves Only - Storm Swell.asset
+  uploadId: 977994

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 33ebb635fbd88db458c33d033a8f5bc2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/BoatController.cs
+  uploadId: 977994

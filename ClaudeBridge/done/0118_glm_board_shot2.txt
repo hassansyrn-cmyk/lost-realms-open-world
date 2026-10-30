@@ -1,0 +1,3 @@
+log 0118 GLM: quest board visual check (ended by Claude at 00:18: it was waiting on play behind the 00:06 compile error in OpenWorldQuestBoard.cs:192, which GLM fixed at 00:08)
+log 0118 ended so the queue reaches 0119 (same check, starts with refresh)
+log 0118 done

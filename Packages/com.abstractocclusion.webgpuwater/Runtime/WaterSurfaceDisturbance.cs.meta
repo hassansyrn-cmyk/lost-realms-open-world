@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0b210b0ec0a9a5f4880b9cd81d29b750
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterSurfaceDisturbance.cs
+  uploadId: 977994

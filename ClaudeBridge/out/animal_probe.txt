@@ -1,0 +1,582 @@
+# Animal asset probe 2026-10-29 07:34
+## Assets/ithappy/Animals_FREE/Prefabs/Kitty_001.prefab
+rig: animator=generic avatar=- optimized=False legacyAnimation=none controller=Kitty
+size at prefab scale: 0.18 x 0.37 x 0.58 m; triangles 1406; skinned 1; renderers 1
+scripts: CreatureMover, MovePlayerInput
+  material on Kitty_001: Material [Universal Render Pipeline/Lit] _BaseMap=Texture(1024) _MainTex=Texture(1024)
+clips: own 3, pack library 46
+  OK   "Kitty_001_idle" 7.87s loop=True legacy=False human=False curves 321 resolved 321 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Kitty_001.fbx
+  OK   "Kitty_001_walk" 1.00s loop=True legacy=False human=False curves 321 resolved 321 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Kitty_001.fbx
+  OK   "Kitty_001_run" 0.67s loop=True legacy=False human=False curves 324 resolved 324 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Kitty_001.fbx
+  OK   "Kitty_001_idle" 7.87s loop=False legacy=False human=False curves 321 resolved 321 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Kitty_001_idle.anim
+  OK   "Kitty_001_run" 0.67s loop=False legacy=False human=False curves 324 resolved 324 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Kitty_001_run.anim
+  OK   "Kitty_001_walk" 1.00s loop=False legacy=False human=False curves 321 resolved 321 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Kitty_001_walk.anim
+
+## Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab
+rig: animator=generic avatar=- optimized=False legacyAnimation=none controller=Tiger
+size at prefab scale: 0.86 x 1.50 x 3.03 m; triangles 2538; skinned 1; renderers 1
+scripts: CreatureMover, MovePlayerInput
+  material on Tiger_001: Material [Universal Render Pipeline/Lit] _BaseMap=Texture(1024) _MainTex=Texture(1024)
+clips: own 3, pack library 46
+  OK   "Tiger_001_idle" 2.07s loop=True legacy=False human=False curves 325 resolved 325 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Tiger_001.fbx
+  OK   "Tiger_001_walk" 1.00s loop=True legacy=False human=False curves 274 resolved 274 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Tiger_001.fbx
+  OK   "Tiger_001_run" 0.63s loop=True legacy=False human=False curves 334 resolved 334 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Tiger_001.fbx
+  OK   "Tiger_001_idle" 2.07s loop=False legacy=False human=False curves 325 resolved 325 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Tiger_001_idle.anim
+  OK   "Tiger_001_idle_rare" 8.77s loop=False legacy=False human=False curves 325 resolved 325 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Tiger_001_idle_rare.anim
+  OK   "Tiger_001_run" 0.63s loop=False legacy=False human=False curves 334 resolved 334 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Tiger_001_run.anim
+  OK   "Tiger_001_walk" 1.00s loop=False legacy=False human=False curves 274 resolved 274 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Tiger_001_walk.anim
+  OK   "Tiger_001_idle_rare" 8.77s loop=True legacy=False human=False curves 325 resolved 325 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Tiger_001.fbx
+
+## Assets/ithappy/Animals_FREE/Prefabs/Pinguin_001.prefab
+rig: animator=generic avatar=- optimized=False legacyAnimation=none controller=Pinguin
+size at prefab scale: 1.05 x 1.80 x 1.14 m; triangles 818; skinned 1; renderers 1
+scripts: CreatureMover, MovePlayerInput
+  material on Pinguin_001: Material [Universal Render Pipeline/Lit] _BaseMap=Texture(1024) _MainTex=Texture(1024)
+clips: own 3, pack library 46
+  OK   "Pinguin_001_idle" 5.33s loop=True legacy=False human=False curves 201 resolved 201 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Pinguin_001.fbx
+  OK   "Pinguin_001_walk" 0.93s loop=True legacy=False human=False curves 204 resolved 204 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Pinguin_001.fbx
+  OK   "Pinguin_001_run" 0.53s loop=True legacy=False human=False curves 204 resolved 204 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Pinguin_001.fbx
+  OK   "Pinguin_001_idle" 5.33s loop=False legacy=False human=False curves 201 resolved 201 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Pinguin_001_idle.anim
+  OK   "Pinguin_001_run" 0.53s loop=False legacy=False human=False curves 204 resolved 204 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Pinguin_001_run.anim
+  OK   "Pinguin_001_walk" 0.93s loop=False legacy=False human=False curves 204 resolved 204 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Pinguin_001_walk.anim
+
+## Assets/ithappy/Animals_FREE/Prefabs/Horse_001.prefab
+rig: animator=generic avatar=- optimized=False legacyAnimation=none controller=Horse
+size at prefab scale: 0.60 x 1.69 x 2.50 m; triangles 1732; skinned 1; renderers 1
+scripts: CreatureMover, MovePlayerInput
+  material on Horse_001: Material [Universal Render Pipeline/Lit] _BaseMap=Texture(1024) _MainTex=Texture(1024)
+clips: own 3, pack library 46
+  OK   "Horse_001_idle" 7.97s loop=True legacy=False human=False curves 381 resolved 381 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Horse_001.fbx
+  OK   "Horse_001_walk" 1.43s loop=True legacy=False human=False curves 375 resolved 375 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Horse_001.fbx
+  OK   "Horse_001_run" 0.80s loop=True legacy=False human=False curves 381 resolved 381 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Horse_001.fbx
+  OK   "Horse_001_eat" 4.27s loop=False legacy=False human=False curves 384 resolved 384 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_eat.anim
+  OK   "Horse_001_idle" 7.97s loop=False legacy=False human=False curves 381 resolved 381 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_idle.anim
+  OK   "Horse_001_run" 0.80s loop=False legacy=False human=False curves 381 resolved 381 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_run.anim
+  OK   "Horse_001_walk" 1.43s loop=False legacy=False human=False curves 375 resolved 375 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Horse_001_walk.anim
+  OK   "Horse_001_eat" 4.27s loop=True legacy=False human=False curves 384 resolved 384 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Horse_001.fbx
+
+## Assets/ithappy/Animals_FREE/Prefabs/Deer_001.prefab
+rig: animator=generic avatar=- optimized=False legacyAnimation=none controller=Deer
+size at prefab scale: 1.06 x 2.29 x 1.52 m; triangles 1914; skinned 1; renderers 1
+scripts: CreatureMover, MovePlayerInput
+  material on Deer_001: Material [Universal Render Pipeline/Lit] _BaseMap=Texture(1024) _MainTex=Texture(1024)
+clips: own 3, pack library 46
+  OK   "Deer_001_idle" 11.00s loop=True legacy=False human=False curves 319 resolved 319 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Deer_001.fbx
+  OK   "Deer_001_walk" 1.00s loop=True legacy=False human=False curves 334 resolved 334 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Deer_001.fbx
+  OK   "Deer_001_run" 0.80s loop=True legacy=False human=False curves 331 resolved 331 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Deer_001.fbx
+  OK   "Deer_001_idle" 11.00s loop=False legacy=False human=False curves 319 resolved 319 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Deer_001_idle.anim
+  OK   "Deer_001_run" 0.80s loop=True legacy=False human=False curves 331 resolved 331 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Deer_001_run.anim
+  OK   "Deer_001_walk" 1.00s loop=False legacy=False human=False curves 334 resolved 334 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Deer_001_walk.anim
+
+## Assets/ithappy/Animals_FREE/Prefabs/Dog_001.prefab
+rig: animator=generic avatar=- optimized=False legacyAnimation=none controller=Dog
+size at prefab scale: 0.42 x 0.76 x 1.27 m; triangles 1010; skinned 1; renderers 1
+scripts: CreatureMover, MovePlayerInput
+  material on Dog_001: Material [Universal Render Pipeline/Lit] _BaseMap=Texture(1024) _MainTex=Texture(1024)
+clips: own 3, pack library 46
+  OK   "Dog_001_idle" 9.63s loop=True legacy=False human=False curves 338 resolved 338 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Dog_001.fbx
+  OK   "Dog_001_walk" 1.00s loop=True legacy=False human=False curves 344 resolved 344 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Dog_001.fbx
+  OK   "Dog_001_run" 0.57s loop=True legacy=False human=False curves 341 resolved 341 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Dog_001.fbx
+  OK   "Dog_001_idle" 9.63s loop=False legacy=False human=False curves 338 resolved 338 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Dog_001_idle.anim
+  OK   "Dog_001_run" 0.57s loop=False legacy=False human=False curves 341 resolved 341 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Dog_001_run.anim
+  OK   "Dog_001_walk" 1.00s loop=False legacy=False human=False curves 344 resolved 344 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Dog_001_walk.anim
+
+## Assets/ithappy/Animals_FREE/Prefabs/Chicken_001.prefab
+rig: animator=generic avatar=- optimized=False legacyAnimation=none controller=Chicken
+size at prefab scale: 0.40 x 0.49 x 0.57 m; triangles 976; skinned 1; renderers 1
+scripts: CreatureMover, MovePlayerInput
+  material on Chicken_001: Material [Universal Render Pipeline/Lit] _BaseMap=Texture(1024) _MainTex=Texture(1024)
+clips: own 3, pack library 46
+  OK   "Chicken_001_idle" 8.17s loop=True legacy=False human=False curves 315 resolved 315 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Chicken_001.fbx
+  OK   "Chicken_003_walk" 0.80s loop=True legacy=False human=False curves 321 resolved 321 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Chicken_001.fbx
+  OK   "Chicken_002_run" 0.37s loop=True legacy=False human=False curves 309 resolved 309 rootmove <- Assets/ithappy/Animals_FREE/Meshes/Chicken_001.fbx
+  OK   "Chicken_001_idle" 8.17s loop=False legacy=False human=False curves 315 resolved 315 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Chicken_001_idle.anim
+  OK   "Chicken_002_run" 0.37s loop=True legacy=False human=False curves 309 resolved 309 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Chicken_002_run.anim
+  OK   "Chicken_003_walk" 0.80s loop=False legacy=False human=False curves 321 resolved 321 rootmove <- Assets/ithappy/Animals_FREE/Animations/Other_Animations/Chicken_003_walk.anim
+
+## Assets/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs/Bear_4.prefab
+rig: animator=generic avatar=BearAvatar optimized=False legacyAnimation=none controller=BearAnimator
+size at prefab scale: 3.21 x 2.02 x 3.66 m; triangles 11614; skinned 1; renderers 1
+scripts: 
+  material on Body: Bear_4 [Standard] _MainTex=Stylized_Bear_Albedo4(2048) _BumpMap=Stylized_Bear_Normal(2048)
+clips: own 18, pack library 195
+  OK   "Bear_IdleCombat" 2.00s loop=True legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_IdleCombat.fbx
+  OK   "Bear_Idle" 2.13s loop=True legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Idle.fbx
+  OK   "Bear_RunForward" 0.75s loop=True legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunForward.fbx
+  OK   "Bear_RunBackward" 0.75s loop=True legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunBackward.fbx
+  OK   "Bear_Jump" 1.07s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Jump.fbx
+  OK   "Bear_Attack1" 1.13s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack1.fbx
+  OK   "Bear_WalkForward" 1.60s loop=True legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkForward.fbx
+  OK   "Bear_WalkBackward" 1.60s loop=True legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkBackward.fbx
+  OK   "Bear_Attack2" 1.13s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack2.fbx
+  OK   "Bear_Attack3" 1.27s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack3.fbx
+  OK   "Bear_Attack5" 1.40s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack5.fbx
+  OK   "Bear_Buff" 1.50s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Buff.fbx
+  OK   "Bear_GetHitFromFront" 1.07s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_GetHitFromFront.fbx
+  OK   "Bear_Death" 3.20s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Death.fbx
+  OK   "Bear_StunnedLoop" 2.13s loop=True legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_StunnedLoop.fbx
+  OK   "Bear_Eat" 4.80s loop=True legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Eat.fbx
+  OK   "Bear_Sit" 2.03s loop=True legacy=False human=False curves 627 resolved 627 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sit.fbx
+  OK   "Bear_Sleep" 2.00s loop=True legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sleep.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack1.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack2.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack3.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Attack5.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Buff.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Death.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Eat.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_GetHitFromFront.fbx
+  OK   "Bear_tpose" 0.07s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Idle.fbx
+  OK   "Bear_tpose" 0.07s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_IdleCombat.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Jump.fbx
+  OK   "Bear_Jump_Notransform" 1.07s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Jump.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunBackward.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_RunForward.fbx
+  OK   "Bear_tpose" 0.07s loop=False legacy=False human=False curves 627 resolved 627 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sit.fbx
+  OK   "Bear_tpose" 0.07s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_Sleep.fbx
+  OK   "Bear_tpose" 0.07s loop=False legacy=False human=False curves 590 resolved 590 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_StunnedLoop.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkBackward.fbx
+  OK   "Bear_tpose" 0.03s loop=False legacy=False human=False curves 597 resolved 597 rootmove <- Assets/Blink/Art/Animals/Stylized/Bear/Bear_Animations/Bear_WalkForward.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/BlockingLoop.fbx
+  PART "BlockingLoop" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/BlockingLoop.fbx
+  PART "BowShot" 0.97s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/BowShot.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/BowShot.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/Buff.fbx
+  PART "Buff" 1.53s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/Buff.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/CastingLoop.fbx
+  PART "CastingLoop" 1.07s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/CastingLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/Death.fbx
+  PART "Death" 1.67s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/Death.fbx
+  PART "GetHit" 0.67s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/GetHit.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/GetHit.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/IdleCombat.fbx
+  PART "IdleCombat" 1.73s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/IdleCombat.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/MeleeAttack_OneHanded.fbx
+  PART "MeleeAttack_OneHanded" 0.87s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/MeleeAttack_OneHanded.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/MeleeAttack_TwoHanded.fbx
+  PART "MeleeAttack_TwoHanded" 1.93s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/MeleeAttack_TwoHanded.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/PunchLeft.fbx
+  PART "PunchLeft" 1.00s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/PunchLeft.fbx
+  PART "PunchRight" 1.00s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/PunchRight.fbx
+  PART "tpose" 0.02s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/PunchRight.fbx
+  PART "SpellCast_Start" 0.20s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/SpellCast.fbx
+  PART "SpellCast" 2.20s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/SpellCast.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/SpellCast.fbx
+  PART "SpellCast_End" 0.93s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/SpellCast.fbx
+  PART "StunnedLoop" 2.00s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/StunnedLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Combat/StunnedLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Gathering/Gathering.fbx
+  PART "Gathering" 2.23s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Gathering/Gathering.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Gathering/MiningLoop.fbx
+  PART "MiningLoop" 1.27s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Gathering/MiningLoop.fbx
+  PART "FallingLoop" 1.03s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/FallingLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/FallingLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Idle.fbx
+  PART "Idle" 1.73s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Idle.fbx
+  PART "Jump_Up" 0.53s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Jumps.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Jumps.fbx
+  PART "Jump_Down" 0.73s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Jumps.fbx
+  PART "Jump" 1.27s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Jumps.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/JumpWhileRunning.fbx
+  PART "JumpWhileRunning" 0.83s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/JumpWhileRunning.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollBackward.fbx
+  PART "RollBackward" 1.27s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollBackward.fbx
+  PART "RollForward" 1.53s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollForward.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollForward.fbx
+  PART "RollLeft" 1.47s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollLeft.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollLeft.fbx
+  PART "RollRight" 1.47s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollRight.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RollRight.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunBackward.fbx
+  PART "RunBackward" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunBackward.fbx
+  PART "RunBackwardLeft" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunBackwardLeft.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunBackwardLeft.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunBackwardRight.fbx
+  PART "RunBackwardRight" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunBackwardRight.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunForward.fbx
+  PART "RunForward" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunForward.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunLeft.fbx
+  PART "RunLeft" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunLeft.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunRight.fbx
+  PART "RunRight" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/RunRight.fbx
+  PART "Sprint" 0.60s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Sprint.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/Sprint.fbx
+  PART "StrafeLeft" 0.80s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/StrafeLeft.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/StrafeLeft.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/StrafeRight.fbx
+  PART "StrafeRight" 0.80s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Animations_Starter_Pack/Movement/StrafeRight.fbx
+  PART "BlockingLoop" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/BlockingLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/BlockingLoop.fbx
+  PART "BowShot" 0.97s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/BowShot.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/BowShot.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/Buff.fbx
+  PART "Buff" 1.53s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/Buff.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/CastingLoop.fbx
+  PART "CastingLoop" 2.13s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/CastingLoop.fbx
+  PART "tpose" 0.07s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/Death.fbx
+  PART "Death" 2.43s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/Death.fbx
+  PART "GetHit" 0.67s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/GetHit.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/GetHit.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/IdleCombat.fbx
+  PART "IdleCombat" 1.73s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/IdleCombat.fbx
+  PART "MeeleeAttack_OneHanded" 0.87s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/MeeleeAttack_OneHanded.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/MeeleeAttack_OneHanded.fbx
+  PART "MeeleeAttack_TwoHanded" 1.93s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/MeeleeAttack_TwoHanded.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/MeeleeAttack_TwoHanded.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/PunchLeft.fbx
+  PART "PunchLeft" 1.00s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/PunchLeft.fbx
+  PART "PunchRight" 0.97s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/PunchRight.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/PunchRight.fbx
+  PART "SpellCast" 2.20s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpellCast.fbx
+  PART "SpellCast_End" 0.93s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpellCast.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpellCast.fbx
+  PART "SpellCast_Start" 0.20s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpellCast.fbx
+  PART "SpinLoop_TwoHanded" 0.80s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinAttack_TwoHanded.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinAttack_TwoHanded.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinAttack_TwoWeapons.fbx
+  PART "SpinAttack_TwoWeapons" 1.50s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinAttack_TwoWeapons.fbx
+  PART "SpinLoop_TwoHanded" 0.80s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinLoop_TwoHanded.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinLoop_TwoHanded.fbx
+  PART "SpinToWin_OneHanded" 1.00s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinToWin_OneHanded.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinToWin_OneHanded.fbx
+  PART "SpinToWin_TwoHanded" 1.00s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinToWin_TwoHanded.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/SpinToWin_TwoHanded.fbx
+  PART "StunnedLoop" 2.00s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/StunnedLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Combat/StunnedLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Gathering/Gathering.fbx
+  PART "Gathering" 2.23s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Gathering/Gathering.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Gathering/MiningLoop.fbx
+  PART "MiningLoop" 1.27s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Gathering/MiningLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/FallingLoop.fbx
+  PART "FallingLoop" 1.07s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/FallingLoop.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/Idle.fbx
+  PART "Idle" 1.73s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/Idle.fbx
+  PART "JumpAll" 1.27s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/Jumps.fbx
+  PART "JumpDown" 0.73s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/Jumps.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/Jumps.fbx
+  PART "JumpUp" 0.53s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/Jumps.fbx
+  PART "JumpWhileRunning" 0.83s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/JumpWhileRunning.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/JumpWhileRunning.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RollBackward.fbx
+  PART "RollBackward" 1.27s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RollBackward.fbx
+  PART "RollForward" 1.53s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RollForward.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RollForward.fbx
+  PART "RollLeft" 1.47s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RollLeft.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RollLeft.fbx
+  PART "RollRight" 1.47s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RollRight.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RollRight.fbx
+  PART "RunBackward" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunBackward.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunBackward.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunBackwardLeft.fbx
+  PART "RunBackwardLeft" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunBackwardLeft.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunBackwardRight.fbx
+  PART "RunBackwardRight" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunBackwardRight.fbx
+  PART "RunForward" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunForward.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunForward.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunLeft.fbx
+  PART "RunLeft" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunLeft.fbx
+  PART "RunRight" 0.67s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunRight.fbx
+  PART "tpose" 0.02s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/RunRight.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/Sprint.fbx
+  PART "Sprint" 0.60s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/Sprint.fbx
+  PART "StrafeLeft" 0.80s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/StrafeLeft.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/StrafeLeft.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/StrafeRight.fbx
+  PART "StrafeRight" 0.80s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/StrafeRight.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkBackward.fbx
+  PART "WalkBackward" 1.07s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkBackward.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkBackwardLeft.fbx
+  PART "WalkBackwardLeft" 1.07s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkBackwardLeft.fbx
+  PART "WalkBackwardRight" 1.07s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkBackwardRight.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkBackwardRight.fbx
+  PART "WalkForward" 1.07s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkForward.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkForward.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkForwardLeft.fbx
+  PART "WalkForwardLeft" 1.07s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkForwardLeft.fbx
+  PART "tpose" 0.03s loop=False legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkForwardRight.fbx
+  PART "WalkForwardRight" 1.07s loop=True legacy=False human=True curves 130 resolved 130 <- Assets/Blink/Art/Animations/Movement/WalkForwardRight.fbx
+
+## Assets/Creature_Rhinoceros/Prefab/Rhinoceros.prefab
+rig: animator=generic avatar=MeshAvatar optimized=False legacyAnimation=none controller=Rhinoceros
+size at prefab scale: 4.45 x 4.59 x 2.35 m; triangles 7356; skinned 1; renderers 2
+scripts: 
+  material on Eyes_mesh: Rhinoceros_diffuse [Legacy Shaders/Bumped Specular] _MainTex=Rhinoceros_diffuse(2048) _BumpMap=Rhinoceros_normals(2048)
+  material on Body_mesh: Rhinoceros_diffuse [Legacy Shaders/Bumped Specular] _MainTex=Rhinoceros_diffuse(2048) _BumpMap=Rhinoceros_normals(2048)
+clips: own 10, pack library 11
+  OK   "Idle" 11.97s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Idle.FBX
+  OK   "Walk" 1.30s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Walk.FBX
+  OK   "Run" 0.77s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Run.FBX
+  OK   "Jump" 1.47s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Jump.FBX
+  OK   "Shout" 1.97s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Shout.FBX
+  OK   "Attack(1)" 1.63s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Attack(1).FBX
+  OK   "Attack(2)" 1.13s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Attack(2).FBX
+  OK   "Attack(3)" 0.97s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Attack(3).FBX
+  OK   "Get_Hit" 1.13s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Get_Hit.FBX
+  OK   "Dead" 1.13s loop=False legacy=False human=False curves 600 resolved 600 rootmove <- Assets/Creature_Rhinoceros/Animation/Rhinoceros@Dead.FBX
+  OK   "Take 001" 19.33s loop=False legacy=False human=False curves 560 resolved 560 rootmove <- Assets/Creature_Rhinoceros/Mesh/Mesh.FBX
+
+## Assets/Rhino/Prefab/Rhino_PBR.prefab
+rig: animator=generic avatar=Rino_meshAvatar optimized=False legacyAnimation=none controller=Rhino
+size at prefab scale: 1.29 x 1.72 x 2.73 m; triangles 4298; skinned 2; renderers 8
+scripts: 
+  material on Teeth_down: Rhino_PBR [Standard] _MainTex=Rhinoceros_Albedo(2048) _BumpMap=Rhinoceros_normals(2048) _MetallicGlossMap=Rhinoceros_Metallic(2048)
+  material on Eyes: Rhino_PBR [Standard] _MainTex=Rhinoceros_Albedo(2048) _BumpMap=Rhinoceros_normals(2048) _MetallicGlossMap=Rhinoceros_Metallic(2048)
+  material on Object001: Rhino_PBR [Standard] _MainTex=Rhinoceros_Albedo(2048) _BumpMap=Rhinoceros_normals(2048) _MetallicGlossMap=Rhinoceros_Metallic(2048)
+  material on Teeth_up: Rhino_PBR [Standard] _MainTex=Rhinoceros_Albedo(2048) _BumpMap=Rhinoceros_normals(2048) _MetallicGlossMap=Rhinoceros_Metallic(2048)
+  material on Object002: Rhino_PBR [Standard] _MainTex=Rhinoceros_Albedo(2048) _BumpMap=Rhinoceros_normals(2048) _MetallicGlossMap=Rhinoceros_Metallic(2048)
+  material on Object003: Rhino_PBR [Standard] _MainTex=Rhinoceros_Albedo(2048) _BumpMap=Rhinoceros_normals(2048) _MetallicGlossMap=Rhinoceros_Metallic(2048)
+  material on Body: Rhino_PBR [Standard] _MainTex=Rhinoceros_Albedo(2048) _BumpMap=Rhinoceros_normals(2048) _MetallicGlossMap=Rhinoceros_Metallic(2048)
+  material on Tongue: Rhino_PBR [Standard] _MainTex=Rhinoceros_Albedo(2048) _BumpMap=Rhinoceros_normals(2048) _MetallicGlossMap=Rhinoceros_Metallic(2048)
+clips: own 8, pack library 8
+  PART "Idle" 8.00s loop=False legacy=False human=False curves 370 resolved 360 rootmove <- Assets/Rhino/animation/Rhino@Idle.FBX
+  PART "Walk" 1.67s loop=False legacy=False human=False curves 370 resolved 360 rootmove <- Assets/Rhino/animation/Rhino@Walk.FBX
+  PART "Run" 0.67s loop=False legacy=False human=False curves 370 resolved 360 rootmove <- Assets/Rhino/animation/Rhino@Run.FBX
+  PART "shout" 4.67s loop=False legacy=False human=False curves 370 resolved 360 rootmove <- Assets/Rhino/animation/Rhino@shout.FBX
+  PART "Attack" 1.23s loop=False legacy=False human=False curves 370 resolved 360 rootmove <- Assets/Rhino/animation/Rhino@Attack.FBX
+  PART "Eats" 10.67s loop=False legacy=False human=False curves 370 resolved 360 rootmove <- Assets/Rhino/animation/Rhino@Eats.FBX
+  PART "Get_Hit" 0.67s loop=False legacy=False human=False curves 370 resolved 360 rootmove <- Assets/Rhino/animation/Rhino@Get_Hit.FBX
+  PART "Dead" 1.67s loop=False legacy=False human=False curves 370 resolved 360 rootmove <- Assets/Rhino/animation/Rhino@Dead.FBX
+
+## Assets/Rhino_Jahaziel/Model/Rhino.fbx
+rig: animator=generic avatar=RhinoAvatar optimized=False legacyAnimation=none controller=-
+size at prefab scale: 0.10 x 0.13 x 0.18 m; triangles 5380; skinned 2; renderers 4
+scripts: 
+  material on polySurface5: blinn1 [Universal Render Pipeline/Lit] 
+  material on polySurface10: blinn1 [Universal Render Pipeline/Lit] 
+  material on polySurface3: blinn1 [Universal Render Pipeline/Lit] 
+  material on Rino: blinn1 [Universal Render Pipeline/Lit] 
+clips: own 0, pack library 1
+  OK   "Take 001" 1.60s loop=True legacy=False human=False curves 307 resolved 307 rootmove <- Assets/Rhino_Jahaziel/Model/Rhino.fbx
+
+## Assets/RSG_DogsPack/HDRP/Prefabs/P_GermanShepherd.prefab
+rig: animator=generic avatar=- optimized=False legacyAnimation=none controller=AC_Dogs_Type_01
+size at prefab scale: 0.25 x 0.98 x 1.22 m; triangles 2272; skinned 1; renderers 1
+scripts: 
+  material on SK_GermanShepherd: M_GermanShepherd [Hidden/InternalErrorShader] 
+  material on SK_GermanShepherd: M_GermanShepherd_Transparent [Hidden/InternalErrorShader] 
+clips: own 0, pack library 8
+  OK   "1 type_Idle Breathing" 1.00s loop=False legacy=False human=False curves 550 resolved 550 <- Assets/RSG_DogsPack/HDRP/Animations/A_Idle_Breathing.fbx
+  OK   "1 type_Idle_Playing" 4.00s loop=False legacy=False human=False curves 550 resolved 550 <- Assets/RSG_DogsPack/HDRP/Animations/A_Idle_Playing.fbx
+  PART "1 type_Run Lean Left" 0.40s loop=True legacy=False human=False curves 530 resolved 450 <- Assets/RSG_DogsPack/HDRP/Animations/A_Run_Lean_Left.fbx
+  PART "1 type_Run Lean Right" 0.40s loop=True legacy=False human=False curves 530 resolved 450 <- Assets/RSG_DogsPack/HDRP/Animations/A_Run_Lean_Right.fbx
+  PART "1 type_Run Loop" 0.40s loop=True legacy=False human=False curves 530 resolved 450 <- Assets/RSG_DogsPack/HDRP/Animations/A_Run_Loop.fbx
+  OK   "1 type_Walk_Loop" 0.60s loop=True legacy=False human=False curves 550 resolved 550 <- Assets/RSG_DogsPack/HDRP/Animations/A_Walk.fbx
+  OK   "1 type_Walk_Turn_Left" 0.60s loop=True legacy=False human=False curves 550 resolved 550 <- Assets/RSG_DogsPack/HDRP/Animations/A_Walk_Turn_Left.fbx
+  OK   "1 type_Walk_Turn_Right" 0.60s loop=True legacy=False human=False curves 550 resolved 550 <- Assets/RSG_DogsPack/HDRP/Animations/A_Walk_Turn_Right.fbx
+
+## Assets/Wolf_Animated/Prefabs/Wolf.prefab
+rig: animator=generic avatar=Wolf_walkAvatar optimized=False legacyAnimation=none controller=-
+size at prefab scale: 3.21 x 2.82 x 4.02 m; triangles 3300; skinned 1; renderers 1
+scripts: 
+  material on Wolf 1: Wolf [Legacy Shaders/Bumped Diffuse] _MainTex=Wolf_Albedo(1024) _BumpMap=Wolf_normal(1024)
+clips: own 0, pack library 11
+  OK   "attack1" 1.70s loop=True legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_attack1.FBX
+  OK   "attack2" 2.00s loop=True legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_attack2.FBX
+  OK   "breathes" 1.33s loop=True legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_breathes.FBX
+  OK   "damege" 1.33s loop=True legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_damege.FBX
+  OK   "die" 1.33s loop=False legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_die.FBX
+  OK   "Digs" 2.70s loop=True legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_Digs.FBX
+  OK   "eating" 2.20s loop=True legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_eating.FBX
+  OK   "howl" 2.67s loop=True legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_howl.FBX
+  OK   "run" 3.33s loop=True legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_run.FBX
+  OK   "sit" 3.33s loop=True legacy=False human=False curves 370 resolved 370 rootmove <- Assets/Wolf_Animated/Model/Wolf_sit.FBX
+  OK   "walk" 3.33s loop=True legacy=False human=False curves 360 resolved 360 rootmove <- Assets/Wolf_Animated/Model/Wolf_walk.FBX
+
+## Assets/Fox/Prefabs/Fox.prefab
+rig: animator=generic avatar=FoxAvatar optimized=False legacyAnimation=none controller=Fox_ Animator_Controller
+size at prefab scale: 1.03 x 1.78 x 2.97 m; triangles 3450; skinned 1; renderers 1
+scripts: 
+  material on fox: M_Fox [Standard (Specular setup)] _MainTex=T_Fox_BC(2048) _BumpMap=T_Fox_Normal(2048)
+clips: own 30, pack library 31
+  OK   "Fox_Attack_Paws" 0.67s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Attack_Paws.fbx
+  OK   "Fox_Attack_Tail" 0.80s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Attack_Tail.fbx
+  OK   "Fox_Falling" 0.87s loop=False legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Falling.fbx
+  OK   "Fox_Falling_Left" 1.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Falling_Left.fbx
+  OK   "Fox_Idle" 2.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Idle.fbx
+  OK   "Fox_Jump" 1.20s loop=False legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Jump.fbx
+  OK   "Fox_Jump_InAir" 1.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Jump_InAir.fbx
+  OK   "Fox_Jump_Pivot_InPlace" 1.20s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Jump_Pivot_InPlace.fbx
+  OK   "Fox_Run" 0.50s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Run.fbx
+  OK   "Fox_Run_InPlace" 0.50s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Run_InPlace.fbx
+  OK   "Fox_Run_Left" 0.50s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Run_Left.fbx
+  OK   "Fox_Run_Left_InPlace" 0.50s loop=True legacy=False human=False curves 414 resolved 414 rootmove <- Assets/Fox/Animations/Fox_Run_Left_InPlace.fbx
+  OK   "Fox_Run_Right" 0.50s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Run_Right.fbx
+  OK   "Fox_Run_Right_InPlace" 0.50s loop=True legacy=False human=False curves 414 resolved 414 rootmove <- Assets/Fox/Animations/Fox_Run_Right_InPlace.fbx
+  OK   "Fox_Sit1" 0.53s loop=False legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Sit1.fbx
+  OK   "Fox_Sit2_Idle" 2.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Sit2_Idle.fbx
+  OK   "Fox_Sit3_StandUp" 0.53s loop=False legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Sit3_StandUp.fbx
+  OK   "Fox_Sit_Idle_Break" 2.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Sit_Idle_Break.fbx
+  OK   "Fox_Sit_No" 2.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Sit_No.fbx
+  OK   "Fox_Sit_Yes" 1.27s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Sit_Yes.fbx
+  OK   "Fox_Somersault" 1.00s loop=True legacy=False human=False curves 414 resolved 414 rootmove <- Assets/Fox/Animations/Fox_Somersault.fbx
+  OK   "Fox_Somersault_InPlace" 1.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Somersault_InPlace.fbx
+  OK   "Fox_Walk" 1.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Walk.fbx
+  OK   "Fox_Walk_Back" 1.17s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Walk_Back.fbx
+  OK   "Fox_Walk_Back_InPlace" 1.17s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Walk_Back_InPlace.fbx
+  OK   "Fox_Walk_InPlace" 1.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Walk_InPlace.fbx
+  OK   "Fox_Walk_Left" 1.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Walk_Left.fbx
+  OK   "Fox_Walk_Left_InPlace" 1.00s loop=True legacy=False human=False curves 414 resolved 414 rootmove <- Assets/Fox/Animations/Fox_Walk_Left_InPlace.fbx
+  OK   "Fox_Walk_Right" 1.00s loop=True legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/Animations/Fox_Walk_Right.fbx
+  OK   "Fox_Walk_Right_InPlace" 1.00s loop=True legacy=False human=False curves 414 resolved 414 rootmove <- Assets/Fox/Animations/Fox_Walk_Right_InPlace.fbx
+  OK   "Take 001" 0.07s loop=False legacy=False human=False curves 407 resolved 407 rootmove <- Assets/Fox/FBXs/Fox.fbx
+
+## Assets/Rabbits/Prefabs/Rabbit 1.prefab
+rig: animator=generic avatar=RabbitAvatar optimized=False legacyAnimation=none controller=-
+size at prefab scale: 0.23 x 0.27 x 0.32 m; triangles 3368; skinned 2; renderers 2
+scripts: 
+  material on Rabbit: Rabbit1 [Standard] _MainTex=Rabbit1(512) _BumpMap=Rabbit_Normal(512)
+  material on Rabbit_Eyes: Rabbit_Eyes [Standard] _MainTex=Rabbit1(512)
+clips: own 0, pack library 3
+  OK   "Dead" 1.33s loop=False legacy=False human=False curves 257 resolved 257 rootmove <- Assets/Rabbits/Animations/Rabbit@Dead.fbx
+  OK   "Idle" 0.60s loop=True legacy=False human=False curves 257 resolved 257 rootmove <- Assets/Rabbits/Animations/Rabbit@Idle.fbx
+  OK   "Run" 1.33s loop=True legacy=False human=False curves 257 resolved 257 rootmove <- Assets/Rabbits/Animations/Rabbit@Run.fbx
+
+## Assets/Rabbits/Demo/Prefabs/Demo White Rabbit.prefab
+rig: animator=generic avatar=RabbitAvatar optimized=False legacyAnimation=none controller=DemoAnimator
+size at prefab scale: 0.23 x 0.27 x 0.32 m; triangles 3368; skinned 2; renderers 2
+scripts: AnimatorParamatersChange
+  material on Rabbit: Rabbit1 [Standard] _MainTex=Rabbit1(512) _BumpMap=Rabbit_Normal(512)
+  material on Rabbit_Eyes: Rabbit_Eyes [Standard] _MainTex=Rabbit1(512)
+clips: own 3, pack library 3
+  OK   "Idle" 0.60s loop=True legacy=False human=False curves 257 resolved 257 rootmove <- Assets/Rabbits/Animations/Rabbit@Idle.fbx
+  OK   "Dead" 1.33s loop=False legacy=False human=False curves 257 resolved 257 rootmove <- Assets/Rabbits/Animations/Rabbit@Dead.fbx
+  OK   "Run" 1.33s loop=True legacy=False human=False curves 257 resolved 257 rootmove <- Assets/Rabbits/Animations/Rabbit@Run.fbx
+
+## Assets/living birds/resources/lb_crow.prefab
+rig: animator=generic avatar=crowAvatar optimized=False legacyAnimation=none controller=birdAnimatorController
+size at prefab scale: 0.53 x 0.42 x 0.40 m; triangles 726; skinned 1; renderers 1
+scripts: lb_Bird, lb_CrowProximity
+  material on Crow: crowMaterial [Legacy Shaders/Specular] _MainTex=crowDiffuse(1024)
+clips: own 16, pack library 16
+  OK   "peck" 1.00s loop=False legacy=False human=False curves 457 resolved 457 rootmove <- Assets/living birds/animations/bird@peck.FBX
+  OK   "watch01" 6.67s loop=True legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@watch01.FBX
+  OK   "watch02" 1.50s loop=True legacy=False human=False curves 447 resolved 447 rootmove <- Assets/living birds/animations/bird@watch02.FBX
+  OK   "forwardHop" 0.30s loop=False legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@hopForward.FBX
+  OK   "flyLeft" 0.52s loop=True legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@flyLeft.FBX
+  OK   "flyStraight" 0.53s loop=True legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@flyStraight.FBX
+  OK   "flyRight" 0.52s loop=True legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@flyRight.FBX
+  OK   "hopLeft" 0.30s loop=False legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@hopLeft.FBX
+  OK   "hopRight" 0.30s loop=False legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@hopRight.FBX
+  OK   "landing" 0.53s loop=True legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@landing.FBX
+  OK   "preen" 1.00s loop=False legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@preen.FBX
+  OK   "ruffle" 1.00s loop=False legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@ruffle.FBX
+  OK   "worried" 2.00s loop=False legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@worried.FBX
+  OK   "hopBack" 0.30s loop=False legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@hopBack.FBX
+  OK   "sing" 1.00s loop=True legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@sing.FBX
+  OK   "die" 1.00s loop=False legacy=False human=False curves 617 resolved 617 rootmove <- Assets/living birds/animations/bird@die.FBX
+
+## Assets/living birds/resources/lb_blueJay.prefab
+rig: animator=generic avatar=blueJayAvatar optimized=False legacyAnimation=none controller=birdAnimatorController
+size at prefab scale: 0.35 x 0.27 x 0.26 m; triangles 726; skinned 1; renderers 1
+scripts: lb_Bird
+  material on bluejay: blueJayMaterial [Legacy Shaders/Diffuse] _MainTex=blueJayDIffuse(1024)
+clips: own 16, pack library 16
+  OK   "peck" 1.00s loop=False legacy=False human=False curves 457 resolved 457 rootmove <- Assets/living birds/animations/bird@peck.FBX
+  PART "watch01" 6.67s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@watch01.FBX
+  OK   "watch02" 1.50s loop=True legacy=False human=False curves 447 resolved 447 rootmove <- Assets/living birds/animations/bird@watch02.FBX
+  PART "forwardHop" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopForward.FBX
+  PART "flyLeft" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyLeft.FBX
+  PART "flyStraight" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyStraight.FBX
+  PART "flyRight" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyRight.FBX
+  PART "hopLeft" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopLeft.FBX
+  PART "hopRight" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopRight.FBX
+  PART "landing" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@landing.FBX
+  PART "preen" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@preen.FBX
+  PART "ruffle" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@ruffle.FBX
+  PART "worried" 2.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@worried.FBX
+  PART "hopBack" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopBack.FBX
+  PART "sing" 1.00s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@sing.FBX
+  PART "die" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@die.FBX
+
+## Assets/living birds/resources/lb_cardinal.prefab
+rig: animator=generic avatar=cardinalAvatar optimized=False legacyAnimation=none controller=birdAnimatorController
+size at prefab scale: 0.32 x 0.25 x 0.23 m; triangles 726; skinned 1; renderers 1
+scripts: lb_Bird
+  material on cardinal: cardinalMaterial [Legacy Shaders/Diffuse] _MainTex=cardinalDiffuse(1024)
+clips: own 16, pack library 16
+  OK   "peck" 1.00s loop=False legacy=False human=False curves 457 resolved 457 rootmove <- Assets/living birds/animations/bird@peck.FBX
+  PART "watch01" 6.67s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@watch01.FBX
+  OK   "watch02" 1.50s loop=True legacy=False human=False curves 447 resolved 447 rootmove <- Assets/living birds/animations/bird@watch02.FBX
+  PART "forwardHop" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopForward.FBX
+  PART "flyLeft" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyLeft.FBX
+  PART "flyStraight" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyStraight.FBX
+  PART "flyRight" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyRight.FBX
+  PART "hopLeft" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopLeft.FBX
+  PART "hopRight" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopRight.FBX
+  PART "landing" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@landing.FBX
+  PART "preen" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@preen.FBX
+  PART "ruffle" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@ruffle.FBX
+  PART "worried" 2.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@worried.FBX
+  PART "hopBack" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopBack.FBX
+  PART "sing" 1.00s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@sing.FBX
+  PART "die" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@die.FBX
+
+## Assets/living birds/resources/lb_chickadee.prefab
+rig: animator=generic avatar=littleBirdAvatar optimized=False legacyAnimation=none controller=birdAnimatorController
+size at prefab scale: 0.21 x 0.16 x 0.15 m; triangles 726; skinned 1; renderers 1
+scripts: lb_Bird
+  material on bird: chickadeeMaterial [Legacy Shaders/Diffuse] _MainTex=chickadeeDiffuse(1024)
+clips: own 16, pack library 16
+  OK   "peck" 1.00s loop=False legacy=False human=False curves 457 resolved 457 rootmove <- Assets/living birds/animations/bird@peck.FBX
+  PART "watch01" 6.67s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@watch01.FBX
+  OK   "watch02" 1.50s loop=True legacy=False human=False curves 447 resolved 447 rootmove <- Assets/living birds/animations/bird@watch02.FBX
+  PART "forwardHop" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopForward.FBX
+  PART "flyLeft" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyLeft.FBX
+  PART "flyStraight" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyStraight.FBX
+  PART "flyRight" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyRight.FBX
+  PART "hopLeft" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopLeft.FBX
+  PART "hopRight" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopRight.FBX
+  PART "landing" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@landing.FBX
+  PART "preen" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@preen.FBX
+  PART "ruffle" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@ruffle.FBX
+  PART "worried" 2.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@worried.FBX
+  PART "hopBack" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopBack.FBX
+  PART "sing" 1.00s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@sing.FBX
+  PART "die" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@die.FBX
+
+## Assets/living birds/resources/lb_goldFinch.prefab
+rig: animator=generic avatar=littleBirdAvatar optimized=False legacyAnimation=none controller=birdAnimatorController
+size at prefab scale: 0.21 x 0.16 x 0.15 m; triangles 726; skinned 1; renderers 1
+scripts: lb_Bird
+  material on bird: goldFinchMaterial [Legacy Shaders/Diffuse] _MainTex=goldfinchDiffuse(1024)
+clips: own 16, pack library 16
+  OK   "peck" 1.00s loop=False legacy=False human=False curves 457 resolved 457 rootmove <- Assets/living birds/animations/bird@peck.FBX
+  PART "watch01" 6.67s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@watch01.FBX
+  OK   "watch02" 1.50s loop=True legacy=False human=False curves 447 resolved 447 rootmove <- Assets/living birds/animations/bird@watch02.FBX
+  PART "forwardHop" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopForward.FBX
+  PART "flyLeft" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyLeft.FBX
+  PART "flyStraight" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyStraight.FBX
+  PART "flyRight" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyRight.FBX
+  PART "hopLeft" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopLeft.FBX
+  PART "hopRight" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopRight.FBX
+  PART "landing" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@landing.FBX
+  PART "preen" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@preen.FBX
+  PART "ruffle" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@ruffle.FBX
+  PART "worried" 2.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@worried.FBX
+  PART "hopBack" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopBack.FBX
+  PART "sing" 1.00s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@sing.FBX
+  PART "die" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@die.FBX
+
+## Assets/living birds/resources/lb_robin.prefab
+rig: animator=generic avatar=robinAvatar optimized=False legacyAnimation=none controller=birdAnimatorController
+size at prefab scale: 0.32 x 0.24 x 0.23 m; triangles 726; skinned 1; renderers 1
+scripts: lb_Bird
+  material on Robin: robinMaterial [Legacy Shaders/Diffuse] _MainTex=robinDiffuse(1024)
+clips: own 16, pack library 16
+  OK   "peck" 1.00s loop=False legacy=False human=False curves 457 resolved 457 rootmove <- Assets/living birds/animations/bird@peck.FBX
+  PART "watch01" 6.67s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@watch01.FBX
+  OK   "watch02" 1.50s loop=True legacy=False human=False curves 447 resolved 447 rootmove <- Assets/living birds/animations/bird@watch02.FBX
+  PART "forwardHop" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopForward.FBX
+  PART "flyLeft" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyLeft.FBX
+  PART "flyStraight" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyStraight.FBX
+  PART "flyRight" 0.52s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@flyRight.FBX
+  PART "hopLeft" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopLeft.FBX
+  PART "hopRight" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopRight.FBX
+  PART "landing" 0.53s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@landing.FBX
+  PART "preen" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@preen.FBX
+  PART "ruffle" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@ruffle.FBX
+  PART "worried" 2.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@worried.FBX
+  PART "hopBack" 0.30s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@hopBack.FBX
+  PART "sing" 1.00s loop=True legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@sing.FBX
+  PART "die" 1.00s loop=False legacy=False human=False curves 617 resolved 457 rootmove <- Assets/living birds/animations/bird@die.FBX
+

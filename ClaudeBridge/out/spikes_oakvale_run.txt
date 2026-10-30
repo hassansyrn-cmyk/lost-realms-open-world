@@ -1,0 +1,2 @@
+Spike capture 'oakvale_run' — frames 0..299 — 03:18:44
+300 frames, mean 33.3 ms, worst 39.7 ms, 0 over 45 ms

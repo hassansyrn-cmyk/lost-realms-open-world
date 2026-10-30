@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d1882386a3ff4a179043b1946e09b421
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterOceanAperiodic.hlsl
+  uploadId: 977994

@@ -1,0 +1,77 @@
+log 0006 kit rebuild + rebake starting
+refresh
+call LostRealmsOW.OpenWorldKitPreview.ProbeOrientation Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_01.prefab;Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_tower_round.prefab;Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/wagon.prefab;Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_gate_b.prefab
+exec LostRealmsOW.OpenWorldKitBuilder.Build
+exec LostRealmsOW.OpenWorldKitPreview.RenderArchitecture
+exec LostRealmsOW.OpenWorldKitPreview.RenderRocks
+exec LostRealmsOW.OpenWorldKitPreview.RenderVegetation
+exec LostRealmsOW.OpenWorldRealmBaker.Bake
+log 0006 bake done, entering play mode
+setting runInBackground
+play
+waitplay 25
+timeofday midday clear
+tp 0 -26 0 14
+wait 6
+shot b_hub
+view 7 8.5 -23 -113 16 60
+call LostRealmsOW.OpenWorldHero.DebugAction spell 0
+wait 0.5
+shot b_vfx_spell_ember
+wait 2.5
+call LostRealmsOW.OpenWorldHero.DebugAction burst 1
+wait 0.8
+shot b_vfx_burst_frost
+wait 3
+call LostRealmsOW.OpenWorldHero.DebugAction burst 0
+wait 1.2
+shot b_vfx_burst_ember
+wait 3
+call LostRealmsOW.OpenWorldHero.DebugAction charged 2
+wait 0.25
+shot b_vfx_charged_gale
+follow
+tp 0 -26 0 14
+timeofday golden
+wait 2
+shot b_hub_golden
+timeofday night
+wait 2
+shot b_hub_night
+timeofday midday
+tp -150 222 0 12
+wait 6
+shot b_frostpine
+tp 268 -48 90 12
+wait 6
+shot b_sunspire
+tp -188 -196 225 12
+wait 6
+shot b_graveyard
+tp 210 -236 135 14
+wait 6
+shot b_storm
+tp -150 104 0 12
+wait 6
+shot b_mirrorlake
+tp 292 118 0 12
+wait 6
+shot b_oasis
+tp 40 300 20 10
+wait 6
+shot b_northpass
+tp -40 60 300 10
+wait 6
+shot b_woods
+view 0 360 -600 0 30 60
+wait 4
+shot b_overview
+view -330 220 -360 45 28 60
+wait 3
+shot b_aerial_sw
+view 330 220 330 225 28 60
+wait 3
+shot b_aerial_ne
+follow
+stop
+log 0006 done

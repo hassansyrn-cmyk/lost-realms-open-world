@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 9750755ca42b3194289380c9e0ca60b6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterShowcaseMover.cs
+  uploadId: 977994

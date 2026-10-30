@@ -1,0 +1,7 @@
+refresh
+play
+waitplay 5
+call LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_iron_sword
+wait 3
+shot expansion_weapon_pickups_final ui
+stop

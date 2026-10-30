@@ -1,0 +1,17 @@
+refresh
+play
+waitplay 6
+exec LostRealmsOW.WildlifeExpansionValidation.Verify
+call LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_oakvale_cart
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.ReportExpansion
+shot expansion_oakvale_final ui
+call LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_sunspire_cart
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.ReportExpansion
+shot expansion_sunspire_final ui
+call LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_iron_sword
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.ReportExpansion
+shot expansion_caravan_final ui
+stop

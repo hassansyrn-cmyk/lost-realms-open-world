@@ -1,0 +1,14 @@
+log 0144 GLM: credits verification, HUD-gated
+refresh
+wait 10
+play
+waitplay 10
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+waitfor LostRealmsOW.OpenWorldCreditsRuntime.HudReady 60
+wait 4
+call LostRealmsOW.OpenWorldCreditsRuntime.DebugShow x
+wait 2
+call LostRealmsOW.OpenWorldCreditsRuntime.Validate x
+shot glm5_credits_scroll2 ui
+stop
+log 0144 done

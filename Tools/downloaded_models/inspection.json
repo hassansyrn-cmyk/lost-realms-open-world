@@ -1,0 +1,345 @@
+[
+  {
+    "model": "Civilian",
+    "bounds": [
+      [
+        -97.41266632080078,
+        -22.99690818786621,
+        -1.506032109260559
+      ],
+      [
+        97.1755142211914,
+        20.018850326538086,
+        179.73687744140625
+      ]
+    ],
+    "meshes": [
+      {
+        "name": "civilian 3",
+        "verts": 12601,
+        "tris": 21410,
+        "shape_keys": 0,
+        "materials": [
+          "Body",
+          "Bottom",
+          "Moustache",
+          "Shoes",
+          "Top",
+          "Beard",
+          "Hair"
+        ]
+      }
+    ],
+    "armatures": [
+      {
+        "name": "Armature",
+        "bones": [
+          "mixamorig:Hips",
+          "mixamorig:Spine",
+          "mixamorig:Spine1",
+          "mixamorig:Spine2",
+          "mixamorig:Neck",
+          "mixamorig:Head",
+          "mixamorig:HeadTop_End",
+          "mixamorig:LeftShoulder",
+          "mixamorig:LeftArm",
+          "mixamorig:LeftForeArm",
+          "mixamorig:LeftHand",
+          "mixamorig:LeftHandThumb1",
+          "mixamorig:LeftHandThumb2",
+          "mixamorig:LeftHandThumb3",
+          "mixamorig:LeftHandThumb4",
+          "mixamorig:LeftHandIndex1",
+          "mixamorig:LeftHandIndex2",
+          "mixamorig:LeftHandIndex3",
+          "mixamorig:LeftHandIndex4",
+          "mixamorig:LeftHandMiddle1",
+          "mixamorig:LeftHandMiddle2",
+          "mixamorig:LeftHandMiddle3",
+          "mixamorig:LeftHandMiddle4",
+          "mixamorig:LeftHandRing1",
+          "mixamorig:LeftHandRing2",
+          "mixamorig:LeftHandRing3",
+          "mixamorig:LeftHandRing4",
+          "mixamorig:LeftHandPinky1",
+          "mixamorig:LeftHandPinky2",
+          "mixamorig:LeftHandPinky3",
+          "mixamorig:LeftHandPinky4",
+          "mixamorig:RightShoulder",
+          "mixamorig:RightArm",
+          "mixamorig:RightForeArm",
+          "mixamorig:RightHand",
+          "mixamorig:RightHandThumb1",
+          "mixamorig:RightHandThumb2",
+          "mixamorig:RightHandThumb3",
+          "mixamorig:RightHandThumb4",
+          "mixamorig:RightHandIndex1",
+          "mixamorig:RightHandIndex2",
+          "mixamorig:RightHandIndex3",
+          "mixamorig:RightHandIndex4",
+          "mixamorig:RightHandMiddle1",
+          "mixamorig:RightHandMiddle2",
+          "mixamorig:RightHandMiddle3",
+          "mixamorig:RightHandMiddle4",
+          "mixamorig:RightHandRing1",
+          "mixamorig:RightHandRing2",
+          "mixamorig:RightHandRing3",
+          "mixamorig:RightHandRing4",
+          "mixamorig:RightHandPinky1",
+          "mixamorig:RightHandPinky2",
+          "mixamorig:RightHandPinky3",
+          "mixamorig:RightHandPinky4",
+          "mixamorig:LeftUpLeg",
+          "mixamorig:LeftLeg",
+          "mixamorig:LeftFoot",
+          "mixamorig:LeftToeBase",
+          "mixamorig:LeftToe_End",
+          "mixamorig:RightUpLeg",
+          "mixamorig:RightLeg",
+          "mixamorig:RightFoot",
+          "mixamorig:RightToeBase",
+          "mixamorig:RightToe_End"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Armature|mixamo.com|Layer0",
+        "range": [
+          1.0,
+          2.0
+        ]
+      }
+    ],
+    "images": []
+  },
+  {
+    "model": "Komodo",
+    "bounds": [
+      [
+        -0.3738904595375061,
+        -0.8745650053024292,
+        -0.13513381779193878
+      ],
+      [
+        0.31644412875175476,
+        1.84388267993927,
+        0.5089028477668762
+      ]
+    ],
+    "meshes": [
+      {
+        "name": "Body",
+        "verts": 24007,
+        "tris": 44314,
+        "shape_keys": 191,
+        "materials": [
+          "Body"
+        ]
+      }
+    ],
+    "armatures": [],
+    "actions": [
+      {
+        "name": "Object_0",
+        "range": [
+          1.0,
+          191.0
+        ]
+      }
+    ],
+    "images": [
+      {
+        "name": "Image_0",
+        "size": [
+          4096,
+          4096
+        ]
+      }
+    ]
+  },
+  {
+    "model": "MountainDragon",
+    "bounds": [
+      [
+        -1174.9114990234375,
+        -0.9999999403953552,
+        -422.7740783691406
+      ],
+      [
+        1086.526123046875,
+        2361.661865234375,
+        659.5164794921875
+      ]
+    ],
+    "meshes": [
+      {
+        "name": "Object_107",
+        "verts": 12025,
+        "tris": 19841,
+        "shape_keys": 0,
+        "materials": [
+          "M_MountainDragon"
+        ]
+      },
+      {
+        "name": "Object_108",
+        "verts": 1824,
+        "tris": 619,
+        "shape_keys": 0,
+        "materials": [
+          "M_MountainDragon"
+        ]
+      },
+      {
+        "name": "Icosphere",
+        "verts": 42,
+        "tris": 80,
+        "shape_keys": 0,
+        "materials": []
+      }
+    ],
+    "armatures": [
+      {
+        "name": "GLTF_created_0",
+        "bones": [
+          "GLTF_created_0_rootJoint",
+          "Skeleton_609_rootJoint_7",
+          "root_01_8",
+          "MountainDragon__02_9",
+          "MountainDragon_ Pelvis_03_10",
+          "MountainDragon_ Spine_04_11",
+          "MountainDragon_ Spine1_05_12",
+          "MountainDragon_ Neck_06_13",
+          "MountainDragon_ Neck1_07_14",
+          "MountainDragon_ Neck2_08_15",
+          "MountainDragon_ Neck3_09_16",
+          "MountainDragon_ Head_010_17",
+          "MountainDragon_ Ponytail1_011_18",
+          "MountainDragon_WingR_Arm_012_19",
+          "MountainDragon_WingR_ForeArm_013_20",
+          "MountainDragon_WingR_Hand_014_21",
+          "MountainDragon_WingR_FingerA_1_015_22",
+          "MountainDragon_WingR_FingerA_2_016_23",
+          "MountainDragon_WingR_FingerA_3_017_24",
+          "MountainDragon_WingR_FingerC_1_018_25",
+          "MountainDragon_WingR_FingerC_2_019_26",
+          "MountainDragon_WingR_FingerC_3_020_27",
+          "MountainDragon_WingR_FingerB_1_021_28",
+          "MountainDragon_WingR_FingerB_2_022_29",
+          "MountainDragon_WingR_FingerB_3_023_30",
+          "MountainDragon_WingL_Arm_024_31",
+          "MountainDragon_WingL_ForeArm_025_32",
+          "MountainDragon_WingL_Hand_026_33",
+          "MountainDragon_WingL_FingerA_1_027_34",
+          "MountainDragon_WingL_FingerA_2_028_35",
+          "MountainDragon_WingL_FingerA_3_029_36",
+          "MountainDragon_WingL_FingerB_1_030_37",
+          "MountainDragon_WingL_FingerB_2_031_38",
+          "MountainDragon_WingL_FingerB_3_032_39",
+          "MountainDragon_WingL_FingerC_1_00_40",
+          "MountainDragon_WingL_FingerC_2_033_41",
+          "MountainDragon_WingL_FingerC_3_034_42",
+          "MountainDragon_ R Clavicle_035_43",
+          "MountainDragon_ R UpperArm_036_44",
+          "MountainDragon_ R Forearm_037_45",
+          "MountainDragon_ R Hand_038_46",
+          "MountainDragon_ R Finger0_039_47",
+          "MountainDragon_ R Finger01_040_48",
+          "MountainDragon_ R Finger1_041_49",
+          "MountainDragon_ R Finger11_042_50",
+          "MountainDragon_ R Finger2_043_51",
+          "MountainDragon_ R Finger21_044_52",
+          "MountainDragon_ R Finger3_045_53",
+          "MountainDragon_ R Finger31_046_54",
+          "MountainDragon_ L Clavicle_047_55",
+          "MountainDragon_ L UpperArm_048_56",
+          "MountainDragon_ L Forearm_049_57",
+          "MountainDragon_ L Hand_050_58",
+          "MountainDragon_ L Finger0_051_59",
+          "MountainDragon_ L Finger01_052_60",
+          "MountainDragon_ L Finger1_053_61",
+          "MountainDragon_ L Finger11_054_62",
+          "MountainDragon_ L Finger2_055_63",
+          "MountainDragon_ L Finger21_056_64",
+          "MountainDragon_ L Finger3_057_65",
+          "MountainDragon_ L Finger31_058_66",
+          "MountainDragon_ R Thigh_059_67",
+          "MountainDragon_ R Calf_060_68",
+          "MountainDragon_ R HorseLink_061_69",
+          "MountainDragon_ R Foot_062_70",
+          "MountainDragon_ R Toe0_063_71",
+          "MountainDragon_ R Toe01_064_72",
+          "MountainDragon_ R Toe1_065_73",
+          "MountainDragon_ R Toe11_066_74",
+          "MountainDragon_ R Toe2_067_75",
+          "MountainDragon_ R Toe21_068_76",
+          "MountainDragon_ R Toe3_069_77",
+          "MountainDragon_ R Toe31_070_78",
+          "MountainDragon_ L Thigh_071_79",
+          "MountainDragon_ L Calf_072_80",
+          "MountainDragon_ L HorseLink_073_81",
+          "MountainDragon_ L Foot_074_82",
+          "MountainDragon_ L Toe0_075_83",
+          "MountainDragon_ L Toe01_076_84",
+          "MountainDragon_ L Toe1_077_85",
+          "MountainDragon_ L Toe11_078_86",
+          "MountainDragon_ L Toe2_079_87",
+          "MountainDragon_ L Toe21_080_88",
+          "MountainDragon_ L Toe3_081_89",
+          "MountainDragon_ L Toe31_082_90",
+          "MountainDragon_ Tail_083_91",
+          "MountainDragon_ Tail1_084_92",
+          "MountainDragon_ Tail2_085_93",
+          "MountainDragon_ Tail3_086_94",
+          "MountainDragon_ Tail4_087_95",
+          "MountainDragon_ Tail5_088_96",
+          "MountainDragon_ Tail6_089_97",
+          "MountainDragon_ Tail7_090_98",
+          "MountainDragon_ Tail8_091_99",
+          "MountainDragon_ Tail9_092_100",
+          "MountainDragon_ Tail10_093_101"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Take 001",
+        "range": [
+          0.007914550602436066,
+          2322.407958984375
+        ]
+      }
+    ],
+    "images": [
+      {
+        "name": "Image_0",
+        "size": [
+          4096,
+          4096
+        ]
+      },
+      {
+        "name": "Image_1",
+        "size": [
+          4096,
+          4096
+        ]
+      },
+      {
+        "name": "Image_2",
+        "size": [
+          1024,
+          1024
+        ]
+      },
+      {
+        "name": "Image_3",
+        "size": [
+          4096,
+          4096
+        ]
+      }
+    ]
+  }
+]

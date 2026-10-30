@@ -1,0 +1,6 @@
+refresh
+play
+waitplay 5
+exec LostRealmsOW.GameplayFollowupValidation.Verify
+shot gameplay_whistle ui
+stop

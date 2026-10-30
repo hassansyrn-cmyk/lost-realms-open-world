@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 30a0c851688f1814daca59765bb5a80b
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Scenes/13. Buoyancy StressTest.unity
+  uploadId: 977994

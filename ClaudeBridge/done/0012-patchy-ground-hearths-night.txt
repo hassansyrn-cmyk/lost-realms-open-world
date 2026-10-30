@@ -1,0 +1,47 @@
+log 0012 patchy rock/snow transitions, medium fires at hearths and pits, kit trees in the hub, readable nights
+refresh
+exec LostRealmsOW.OpenWorldRealmBaker.Bake
+log 0012 bake done, entering play mode
+setting runInBackground
+play
+waitplay 25
+timeofday midday clear
+call LostRealmsOW.OpenWorldHero.DebugAction god
+tp 0 -26 0 14
+wait 6
+shot h_hub
+tp -150 222 0 12
+wait 6
+shot h_frostpine
+tp 40 300 20 10
+wait 6
+shot h_northpass
+tp 5.6 -5 0 25
+wait 4
+shot h_hearth
+call LostRealmsOW.OpenWorldRealm.DebugVisitKey fire_bonfire 0 7
+wait 7
+shot h_pit_0
+call LostRealmsOW.OpenWorldRealm.DebugVisitKey fire_bonfire 3 7
+wait 7
+shot h_pit_3
+tp 210 -236 135 14
+wait 6
+shot h_storm
+tp 0 -30 0 2
+wait 4
+shot h_skyline_north
+timeofday night clear
+wait 4
+tp 5.6 -5 0 25
+wait 5
+shot h_hearth_night
+call LostRealmsOW.OpenWorldRealm.DebugVisitKey fire_bonfire 0 7
+wait 7
+shot h_pit_0_night
+tp 0 -26 0 14
+wait 4
+shot h_hub_night
+timeofday midday clear
+stop
+log 0012 done

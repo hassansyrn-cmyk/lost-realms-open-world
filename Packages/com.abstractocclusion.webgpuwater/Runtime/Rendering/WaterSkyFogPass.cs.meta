@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 97fad0e36b27581fc2d3e4f506172839
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Rendering/WaterSkyFogPass.cs
+  uploadId: 977994

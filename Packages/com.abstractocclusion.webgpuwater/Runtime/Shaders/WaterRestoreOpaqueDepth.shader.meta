@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 040f91d91da0479cb1677c8c454df579
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterRestoreOpaqueDepth.shader
+  uploadId: 977994

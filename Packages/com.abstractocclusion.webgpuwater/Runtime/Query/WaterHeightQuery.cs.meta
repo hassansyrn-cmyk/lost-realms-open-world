@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0d573042aa72062498a0e59892ce8601
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Query/WaterHeightQuery.cs
+  uploadId: 977994

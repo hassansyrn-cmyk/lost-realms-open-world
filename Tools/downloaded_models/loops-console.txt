@@ -1,0 +1,10 @@
+21:57:32 | INFO: Data are loaded, start creating Blender stuff
+21:57:32 | INFO: Blender create Mesh node Body
+21:57:32 | INFO: glTF import finished in 0.23s
+21:57:33 | INFO: Data are loaded, start creating Blender stuff
+21:57:33 | INFO: Blender create Mesh node Object_0
+21:57:33 | INFO: Blender create Mesh node Object_1
+21:57:35 | INFO: glTF import finished in 2.48s
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+
+Blender quit

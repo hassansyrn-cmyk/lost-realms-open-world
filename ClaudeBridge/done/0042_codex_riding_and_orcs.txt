@@ -1,0 +1,20 @@
+refresh
+clearconsole
+play
+waitplay 5
+exec LostRealmsOW.WildlifeExpansionValidation.Verify
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Horse
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.PreviewHorse
+wait 1
+exec LostRealmsOW.WildlifeExpansionValidation.Ride
+wait 3
+shot expansion_riding_side ui
+exec LostRealmsOW.WildlifeExpansionValidation.Cleanup
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Hexer
+wait 4
+shot expansion_orc_hexer ui
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Vanguard
+wait 4
+shot expansion_orc_vanguard ui
+stop

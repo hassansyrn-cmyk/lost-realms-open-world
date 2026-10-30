@@ -1,0 +1,33 @@
+refresh
+refresh
+play
+waitplay 5
+exec LostRealmsOW.VerdantSliceValidation.Begin
+shot verdant_tracker_final ui
+exec LostRealmsOW.VerdantSliceValidation.NextTrail
+exec LostRealmsOW.VerdantSliceValidation.NextTrail
+wait 8
+shot verdant_thornhide_day ui
+exec LostRealmsOW.VerdantSliceValidation.FinishHunt
+shot verdant_cooking_prompt ui
+exec LostRealmsOW.VerdantSliceValidation.CookAndReward
+call LostRealmsOW.VerdantSliceValidation.GearPose 0 1
+wait 0.4
+shot verdant_grip_skin0
+call LostRealmsOW.VerdantSliceValidation.GearPose 1 1
+wait 0.4
+shot verdant_grip_skin1
+call LostRealmsOW.VerdantSliceValidation.GearPose 2 1
+wait 0.4
+shot verdant_grip_skin2
+call LostRealmsOW.VerdantSliceValidation.GearPose 3 1
+wait 0.4
+shot verdant_grip_skin3
+call LostRealmsOW.VerdantSliceValidation.GearPose 4 1
+wait 0.4
+shot verdant_grip_skin4
+call LostRealmsOW.VerdantSliceValidation.GearPose 5 1
+wait 0.4
+shot verdant_grip_skin5
+exec LostRealmsOW.VerdantSliceValidation.Cleanup
+stop

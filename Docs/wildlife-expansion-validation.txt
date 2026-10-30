@@ -1,0 +1,1 @@
+PASS: melee deer hunt; collect exactly once; meat/hunted ID JSON snapshot; legacy zero meat; cooking requires/consumes meat; horse mounting; warp releases mount and restores hero controller. Visual riding, terrain collision and long-distance streaming need separate review.

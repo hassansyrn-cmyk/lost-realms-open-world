@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f0c454c0f5ed36b4283016ce60435672
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterOceanSpectrum.cs
+  uploadId: 977994

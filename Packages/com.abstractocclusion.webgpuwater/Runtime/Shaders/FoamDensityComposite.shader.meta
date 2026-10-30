@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 43c2c9eac1fd8d2418977c27cec57916
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/FoamDensityComposite.shader
+  uploadId: 977994

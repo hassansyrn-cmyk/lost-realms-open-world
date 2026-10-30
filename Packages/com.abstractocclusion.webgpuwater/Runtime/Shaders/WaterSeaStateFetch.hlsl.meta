@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c1cf46716a004377b1f2d4f3aa8a126f
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterSeaStateFetch.hlsl
+  uploadId: 977994

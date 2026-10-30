@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 69224ef0d5dd7304284fc7bfd831b1ca
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Tests/Runtime/ExclusionFeatureTests.cs
+  uploadId: 977994

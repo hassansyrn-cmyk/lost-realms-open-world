@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f0b02b1b981f5db4083010ffcceb9805
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterInputRouter.cs
+  uploadId: 977994

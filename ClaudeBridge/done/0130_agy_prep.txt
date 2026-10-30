@@ -1,0 +1,6 @@
+log 0130 Antigravity: re-run ClaudeAnimalPrep on new stance-locked horse
+refresh
+wait 6
+call LostRealmsOW.ClaudeAnimalPrep.Run
+wait 4
+log 0130 prep done

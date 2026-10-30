@@ -1,0 +1,13 @@
+log 0141 GLM: credits final visual check (plain text body) + QA report regen
+refresh
+wait 10
+play
+waitplay 10
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+wait 5
+call LostRealmsOW.GlmQuests.DebugCredits x
+wait 2
+shot glm5_credits6 ui
+call LostRealmsOW.GlmQuests.DebugClose x
+stop
+log 0141 done

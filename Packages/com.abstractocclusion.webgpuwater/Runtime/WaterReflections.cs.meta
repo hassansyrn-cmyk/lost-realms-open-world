@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 365fb39120e20e54db26532f1290fc03
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterReflections.cs
+  uploadId: 977994

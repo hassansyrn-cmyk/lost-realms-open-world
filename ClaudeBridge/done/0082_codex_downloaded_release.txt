@@ -1,0 +1,11 @@
+refresh
+play
+waitplay 7
+exec LostRealmsOW.DownloadedActorValidation.Begin
+call LostRealmsOW.DownloadedActorValidation.Travel Komodo
+wait 6
+exec LostRealmsOW.DownloadedActorValidation.Hunt
+wait 2
+exec LostRealmsOW.DownloadedActorValidation.Streaming
+exec LostRealmsOW.DownloadedActorValidation.Cleanup
+stop

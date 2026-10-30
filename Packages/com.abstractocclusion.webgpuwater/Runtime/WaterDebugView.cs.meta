@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 7eb9d5ff936dc3d4d8ed8d039315f50f
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterDebugView.cs
+  uploadId: 977994

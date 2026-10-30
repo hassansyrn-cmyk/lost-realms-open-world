@@ -1,0 +1,12 @@
+refresh
+wait 5
+refresh
+wait 5
+play
+waitplay 8
+exec LostRealmsOW.VerdantExperienceValidation.Begin
+exec LostRealmsOW.VerdantExperienceValidation.Experience
+waitfor !LostRealmsOW.VerdantExperienceValidation.Busy 45
+exec LostRealmsOW.VerdantExperienceValidation.AudioAndTargets
+exec LostRealmsOW.VerdantExperienceValidation.Cleanup
+stop

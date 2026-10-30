@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 58e363bcc6a3e6b418172a2e52301f43
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Scenes/16. Chunkdemo.unity
+  uploadId: 977994

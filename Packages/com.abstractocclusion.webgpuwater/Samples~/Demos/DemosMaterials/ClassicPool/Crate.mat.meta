@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 08426aeecc0e60540a475ff715495eb7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/ClassicPool/Crate.mat
+  uploadId: 977994

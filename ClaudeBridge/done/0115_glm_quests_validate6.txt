@@ -1,0 +1,28 @@
+log 0115 GLM: quest validation take 6 (wraith defeat observation + greeting-tolerant rewards)
+refresh
+wait 3
+play
+waitplay 10
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+call LostRealmsOW.GlmQuestValidation.BeginAll
+call LostRealmsOW.GlmQuestValidation.SledAccept
+wait 5
+call LostRealmsOW.GlmQuestValidation.SledFight
+waitfor !LostRealmsOW.GlmQuestValidation.Busy 40
+call LostRealmsOW.GlmQuestValidation.SledDeliver
+waitfor !LostRealmsOW.GlmQuestValidation.Busy 30
+call LostRealmsOW.GlmQuestValidation.BrazierRun
+call LostRealmsOW.GlmQuestValidation.LanternRun
+waitfor !LostRealmsOW.GlmQuestValidation.Busy 40
+shot glmq_lantern_night ui
+call LostRealmsOW.GlmQuestValidation.RodRun
+waitfor !LostRealmsOW.GlmQuestValidation.Busy 40
+shot glmq_rods_storm ui
+call LostRealmsOW.GlmQuestValidation.BoardRun
+waitfor !LostRealmsOW.GlmQuestValidation.Busy 20
+shot glmq_board ui
+call LostRealmsOW.GlmQuestValidation.SaveCheck
+call LostRealmsOW.GlmQuestValidation.Cleanup
+stop
+log 0115 done

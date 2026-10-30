@@ -1,0 +1,8 @@
+refresh
+wait 8
+play
+waitplay 8
+exec LostRealmsOW.CombatAwarenessValidation.Begin
+waitfor !LostRealmsOW.CombatAwarenessValidation.Busy 25
+exec LostRealmsOW.CombatAwarenessValidation.Cleanup
+stop

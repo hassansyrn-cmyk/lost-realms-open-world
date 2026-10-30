@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a0ca45ab4e715b24ca151db7ad3c05b9
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Scenes/15. Boat demo.unity
+  uploadId: 977994

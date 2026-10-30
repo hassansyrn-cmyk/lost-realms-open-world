@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8baf258fba6e4b85b95a1a5ee75823f6
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Rendering/WaterExclusionDepthFeature.cs
+  uploadId: 977994

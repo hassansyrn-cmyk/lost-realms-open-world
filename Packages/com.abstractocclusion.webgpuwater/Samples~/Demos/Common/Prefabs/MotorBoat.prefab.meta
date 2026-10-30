@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 168f5f7c5b0345549b2703bbd9e9e6d3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Common/Prefabs/MotorBoat.prefab
+  uploadId: 977994

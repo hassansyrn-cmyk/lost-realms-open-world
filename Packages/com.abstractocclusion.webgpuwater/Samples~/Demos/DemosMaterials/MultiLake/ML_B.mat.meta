@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 99eb3c94d191ab44fbb8601b8536eb3d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/MultiLake/ML_B.mat
+  uploadId: 977994

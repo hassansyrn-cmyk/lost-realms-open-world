@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b7389b27b6e2f44a8dc405111db89ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Common/Assets/Materials/FoamDroplet.mat
+  uploadId: 977994

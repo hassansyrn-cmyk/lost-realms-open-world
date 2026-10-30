@@ -1,0 +1,27 @@
+refresh
+play
+wait 2.0
+exec LostRealmsOW.LegendsUIValidation.RunFromBridge
+exec LostRealmsOW.WildlifeExpansionValidation.Verify
+wait 0.5
+exec LostRealmsOW.WildlifeExpansionValidation.PreviewHorse
+wait 0.3
+exec LostRealmsOW.WildlifeExpansionValidation.Ride
+wait 0.4
+exec LostRealmsOW.OpenWorldSoundscape.DebugReport mounted_ride
+shot exp_horse_riding ui
+exec LostRealmsOW.WildlifeExpansionValidation.Cleanup
+wait 0.4
+tp 3 0 -3 16 14 11
+wait 0.9
+shot exp_hub_landmarks ui
+exec LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_oakvale_cart
+wait 0.8
+shot exp_oakvale_props ui
+exec LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_orc_warrior
+wait 0.8
+shot exp_orc_warrior ui
+exec LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_iron_sword
+wait 0.8
+shot exp_medieval_weapons ui
+stop

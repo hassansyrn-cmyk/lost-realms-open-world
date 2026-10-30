@@ -1,0 +1,11 @@
+log 0059 Claude: Fusion check after the Unity restart (setup report, then Play mode without the old Photon popup)
+refresh
+wait 5
+exec LostRealmsOW.ClaudePhotonSwitch.CheckFusion
+wait 2
+play
+waitplay 45
+wait 8
+stop
+wait 3
+log 0059 done

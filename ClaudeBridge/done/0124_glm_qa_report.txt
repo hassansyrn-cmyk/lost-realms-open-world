@@ -1,0 +1,3 @@
+log 0124 GLM: regenerate QA report with the Phase 3 rerun table
+exec LostRealmsOW.GlmQaSuite.WriteReport
+log 0124 done

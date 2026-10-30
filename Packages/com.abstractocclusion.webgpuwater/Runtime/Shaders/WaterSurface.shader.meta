@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ade3013e5124d694a90e4273d5c4c938
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterSurface.shader
+  uploadId: 977994

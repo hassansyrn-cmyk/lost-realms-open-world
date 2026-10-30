@@ -1,0 +1,22 @@
+== Idyllic Fantasy Nature/Water path=Assets/Idyllic Fantasy Nature/Shader/Water.shadergraph
+   _Refraction_Normal (Texture, "Refraction Normal") = 
+   _Second_Refraction_Normal (Texture, "Second Refraction Normal") = 
+   _Refraction_Strength (Range, "Refraction Strength") = 
+   _Refraction_Scale (Vector, "Refraction Scale") = 
+   _Normal_Strength (Range, "Normal Strength") = 
+   _Water_Speed (Range, "Water Speed") = 
+   _Shallow_Color (Color, "Shallow Color") = 
+   _Deep_Color (Color, "Deep Color") = 
+   _Depth_Distance (Range, "Depth Distance") = 
+   _Coast_Opacity (Range, "Coast Opacity") = 
+   _Smoothness (Range, "Smoothness") = 
+   _Foam_Amount (Range, "Foam Amount") = 
+   _Foam_Color (Color, "Foam Color") = 
+   _Foam_Density (Range, "Foam Density") = 
+   _Foam_Scale (Vector, "Foam Scale") = 
+   _QueueOffset (Float, "_QueueOffset") = 
+   _QueueControl (Float, "_QueueControl") = 
+   _XRMotionVectorsPass (Float, "_XRMotionVectorsPass") = 
+   unity_Lightmaps (Texture, "unity_Lightmaps") = 
+   unity_LightmapsInd (Texture, "unity_LightmapsInd") = 
+   unity_ShadowMasks (Texture, "unity_ShadowMasks") = 

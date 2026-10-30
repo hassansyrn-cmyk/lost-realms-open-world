@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1568fa3345de1564a90ca9e8445f52b0
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterWaterline.hlsl
+  uploadId: 977994

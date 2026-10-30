@@ -1,0 +1,12 @@
+refresh
+wait 30
+refresh
+play
+waitplay 6
+exec LostRealmsOW.VerdantExperienceValidation.Begin
+call LostRealmsOW.VerdantExperienceValidation.Combat before
+waitfor !LostRealmsOW.VerdantExperienceValidation.Busy 30
+shot codexpass_combat_before
+exec LostRealmsOW.VerdantExperienceValidation.Cleanup
+stop
+

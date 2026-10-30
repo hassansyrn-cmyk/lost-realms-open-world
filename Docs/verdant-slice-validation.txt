@@ -1,0 +1,9 @@
+PASS: forward melee, committed facing/back dodge, wall occlusion, fixed AoE mark, delayed lunge impact, stun cancellation, parry and dodge invulnerability, length-axis weapon grip.
+PASS: accept, two tracks, prepared bear spawn, real quarry defeat/meat, correct-fire cooking/cost, saved quest flags, one-time gold/gem/weapon reward.
+PASS: forward melee, committed facing/back dodge, wall occlusion, fixed AoE mark, delayed lunge impact, stun cancellation, parry and dodge invulnerability, length-axis weapon grip.
+PASS: accept, two tracks, prepared bear spawn, real quarry defeat/meat, correct-fire cooking/cost, saved quest flags, one-time gold/gem/weapon reward.
+PASS: 108 weapon/skin combinations loaded with finite plausible bounds. Captured all six skins with Dueling Blade for visual review; this bounds check is not proof of every grip pose.
+PASS: forward melee, committed facing/back dodge, wall occlusion, fixed AoE mark, delayed lunge impact, stun cancellation, parry and dodge invulnerability, length-axis weapon grip.
+PASS: accept, two tracks, prepared bear spawn, real quarry defeat/meat, correct-fire cooking/cost, saved quest flags, one-time gold/gem/weapon reward.
+PASS: accept, two tracks, prepared bear spawn, real quarry defeat/meat, correct-fire cooking/cost, saved quest flags, one-time gold/gem/weapon reward.
+PASS: near-wall camera resolver respects lens clearance instead of forcing the old 0.35 m minimum.

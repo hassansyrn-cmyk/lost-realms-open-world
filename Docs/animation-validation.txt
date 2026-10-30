@@ -1,0 +1,1 @@
+PASS: Nine humanoid motions, event-free clips, zero RootT keys, jump pose survives takeoff, imported elf idle/talk foot placement within tolerance. Rendered scene test; other species and combat contacts require motion review.

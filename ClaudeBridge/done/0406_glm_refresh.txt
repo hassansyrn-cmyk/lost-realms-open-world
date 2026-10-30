@@ -1,0 +1,4 @@
+log 0406 GLM: final refresh — discoveries code compiled clean standalone
+refresh
+wait 10
+log 0406 done

@@ -1,0 +1,11 @@
+log 0061 Claude: console capture check after re-arming the log listener on Play-mode changes
+refresh
+wait 4
+exec LostRealmsOW.ClaudeBridge.Probe
+play
+waitplay 20
+exec LostRealmsOW.ClaudeBridge.Probe
+stop
+wait 3
+exec LostRealmsOW.ClaudeBridge.Probe
+log 0061 done

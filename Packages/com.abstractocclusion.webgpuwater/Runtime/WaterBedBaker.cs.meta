@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 635fbc3f7475f0f45b376bcdbf44f3d9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterBedBaker.cs
+  uploadId: 977994

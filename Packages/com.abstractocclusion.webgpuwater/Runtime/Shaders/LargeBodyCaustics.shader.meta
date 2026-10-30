@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 20ef2245624802e47920d7462ca2609d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/LargeBodyCaustics.shader
+  uploadId: 977994

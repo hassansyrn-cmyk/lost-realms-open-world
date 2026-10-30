@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f71b436d8fd416f4da545718126774dd
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Rendering/WaterPassCameraGate.cs
+  uploadId: 977994

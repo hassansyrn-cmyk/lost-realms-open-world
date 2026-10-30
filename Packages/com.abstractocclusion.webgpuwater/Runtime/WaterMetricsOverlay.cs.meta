@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f28367324cae33046bb9e08a7b6888b9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterMetricsOverlay.cs
+  uploadId: 977994

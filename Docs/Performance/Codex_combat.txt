@@ -1,0 +1,150 @@
+before weapon=0 first impact=0.279s damage=1.24 movement cancel=0.421s chain=0.281s
+PASS: scheduled real weapon hit landed (0)
+before weapon=2 first impact=0.319s damage=1.83 movement cancel=0.552s chain=0.412s
+PASS: scheduled real weapon hit landed (2)
+before weapon=5 first impact=0.235s damage=1.39 movement cancel=0.474s chain=0.334s
+PASS: scheduled real weapon hit landed (5)
+after weapon=0 first impact=0.330s damage=1.24 movement cancel=0.341s chain=0.281s
+PASS: scheduled real weapon hit landed (0)
+after weapon=2 first impact=0.333s damage=1.83 movement cancel=0.532s chain=0.412s
+PASS: scheduled real weapon hit landed (2)
+after weapon=5 first impact=0.256s damage=1.39 movement cancel=0.394s chain=0.334s
+PASS: scheduled real weapon hit landed (5)
+PASS: three deliberate discoveries placed
+PASS: field note read and retained in journal
+PASS: hidden cache pays exactly once
+PASS: optional camp creates encounter only on investigation
+PASS: optional encounter clears and awards reward
+PASS: cleared optional encounter cannot restart
+PASS: actual NPC dialogue captured
+PASS: main/side tracking resolves distinct objectives
+PASS: journal objective readable: main
+PASS: journal objective readable: hunt
+PASS: journal objective readable: sled
+PASS: journal objective readable: braziers
+PASS: journal objective readable: lanterns
+PASS: journal objective readable: rods
+PASS: journal pauses gameplay and owns modal input
+PASS: closing journal restores gameplay
+PASS: disk round-trip preserves tracking, dialogue and discoveries
+PASS: dialogue history remains bounded at 32 entries
+PASS: solid cover prevents weapon damage
+PASS: unobstructed melee connects
+PASS: successive light hits cannot permanently restart stagger
+PASS: heavy attack still breaks windup
+PASS: stacked camera shake is capped
+PASS: early attack press survives long windup
+PASS: three deliberate discoveries placed
+PASS: field note read and retained in journal
+PASS: hidden cache pays exactly once
+PASS: optional camp creates encounter only on investigation
+PASS: optional encounter clears and awards reward
+PASS: cleared optional encounter cannot restart
+PASS: actual NPC dialogue captured
+PASS: main/side tracking resolves distinct objectives
+PASS: journal objective readable: main
+PASS: journal objective readable: hunt
+PASS: journal objective readable: sled
+PASS: journal objective readable: braziers
+PASS: journal objective readable: lanterns
+PASS: journal objective readable: rods
+PASS: journal pauses gameplay and owns modal input
+PASS: closing journal restores gameplay
+PASS: disk round-trip preserves tracking, dialogue and discoveries
+PASS: dialogue history remains bounded at 32 entries
+PASS: solid cover prevents weapon damage
+PASS: unobstructed melee connects
+PASS: successive light hits cannot permanently restart stagger
+PASS: heavy attack still breaks windup
+PASS: stacked camera shake is capped
+PASS: early attack press survives long windup
+LIVE AI SPAR: 22s; warnings=8, parry requests=3, dodge requests=3, hero minimum HP=3.56/5.00, opponent HP=31.37/60.00. Scripted real controllers, not human difficulty certification.
+PASS: live AI delivers readable repeated warnings while attack/parry/dodge loop remains playable
+PASS: three deliberate discoveries placed
+PASS: field note read and retained in journal
+PASS: hidden cache pays exactly once
+PASS: optional camp creates encounter only on investigation
+PASS: optional encounter clears and awards reward
+PASS: cleared optional encounter cannot restart
+PASS: actual NPC dialogue captured
+PASS: main/side tracking resolves distinct objectives
+PASS: journal objective readable: main
+PASS: journal objective readable: hunt
+PASS: journal objective readable: sled
+PASS: journal objective readable: braziers
+PASS: journal objective readable: lanterns
+PASS: journal objective readable: rods
+PASS: journal pauses gameplay and owns modal input
+PASS: closing journal restores gameplay
+PASS: disk round-trip preserves tracking, dialogue and discoveries
+PASS: dialogue history remains bounded at 32 entries
+PASS: solid cover prevents weapon damage
+PASS: unobstructed melee connects
+PASS: successive light hits cannot permanently restart stagger
+PASS: heavy attack still breaks windup
+PASS: stacked camera shake is capped
+PASS: early attack press survives long windup
+PASS: audio source budget remains eight voices
+PASS: hit impact can replace a saturated low-priority sound pool
+PASS: normal sound playback resets pitch
+PASS: main tracking stays explicit with an active hunt
+Discovery 0 actual=(74.32, 6.37, 27.73) grass=0
+Discovery 1 actual=(81.70, 5.34, 36.92) grass=2
+Discovery 2 actual=(98.76, 6.77, 25.17) grass=3
+PASS: three deliberate discoveries placed
+PASS: field note read and retained in journal
+PASS: hidden cache pays exactly once
+PASS: optional camp creates encounter only on investigation
+PASS: optional encounter clears and awards reward
+PASS: cleared optional encounter cannot restart
+PASS: audio source budget remains eight voices
+PASS: hit impact can replace a saturated low-priority sound pool
+PASS: normal sound playback resets pitch
+PASS: main tracking stays explicit with an active hunt
+PASS: atlas marker follows selected main objective instead of active hunt
+CHECK: atlas override executed for explicitly selected main story. No auditory quality/listening claim.
+Discovery 0 actual=(74.32, 6.37, 27.73) grass=0
+Discovery 1 actual=(81.70, 5.34, 36.92) grass=2
+Discovery 2 actual=(98.76, 6.77, 25.17) grass=3
+PASS: three deliberate discoveries placed
+PASS: field note read and retained in journal
+PASS: hidden cache pays exactly once
+PASS: optional camp creates encounter only on investigation
+PASS: optional encounter clears and awards reward
+PASS: cleared optional encounter cannot restart
+PASS: actual NPC dialogue captured
+PASS: main/side tracking resolves distinct objectives
+PASS: journal objective readable: main
+PASS: journal objective readable: hunt
+PASS: journal objective readable: sled
+PASS: journal objective readable: braziers
+PASS: journal objective readable: lanterns
+PASS: journal objective readable: rods
+PASS: journal pauses gameplay and owns modal input
+PASS: closing journal restores gameplay
+PASS: disk round-trip preserves tracking, dialogue and discoveries
+PASS: dialogue history remains bounded at 32 entries
+PASS: solid cover prevents weapon damage
+PASS: unobstructed melee connects
+PASS: successive light hits cannot permanently restart stagger
+PASS: heavy attack still breaks windup
+PASS: stacked camera shake is capped
+PASS: early attack press survives long windup
+PASS: audio source budget remains eight voices
+PASS: hit impact can replace a saturated low-priority sound pool
+PASS: normal sound playback resets pitch
+PASS: main tracking stays explicit with an active hunt
+PASS: atlas marker follows selected main objective instead of active hunt
+CHECK: atlas override executed for explicitly selected main story. No auditory quality/listening claim.
+Discovery 0 actual=(74.32, 6.37, 27.73) grass=0
+Discovery 1 actual=(81.70, 5.34, 36.92) grass=2
+Discovery 2 actual=(98.76, 6.77, 25.17) grass=3
+Discovery 0 actual=(74.32, 6.37, 27.73) grass=0
+Discovery 1 actual=(81.70, 5.34, 36.92) grass=2
+Discovery 2 actual=(98.76, 6.77, 25.17) grass=3
+Discovery 0 actual=(74.32, 6.37, 27.73) grass=0
+Discovery 1 actual=(81.70, 5.34, 36.92) grass=2
+Discovery 2 actual=(98.76, 6.77, 25.17) grass=3
+Discovery 0 actual=(74.32, 6.37, 27.73) grass=0
+Discovery 1 actual=(81.70, 5.34, 36.92) grass=2
+Discovery 2 actual=(98.76, 6.77, 25.17) grass=3

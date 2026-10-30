@@ -1,0 +1,17 @@
+refresh
+play
+waitplay 5
+exec LostRealmsOW.VerdantSliceValidation.Begin
+exec LostRealmsOW.VerdantSliceValidation.VerifyCombat
+shot verdant_tracks_final ui
+exec LostRealmsOW.VerdantSliceValidation.NextTrail
+wait 1
+exec LostRealmsOW.VerdantSliceValidation.NextTrail
+wait 8
+shot verdant_quarry_final ui
+exec LostRealmsOW.VerdantSliceValidation.FinishHunt
+wait 1
+shot verdant_campfire_final ui
+exec LostRealmsOW.VerdantSliceValidation.CookAndReward
+exec LostRealmsOW.VerdantSliceValidation.Cleanup
+stop

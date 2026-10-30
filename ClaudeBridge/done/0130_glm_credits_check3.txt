@@ -1,0 +1,12 @@
+log 0130 GLM: credits visual check via GlmQuests helper
+refresh
+wait 10
+play
+waitplay 10
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+wait 5
+call LostRealmsOW.GlmQuests.DebugCredits x
+wait 2
+shot glm5_credits3 ui
+stop
+log 0130 done

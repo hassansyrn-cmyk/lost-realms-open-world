@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 30e6dfc2170e4a1e9e7abfc620e87935
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterRiverCurrentFieldEditor.cs
+  uploadId: 977994

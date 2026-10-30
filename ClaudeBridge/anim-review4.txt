@@ -1,0 +1,30 @@
+@frames 12
+@tile 130
+@rows 6
+dbg_burst_baked | Assets/Resources/Animations/Aster/burst.anim | |
+dbg_cast_asset | Assets/Resources/Animations/Aster/cast.anim | |
+dbg_cast_fbx | Assets/Art/Animations/AsterMixamo/Aster_Take_Cast.fbx | |
+ex2h_a2 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack2.FBX | | height ref=first
+ex2h_a4 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack4.FBX | | height ref=first
+ex2h_a6 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack6.FBX | | height ref=first
+ex2h_a7 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack7.FBX | | height ref=first
+ex2h_a8 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack8.FBX | | height ref=first
+ex2h_a10 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack10.FBX | | height ref=first
+ex2h_a11 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack11.FBX | | height ref=first
+ex2h_flip | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Jump-Flip.FBX | | height ref=first
+bl_buff | Assets/Blink/Art/Animations/Combat/Buff.fbx | | height ref=first
+bl_melee2h | Assets/Blink/Art/Animations/Combat/MeeleeAttack_TwoHanded.fbx | | height ref=first
+dl_action_4_1 | Assets/DoubleL/FBX Unity/Actions/Action/Action_A_4_1.fbx | | height ref=first
+dl_action_5_1 | Assets/DoubleL/FBX Unity/Actions/Action/Action_A_5_1.fbx | | height ref=first
+dl_action_5_2 | Assets/DoubleL/FBX Unity/Actions/Action/Action_A_5_2.fbx | | height ref=first
+fm_knockdown | Assets/FightingMotionsVolume1/FBX/knockdown_A.fbx | | height ref=first
+fm_knockdown_loop | Assets/FightingMotionsVolume1/FBX/knockdown_loop_A.fbx | | height ref=idle=Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+fm_getup | Assets/FightingMotionsVolume1/FBX/getup_A.fbx | | height ref=last
+ex2h_knockdown | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Knockdown1.FBX | | height ref=first
+ex2h_getup | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Getup1.FBX | | height ref=last
+ex2h_knockback | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Knockback-Back1.FBX | | height ref=first
+dl_ladder_idle | Assets/DoubleL/FBX Unity/Actions/Ladder/Ladder_Idle.fbx | |
+dl_ladder_up | Assets/DoubleL/FBX Unity/Actions/Ladder/Ladder_Up_Play.fbx | |
+dl_ladder_down | Assets/DoubleL/FBX Unity/Actions/Ladder/Ladder_Down_Play.fbx | |
+dl_ladder_upend | Assets/DoubleL/FBX Unity/Actions/Ladder/Ladder_Up_End.fbx | | keepY
+dl_ladder_upstart | Assets/DoubleL/FBX Unity/Actions/Ladder/Ladder_Up_Start.fbx | | keepY

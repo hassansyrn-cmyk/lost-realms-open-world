@@ -1,0 +1,4 @@
+post-processing data assigned: yes
+SSAO renderer feature added
+pipeline: opaque texture, HDR, soft shadows, 3 cascades, HDR grading
+sky material ready

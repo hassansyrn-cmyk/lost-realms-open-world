@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0adf1b8e58a327542973645000394b0a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Scenes/1. Classic Pool.unity
+  uploadId: 977994

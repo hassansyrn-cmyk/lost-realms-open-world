@@ -1,0 +1,27 @@
+log 0017 graphics tier and capture path check (snow highlights)
+refresh
+setting runInBackground
+play
+waitplay 25
+timeofday midday clear
+call LostRealmsOW.OpenWorldHero.DebugAction god
+exec LostRealmsOW.OpenWorldGraphics.DebugReport
+tp -60 300 10 2
+wait 7
+shot m_frost_rt
+shot m_frost_ui ui
+wait 3
+call LostRealmsOW.OpenWorldGraphics.DebugTier Ultra
+wait 4
+shot m_frost_ultra_rt
+shot m_frost_ultra_ui ui
+wait 3
+call LostRealmsOW.OpenWorldGraphics.DebugTier Balanced
+wait 4
+shot m_frost_balanced_rt
+shot m_frost_balanced_ui ui
+wait 3
+call LostRealmsOW.OpenWorldGraphics.DebugTier High
+wait 2
+stop
+log 0017 done

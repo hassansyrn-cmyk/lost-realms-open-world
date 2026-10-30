@@ -1,0 +1,3 @@
+log 0083 Claude: horse review postponed
+log 0083 Play mode is blocked by a compile error in Assets/Editor/GlmQaSuite.cs (UnityStats.batches), so this job ends here to keep the queue free
+log 0083 will be re-queued with a higher number once the project compiles

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3a68a37ed412da04b9c6d6b797d389aa
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Tests/README.md
+  uploadId: 977994

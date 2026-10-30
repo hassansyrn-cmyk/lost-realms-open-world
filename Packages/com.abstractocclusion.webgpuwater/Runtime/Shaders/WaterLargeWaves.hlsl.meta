@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7c72eea9e3fd861489fa62c0c6fcf08d
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterLargeWaves.hlsl
+  uploadId: 977994

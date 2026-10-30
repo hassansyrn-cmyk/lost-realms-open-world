@@ -1,0 +1,46 @@
+Downloaded actor validation 10/29/2026 10:11:03 PM
+PASS: Civilian prepared prefab exists
+PASS: Civilian animator exists
+PASS: Civilian Idle bone motion=14.17407
+PASS: Civilian Idle has no inherited gameplay events
+PASS: Civilian Walk bone motion=53.81982
+PASS: Civilian Walk has no inherited gameplay events
+PASS: Civilian Talk bone motion=66.92088
+PASS: Civilian Talk has no inherited gameplay events
+PASS: Civilian URP materials valid
+PASS: Komodo prepared prefab exists
+PASS: Komodo animator exists
+PASS: Komodo Idle morph motion delta=5.688812E-07
+PASS: Komodo Idle has no inherited gameplay events
+PASS: Komodo Walk morph motion delta=0.3121032
+PASS: Komodo Walk has no inherited gameplay events
+PASS: Komodo URP materials valid
+PASS: MountainDragon prepared prefab exists
+PASS: MountainDragon animator exists
+PASS: MountainDragon Flight bone motion=51.23284
+PASS: MountainDragon Flight has no inherited gameplay events
+PASS: MountainDragon URP materials valid
+PASS: Civilian spawned at intended region
+PASS: Civilian finite world bounds (1.85, 1.83, 0.85)
+Civilian actual position=(91.00, 7.21, -0.57) lowest renderer=7.006466 terrain=7.211134
+Human Head=(91.00, 8.59, -0.57) feet=(91.13, 7.29, -0.61),(90.89, 7.29, -0.45) model=(91.00, 8.09, -0.56)
+PASS: civilian planted foot clearance=0.07499981
+PASS: Civilian spawned at intended region
+PASS: Civilian finite world bounds (1.84, 1.86, 0.88)
+Civilian actual position=(91.00, 7.21, -0.57) lowest renderer=6.992172 terrain=7.211134
+Human Head=(91.00, 8.59, -0.57) feet=(91.10, 7.29, -0.53),(90.89, 7.29, -0.46) model=(91.00, 8.09, -0.56)
+PASS: civilian planted foot clearance=0.07499981
+PASS: Komodo spawned at intended region
+PASS: Komodo finite world bounds (1.52, 0.69, 2.91)
+Komodo actual position=(318.71, 11.90, 150.59) lowest renderer=11.75549 terrain=11.88219
+PASS: Komodo available for hunting
+PASS: real animal strike defeats Komodo
+PASS: Komodo collection adds two meat and saved ID
+PASS: Komodo cannot be collected twice
+PASS: MountainDragon spawned at intended region
+PASS: MountainDragon finite world bounds (10.39, 7.04, 11.76)
+MountainDragon actual position=(8.64, 75.96, 426.97) lowest renderer=75.49296 terrain=50.16261
+PASS: Komodo despawns beyond its streaming radius
+PASS: civilian unregisters beyond streaming radius
+PASS: Komodo despawns beyond its streaming radius
+PASS: civilian unregisters beyond streaming radius

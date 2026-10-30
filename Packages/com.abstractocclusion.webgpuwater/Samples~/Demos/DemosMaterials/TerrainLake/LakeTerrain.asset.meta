@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5f081ebf8a193de4ca1a3f824ef48e9c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 15600000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/TerrainLake/LakeTerrain.asset
+  uploadId: 977994

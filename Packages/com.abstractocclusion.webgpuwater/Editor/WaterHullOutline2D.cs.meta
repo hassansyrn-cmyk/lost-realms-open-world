@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4f7ccc0f7a524ac4a9e634b681781b51
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterHullOutline2D.cs
+  uploadId: 977994

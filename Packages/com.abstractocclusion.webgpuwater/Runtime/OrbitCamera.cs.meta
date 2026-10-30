@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: db95254d7fef3c3479d701adbd938abb
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/OrbitCamera.cs
+  uploadId: 977994

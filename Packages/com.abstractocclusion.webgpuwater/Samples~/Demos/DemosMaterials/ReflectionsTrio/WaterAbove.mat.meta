@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 96201f42862d7ea4f94cc3fe709fc52c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/ReflectionsTrio/WaterAbove.mat
+  uploadId: 977994

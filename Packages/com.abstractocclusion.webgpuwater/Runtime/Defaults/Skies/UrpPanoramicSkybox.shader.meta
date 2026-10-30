@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 914e7f5439174ce7b5ccaaa5bde56922
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Defaults/Skies/UrpPanoramicSkybox.shader
+  uploadId: 977994

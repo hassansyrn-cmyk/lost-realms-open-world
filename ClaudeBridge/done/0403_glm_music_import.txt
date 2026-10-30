@@ -1,0 +1,4 @@
+log 0403 GLM: realm themes to Streaming (fixed API)
+exec LostRealmsOW.GlmMusicImport.SetStreaming
+wait 8
+log 0403 done

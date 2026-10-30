@@ -1,0 +1,4 @@
+log 0020 animation review sheets for candidate clips on the Aster rig
+refresh
+call LostRealmsOW.OpenWorldAnimPreview.RenderList ClaudeBridge/anim-candidates.txt
+log 0020 done

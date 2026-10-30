@@ -1,0 +1,12 @@
+play
+waitplay 4
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Hare
+wait 3
+shot followup_hare_shortgrass ui
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Hen
+wait 3
+shot followup_hen_shortgrass ui
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Robin
+wait 4
+shot followup_bird_shortgrass ui
+stop

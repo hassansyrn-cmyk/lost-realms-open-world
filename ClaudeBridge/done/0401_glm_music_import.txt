@@ -1,0 +1,4 @@
+log 0401 GLM: set realm themes to Streaming load type (mobile memory)
+exec LostRealmsOW.GlmMusicImport.SetStreaming
+wait 5
+log 0401 done

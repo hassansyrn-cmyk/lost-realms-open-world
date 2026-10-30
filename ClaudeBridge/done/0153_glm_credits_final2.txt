@@ -1,0 +1,14 @@
+log 0153 GLM: Part A credits validation, settled session
+refresh
+wait 25
+play
+waitplay 15
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+waitfor LostRealmsOW.OpenWorldCreditsRuntime.HudReady 60
+wait 10
+call LostRealmsOW.OpenWorldCreditsRuntime.DebugShow x
+wait 2
+call LostRealmsOW.OpenWorldCreditsRuntime.Validate x
+shot glm5_credits_civilian2 ui
+stop
+log 0153 done

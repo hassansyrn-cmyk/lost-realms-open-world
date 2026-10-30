@@ -1,0 +1,4 @@
+log 0304 Claude: cold editor load cost of the streamed prefabs (edit mode, no Play)
+wait
+call LostRealmsOW.ClaudeSpikeProfiler.LoadCosts DownloadedActors,Imported_Frozen,Imported_Frost,Imported_Storm,Imported_Dunes,Imported_Graveyard,Imported_Crypt,Imported_Sky,Imported_Verdant
+log 0304 done

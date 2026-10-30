@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9d207d05549788b4c8ef5018279baca3
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/ReflectionsTrio/LightingSettings.lighting
+  uploadId: 977994

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bc212935613c88e49ba42a51c1b4b314
+PackageManifestImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/package.json
+  uploadId: 977994

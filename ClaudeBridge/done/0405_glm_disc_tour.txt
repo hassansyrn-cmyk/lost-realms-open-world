@@ -1,0 +1,42 @@
+log 0405 GLM: Part C discoveries tour — 8 discoveries, exactly-once rewards
+refresh
+wait 25
+play
+waitplay 15
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+waitfor LostRealmsOW.OpenWorldCreditsRuntime.HudReady 60
+wait 8
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+call LostRealmsOW.OpenWorldCreditsRuntime.DebugShow x
+call LostRealmsOW.GlmQuests.DebugClose x
+tp -160 288 100 20
+wait 4
+call LostRealmsOW.OpenWorldRegionDiscoveriesRuntime.Discover glm-disc:frozen-note
+tp -96 300 100 20
+wait 3
+call LostRealmsOW.OpenWorldRegionDiscoveriesRuntime.Discover glm-disc:frozen-cache
+shot glm6_frozen ui
+tp 296 -8 40 20
+wait 3
+call LostRealmsOW.OpenWorldRegionDiscoveriesRuntime.Discover glm-disc:dunes-note
+tp 372 88 100 20
+wait 3
+call LostRealmsOW.OpenWorldRegionDiscoveriesRuntime.Discover glm-disc:dunes-cache
+shot glm6_dunes ui
+tp -190 -206 80 22
+wait 3
+call LostRealmsOW.OpenWorldRegionDiscoveriesRuntime.Discover glm-disc:marches-note
+tp -238 -244 80 22
+wait 3
+call LostRealmsOW.OpenWorldRegionDiscoveriesRuntime.Discover glm-disc:marches-cache
+shot glm6_marches ui
+tp 222 -250 -60 22
+wait 3
+call LostRealmsOW.OpenWorldRegionDiscoveriesRuntime.Discover glm-disc:storm-note
+tp 258 -296 -60 22
+wait 3
+call LostRealmsOW.OpenWorldRegionDiscoveriesRuntime.Discover glm-disc:storm-cache
+shot glm6_storm ui
+stop
+log 0405 done

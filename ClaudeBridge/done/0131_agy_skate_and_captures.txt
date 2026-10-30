@@ -1,0 +1,41 @@
+log 0131 Antigravity: horse skate verification (all gaits) + secondary motion + coat captures
+refresh
+wait 4
+play
+waitplay 14
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+wait 1
+tp -40 -160 0 10
+wait 4
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Wild Horse
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Capture agy_coat_inspect 1920 1080
+call LostRealmsOW.ClaudeReviewChecks.SkateStart
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0.45 0
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport settle
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport walk
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0.72 0
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport settle
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport trot
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 1 0
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport settle
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport canter
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 1 1
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport settle
+wait 2.5
+call LostRealmsOW.ClaudeReviewChecks.SkateReport gallop
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0 0
+wait 2
+call LostRealmsOW.OpenWorldMotionCapture.Sequence seq_ride_v2 30 3 left 0:ride
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+timeofday 10:00 unlock
+stop
+log 0131 done

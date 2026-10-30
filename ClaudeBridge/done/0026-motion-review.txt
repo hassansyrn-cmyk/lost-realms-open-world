@@ -1,0 +1,82 @@
+log 0026 play-mode motion review of the animation overhaul (contact sheets at a fixed 30 fps game clock)
+play
+waitplay 12
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+wait 1
+# Locomotion: walk, run + stop, dash into held sprint (side view, hub plaza heading north)
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence walk 24 3 side 0:move 0 0.4
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence run 32 3 side 0:move 0 1,2.2:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+tp 0 -40 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence sprint 32 3 side 0:move 0 1,0.3:sprint 1,0.3:dash,2.6:sprint 0,2.6:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence dash 24 2 side 0:move 0 1,0.5:dash
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+# Air: jump + land, double jump + land, glide from an updraft, jump > double jump > canopy
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence jump 24 2 side 0:move 0 0.5,0.2:jump
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence double_jump 32 2 side 0:move 0 1,0.2:jump,0.65:jump
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence glide 32 3 side 0:fill,0:move 0 1,0.1:glide 14
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence glide_back 24 3 back 0:fill,0:move 0 1,0.1:glide 14
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 3
+# Combos per weapon style (curved sword = slash, war axe = chop, reaper's spear = spear)
+tp 0 -16 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence combo_slash 40 2 side 0:weapon 0,0.1:attack,0.45:attack,0.9:attack,1.35:attack
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence combo_chop 48 2 side 0:weapon 2,0.1:attack,0.55:attack,1.1:attack,1.65:attack
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence combo_spear 48 2 side 0:weapon 5,0.1:attack,0.55:attack,1.1:attack,1.65:attack
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 1
+# Charged attacks
+call LostRealmsOW.OpenWorldMotionCapture.Sequence charged_slash 32 2 side 0:weapon 0,0:fill,0.1:charged
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence charged_chop 40 2 side 0:weapon 2,0:fill,0.1:charged
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence charged_spear 32 2 side 0:weapon 5,0:fill,0.1:charged
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 1
+# Elemental skills and the burst (front views; the burst also from the gameplay camera)
+call LostRealmsOW.OpenWorldMotionCapture.Sequence spell_ember 32 2 front 0:element 0,0:fill,0.1:spell
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 2
+call LostRealmsOW.OpenWorldMotionCapture.Sequence spell_frost 32 2 front 0:element 1,0:fill,0.1:spell
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 2
+call LostRealmsOW.OpenWorldMotionCapture.Sequence spell_gale 32 2 front 0:element 2,0:fill,0.1:spell
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 2
+call LostRealmsOW.OpenWorldMotionCapture.Sequence burst 40 2 front 0:element 0,0:fill,0.1:burst
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 3
+call LostRealmsOW.OpenWorldMotionCapture.Sequence burst_follow 40 2 follow 0:element 1,0:fill,0.1:burst
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 2
+timeofday 10:00 unlock
+stop
+log 0026 done

@@ -1,0 +1,106 @@
+log 0008 matte terrain layers, VFX retune, creature diagnostics
+refresh
+exec LostRealmsOW.OpenWorldKitBuilder.PrepareTerrainLayers
+exec LostRealmsOW.OpenWorldRealmBaker.Bake
+log 0008 bake done, entering play mode
+setting runInBackground
+play
+waitplay 25
+timeofday midday clear
+call LostRealmsOW.OpenWorldHero.DebugAction god
+tp 0 -26 0 14
+wait 6
+shot d_hub
+shot d_hub_ui 1600 900 ui
+wait 1
+tp 0 -12 0 8
+wait 3
+call LostRealmsOW.OpenWorldHero.DebugAction spell 0
+wait 0.25
+shot d_vfx_spell_ember_a
+wait 0.5
+shot d_vfx_spell_ember_b
+wait 2.5
+call LostRealmsOW.OpenWorldHero.DebugAction spell 2
+wait 0.35
+shot d_vfx_spell_gale
+wait 2.5
+call LostRealmsOW.OpenWorldHero.DebugAction burst 0
+wait 0.6
+shot d_vfx_burst_ember_a
+wait 1
+shot d_vfx_burst_ember_b
+wait 3.5
+call LostRealmsOW.OpenWorldHero.DebugAction burst 2
+wait 0.8
+shot d_vfx_burst_gale
+wait 3.5
+call LostRealmsOW.OpenWorldHero.DebugAction attack 0
+wait 0.3
+shot d_vfx_slash_a
+wait 0.6
+call LostRealmsOW.OpenWorldHero.DebugAction attack 0
+wait 0.3
+shot d_vfx_slash_b
+wait 1.5
+call LostRealmsOW.OpenWorldVfx.DebugPlay hit_fire 1.2 1
+wait 0.3
+shot d_fx_hit_fire
+wait 1.5
+call LostRealmsOW.OpenWorldVfx.DebugPlay ga_shockwave 1.2 0.5
+wait 0.35
+shot d_fx_shockwave
+wait 1.5
+call LostRealmsOW.OpenWorldVfx.DebugPlay slash_heavy_fire 1 1
+wait 0.3
+shot d_fx_slash_heavy_fire
+wait 1.5
+call LostRealmsOW.OpenWorldVfx.DebugPlay fire_bonfire 1.5
+wait 1.2
+shot d_fx_bonfire
+wait 1
+tp 28 34 45 34
+wait 4
+shot d_ground_closeup
+tp -150 104 0 12
+wait 6
+shot d_mirrorlake
+tp 268 -48 90 12
+wait 6
+shot d_sunspire
+tp -150 222 0 12
+wait 6
+shot d_frostpine
+tp 40 300 20 10
+wait 6
+shot d_northpass
+tp 210 -236 135 14
+wait 6
+shot d_storm
+tp -188 -196 225 12
+wait 6
+shot d_graveyard
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Deer
+wait 9
+shot d_pop_deer
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Wolf
+wait 9
+shot d_pop_wolf
+call LostRealmsOW.OpenWorldPopulation.DebugReport wolf
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Revenant
+wait 9
+shot d_pop_revenant
+call LostRealmsOW.OpenWorldPopulation.DebugReport revenant
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Stalker
+wait 9
+shot d_pop_spider
+call LostRealmsOW.OpenWorldPopulation.DebugReport spider
+view 0 360 -600 0 30 60
+wait 4
+shot d_overview
+view 330 220 330 225 28 60
+wait 3
+shot d_aerial_ne
+follow
+stop
+log 0008 done

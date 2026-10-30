@@ -1,0 +1,13 @@
+refresh
+wait 5
+refresh
+wait 5
+exec LostRealmsOW.VerdantLivingWorldValidation.Arm
+play
+waitplay 8
+exec LostRealmsOW.VerdantLivingWorldValidation.Begin
+call LostRealmsOW.VerdantLivingWorldValidation.Trace before
+waitfor !LostRealmsOW.VerdantLivingWorldValidation.Busy 60
+exec LostRealmsOW.VerdantLivingWorldValidation.Cleanup
+stop
+exec LostRealmsOW.VerdantLivingWorldValidation.Disarm

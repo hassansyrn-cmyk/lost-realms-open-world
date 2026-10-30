@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: bee8db32c44090344b5de22d04c2e17c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterVolumeEditor.Motion.cs
+  uploadId: 977994

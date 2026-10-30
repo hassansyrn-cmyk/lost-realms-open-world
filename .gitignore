@@ -1,0 +1,20 @@
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.vs/
+*.csproj
+*.sln
+*.slnx
+*.log
+DataStore/
+.utmp/
+
+Tools/downloaded_models/toolchain/
+Tools/downloaded_models/staging/
+
+# Fusion App ID asset (per team rule: never commit the App ID)
+Assets/Photon/Fusion/Resources/PhotonAppSettings.asset

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 1bc62ebebaa410949927f6eab0c2e430
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterTouchInput.cs
+  uploadId: 977994

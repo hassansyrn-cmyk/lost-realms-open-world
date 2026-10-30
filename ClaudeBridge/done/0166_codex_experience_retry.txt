@@ -1,0 +1,13 @@
+refresh
+wait 3
+refresh
+wait 3
+play
+waitplay 8
+exec LostRealmsOW.VerdantExperienceValidation.Begin
+call LostRealmsOW.VerdantExperienceValidation.Combat after
+waitfor !LostRealmsOW.VerdantExperienceValidation.Busy 30
+exec LostRealmsOW.VerdantExperienceValidation.Experience
+waitfor !LostRealmsOW.VerdantExperienceValidation.Busy 45
+exec LostRealmsOW.VerdantExperienceValidation.Cleanup
+stop

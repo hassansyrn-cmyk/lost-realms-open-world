@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a72790f9172cdc8418a85c91acdb0a2d
+ComputeShaderImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/OceanFft.compute
+  uploadId: 977994

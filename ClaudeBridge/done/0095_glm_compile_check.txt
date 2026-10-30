@@ -1,0 +1,4 @@
+log 0095 GLM: refresh and compile check after GlmQaSuite.cs
+refresh
+wait 5
+log 0095 done

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 176817b07a895994896129e62d55dd6f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Defaults/Skies/AnimatedCitySkybox.mat
+  uploadId: 977994

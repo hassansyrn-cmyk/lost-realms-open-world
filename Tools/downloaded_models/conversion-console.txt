@@ -1,0 +1,22 @@
+21:55:55 | INFO: Data are loaded, start creating Blender stuff
+21:55:55 | INFO: Blender create Mesh node Body
+21:55:55 | INFO: glTF import finished in 0.37s
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+Saved: 'C:\Users\Hasan\Documents\Lost-Realms-Open-World\Tools\downloaded_models\Komodo-poses.png'
+Time: 00:06.50 (Saving: 00:00.37)
+
+
+FBX export starting... 'C:/Users/Hasan/Documents/Lost-Realms-Open-World/Assets/GameContent/DownloadedModels/Komodo/Source/Komodo.fbx'
+export finished in 1.7792 sec.
+21:56:06 | INFO: Data are loaded, start creating Blender stuff
+21:56:06 | INFO: Blender create Mesh node Object_0
+21:56:06 | INFO: Blender create Mesh node Object_1
+21:56:09 | INFO: glTF import finished in 3.79s
+Saved: 'C:\Users\Hasan\Documents\Lost-Realms-Open-World\Tools\downloaded_models\MountainDragon-poses.png'
+Time: 00:01.35 (Saving: 00:00.27)
+
+
+FBX export starting... 'C:/Users/Hasan/Documents/Lost-Realms-Open-World/Assets/GameContent/DownloadedModels/MountainDragon/Source/MountainDragon.fbx'
+export finished in 17.7171 sec.
+
+Blender quit

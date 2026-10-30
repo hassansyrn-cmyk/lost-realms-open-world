@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d495078a17f0e2a44a2a92f6ca005b83
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterReceiverConverter.cs
+  uploadId: 977994

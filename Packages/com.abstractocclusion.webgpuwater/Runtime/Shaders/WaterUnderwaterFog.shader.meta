@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b4b285a8c132e8a47adf2ef988eb03db
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterUnderwaterFog.shader
+  uploadId: 977994

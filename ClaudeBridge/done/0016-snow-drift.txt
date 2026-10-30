@@ -1,0 +1,27 @@
+log 0016 wind-packed undulation in the snow albedo
+refresh
+setting runInBackground
+play
+waitplay 25
+timeofday midday clear
+call LostRealmsOW.OpenWorldHero.DebugAction god
+tp -60 300 10 2
+wait 7
+shot l_frost_range
+tp -60 300 200 14
+wait 6
+shot l_frost_field
+tp 40 300 20 10
+wait 6
+shot l_northpass
+tp -150 222 0 12
+wait 6
+shot l_frostpine
+timeofday golden clear
+wait 3
+tp -60 300 10 2
+wait 6
+shot l_frost_range_golden
+timeofday midday clear
+stop
+log 0016 done

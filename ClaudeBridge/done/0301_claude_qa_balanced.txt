@@ -1,0 +1,13 @@
+log 0301 Claude: regression tour with GLM's QA suite, Balanced tier, after the night's changes
+refresh
+wait 2
+play
+waitplay 10
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+call LostRealmsOW.OpenWorldGraphics.DebugTier balanced
+wait 2
+call LostRealmsOW.GlmQaSuite.BeginRun balanced
+waitfor !LostRealmsOW.GlmQaSuite.Busy 240
+stop
+log 0301 done

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b96b932221599ec468e4bdd24b6b68ad
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/LargeBodyGodRays.shader
+  uploadId: 977994

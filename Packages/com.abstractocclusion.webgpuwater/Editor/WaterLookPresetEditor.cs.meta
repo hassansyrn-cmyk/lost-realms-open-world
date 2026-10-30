@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f8551b084ef44d746a884c169a1f0174
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterLookPresetEditor.cs
+  uploadId: 977994

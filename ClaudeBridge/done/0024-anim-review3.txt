@@ -1,0 +1,6 @@
+log 0024 review sheets rendered from baked skinned meshes (true limb poses) + copy-method check
+refresh
+wait 2
+call LostRealmsOW.OpenWorldAnimPreview.CompareMethods Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Fall01.fbx|
+call LostRealmsOW.OpenWorldAnimPreview.RenderList ClaudeBridge/anim-review3.txt
+log 0024 done

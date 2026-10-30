@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1743e319e728aed4492ad2fd6a98d6d2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Common/Assets/Meshes/Pool.asset
+  uploadId: 977994

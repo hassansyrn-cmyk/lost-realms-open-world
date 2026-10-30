@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 28b839b3a07266e4d808d7c3764a20b8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Rendering/WaterCausticProjectionFeature.cs
+  uploadId: 977994

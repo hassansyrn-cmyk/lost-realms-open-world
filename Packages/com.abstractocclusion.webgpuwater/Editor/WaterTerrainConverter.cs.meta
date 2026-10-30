@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 88d4e41216f0cff4ba8df9c0dcdca3b1
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterTerrainConverter.cs
+  uploadId: 977994

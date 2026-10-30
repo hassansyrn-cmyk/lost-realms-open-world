@@ -1,0 +1,12 @@
+log 0129 GLM: credits screen visual check, corrected helper class
+refresh
+wait 5
+play
+waitplay 8
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+wait 3
+call LostRealmsOW.OpenWorldCreditsRuntime.DebugShow x
+wait 2
+shot glm5_credits2 ui
+stop
+log 0129 done

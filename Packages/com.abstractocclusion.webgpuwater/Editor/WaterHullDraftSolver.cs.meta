@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 94a915617b56e8140a8cec2c010c7d8c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterHullDraftSolver.cs
+  uploadId: 977994

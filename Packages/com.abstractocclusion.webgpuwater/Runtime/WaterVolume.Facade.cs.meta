@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: e75d15b73fa548a4aa1a180e92fa22f4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterVolume.Facade.cs
+  uploadId: 977994

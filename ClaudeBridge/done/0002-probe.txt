@@ -1,0 +1,3 @@
+refresh
+wait 2
+exec LostRealmsOW.WorldAssetProbe.Run

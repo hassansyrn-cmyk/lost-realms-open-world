@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 12c12917b6345b34da43381cd6de0c68
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterWizardWindow.HullSpray.cs
+  uploadId: 977994

@@ -1,0 +1,36 @@
+log 0015 frozen peaks exposed for the snowfield, terrain layer names match their files
+refresh
+exec LostRealmsOW.OpenWorldKitBuilder.PrepareTerrainLayers
+setting runInBackground
+play
+waitplay 25
+timeofday midday clear
+call LostRealmsOW.OpenWorldHero.DebugAction god
+tp -60 300 10 2
+wait 7
+shot k_frost_range
+tp 40 300 20 10
+wait 6
+shot k_northpass
+tp -150 222 0 12
+wait 6
+shot k_frostpine
+tp -150 262 180 10
+wait 6
+shot k_frostpine_square
+tp 0 -30 0 2
+wait 6
+shot k_skyline_north
+timeofday golden clear
+wait 3
+tp -60 300 10 2
+wait 6
+shot k_frost_range_golden
+timeofday night clear
+wait 3
+tp -150 262 180 10
+wait 6
+shot k_frostpine_night
+timeofday midday clear
+stop
+log 0015 done

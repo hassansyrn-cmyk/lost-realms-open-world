@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 29eceabef7aa5cc4fba5cc5922aad0b0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/CustomObjectPool/OP_Capsule.mat
+  uploadId: 977994

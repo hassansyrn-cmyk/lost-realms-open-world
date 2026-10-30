@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: c718e4dc87455bd448786ae64d431c4c
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterWaveConstantsValidator.cs
+  uploadId: 977994

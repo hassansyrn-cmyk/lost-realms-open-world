@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: fbeef53adb47e6d448b735d3d132357a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterJerlovLookWriter.cs
+  uploadId: 977994

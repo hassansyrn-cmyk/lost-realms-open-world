@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 757f7281244ab614f9b0bf80406c76af
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterVolume.Jerlov.cs
+  uploadId: 977994

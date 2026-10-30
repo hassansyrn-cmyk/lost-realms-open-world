@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 83b01872f71f4c51b58ebd56fef9af3a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterRiverRibbonMeshGenerator.cs
+  uploadId: 977994

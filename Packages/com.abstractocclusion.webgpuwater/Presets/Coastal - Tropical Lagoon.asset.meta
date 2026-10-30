@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fbfc4702bf874432939ba7595935e810
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Presets/Coastal - Tropical Lagoon.asset
+  uploadId: 977994

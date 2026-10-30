@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 271a530771d546944a5b7d2242fbdc6c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/CausticOccluder.shader
+  uploadId: 977994

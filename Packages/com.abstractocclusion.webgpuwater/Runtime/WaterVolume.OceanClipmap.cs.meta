@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 330be8d3fbe481f4aa670b2c6b9fd3e4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterVolume.OceanClipmap.cs
+  uploadId: 977994

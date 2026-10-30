@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: edbfa555f53fc00438eb7276ce1f4595
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/BoatDemo/LightingSettings.lighting
+  uploadId: 977994

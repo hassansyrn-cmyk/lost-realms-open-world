@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 828c3580808b26e48a7784ac219f73b9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/Underwater/WaterAbove.mat
+  uploadId: 977994

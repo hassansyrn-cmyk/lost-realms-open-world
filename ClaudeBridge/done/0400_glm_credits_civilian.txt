@@ -1,0 +1,14 @@
+log 0400 GLM: Part A — civilian credit confirmed, credits re-validation
+refresh
+wait 10
+play
+waitplay 10
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+waitfor LostRealmsOW.OpenWorldCreditsRuntime.HudReady 60
+wait 4
+call LostRealmsOW.OpenWorldCreditsRuntime.DebugShow x
+wait 2
+call LostRealmsOW.OpenWorldCreditsRuntime.Validate x
+shot glm5_credits_civilian ui
+stop
+log 0400 done

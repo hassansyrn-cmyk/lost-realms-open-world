@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: eb4ec8ce66175f94a9d438582dee7921
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Rendering/WaterUnderwaterFogFeature.cs
+  uploadId: 977994

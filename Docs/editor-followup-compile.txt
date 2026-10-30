@@ -1,0 +1,1 @@
+PASS: follow-up editor C# compiled using Unity 6000.6 references. Preparation/runtime validation still pending local disk space.

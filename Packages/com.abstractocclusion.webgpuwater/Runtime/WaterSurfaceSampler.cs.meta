@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4206cd24640fe8348b9f2a9a36fa036d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterSurfaceSampler.cs
+  uploadId: 977994

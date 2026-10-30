@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 7c2b6569e97b14744848833682c436b7
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterFoamParticles.cs
+  uploadId: 977994

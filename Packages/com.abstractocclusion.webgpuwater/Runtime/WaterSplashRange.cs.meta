@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: d6f35ad34d964144bb37f148a32a9b34
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterSplashRange.cs
+  uploadId: 977994

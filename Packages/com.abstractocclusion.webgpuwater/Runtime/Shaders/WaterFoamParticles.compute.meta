@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 60b46151fe09abd4b97f5f1feaa54593
+ComputeShaderImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterFoamParticles.compute
+  uploadId: 977994

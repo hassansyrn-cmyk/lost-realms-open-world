@@ -1,0 +1,13 @@
+log 0143 GLM: credits screen finish — scrollable body + attribution verification
+refresh
+wait 10
+play
+waitplay 10
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+wait 4
+call LostRealmsOW.OpenWorldCreditsRuntime.DebugShow x
+wait 2
+call LostRealmsOW.OpenWorldCreditsRuntime.Validate x
+shot glm5_credits_scroll ui
+stop
+log 0143 done

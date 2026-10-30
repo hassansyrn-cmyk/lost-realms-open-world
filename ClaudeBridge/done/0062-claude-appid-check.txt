@@ -1,0 +1,3 @@
+log 0062 Claude: check the Fusion App ID was saved (reports entered or not, never the value)
+exec LostRealmsOW.ClaudePhotonSwitch.CheckFusion
+log 0062 done

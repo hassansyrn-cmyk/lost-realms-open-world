@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7e158aa6fd3e4f042804a5a819d8a0dc
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterSurfaceFragStages.hlsl
+  uploadId: 977994

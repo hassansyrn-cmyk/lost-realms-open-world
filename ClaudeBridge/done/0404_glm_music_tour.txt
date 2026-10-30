@@ -1,0 +1,42 @@
+log 0404 GLM: Part A credits validate + Part B music tour
+refresh
+wait 10
+play
+waitplay 10
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+waitfor LostRealmsOW.OpenWorldCreditsRuntime.HudReady 60
+wait 4
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+call LostRealmsOW.OpenWorldCreditsRuntime.DebugShow x
+wait 2
+call LostRealmsOW.OpenWorldCreditsRuntime.Validate x
+shot glm5_credits_civilian ui
+call LostRealmsOW.GlmQuests.DebugClose x
+wait 9
+call LostRealmsOW.GlmMusicValidation.RegionTrack Audio/verdant_realm_theme
+tp -150 250 150 22
+wait 9
+call LostRealmsOW.GlmMusicValidation.RegionTrack Audio/whiteout_realm_theme
+tp 300 -60 -70 20
+wait 9
+call LostRealmsOW.GlmMusicValidation.RegionTrack Audio/sunscar_realm_theme
+tp -218 -228 -70 24
+wait 9
+call LostRealmsOW.GlmMusicValidation.RegionTrack Audio/astral_theme
+timeofday 23:00 lock
+wait 5
+call LostRealmsOW.GlmMusicValidation.Night
+tp 232 -258 -40 24
+timeofday 10:00 lock
+wait 9
+call LostRealmsOW.GlmMusicValidation.RegionTrack Audio/stormveil_theme
+call LostRealmsOW.GlmMusicValidation.SpawnFight
+wait 8
+call LostRealmsOW.GlmMusicValidation.Combat Audio/storm_guardian_theme
+call LostRealmsOW.GlmMusicValidation.KillFight
+wait 10
+call LostRealmsOW.GlmMusicValidation.CombatReturn Audio/stormveil_theme
+shot glm5_music_tour_end ui
+stop
+log 0404 done

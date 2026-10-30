@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 839cf6a6a7cf35947aaa5d6028cc1259
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterTransparentConverter.cs
+  uploadId: 977994

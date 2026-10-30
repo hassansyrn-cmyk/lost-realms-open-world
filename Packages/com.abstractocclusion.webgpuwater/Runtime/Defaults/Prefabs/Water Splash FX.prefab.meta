@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 19beeb894b6cad1489ae12f2f9b6740a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Defaults/Prefabs/Water Splash FX.prefab
+  uploadId: 977994

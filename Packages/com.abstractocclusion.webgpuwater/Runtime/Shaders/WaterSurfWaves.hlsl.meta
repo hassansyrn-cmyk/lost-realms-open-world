@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 016fb0223be688542ae656aca768ec30
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterSurfWaves.hlsl
+  uploadId: 977994

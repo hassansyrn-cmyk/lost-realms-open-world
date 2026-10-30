@@ -1,0 +1,5 @@
+log 0025 bake the hero motion set (Phase 1 flattening, RootT = 0) + motion_meta.json
+refresh
+wait 2
+exec AsterPhase1.BakeHeroMotionSet
+log 0025 done

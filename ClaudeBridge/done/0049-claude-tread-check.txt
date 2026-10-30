@@ -1,0 +1,15 @@
+log 0049 Claude: treading water arms (sculling, elbows bent) and float height check
+refresh
+wait 3
+play
+waitplay 14
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence tread 24 3 front 0:fill,0:water,1.2:pose,2:pose
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence tread_side 24 3 side 0:fill,1:pose,1.2:fwd,2.2:pose
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+timeofday 10:00 unlock
+stop
+log 0049 done

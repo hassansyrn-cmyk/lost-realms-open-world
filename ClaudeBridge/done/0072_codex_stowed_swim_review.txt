@@ -1,0 +1,7 @@
+play
+waitplay 5
+exec LostRealmsOW.VerdantSliceValidation.Begin
+call LostRealmsOW.OpenWorldMotionCapture.Sequence verdant_stowed_swim 24 3 side 0:fill,0:water,0:weapon 1,0.6:fwd,1.6:pose
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+exec LostRealmsOW.VerdantSliceValidation.Cleanup
+stop

@@ -1,0 +1,31 @@
+refresh
+exec LostRealmsOW.OpenWorldContentPreparation.PrepareExpansion
+clearconsole
+play
+waitplay 5
+exec LostRealmsOW.WildlifeExpansionValidation.Verify
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Horse
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.PreviewHorse
+wait 1
+exec LostRealmsOW.WildlifeExpansionValidation.Ride
+wait 3
+shot expansion_riding_final ui
+exec LostRealmsOW.WildlifeExpansionValidation.Cleanup
+call LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_caravan_crate
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.ReportExpansion
+shot expansion_caravan ui
+call LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_oakvale_cart
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.ReportExpansion
+shot expansion_oakvale ui
+call LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_frost_supplies
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.ReportExpansion
+shot expansion_frost_supplies ui
+call LostRealmsOW.WildlifeExpansionValidation.VisitExpansion expansion_sunspire_cart
+wait 4
+exec LostRealmsOW.WildlifeExpansionValidation.ReportExpansion
+shot expansion_sunspire ui
+stop

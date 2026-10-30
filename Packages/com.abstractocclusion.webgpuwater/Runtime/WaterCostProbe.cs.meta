@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: e84a7a8b00051da429c4750bf9298136
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterCostProbe.cs
+  uploadId: 977994

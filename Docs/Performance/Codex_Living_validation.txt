@@ -1,0 +1,42 @@
+
+Full hunt 10/30/2026 2:12:17 AM
+PASS: accept hunt through NPC interaction
+PASS: inspect both trail sites through Interact
+PASS: prepared quarry streams in
+PASS: imported quarry has one animator and no fallback rig
+Fight: elapsed 9.6s, warnings 7, actual summons 2, lowest HP 5.00, quarry HP 0.00. Scripted real attack/dodge/parry/summon decisions, not human balance certification.
+PASS: normal attacks and summon win quarry encounter with real damage
+PASS: cook hunt meal through Interact
+PASS: complete hunt with advertised reward
+PASS: reward cannot repeat
+PASS: named villagers have routines
+PASS: clock drives NPC phase at 6
+Smith 6h: Starting the day at (-15.16, 6.20, 7.59), target=(-14.30, 6.20, 7.20), clip=walk
+PASS: clock drives NPC phase at 12
+Smith 12h: At the forge at (-16.26, 6.20, 8.09), target=(-16.50, 6.20, 8.20), clip=idle
+PASS: clock drives NPC phase at 19
+Smith 19h: Evening rounds at (-16.59, 6.20, 8.35), target=(-16.80, 6.20, 8.51), clip=idle
+PASS: clock drives NPC phase at 23
+Smith 23h: Resting nearby at (-16.59, 6.20, 8.35), target=(-16.50, 6.20, 8.20), clip=idle
+PASS: repeat conversations vary with routine context
+PASS: conversation pauses routine movement
+PASS: routine does not walk through solid wall
+PASS: regional quest givers keep their authored locations
+PASS: three localized foliage clearings active
+PASS: one streamed trail presentation
+PASS: baked terrain data retained without runtime mutation/copy
+PASS: three localized foliage clearings active
+PASS: one streamed trail presentation
+PASS: baked terrain data retained without runtime mutation/copy
+Trail teardown: hero=(-220.00, 1.19, -180.00), realm=True, presentations=0, count=0
+PASS: local clearing shader state resets on streaming out
+PASS: three localized foliage clearings active
+PASS: one streamed trail presentation
+PASS: baked terrain data retained without runtime mutation/copy
+Trail teardown: hero=(-220.00, 1.19, -180.00), realm=True, presentations=0, count=0
+PASS: local clearing shader state resets on streaming out
+PASS: three localized foliage clearings active
+PASS: one streamed trail presentation
+PASS: baked terrain data retained without runtime mutation/copy
+Trail teardown: hero=(-220.00, 1.19, -180.00), realm=True, presentations=0, count=0
+PASS: local clearing shader state resets on streaming out

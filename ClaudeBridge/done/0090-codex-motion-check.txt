@@ -1,0 +1,3 @@
+refresh
+wait 3
+exec LostRealmsOW.AndroidMotionValidation.Run

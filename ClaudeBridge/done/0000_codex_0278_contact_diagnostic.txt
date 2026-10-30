@@ -1,0 +1,10 @@
+refresh
+wait 10
+refresh
+wait 10
+play
+waitplay 8
+exec LostRealmsOW.HorseExtraClipsValidation.Diagnose
+waitfor !LostRealmsOW.HorseExtraClipsValidation.Busy 100
+exec LostRealmsOW.HorseExtraClipsValidation.Cleanup
+stop

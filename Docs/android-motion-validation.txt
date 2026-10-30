@@ -1,0 +1,6 @@
+PASS idle.anim: editor=0.25420, packed=0.25420, human=True
+PASS walk.anim: editor=3.56929, packed=3.56929, human=True
+PASS run.anim: editor=8.03545, packed=8.03545, human=True
+PASS fall.anim: editor=1.59291, packed=1.59291, human=True
+PASS jump.anim: editor=9.69725, packed=9.69725, human=True
+PASS attack_1.anim: editor=7.95104, packed=7.95104, human=True

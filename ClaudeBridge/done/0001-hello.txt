@@ -1,0 +1,2 @@
+log bridge online
+setting runInBackground

@@ -1,0 +1,23 @@
+log 0023 realm clock, running dust removed, reload-safe animator, ground probe
+refresh
+wait 2
+play
+waitplay 8
+timeofday 9:00 lock
+wait 2
+shot q_morning
+call LostRealmsOW.OpenWorldMobileHud.DebugClock open
+wait 2
+shot q_clock_ui ui
+wait 1
+call LostRealmsOW.OpenWorldMobileHud.DebugClock close
+timeofday 17.25
+wait 2
+shot q_golden
+timeofday 22.5
+wait 2
+shot q_night
+timeofday 9:00 unlock
+wait 1
+stop
+log 0023 done

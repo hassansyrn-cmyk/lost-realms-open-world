@@ -1,0 +1,14 @@
+log 0099 GLM: QA tour, High tier
+refresh
+wait 2
+play
+waitplay 10
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+call LostRealmsOW.OpenWorldGraphics.DebugTier high
+wait 2
+call LostRealmsOW.GlmQaSuite.BeginRun high
+waitfor !LostRealmsOW.GlmQaSuite.Busy 240
+exec LostRealmsOW.GlmQaSuite.WriteReport
+stop
+log 0099 done

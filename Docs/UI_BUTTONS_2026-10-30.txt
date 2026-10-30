@@ -1,0 +1,25 @@
+Combat controls validation 10/30/2026 1:18:01 AM
+PASS: ELEMENT uses icon-free background
+PASS: ELEMENT has one live glyph
+PASS: GRAPPLE uses icon-free background
+PASS: GRAPPLE has one live glyph
+PASS: LOCK ON uses icon-free background
+PASS: LOCK ON has one live glyph
+PASS: SUMMON uses icon-free background
+PASS: SUMMON has one live glyph
+PASS: ATTACK caption rectangle remains inside circle
+PASS: DASH caption rectangle remains inside circle
+PASS: PARRY caption rectangle remains inside circle
+PASS: JUMP caption rectangle remains inside circle
+PASS: SPELL caption rectangle remains inside circle
+PASS: BURST caption rectangle remains inside circle
+PASS: SUMMON caption rectangle remains inside circle
+PASS: ELEMENT caption rectangle remains inside circle
+PASS: LOCK caption rectangle remains inside circle
+PASS: GRAPPLE caption rectangle remains inside circle
+PASS: Echo control renamed to Summon
+PASS: Element button still switches element
+PASS: Summon button creates guardian
+PASS: guardian has enlarged world height 3.36 m
+PASS: guardian update preserves enlarged size before fade
+PASS: summon still despawns after its effect

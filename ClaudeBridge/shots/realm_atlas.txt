@@ -1,0 +1,27 @@
+sculpt_ms=36995 total_ms=47315
+height_min=-0.8 height_max=186.0
+hub (0,0) h=6.21 road=2.3 biome=Verdant
+grove (0,115) h=5.65 road=-1.6 biome=Verdant
+sanctum (-60,-58) h=6.57 road=-2.2 biome=Verdant
+woods (-65,65) h=6.26 road=-1.6 biome=Verdant
+ruins (68,58) h=5.17 road=-1.6 biome=Verdant
+ridge (62,-62) h=7.21 road=-1.6 biome=Verdant
+crypt_under (88,-42) h=8.33 road=999.0 biome=Verdant
+skyisland_under (-84,92) h=5.97 road=15.4 biome=Verdant
+frostpine (-150,262) h=35.12 road=7.4 biome=Frozen
+tarn (78,318) h=37.40 road=999.0 WATER s=38.50 d=1.10 biome=Frozen
+dragon (10,400) h=52.16 road=999.0 biome=Frozen
+sunspire (318,-48) h=6.80 road=999.0 biome=Dunes
+oasis (292,150) h=10.59 road=999.0 WATER s=11.59 d=1.00 biome=Dunes
+ruins_desert (402,70) h=16.65 road=11.2 biome=Dunes
+graveyard (-212,-222) h=1.69 road=999.0 biome=Graveyard
+marsh (-300,-120) h=-0.65 road=11.3 WATER s=0.25 d=0.90 biome=Verdant
+storm (232,-262) h=40.12 road=6.2 biome=Storm
+mirror (-150,150) h=0.04 road=999.0 WATER s=1.19 d=1.15 biome=Verdant
+millbrook (-96,-104) h=7.35 road=4.2 biome=Verdant
+lake Mirror Lake surface=1.19
+lake Glacier Tarn surface=38.50
+lake Sunwell Oasis surface=11.59
+lake Hollow Mere surface=0.25
+lake Sanctuary Pond surface=5.97
+lake Grove Pond surface=4.76

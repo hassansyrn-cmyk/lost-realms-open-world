@@ -1,0 +1,3 @@
+timestamp_asia_dubai,gpu,temperature_c,utilization_percent,driver_memory_mib,power_w,context
+2026-10-29 23:30:45.205,NVIDIA GeForce GTX 1650 with Max-Q Design,68,96,3111,34.14,Editor Play final-check window
+2026-10-30 00:41:36.247,NVIDIA GeForce GTX 1650 with Max-Q Design,64,0,1319,4.72,After GLM QA Play window

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a7c41e5b2d38f0946ba1cc7e5f21d80b
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterDebugMode.hlsl
+  uploadId: 977994

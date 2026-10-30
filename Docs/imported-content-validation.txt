@@ -1,0 +1,1 @@
+PASS: Prepared catalog, actual Addressables load, nearby imported cache residency, distant unload, bounded instances and registry cleanup. Editor validation only; Android performance unverified.

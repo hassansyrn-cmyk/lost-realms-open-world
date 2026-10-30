@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f6cc1f70c0eb2de4b8ecbd3915e2593d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterVolume.ObstacleDebug.cs
+  uploadId: 977994

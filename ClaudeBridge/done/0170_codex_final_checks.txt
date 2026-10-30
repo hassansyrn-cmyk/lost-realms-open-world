@@ -1,0 +1,21 @@
+refresh
+wait 3
+refresh
+wait 3
+wait 30
+refresh
+play
+waitplay 8
+exec LostRealmsOW.VerdantExperienceValidation.Begin
+exec LostRealmsOW.VerdantExperienceValidation.Experience
+waitfor !LostRealmsOW.VerdantExperienceValidation.Busy 45
+exec LostRealmsOW.VerdantExperienceValidation.AudioAndTargets
+call LostRealmsOW.VerdantExperienceValidation.ViewDiscovery 0
+shot codexpass_note_close
+call LostRealmsOW.VerdantExperienceValidation.ViewDiscovery 1
+shot codexpass_cache_close
+call LostRealmsOW.VerdantExperienceValidation.ViewDiscovery 2
+shot codexpass_camp_close
+exec LostRealmsOW.VerdantExperienceValidation.Cleanup
+stop
+

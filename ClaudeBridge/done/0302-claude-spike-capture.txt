@@ -1,0 +1,29 @@
+log 0302 Claude: stutter capture 1 (profiler hierarchy of slow frames): teleport arrivals at frozen_lake and stormveil, then a run east from Oakvale
+refresh
+wait 4
+play
+waitplay 14
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+call LostRealmsOW.OpenWorldGraphics.DebugTier balanced
+wait 6
+call LostRealmsOW.ClaudeSpikeProfiler.Begin frozen_lake
+tp 78 318 0 10
+wait 7
+call LostRealmsOW.ClaudeSpikeProfiler.End frozen_lake
+wait 2
+call LostRealmsOW.ClaudeSpikeProfiler.Begin stormveil
+tp 232 -262 0 10
+wait 7
+call LostRealmsOW.ClaudeSpikeProfiler.End stormveil
+wait 2
+tp 44 42 90 10
+wait 8
+call LostRealmsOW.ClaudeSpikeProfiler.Begin oakvale_run
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 1 1
+wait 8
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0 0
+call LostRealmsOW.ClaudeSpikeProfiler.End oakvale_run
+timeofday 10:00 unlock
+stop
+log 0302 done

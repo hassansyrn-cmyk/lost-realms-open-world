@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a8b9c0d1e2f3456789abcdef01234567
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterSkyFog.shader
+  uploadId: 977994

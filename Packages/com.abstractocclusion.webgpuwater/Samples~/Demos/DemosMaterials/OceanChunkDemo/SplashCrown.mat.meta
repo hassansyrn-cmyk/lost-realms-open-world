@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b4f8008abd3a2db4aae12374dfe79766
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/OceanChunkDemo/SplashCrown.mat
+  uploadId: 977994

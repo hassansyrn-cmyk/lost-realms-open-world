@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 24ada582183546f48a9c11f756019e30
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterSprayPumpEditor.cs
+  uploadId: 977994

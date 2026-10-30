@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: a8922b00576b29b4eb483c75656fa879
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterFogTransparent.cs
+  uploadId: 977994

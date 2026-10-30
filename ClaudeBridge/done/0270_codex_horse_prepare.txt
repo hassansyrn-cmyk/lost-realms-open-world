@@ -1,0 +1,6 @@
+refresh
+wait 10
+exec LostRealmsOW.ClaudeAnimalPrep.Run
+wait 4
+refresh
+wait 6

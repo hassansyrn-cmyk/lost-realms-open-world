@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aad6ed7892eb22d4f825c3da1d24179b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/MultiLevelMultipool/Pool.mat
+  uploadId: 977994

@@ -1,0 +1,14 @@
+log 0119 GLM: quest board visual check, fonts resolved
+refresh
+wait 3
+play
+waitplay 10
+timeofday 20:30 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+call LostRealmsOW.GlmQuestValidation.BeginAll
+call LostRealmsOW.GlmQuestValidation.BoardRun
+waitfor !LostRealmsOW.GlmQuestValidation.Busy 20
+shot glmq_board3 ui
+call LostRealmsOW.GlmQuestValidation.Cleanup
+stop
+log 0119 done

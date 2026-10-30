@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 091b24f1d22c415c97dd518ee9ac3e94
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/Catapult/FoamDensityComposite.mat
+  uploadId: 977994

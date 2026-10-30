@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e8bd44d8c486bbd41a746c277ace064e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Scenes/17. Exclusion Demo.unity
+  uploadId: 977994

@@ -1,0 +1,70 @@
+log 0053 Claude: re-prepare animals (planted-foot gaits, saddle, horned ravager facing, frost bear coat), lineups, riding a wild horse, deer flee, birds, whistle
+refresh
+wait 3
+exec LostRealmsOW.ClaudeAnimalPrep.Run
+wait 3
+refresh
+wait 3
+play
+waitplay 14
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+wait 1
+call LostRealmsOW.OpenWorldPopulation.DebugReport summary
+# Lineups after the re-prep: sizes, facing, coats
+tp -40 -160 0 10
+wait 4
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup2_herd_idle idle Horse,Deer,Elk
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup2_herd_run run Horse,Deer,Elk
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup2_beasts_idle idle Bear,Ravager,Rhino,Tiger
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup2_beasts_walk walk Bear,Ravager,Rhino,Tiger
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup2_small_run run Fox,Hare,Hound,Shepherd,Cat,Hen,Penguin
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup2_birds_idle idle Robin,Sparrow,Jay,Cardinal,Goldfinch,Crow,Chickadee
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+# Riding a wild horse on an open meadow: vault on, walk, canter, gallop, turns, hop off, whistle from afar
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Wild Horse
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride2_mount 30 3 left 0:mount,2.6:pose
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride2_left 64 3 left 0:pose,0.3:fwd 0.45,2.2:pose,2.4:fwd 1,4.2:pose,4.4:sprint 1,6:pose,6.3:sprint 0,6.4:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride2_quarter 40 3 quarter 0:fwd 0.45,1.6:fwd 1,3.6:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride2_follow 50 3 follow 0:fwd 1,0.6:sprint 1,2:move 0.8 0.6,3.6:move -0.8 0.6,4.6:sprint 0,4.8:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride2_dismount 30 3 left 0.3:dismount
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride2_whistle 60 4 wide 0:fwd 1,0.3:sprint 1,3.5:sprint 0,3.6:move 0 0,4:whistle
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+# Hunting: sprint at a herd; it should burst away faster than she runs and keep the gap
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Meadow Deer
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence deer2_flee 60 3 wide 0:approach Meadow Deer 14,0.4:fwd 1,0.6:sprint 1,5.5:sprint 0,5.7:move 0 0
+wait 3
+call LostRealmsOW.OpenWorldPopulation.DebugReport live Meadow
+wait 3
+call LostRealmsOW.OpenWorldPopulation.DebugReport live Meadow
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+# Birds: perched where they can be seen, then the flock takes off as she runs up
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Robin
+wait 8
+call LostRealmsOW.OpenWorldPopulation.DebugReport live Robin
+call LostRealmsOW.OpenWorldMotionCapture.Sequence birds2_perch 24 4 subject 0:subject Robin
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence birds2_flush 50 3 subject 0:subject Robin,0.2:approach Robin 7,0.5:fwd 1,0.8:sprint 1,2.6:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldPopulation.DebugReport live Robin
+# Village animals close up
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Village Cat
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence cat2_close 20 4 subject 0:subject Village Cat
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldPopulation.DebugReport live Village
+timeofday 10:00 unlock
+stop
+log 0053 done

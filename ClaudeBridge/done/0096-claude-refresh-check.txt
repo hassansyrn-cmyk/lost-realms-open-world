@@ -1,0 +1,4 @@
+log 0096 Claude: refresh so Unity recompiles with GLM's GlmQaSuite.cs fix (compile check only)
+refresh
+wait 6
+log 0096 done

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 76d5c1115b573b64a9f05544cb556d08
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/BoatTouchDriver.cs
+  uploadId: 977994

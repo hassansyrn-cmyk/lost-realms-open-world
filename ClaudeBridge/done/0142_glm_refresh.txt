@@ -1,0 +1,4 @@
+log 0142 GLM: final refresh so Unity compiles the last credits edit
+refresh
+wait 8
+log 0142 done

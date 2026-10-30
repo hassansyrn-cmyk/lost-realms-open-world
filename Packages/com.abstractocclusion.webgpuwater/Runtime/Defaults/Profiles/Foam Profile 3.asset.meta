@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3d77c10ba8f9dce4ca1221c52be53932
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Defaults/Profiles/Foam Profile 3.asset
+  uploadId: 977994

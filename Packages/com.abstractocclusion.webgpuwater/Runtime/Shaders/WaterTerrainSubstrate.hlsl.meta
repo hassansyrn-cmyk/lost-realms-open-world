@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 65b40639216497d4ebbcc789c49d568a
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterTerrainSubstrate.hlsl
+  uploadId: 977994

@@ -1,0 +1,22 @@
+refresh
+exec LostRealmsOW.DownloadedModelPreparation.Prepare
+refresh
+play
+waitplay 7
+exec LostRealmsOW.DownloadedActorValidation.Begin
+call LostRealmsOW.DownloadedActorValidation.Travel Civilian
+wait 6
+call LostRealmsOW.DownloadedActorValidation.Review Civilian
+wait 0.2
+shot downloaded_civilian3
+call LostRealmsOW.DownloadedActorValidation.Travel Komodo
+wait 6
+call LostRealmsOW.DownloadedActorValidation.Review Komodo
+shot downloaded_komodo3
+call LostRealmsOW.DownloadedActorValidation.Travel MountainDragon
+wait 6
+call LostRealmsOW.DownloadedActorValidation.Review MountainDragon
+shot downloaded_dragon3
+exec LostRealmsOW.DownloadedActorValidation.Streaming
+exec LostRealmsOW.DownloadedActorValidation.Cleanup
+stop

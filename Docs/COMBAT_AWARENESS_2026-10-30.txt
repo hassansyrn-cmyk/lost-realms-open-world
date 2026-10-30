@@ -1,0 +1,16 @@
+Combat awareness validation 10/30/2026 2:32:55 AM; deterministic windup fixture, desktop Editor.
+PASS: on-camera attack has no duplicate bearing
+PASS: behind-camera enemy points down without mirrored direction
+PASS: right-hand threat points right
+PASS: direction follows camera yaw
+PASS: four simultaneous windups bounded to three nearest warnings
+PASS: fixed reusable pool of three markers
+PASS: warnings cannot steal touch input
+PASS: near-identical directions share one warning without overlapping icons
+PASS: visible winding-up actor suppressed by HUD
+PASS: off-camera live windup displayed
+PASS: map hides attack cues
+PASS: dead hero hides attack cues
+PASS: dead attackers cannot leave stale warning
+PASS: distant windups ignored
+PASS: interrupted attack removes warning

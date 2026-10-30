@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f025f683121a6ad43a8deeb7d0d1cab7
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/AbstractOcclusion.WebGpuWater.asmdef
+  uploadId: 977994

@@ -1,0 +1,625 @@
+Assets/Deadly Kombat Free version/fire_punch_02.wav 1.1s 2ch
+Assets/Deadly Kombat Free version/fire_punch_finisher_06.wav 1.1s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/running/Running-1.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/running/Running-2.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/running/Running-3.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/running/Running-4.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/running/Running-5.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-1.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-2.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-3.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-4.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/slowsteps/Slowsteps-5.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-1.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-2.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-3.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-4.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/grass/walking/walking-5.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/running/Snowrunning1.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/running/Snowrunning2.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/running/Snowrunning3.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/running/Snowrunning4.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/running/Snowrunning5.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/slow steps/Snowslowsteps1.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/slow steps/Snowslowsteps2.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/slow steps/Snowslowsteps3.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/slow steps/Snowslowsteps4.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/slow steps/Snowslowsteps5.wav 6.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/walking/Snowwalking1.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/walking/Snowwalking2.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/walking/Snowwalking3.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/walking/Snowwalking4.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/StepsLoop/snow/walking/Snowwalking5.wav 8.0s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 1-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 2-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 3-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 4-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 5-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 6-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 7-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 8-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 9-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 10-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 11-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 12-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 13-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 14-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 15-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 16-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 17-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 18-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 19-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 20-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 21-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 22-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 23-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 24-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 25-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 26-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 27-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 28-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 29-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/grass/Grass1 30-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 1-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 2-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 3-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 4-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 5-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 6-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 7-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 8-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 9-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 10-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 11-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 12-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 13-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 14-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 15-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 16-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 17-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 18-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 19-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 20-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 21-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 22-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 23-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 24-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 25-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 26-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 27-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 28-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 29-Audio.wav 0.8s 2ch
+Assets/Footstep(Snow and Grass)/Stepssingle sound/snow/Snow1 30-Audio.wav 0.8s 2ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Land/Footsteps_DirtyGround_Jump_Land_01.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Land/Footsteps_DirtyGround_Jump_Land_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Land/Footsteps_DirtyGround_Jump_Land_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Land/Footsteps_DirtyGround_Jump_Start_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Land/Footsteps_DirtyGround_Jump_Start_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Land/Footsteps_DirtyGround_Jump_Start_03.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_01.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_02.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_04.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_05.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_06.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_07.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_08.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_09.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Run/Footsteps_DirtyGround_Run_10.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_02.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_DirtyGround/Footsteps_DirtyGround_Walk/Footsteps_DirtyGround_Walk_10.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_01.wav 1.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_02.wav 1.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_03.wav 1.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_04.wav 1.0s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_05.wav 1.1s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_06.wav 1.1s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_07.wav 0.9s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_08.wav 1.0s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_09.wav 0.8s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_04.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_06.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_07.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_08.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_09.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Land_10.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_01.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_04.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Jump/Footsteps_Grass_Jump_Start_10.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_10.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_11.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_12.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_13.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_14.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Run/Footsteps_Grass_Run_15.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_01.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_03.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_06.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_07.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_08.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_10.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_11.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_12.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_13.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_14.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_15.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_16.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_17.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_18.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_19.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_20.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_21.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_22.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_23.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_24.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_25.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_26.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_27.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_28.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_29.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_30.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_31.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_32.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_33.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_34.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_35.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_36.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_37.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_38.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_39.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_40.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_41.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_42.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_43.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_44.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_45.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_46.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_47.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_48.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_49.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Grass/Footsteps_Grass_Walk/Footsteps_Walk_Grass_Mono_50.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Jump/Footsteps_Jump_Land_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Jump/Footsteps_Jump_Land_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Jump/Footsteps_Jump_Land_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Jump/Footsteps_Jump_Start_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Jump/Footsteps_Jump_Start_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Jump/Footsteps_Jump_Start_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Run/Footsteps_Gravel_Run_10.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_01.wav 0.8s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_02.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_04.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_05.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_06.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_07.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_08.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_09.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Gravel/Footsteps_Gravel_Walk/Footsteps_Gravel_Walk_10.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Jump/Footsteps_Leaves_Jump_Land_01.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Jump/Footsteps_Leaves_Jump_Land_02.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Jump/Footsteps_Leaves_Jump_Start_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Jump/Footsteps_Leaves_Jump_Start_02.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Run/Footsteps_Leaves_Run_01.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Run/Footsteps_Leaves_Run_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Run/Footsteps_Leaves_Run_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Run/Footsteps_Leaves_Run_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Run/Footsteps_Leaves_Run_05.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Run/Footsteps_Leaves_Run_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_01.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_05.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Leaves/Footsteps_Leaves_Walk/Footsteps_Leaves_Walk_06.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV1_Jump_Land_01.wav 0.9s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV1_Jump_Land_02.wav 0.8s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV1_Jump_Land_03.wav 1.0s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV1_Jump_Land_04.wav 0.8s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV1_Jump_Start_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV1_Jump_Start_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV1_Jump_Start_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV1_Jump_Start_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV2_Jump_Land_01.wav 1.1s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV2_Jump_Land_02.wav 1.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV2_Jump_Land_03.wav 1.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV2_Jump_Start_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV2_Jump_Start_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Jump/Footsteps_MetalV2_Jump_Start_03.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_07.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_08.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_10.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_11.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_12.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_13.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_14.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV1_Run_15.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_10.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_11.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_12.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_13.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_14.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Run/Footsteps_MetalV2_Run_15.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_06.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_08.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_09.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_10.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_11.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_12.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_13.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_14.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV1_Walk_15.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_02.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_06.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_07.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_08.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_09.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_10.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_11.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_12.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_13.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_14.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Metal/Footsteps_Metal_Walk/Footsteps_MetalV2_Walk_15.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump/Footsteps_Mud_Jump_Land_01.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump/Footsteps_Mud_Jump_Land_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump/Footsteps_Mud_Jump_Land_03.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump/Footsteps_Mud_Jump_Land_04.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Jump/Footsteps_Mud_Jump_Land_05.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Run/Footsteps_Mud_Run_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_02.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_04.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_06.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_07.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_08.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_09.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Mud/Footsteps_Mud_Walk/Footsteps_Mud_Walk_10.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Land_01.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Land_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Land_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Land_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Land_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Land_06.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Jump/Footsteps_Rock_Jump_Start_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_02.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_05.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Run/Footsteps_Rock_Run_10.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_06.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Rock/Footsteps_Rock_Walk/Footsteps_Rock_Walk_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Land_01.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Land_02.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Land_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Land_04.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Land_05.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_02.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Jump/Footsteps_Sand_Jump_Start_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_01.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_05.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_09.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_10.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_11.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_12.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_13.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_14.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_15.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_16.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_17.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_18.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_19.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Run/Footsteps_Sand_Run_20.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_02.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_03.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_04.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_05.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_06.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_07.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_08.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_09.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_10.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_11.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_12.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_13.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_14.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_15.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_16.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_17.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_18.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_19.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Sand/Footsteps_Sand_Walk/Footsteps_Sand_Walk_20.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Land_01.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Land_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Land_03.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Land_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Land_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Hard_Jump_Start_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_05.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Land_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_01.wav 0.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_02.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_04.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Jump/Footsteps_Snow_Jump_Start_06.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_01.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_02.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_04.wav 0.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_05.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_06.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_07.wav 0.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_08.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_09.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_10.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Hard_Run_11.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_01.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_02.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_04.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_06.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_07.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_09.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Run/Footsteps_Snow_Run_10.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_02.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_03.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_06.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_07.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_09.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_10.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_11.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Hard_Walk_12.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_03.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_04.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_06.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_07.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_09.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_10.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_11.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Snow/Footsteps_Snow_Walk/Footsteps_Snow_Walk_12.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Land_01.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Land_02.wav 0.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Land_03.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Start_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Start_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Jump/Footsteps_Tile_Jump_Start_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_02.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_04.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_05.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Run/Footsteps_Tile_Run_06.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_04.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_06.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_07.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Tile/Footsteps_Tile_Walk/Footsteps_Tile_Walk_08.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Big_01.wav 4.7s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Big_02.wav 3.9s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Big_03.wav 4.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Light_01.wav 0.9s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Light_02.wav 1.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Light_03.wav 1.1s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Light_04.wav 1.1s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Light_05.wav 1.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Jump/Footsteps_Water_Jump_Light_06.wav 1.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Run/Footsteps_Water_Run_01.wav 1.1s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Run/Footsteps_Water_Run_02.wav 1.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Run/Footsteps_Water_Run_03.wav 1.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Run/Footsteps_Water_Run_04.wav 1.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Run/Footsteps_Water_Run_05.wav 1.0s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_01.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_02.wav 0.8s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_04.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_05.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_06.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_07.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_08.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_09.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV1_Walk_10.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV2_Walk_01.wav 0.9s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV2_Walk_02.wav 1.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV2_Walk_03.wav 1.0s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV2_Walk_04.wav 1.2s 1ch
+Assets/Footsteps - Essentials/Footsteps_Water/Footsteps_Water_Walk/Footsteps_WaterV2_Walk_05.wav 0.9s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Jump/Footsteps_Wood_Jump_Land_01.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Jump/Footsteps_Wood_Jump_Land_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Jump/Footsteps_Wood_Jump_Start_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Jump/Footsteps_Wood_Jump_Start_02.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_01.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_02.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_03.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_04.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_05.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_06.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_07.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_08.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_09.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Run/Footsteps_Wood_Run_10.wav 0.3s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_01.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_02.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_03.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_04.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_05.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_06.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_07.wav 0.6s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_08.wav 0.4s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_09.wav 0.5s 1ch
+Assets/Footsteps - Essentials/Footsteps_Wood/Footsteps_Wood_Walk/Footsteps_Wood_Walk_10.wav 0.5s 1ch
+Assets/Free_Fireworks__44.1k_16bit/Blue Fireworks - Nova Sound.wav 3.1s 2ch
+Assets/Free_Fireworks__44.1k_16bit/Burst Fireworks - Nova Sound.wav 1.4s 2ch
+Assets/Free_Fireworks__44.1k_16bit/CampFire Clap - Nova Sound.wav 1.2s 2ch
+Assets/Free_Fireworks__44.1k_16bit/Deep Fireworks - Nova Sound.wav 1.4s 2ch
+Assets/Free_Fireworks__44.1k_16bit/HeavyHot Snare - Nova Sound.wav 0.6s 2ch
+Assets/Free_Fireworks__44.1k_16bit/HotBonus Snare - Nova Sound.wav 0.4s 2ch
+Assets/Free_Fireworks__44.1k_16bit/Rumble Fireworks - Nova Sound.wav 1.4s 2ch
+Assets/Free_Fireworks__44.1k_16bit/SubFire Kick - Nova Sound.wav 1.5s 2ch
+Assets/living birds/sounds/blueJay.wav 3.0s 1ch
+Assets/living birds/sounds/blueJay2.wav 1.0s 1ch
+Assets/living birds/sounds/cardinal.wav 3.0s 1ch
+Assets/living birds/sounds/cardinal2.wav 3.9s 1ch
+Assets/living birds/sounds/chickadee.wav 1.3s 1ch
+Assets/living birds/sounds/chickadee2.wav 1.1s 1ch
+Assets/living birds/sounds/crow1.wav 1.2s 1ch
+Assets/living birds/sounds/crow2.wav 1.9s 1ch
+Assets/living birds/sounds/finch.wav 1.7s 1ch
+Assets/living birds/sounds/finch2.wav 1.9s 1ch
+Assets/living birds/sounds/flyAway1.wav 1.7s 1ch
+Assets/living birds/sounds/flyAway2.wav 1.4s 1ch
+Assets/living birds/sounds/robin.wav 2.0s 1ch
+Assets/living birds/sounds/robin2.wav 1.9s 1ch
+Assets/living birds/sounds/sparrow.wav 2.9s 1ch
+Assets/living birds/sounds/sparrow2.wav 2.8s 1ch
+Assets/Resources/Audio/Gates/Desert_Portal_Activate.wav 1.4s 1ch
+Assets/Resources/Audio/Gates/Desert_Portal_Loop.wav 2.0s 1ch
+Assets/Resources/Audio/Gates/Desert_Portal_Teleport.wav 0.8s 1ch
+Assets/Resources/Audio/Gates/Snow_Portal_Activate.wav 1.4s 1ch
+Assets/Resources/Audio/Gates/Snow_Portal_Loop.wav 2.0s 1ch
+Assets/Resources/Audio/Gates/Snow_Portal_Teleport.wav 0.8s 1ch
+Assets/Resources/Audio/sfx_storm_wind.wav 1.1s 1ch
+Assets/Resources/Audio/sfx_trap_fire.wav 0.6s 1ch
+Assets/Resources/Audio/sfx_trap_wind.wav 1.2s 1ch
+Assets/SFX Packs/General RPG SFX Pack/Footsteps SFX/Footsteps 1.wav 5.0s 2ch
+Assets/SFX Packs/General RPG SFX Pack/Footsteps SFX/Footsteps 2.wav 4.0s 2ch
+Assets/SFX Packs/General RPG SFX Pack/Footsteps SFX/Footsteps 3.wav 4.0s 2ch
+Assets/SFX Packs/General RPG SFX Pack/Footsteps SFX/Footsteps 4.wav 4.0s 2ch
+Assets/SFX Packs/General RPG SFX Pack/Footsteps SFX/Footsteps 5.wav 5.0s 2ch
+Assets/SFX Packs/General RPG SFX Pack/Magic SFX/Fire Magic.wav 3.5s 2ch
+Assets/SFX Packs/General RPG SFX Pack/Magic SFX/Water Magic.wav 2.0s 2ch
+Assets/SFX Packs/General RPG SFX Pack/Magic SFX/Wind Magic.wav 2.0s 2ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_01.wav 0.3s 1ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_02.wav 0.3s 1ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_03.wav 0.3s 1ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_04.wav 0.3s 1ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_05.wav 0.3s 1ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_06.wav 0.3s 1ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_07.wav 0.3s 1ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_08.wav 0.3s 1ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_09.wav 0.3s 1ch
+Assets/Starter Assets/Runtime/ThirdPersonController/Character/Sfx/Player_Footstep_10.wav 0.3s 1ch
+Assets/Vefects/Free Fire VFX URP/Audio/SFX_FireBig_L.wav 10.0s 1ch
+Assets/Vefects/Free Fire VFX URP/Audio/SFX_FireMedium_L.wav 10.0s 1ch
+Assets/Vefects/Free Fire VFX URP/Audio/SFX_FireSmall_L.wav 10.0s 1ch

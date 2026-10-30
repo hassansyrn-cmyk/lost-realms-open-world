@@ -1,0 +1,18 @@
+# Build the World Kit, then render contact sheets and dump shader facts for review.
+log 0004 kit build starting
+refresh
+exec LostRealmsOW.OpenWorldKitBuilder.Build
+exec LostRealmsOW.OpenWorldKitPreview.RenderVegetation
+exec LostRealmsOW.OpenWorldKitPreview.RenderRocks
+exec LostRealmsOW.OpenWorldKitPreview.RenderArchitecture
+exec LostRealmsOW.OpenWorldKitPreview.RenderProps
+exec LostRealmsOW.OpenWorldKitPreview.RenderVfx
+call LostRealmsOW.OpenWorldDiagnostics.DumpShader Idyllic Fantasy Nature/Surface
+call LostRealmsOW.OpenWorldDiagnostics.DumpShader Idyllic Fantasy Nature/Vegetation
+call LostRealmsOW.OpenWorldDiagnostics.DumpShader Idyllic Fantasy Nature/Water
+call LostRealmsOW.OpenWorldDiagnostics.DumpPrefabMaterials Assets/Idyllic Fantasy Nature/Prefabs/Water.prefab
+call LostRealmsOW.OpenWorldDiagnostics.DumpPrefabMaterials Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_01.prefab
+call LostRealmsOW.OpenWorldDiagnostics.DumpPrefabMaterials Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_01_Green.prefab
+call LostRealmsOW.OpenWorldDiagnostics.ListFolder Assets/Idyllic Fantasy Nature/Terrain Layer
+call LostRealmsOW.OpenWorldDiagnostics.ListAudio ambien;music;footstep;wind;water;bird;fire;forest;night;cave;desert;snow
+log 0004 done

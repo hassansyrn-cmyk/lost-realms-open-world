@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 87271e46412bf2f41998c35802d3feb1
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterVolume.Settings.Ocean.cs
+  uploadId: 977994

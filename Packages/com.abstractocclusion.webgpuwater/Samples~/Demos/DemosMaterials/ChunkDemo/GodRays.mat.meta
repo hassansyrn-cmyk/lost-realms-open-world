@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ac02a0c9ad0c15e429f5e705b1c7d566
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/ChunkDemo/GodRays.mat
+  uploadId: 977994

@@ -1,0 +1,5 @@
+log 0022 motion lab + time-stamped review sheets (body height, strides, strike frames)
+refresh
+wait 2
+call LostRealmsOW.OpenWorldAnimPreview.RenderList ClaudeBridge/anim-review2.txt
+log 0022 done

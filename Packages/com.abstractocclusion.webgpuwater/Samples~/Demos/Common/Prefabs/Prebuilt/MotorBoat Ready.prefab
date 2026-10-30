@@ -1,0 +1,567 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2322242826195635108
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6686901943061889227}
+  - component: {fileID: 488345726427136654}
+  m_Layer: 0
+  m_Name: Interactor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6686901943061889227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2322242826195635108}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5878543085488134011}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &488345726427136654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2322242826195635108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bfdcd1456389194089e8807e41596d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AbstractOcclusion.WebGpuWater::AbstractOcclusion.WebGpuWater.WaterSphereInteractor
+  centerOffset: {x: 0, y: 0, z: 3}
+  radius: 0.1
+  strength: 0.2
+  verticalForceCap: 0.5
+  maxStepDistance: 5
+  wakeFadeSpeed: 20
+--- !u!1 &4187848027983741927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5878543085488134011}
+  - component: {fileID: 2035643000958284626}
+  - component: {fileID: 6844850464069172496}
+  - component: {fileID: 6857504321106279692}
+  - component: {fileID: 4731686732910959387}
+  - component: {fileID: 2146143678787807846}
+  - component: {fileID: 612963759612769154}
+  - component: {fileID: 8604741591275250098}
+  m_Layer: 0
+  m_Name: MotorBoat Ready
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5878543085488134011
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187848027983741927}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6892805304380219233}
+  - {fileID: 6686901943061889227}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2035643000958284626
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187848027983741927}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2, y: 1, z: 5}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &6844850464069172496
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187848027983741927}
+  serializedVersion: 5
+  m_Mass: 200
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: -0.40074003, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 0
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 1
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6857504321106279692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187848027983741927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba7f08200b36e84d8c995dae6ad429c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AbstractOcclusion.WebGpuWater::AbstractOcclusion.WebGpuWater.WaterBuoyancy
+  buoyancy: 2.5
+  waterLinearDamping: 2
+  waterAngularDamping: 1
+  samplesPerAxis: 3
+  floatRadiusScale: 1.5
+  waveDriftStrength: 1
+  verticalSettleDamping: 3
+  surfaceGlueIntensity: 2
+  objectWidth: 7.5000014
+  maxBuoyancyForce: 0
+  surfaceRelativeDrag: 1
+  dragCoefficients: {x: 1, y: 1, z: 1}
+  ignoreInteractiveRipples: 1
+  drawDebugGizmos: 1
+--- !u!114 &4731686732910959387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187848027983741927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33ebb635fbd88db458c33d033a8f5bc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AbstractOcclusion.WebGpuWater::AbstractOcclusion.WebGpuWater.BoatController
+  enginePower: 9
+  reverseCoefficient: 0.35
+  sternOffset: {x: 0, y: -0.40074003, z: -3.3750005}
+  turnAcceleration: 2.5
+  fullAuthoritySpeed: 3
+  reverseSteerWhenBackward: 1
+  forwardDrag: 0.06
+  lateralDrag: 0.8
+  yawDamping: 3
+  propellerDepth: 0.80148005
+  hullDepth: 1.6029601
+  throttleResponse: 2
+  steerResponse: 3
+--- !u!114 &2146143678787807846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187848027983741927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26fbf81571b2cba4483f971ae5c25f86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AbstractOcclusion.WebGpuWater::AbstractOcclusion.WebGpuWater.WaterMembership
+--- !u!114 &612963759612769154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187848027983741927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbcdd9a68e9064f4183d7e323cbcf8bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AbstractOcclusion.WebGpuWater::AbstractOcclusion.WebGpuWater.WaterInteractable
+  displaceScale: 1
+  verticalEmitSpacing: 0.012
+  horizontalEmitSpacing: 0.02
+  rippleRadiusScale: 1
+  reflectsWaves: 0
+  rendererOverride: {fileID: 0}
+--- !u!114 &8604741591275250098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4187848027983741927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2359f40ac11d5cc4a8a8c59039409a91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AbstractOcclusion.WebGpuWater::AbstractOcclusion.WebGpuWater.WaterSplash
+  emitter: {fileID: 0}
+  minImpactSpeed: 0.4
+  maxImpactSpeed: 3
+  rippleStrength: 0.04
+--- !u!1 &6534132819926171078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6734651725437586868}
+  - component: {fileID: 3534426960924655858}
+  - component: {fileID: 3257127719008799768}
+  - component: {fileID: 1204275833718168905}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6734651725437586868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534132819926171078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5, y: 1, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6892805304380219233}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3534426960924655858
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534132819926171078}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3257127719008799768
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534132819926171078}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1204275833718168905
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534132819926171078}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &8532745156481118483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7542344197722664984}
+  - component: {fileID: 1371308924706738217}
+  m_Layer: 0
+  m_Name: Dry Interior
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7542344197722664984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8532745156481118483}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00000047683716, y: 0.0002399981, z: -0.0000011920929}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6892805304380219233}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1371308924706738217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8532745156481118483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 915077c3dcbfd574299c2b79a0e61be4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AbstractOcclusion.WebGpuWater::AbstractOcclusion.WebGpuWater.WaterExclusionVolume
+  shape: 0
+  carveMesh: {fileID: 4300000, guid: effd1c06645541c47b6b01d852275162, type: 2}
+  meshProxy: 0
+  size: {x: 5, y: 1, z: 2}
+  drawWaterWalls: 0
+  wallScatterBoost: 1.2
+  wallShader: {fileID: 0}
+  edgeColor: {r: 0, g: 0, b: 0, a: 1}
+  edgeIntensity: 0.55
+  edgeSpread: 0.12
+  castsSunShadow: 1
+  affectParticles: 1
+  particleFadeBand: 0.06
+  particleDissolveSpeed: 1
+--- !u!1001 &2261913474763904716
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5878543085488134011}
+    m_Modifications:
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825750157810491912, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      propertyPath: m_Name
+      value: Hull
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 2924506639797705843, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+    - {fileID: 2906642446309590165, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7542344197722664984}
+    - targetCorrespondingSourceObject: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6734651725437586868}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4825750157810491912, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3153982262475490997}
+  m_SourcePrefab: {fileID: 100100000, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+--- !u!1 &6745104032612529348 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4825750157810491912, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+  m_PrefabInstance: {fileID: 2261913474763904716}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3153982262475490997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6745104032612529348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bd8fb958cdc9ff49ac1ae4c67a90547, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: AbstractOcclusion.WebGpuWater::AbstractOcclusion.WebGpuWater.WaterSprayPump
+  probes:
+  - localOffset: {x: -3.5710597, y: -0.1099, z: 1.1466279}
+    mode: 1
+    emission: 1
+    waterMotion: 2
+    ignoreSurfaceBand: 1
+    amountBoost: 1
+    outwardLocal: {x: -0.90816945, y: 0, z: 0.4186031}
+  - localOffset: {x: -3.4443364, y: -0.1099, z: -1.2321754}
+    mode: 1
+    emission: 1
+    waterMotion: 2
+    ignoreSurfaceBand: 1
+    amountBoost: 0
+    outwardLocal: {x: -14.22, y: 0, z: -4.29}
+  - localOffset: {x: -1.0420172, y: -0.1099, z: -1.2556437}
+    mode: 1
+    emission: 1
+    waterMotion: 2
+    ignoreSurfaceBand: 1
+    amountBoost: 0
+    outwardLocal: {x: -0.012213288, y: 0, z: -0.99992555}
+  - localOffset: {x: 1.3613052, y: -0.1099, z: -1.1932871}
+    mode: 1
+    emission: 1
+    waterMotion: 2
+    ignoreSurfaceBand: 1
+    amountBoost: 0
+    outwardLocal: {x: 0.12664653, y: 0, z: -0.991948}
+  - localOffset: {x: -4, y: -0.1099, z: 0.07287741}
+    mode: 1
+    emission: 1
+    waterMotion: 2
+    ignoreSurfaceBand: 1
+    amountBoost: -1
+    outwardLocal: {x: -280, y: -0.46, z: 12.2}
+  - localOffset: {x: 1.2304099, y: -0.1099, z: 1.2098616}
+    mode: 1
+    emission: 1
+    waterMotion: 2
+    ignoreSurfaceBand: 1
+    amountBoost: 0
+    outwardLocal: {x: 0.12665147, y: 0, z: 0.9919475}
+  - localOffset: {x: -1.1737995, y: -0.1099, z: 1.255892}
+    mode: 1
+    emission: 1
+    waterMotion: 2
+    ignoreSurfaceBand: 1
+    amountBoost: 0
+    outwardLocal: {x: -0.0067471107, y: 0, z: 0.99997735}
+  surfaceBand: 0.25
+  minImpactSpeed: 0.2
+  maxImpactSpeed: 4
+  horizontalPlowWeight: 0.5
+  continuousPlowMultiplier: 2
+  emitCooldownSeconds: 0.06
+  sprayRadius: 0.25
+  continuousRatePerSecond: 10
+  continuousAmountScale: 0.236
+  continuousCrownTriggerStrength: 1
+  continuousCrownRatePerSecond: 0.1
+  turnRateForFullResponse: 25
+  turnOutsideAmountBoost: 5
+  turnOutsideSpawnOffset: 0.3
+  petalArcDegrees: 110
+  petalRakeAtRest: 0
+  petalRakeAtSpeed: 0.261
+  petalSpinDegrees: 0
+  petalElevationDegrees: -42.4
+  emitter: {fileID: 0}
+--- !u!4 &6892805304380219233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4669045021829892525, guid: 168f5f7c5b0345549b2703bbd9e9e6d3, type: 3}
+  m_PrefabInstance: {fileID: 2261913474763904716}
+  m_PrefabAsset: {fileID: 0}

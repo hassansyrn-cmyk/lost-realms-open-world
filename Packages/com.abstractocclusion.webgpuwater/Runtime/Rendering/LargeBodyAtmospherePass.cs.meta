@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 4ceb51dabaf9eb0409479ca9a7fc55f8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Rendering/LargeBodyAtmospherePass.cs
+  uploadId: 977994

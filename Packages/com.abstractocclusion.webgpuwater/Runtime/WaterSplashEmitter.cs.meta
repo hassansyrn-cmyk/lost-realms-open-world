@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: b55cb88d347492c4f95965747729bf4e
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterSplashEmitter.cs
+  uploadId: 977994

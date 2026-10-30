@@ -1,0 +1,7 @@
+log 0058 Claude: Play-mode check after the Fusion import (the old Photon popup should be gone)
+play
+waitplay 30
+wait 6
+stop
+wait 3
+log 0058 done

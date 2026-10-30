@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 47c3e31089a4f9947b2df439b1f1ba0e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Defaults/Quality/WebWaterQuality.asset
+  uploadId: 977994

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 01300ebfaddf46fc913d75668181ba98
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterRiverSplineEditor.cs
+  uploadId: 977994

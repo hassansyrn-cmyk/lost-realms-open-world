@@ -1,0 +1,12 @@
+log 0056 Claude: networking SDK switch — scan for PUN 2 use, move PUN 2 to the Recycle Bin, remove PUN define symbols, import Photon Fusion 2 from the Downloads folder
+refresh
+wait 3
+exec LostRealmsOW.ClaudePhotonSwitch.RemovePun
+wait 5
+refresh
+wait 8
+exec LostRealmsOW.ClaudePhotonSwitch.ImportFusion
+wait 15
+refresh
+wait 10
+log 0056 import step finished

@@ -1,0 +1,2 @@
+PASS: mounted vent causes no launch/glider; direct mounted launch and SetGliding(true) refused; dismount folded; on-foot vent launches into glide. These are live handler checks, not a physical touch ride-through.
+PASS: mounted Update preserves a single held touch-stick value across five handler calls; whistle hidden mounted, visible with known horse after dismount, button callback invoked. Not physical Android tests or a whistle-arrival test.

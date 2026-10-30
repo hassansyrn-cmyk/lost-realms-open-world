@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 61fc6a7f5c60f2a43bc9d402c988b64a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterCollaboratorModules.cs
+  uploadId: 977994

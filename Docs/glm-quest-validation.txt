@@ -1,0 +1,78 @@
+23:02:11 Begin: protected tour started, glm- flags cleared.
+23:02:12 Sled: accepted via normal Interact, tracks inspected (stage 2).
+23:02:27 Sled: 3 Frostfang wolves spawned and defeated with real TakeHit damage (stage 3).
+23:02:38 Cleanup: adventure snapshot restored, saving unblocked.
+23:15:32 Begin: protected tour started, glm- flags cleared. stage(sled 0, brazier 0, lantern 0, rod 0) gold 972 gems 53 weapons[0,1,2,7,11,12]
+23:15:32 Sled: accepted via normal Interact, tracks inspected (stage 2).
+23:15:48 Sled: 3 Frostfang wolves spawned and defeated with real TakeHit damage (stage 3).
+23:15:50 Braziers: accepted via Interact, three lights via the runtime's own LightBrazier entry (cast state not simulated), one-time reward verified (+120 gold, +6 gems).
+23:15:58 Cleanup: adventure snapshot restored, saving unblocked.
+23:26:52 Begin: protected tour started, glm- flags cleared. stage(sled 0, brazier 0, lantern 0, rod 0) gold 972 gems 53 weapons[0,1,2,7,11,12]
+23:26:52 Sled: accepted via normal Interact, tracks inspected (stage 2).
+23:27:08 Sled: 3 Frostfang wolves spawned and defeated with real TakeHit damage (stage 3).
+23:27:10 Braziers: accepted via Interact, three lights via the runtime's own LightBrazier entry (cast state not simulated), one-time reward verified (+120 gold, +6 gems).
+23:27:16 Rods: storm forced on accept, three raises via normal Interact under the storm, one-time reward verified (+120 gold, +5 gems, Reaper's Spear).
+23:27:21 Cleanup: adventure snapshot restored, saving unblocked.
+23:34:09 Begin: protected tour started, glm- flags cleared. stage(sled 0, brazier 0, lantern 0, rod 0) gold 972 gems 53 weapons[0,1,2,7,11,12]
+23:34:10 Sled: accepted via normal Interact, tracks inspected (stage 2).
+23:34:25 Sled: 3 Frostfang wolves spawned and defeated with real TakeHit damage (stage 3).
+23:34:26 Sled: supplies collected via Interact, one-time reward verified (+110 gold, +4 gems, Woodsman's Axe).
+23:34:27 Braziers: accepted via Interact, three lights via the runtime's own LightBrazier entry (cast state not simulated), one-time reward verified (+120 gold, +6 gems).
+23:34:29 Lantern 1 collected, held 1, stage 1
+23:34:29 Lantern 2 collected, held 2, stage 1
+23:34:29 Lantern 3 collected, held 3, stage 1
+23:34:29 Lantern 4 collected, held 4, stage 1
+23:34:31 Rods: storm forced on accept, three raises via normal Interact under the storm, one-time reward verified (+120 gold, +5 gems, Reaper's Spear).
+23:34:36 Cleanup: adventure snapshot restored, saving unblocked.
+23:41:27 Begin: protected tour started, glm- flags cleared. stage(sled 0, brazier 0, lantern 0, rod 0) gold 972 gems 53 weapons[0,1,2,7,11,12]
+23:41:28 Sled: accepted via normal Interact, tracks inspected (stage 2).
+23:41:43 Sled: 3 Frostfang wolves spawned and defeated with real TakeHit damage (stage 3).
+23:41:45 Braziers: accepted via Interact, three lights via the runtime's own LightBrazier entry (cast state not simulated), one-time reward verified (+120 gold, +6 gems).
+23:41:46 Lantern 1 collected, held 1, stage 1
+23:41:46 Lantern 2 collected, held 2, stage 1
+23:41:46 Lantern 3 collected, held 3, stage 1
+23:41:46 Lantern 4 collected, held 4, stage 1
+23:41:50 Rods: storm forced on accept, three raises via normal Interact under the storm, one-time reward verified (+120 gold, +5 gems, Reaper's Spear).
+23:41:52 Board: boardPos (2.0, 5.7, 18.0), hero (2.0, 8.4, 18.0), opened True, modal True, isModal True, dead False
+23:41:52 Board: opened from the hub board object via Interact; screenshot taken by the job.
+23:41:54 Cleanup: adventure snapshot restored, saving unblocked.
+23:46:31 Begin: protected tour started, glm- flags cleared. stage(sled 0, brazier 0, lantern 0, rod 0) gold 972 gems 53 weapons[0,1,2,7,11,12]
+23:46:31 Sled: accepted via normal Interact, tracks inspected (stage 2).
+23:46:46 Sled: 3 Frostfang wolves spawned and defeated with real TakeHit damage (stage 3).
+23:46:47 Sled: supplies collected via Interact, one-time reward verified (+110 gold, +4 gems, Woodsman's Axe).
+23:46:48 Braziers: accepted via Interact, three lights via the runtime's own LightBrazier entry (cast state not simulated), one-time reward verified (+120 gold, +6 gems).
+23:46:49 Lantern 1 collected, held 1, stage 1
+23:46:49 Lantern 2 collected, held 2, stage 1
+23:46:49 Lantern 3 collected, held 3, stage 1
+23:46:49 Lantern 4 collected, held 4, stage 1
+23:46:52 Rods: storm forced on accept, three raises via normal Interact under the storm, one-time reward verified (+120 gold, +5 gems, Reaper's Spear).
+23:46:54 Board: boardPos (2.0, 5.7, 18.0), hero (2.0, 8.4, 18.0), opened True, modal True, isModal True, dead False
+23:46:54 Board: opened from the hub board object via Interact; screenshot taken by the job.
+23:46:57 Cleanup: adventure snapshot restored, saving unblocked.
+23:57:44 Begin: protected tour started, glm- flags cleared. stage(sled 0, brazier 0, lantern 0, rod 0) gold 972 gems 53 weapons[0,1,2,7,11,12]
+23:57:45 Sled: accepted via normal Interact, tracks inspected (stage 2).
+23:58:00 Sled: 3 Frostfang wolves spawned and defeated with real TakeHit damage (stage 3).
+23:58:01 Sled: supplies collected via Interact, one-time reward verified (+110 gold, +4 gems, Woodsman's Axe).
+23:58:03 Braziers: accepted via Interact, three lights via the runtime's own LightBrazier entry (cast state not simulated), one-time reward verified (+120 gold, +6 gems).
+23:58:04 Lantern 1 collected, held 1, stage 1
+23:58:04 Lantern 2 collected, held 2, stage 1
+23:58:04 Lantern 3 collected, held 3, stage 1
+23:58:04 Lantern 4 collected, held 4, stage 1
+23:58:05 Lanterns: night gate, 4 proximity collects via Interact, real wraith defeat, one-time reward verified (+140 gold, +5 gems).
+23:58:07 Rods: storm forced on accept, three raises via normal Interact under the storm, one-time reward verified (+120 gold, +5 gems, Reaper's Spear).
+23:58:08 Board: boardPos (2.0, 5.7, 18.0), hero (2.0, 8.4, 18.0), opened True, modal True, isModal True, dead False
+23:58:08 Board: opened from the hub board object via Interact; screenshot taken by the job.
+23:58:11 Save: glm- flags and quest weapons survive JSON snapshot and disk save/load.
+23:58:11 Cleanup: adventure snapshot restored, saving unblocked.
+00:02:54 Begin: protected tour started, glm- flags cleared. stage(sled 0, brazier 0, lantern 0, rod 0) gold 972 gems 53 weapons[0,1,2,7,11,12]
+00:02:55 Board: boardPos (2.0, 5.7, 18.0), hero (2.0, 8.4, 18.0), opened True, modal True, isModal True, dead False
+00:02:55 Board: opened from the hub board object via Interact; screenshot taken by the job.
+00:02:58 Cleanup: adventure snapshot restored, saving unblocked.
+00:14:05 Begin: protected tour started, glm- flags cleared. stage(sled 0, brazier 0, lantern 0, rod 0) gold 972 gems 53 weapons[0,1,2,7,11,12]
+00:14:05 Board: boardPos (2.0, 5.7, 18.0), hero (2.0, 8.4, 18.0), opened True, modal True, isModal True, dead False
+00:14:05 Board: opened from the hub board object via Interact; screenshot taken by the job.
+00:14:08 Cleanup: adventure snapshot restored, saving unblocked.
+00:19:51 Begin: protected tour started, glm- flags cleared. stage(sled 0, brazier 0, lantern 0, rod 0) gold 972 gems 53 weapons[0,1,2,7,11,12]
+00:19:52 Board: boardPos (2.0, 5.7, 18.0), hero (2.0, 8.4, 18.0), opened True, modal True, isModal True, dead False
+00:19:52 Board: opened from the hub board object via Interact; screenshot taken by the job.
+00:19:54 Cleanup: adventure snapshot restored, saving unblocked.

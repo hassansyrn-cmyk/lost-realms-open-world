@@ -1,0 +1,22 @@
+Horse extras + discovery polish 10/30/2026 4:04:05 AM
+PASS: 28/14 degree turn hysteresis and direction reversal
+PASS: raised parchment replaces ground square without new UI
+PASS: two prepared world-kit rocks frame the cache
+PASS: raised note retains original interaction
+PASS: cache remains accessible from southern opening
+PASS: found dry unobstructed riding circuit at (-60.00, 7.66, -130.00), ground height range 1.14
+PASS: prepared horse exists
+PASS: all eight additional source clips prepared
+PASS: banked clips share straight gait natural speed
+PASS: first wild mount accepted
+PASS: dismount blocked during initial mount/buck
+PASS: buck plays once and movement stays locked until complete
+Leg chains: BN_L_Foot_054 / BN_L_HorseLink_053 / BN_L_Calf_052; BN_R_Foot_00 / BN_R_HorseLink_058 / BN_R_Calf_057; BN_L_Hand_041 / BN_l_Forearm_040 / BN_L_UpperArm_039; BN_R_Hand_046 / BN_R_Forearm_045 / BN_R_UpperArm_044
+Contacts walk_l: BN_L_Toe_2_055_0 y 0.181..0.367, planted 0/110; BN_R_Toe_2_059_0 y 0.186..0.379, planted 0/110; BN_L_Toe_042_0 y 0.180..0.362, planted 0/110; BN_R_Toe_047_0 y 0.196..0.367, planted 0/110
+[Review] skate extra_walk_l: body 1.55 m/s | hoof at its lowest (3 cm): moves 0.50 m/s (32%), along travel +0.01 | lowest 30%: moves 0.50 m/s (32%), along travel -0.02 | clip natural 1.51 m/s, playback x1.02 | BN_L_Toe_2_055_0 0.67/+0.03, BN_R_Toe_2_059_0 0.71/+0.17, BN_L_Toe_042_0 0.25/-0.17, BN_R_Toe_047_0 0.37/+0.00 | states walk:108
+walk_l: active 110/110, peak 1.55 m/s
+PASS: turning circle selects walk_l
+Leg chains: BN_L_Foot_054 / BN_L_HorseLink_053 / BN_L_Calf_052; BN_R_Foot_00 / BN_R_HorseLink_058 / BN_R_Calf_057; BN_L_Hand_041 / BN_l_Forearm_040 / BN_L_UpperArm_039; BN_R_Hand_046 / BN_R_Forearm_045 / BN_R_UpperArm_044
+Contacts gallop_l: BN_L_Toe_2_055_0 y 0.173..1.194, planted 0/132; BN_R_Toe_2_059_0 y 0.206..0.881, planted 0/132; BN_L_Toe_042_0 y 0.175..0.822, planted 0/132; BN_R_Toe_047_0 y 0.204..0.852, planted 0/132
+[Review] skate extra_gallop_l: body 6.04 m/s | hoof at its lowest (3 cm): moves 2.11 m/s (35%), along travel -0.49 | lowest 30%: moves 2.29 m/s (38%), along travel +0.42 | clip natural 6.28 m/s, playback x1.20 | BN_L_Toe_2_055_0 2.29/+1.61, BN_R_Toe_2_059_0 3.68/-3.57, BN_L_Toe_042_0 1.08/-0.13, BN_R_Toe_047_0 1.41/+0.13 | states gallop:59 canter:24 walk:23 trot:22 idle:2
+gallop_l: active 61/132, peak 9.59 m/s

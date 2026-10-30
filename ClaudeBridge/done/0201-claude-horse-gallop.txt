@@ -1,0 +1,27 @@
+log 0201 Claude: horse gallop check on open ground (side captures, then hoof skate)
+play
+waitplay 14
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+wait 1
+tp -40 -160 0 10
+wait 4
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Wild Horse
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride8_mount 30 3 left 0:mount
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride8_gallop 50 2 left 0:faceopen,0.2:fwd 1,0.6:sprint 1
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride8_face 6 3 left 0:faceopen
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.ClaudeReviewChecks.SkateStart
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 1 1
+wait 2
+call LostRealmsOW.ClaudeReviewChecks.SkateReport settle
+wait 2
+call LostRealmsOW.ClaudeReviewChecks.SkateReport gallop
+call LostRealmsOW.ClaudeReviewChecks.Ride 0 0 0
+wait 2
+timeofday 10:00 unlock
+stop
+log 0201 done

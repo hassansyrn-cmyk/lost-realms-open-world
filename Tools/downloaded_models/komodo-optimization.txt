@@ -1,0 +1,10 @@
+22:05:07 | INFO: Data are loaded, start creating Blender stuff
+22:05:07 | INFO: Blender create Mesh node Body
+22:05:07 | INFO: glTF import finished in 0.23s
+
+FBX export starting... 'C:/Users/Hasan/Documents/Lost-Realms-Open-World/Assets/GameContent/DownloadedModels/Komodo/Source/Komodo.fbx'
+export finished in 0.2499 sec.
+RETAINED_SHAPES 26 ['target_0', 'target_1', 'target_10', 'target_11', 'target_12', 'target_13', 'target_14', 'target_15', 'target_16', 'target_17', 'target_18', 'target_19', 'target_2', 'target_20', 'target_21', 'target_22', 'target_23', 'target_24', 'target_3', 'target_4', 'target_5', 'target_6', 'target_7', 'target_8', 'target_9']
+Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:33:49)
+
+Blender quit

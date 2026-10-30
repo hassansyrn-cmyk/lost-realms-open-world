@@ -1,0 +1,5300 @@
+{
+ "entries": [
+  {
+   "key": "tree_broadleaf_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_01_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "broadleaf,forest",
+   "scaleMin": 0.95,
+   "scaleMax": 1.45,
+   "sink": 0.12,
+   "weight": 1.0,
+   "tint": "86B832"
+  },
+  {
+   "key": "tree_blossom_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_01.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "blossom,village,meadow",
+   "scaleMin": 0.85,
+   "scaleMax": 1.2,
+   "sink": 0.1,
+   "weight": 0.22
+  },
+  {
+   "key": "tree_willow_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/WillowTree_01_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant,grave",
+   "tags": "willow,water",
+   "scaleMin": 0.95,
+   "scaleMax": 1.35,
+   "sink": 0.12,
+   "weight": 0.6,
+   "tint": "9CC63F"
+  },
+  {
+   "key": "tree_fir_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Fir_01.prefab",
+   "role": "tree",
+   "biomes": "verdant,frozen,storm",
+   "tags": "conifer,highland",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.15,
+   "weight": 0.8,
+   "tint": "5E9A2E"
+  },
+  {
+   "key": "tree_broadleaf_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_02_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "broadleaf,forest",
+   "scaleMin": 0.95,
+   "scaleMax": 1.45,
+   "sink": 0.12,
+   "weight": 1.0,
+   "tint": "86B832"
+  },
+  {
+   "key": "tree_blossom_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_02.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "blossom,village,meadow",
+   "scaleMin": 0.85,
+   "scaleMax": 1.2,
+   "sink": 0.1,
+   "weight": 0.22
+  },
+  {
+   "key": "tree_willow_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/WillowTree_02_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant,grave",
+   "tags": "willow,water",
+   "scaleMin": 0.95,
+   "scaleMax": 1.35,
+   "sink": 0.12,
+   "weight": 0.6,
+   "tint": "9CC63F"
+  },
+  {
+   "key": "tree_fir_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Fir_02.prefab",
+   "role": "tree",
+   "biomes": "verdant,frozen,storm",
+   "tags": "conifer,highland",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.15,
+   "weight": 0.8,
+   "tint": "5E9A2E"
+  },
+  {
+   "key": "tree_broadleaf_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_03_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "broadleaf,forest",
+   "scaleMin": 0.95,
+   "scaleMax": 1.45,
+   "sink": 0.12,
+   "weight": 1.0,
+   "tint": "86B832"
+  },
+  {
+   "key": "tree_blossom_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_03.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "blossom,village,meadow",
+   "scaleMin": 0.85,
+   "scaleMax": 1.2,
+   "sink": 0.1,
+   "weight": 0.22
+  },
+  {
+   "key": "tree_willow_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/WillowTree_03_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant,grave",
+   "tags": "willow,water",
+   "scaleMin": 0.95,
+   "scaleMax": 1.35,
+   "sink": 0.12,
+   "weight": 0.6,
+   "tint": "9CC63F"
+  },
+  {
+   "key": "tree_fir_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Fir_03.prefab",
+   "role": "tree",
+   "biomes": "verdant,frozen,storm",
+   "tags": "conifer,highland",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.15,
+   "weight": 0.8,
+   "tint": "5E9A2E"
+  },
+  {
+   "key": "tree_broadleaf_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_04_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "broadleaf,forest",
+   "scaleMin": 0.95,
+   "scaleMax": 1.45,
+   "sink": 0.12,
+   "weight": 1.0,
+   "tint": "86B832"
+  },
+  {
+   "key": "tree_blossom_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_04.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "blossom,village,meadow",
+   "scaleMin": 0.85,
+   "scaleMax": 1.2,
+   "sink": 0.1,
+   "weight": 0.22
+  },
+  {
+   "key": "tree_willow_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/WillowTree_04_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant,grave",
+   "tags": "willow,water",
+   "scaleMin": 0.95,
+   "scaleMax": 1.35,
+   "sink": 0.12,
+   "weight": 0.6,
+   "tint": "9CC63F"
+  },
+  {
+   "key": "tree_fir_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Fir_04.prefab",
+   "role": "tree",
+   "biomes": "verdant,frozen,storm",
+   "tags": "conifer,highland",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.15,
+   "weight": 0.8,
+   "tint": "5E9A2E"
+  },
+  {
+   "key": "tree_broadleaf_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_05_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "broadleaf,forest",
+   "scaleMin": 0.95,
+   "scaleMax": 1.45,
+   "sink": 0.12,
+   "weight": 1.0,
+   "tint": "86B832"
+  },
+  {
+   "key": "tree_blossom_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BlossomTree_05.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "blossom,village,meadow",
+   "scaleMin": 0.85,
+   "scaleMax": 1.2,
+   "sink": 0.1,
+   "weight": 0.22
+  },
+  {
+   "key": "tree_willow_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/WillowTree_05_Green.prefab",
+   "role": "tree",
+   "biomes": "verdant,grave",
+   "tags": "willow,water",
+   "scaleMin": 0.95,
+   "scaleMax": 1.35,
+   "sink": 0.12,
+   "weight": 0.6,
+   "tint": "9CC63F"
+  },
+  {
+   "key": "tree_fir_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Fir_05.prefab",
+   "role": "tree",
+   "biomes": "verdant,frozen,storm",
+   "tags": "conifer,highland",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.15,
+   "weight": 0.8,
+   "tint": "5E9A2E"
+  },
+  {
+   "key": "tree_autumn_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_01_Red.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "autumn,highland",
+   "scaleMin": 0.95,
+   "scaleMax": 1.35,
+   "sink": 0.12,
+   "weight": 0.18
+  },
+  {
+   "key": "tree_autumn_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_03_Red.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "autumn,highland",
+   "scaleMin": 0.95,
+   "scaleMax": 1.35,
+   "sink": 0.12,
+   "weight": 0.18
+  },
+  {
+   "key": "tree_autumn_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_05_Red.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "autumn,highland",
+   "scaleMin": 0.95,
+   "scaleMax": 1.35,
+   "sink": 0.12,
+   "weight": 0.18
+  },
+  {
+   "key": "tree_eerie_willow_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/WillowTree_02_Purple.prefab",
+   "role": "tree",
+   "biomes": "grave",
+   "tags": "willow,eerie,water",
+   "scaleMin": 1.0,
+   "scaleMax": 1.4,
+   "sink": 0.12,
+   "weight": 0.7
+  },
+  {
+   "key": "tree_eerie_broadleaf_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_02_Purple.prefab",
+   "role": "tree",
+   "biomes": "grave",
+   "tags": "eerie,forest",
+   "scaleMin": 0.9,
+   "scaleMax": 1.3,
+   "sink": 0.12,
+   "weight": 0.35
+  },
+  {
+   "key": "tree_storm_broadleaf_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_02_Blue.prefab",
+   "role": "tree",
+   "biomes": "storm",
+   "tags": "stormtouched",
+   "scaleMin": 0.8,
+   "scaleMax": 1.2,
+   "sink": 0.12,
+   "weight": 0.3
+  },
+  {
+   "key": "tree_eerie_willow_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/WillowTree_04_Purple.prefab",
+   "role": "tree",
+   "biomes": "grave",
+   "tags": "willow,eerie,water",
+   "scaleMin": 1.0,
+   "scaleMax": 1.4,
+   "sink": 0.12,
+   "weight": 0.7
+  },
+  {
+   "key": "tree_eerie_broadleaf_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_04_Purple.prefab",
+   "role": "tree",
+   "biomes": "grave",
+   "tags": "eerie,forest",
+   "scaleMin": 0.9,
+   "scaleMax": 1.3,
+   "sink": 0.12,
+   "weight": 0.35
+  },
+  {
+   "key": "tree_storm_broadleaf_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_04_Blue.prefab",
+   "role": "tree",
+   "biomes": "storm",
+   "tags": "stormtouched",
+   "scaleMin": 0.8,
+   "scaleMax": 1.2,
+   "sink": 0.12,
+   "weight": 0.3
+  },
+  {
+   "key": "tree_pine_giant",
+   "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Pine_Tree.prefab",
+   "role": "tree",
+   "biomes": "frozen",
+   "tags": "conifer,giant",
+   "height": 19,
+   "scaleMin": 0.85,
+   "scaleMax": 1.25,
+   "sink": 0.3,
+   "weight": 0.45
+  },
+  {
+   "key": "tree_cedar",
+   "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Cedar_Tree_03.prefab",
+   "role": "tree",
+   "biomes": "frozen,verdant",
+   "tags": "conifer,highland",
+   "height": 13,
+   "scaleMin": 0.85,
+   "scaleMax": 1.25,
+   "sink": 0.25,
+   "weight": 0.4
+  },
+  {
+   "key": "tree_larch",
+   "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Larch_Tree.prefab",
+   "role": "tree",
+   "biomes": "frozen",
+   "tags": "conifer",
+   "height": 14,
+   "scaleMin": 0.85,
+   "scaleMax": 1.2,
+   "sink": 0.25,
+   "weight": 0.35
+  },
+  {
+   "key": "tree_snowoak_01",
+   "source": "Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak01.prefab",
+   "role": "tree",
+   "biomes": "frozen",
+   "tags": "snowy,valley",
+   "height": 8.5,
+   "scaleMin": 0.85,
+   "scaleMax": 1.25,
+   "sink": 0.12,
+   "weight": 0.5
+  },
+  {
+   "key": "tree_snowoak_02",
+   "source": "Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak02.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "valley",
+   "height": 8.5,
+   "scaleMin": 0.85,
+   "scaleMax": 1.25,
+   "sink": 0.12,
+   "weight": 0.5,
+   "note": "summer-green oak: kept out of the Frozen Peaks (only the snow-laden _01/_04 grow there)"
+  },
+  {
+   "key": "tree_snowoak_03",
+   "source": "Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak03.prefab",
+   "role": "tree",
+   "biomes": "verdant",
+   "tags": "valley",
+   "height": 8.5,
+   "scaleMin": 0.85,
+   "scaleMax": 1.25,
+   "sink": 0.12,
+   "weight": 0.5,
+   "note": "summer-green oak: kept out of the Frozen Peaks (only the snow-laden _01/_04 grow there)"
+  },
+  {
+   "key": "tree_snowoak_04",
+   "source": "Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak04.prefab",
+   "role": "tree",
+   "biomes": "frozen",
+   "tags": "snowy,valley",
+   "height": 8.5,
+   "scaleMin": 0.85,
+   "scaleMax": 1.25,
+   "sink": 0.12,
+   "weight": 0.5
+  },
+  {
+   "key": "tree_palm_tall",
+   "source": "Assets/Darth_Artisan/Free_Trees/Prefabs/Palm_Tree.prefab",
+   "role": "palm",
+   "biomes": "dunes",
+   "tags": "palm,oasis",
+   "height": 8,
+   "scaleMin": 0.85,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "weight": 1.0
+  },
+  {
+   "key": "tree_palm",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/Palm.prefab",
+   "role": "palm",
+   "biomes": "dunes",
+   "tags": "palm,oasis",
+   "height": 7,
+   "scaleMin": 0.85,
+   "scaleMax": 1.25,
+   "sink": 0.1,
+   "weight": 1.0
+  },
+  {
+   "key": "tree_palm_triple",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/TriplePalms.prefab",
+   "role": "palm",
+   "biomes": "dunes",
+   "tags": "palm,oasis",
+   "height": 6.5,
+   "scaleMin": 0.9,
+   "scaleMax": 1.2,
+   "sink": 0.1,
+   "weight": 0.6
+  },
+  {
+   "key": "tree_dead_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/dead_tree_a.prefab",
+   "role": "deadtree",
+   "biomes": "dunes,grave,storm",
+   "tags": "dead",
+   "height": 11,
+   "scaleMin": 0.75,
+   "scaleMax": 1.15,
+   "sink": 0.2,
+   "weight": 0.5,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_dead_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/dead_tree_b.prefab",
+   "role": "deadtree",
+   "biomes": "dunes,grave,storm",
+   "tags": "dead",
+   "height": 8,
+   "scaleMin": 0.75,
+   "scaleMax": 1.15,
+   "sink": 0.2,
+   "weight": 0.5,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_dead_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/dead_tree_c.prefab",
+   "role": "deadtree",
+   "biomes": "dunes,grave,storm",
+   "tags": "dead",
+   "height": 8,
+   "scaleMin": 0.75,
+   "scaleMax": 1.15,
+   "sink": 0.2,
+   "weight": 0.5,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_dead_e",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/dead_tree_e.prefab",
+   "role": "deadtree",
+   "biomes": "dunes,grave,storm",
+   "tags": "dead",
+   "height": 11,
+   "scaleMin": 0.75,
+   "scaleMax": 1.15,
+   "sink": 0.2,
+   "weight": 0.5,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_dead_f",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/dead_tree_f.prefab",
+   "role": "deadtree",
+   "biomes": "dunes,grave,storm",
+   "tags": "dead",
+   "height": 11,
+   "scaleMin": 0.75,
+   "scaleMax": 1.15,
+   "sink": 0.2,
+   "weight": 0.5,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_dead_g",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/dead_tree_g.prefab",
+   "role": "deadtree",
+   "biomes": "dunes,grave,storm",
+   "tags": "dead",
+   "height": 11,
+   "scaleMin": 0.75,
+   "scaleMax": 1.15,
+   "sink": 0.2,
+   "weight": 0.5,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_dead_h",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/dead_tree_h.prefab",
+   "role": "deadtree",
+   "biomes": "dunes,grave,storm",
+   "tags": "dead",
+   "height": 11,
+   "scaleMin": 0.75,
+   "scaleMax": 1.15,
+   "sink": 0.2,
+   "weight": 0.5,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_dead_i",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/dead_tree_i.prefab",
+   "role": "deadtree",
+   "biomes": "dunes,grave,storm",
+   "tags": "dead",
+   "height": 11,
+   "scaleMin": 0.75,
+   "scaleMax": 1.15,
+   "sink": 0.2,
+   "weight": 0.5,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_dead_j",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/dead_tree_j.prefab",
+   "role": "deadtree",
+   "biomes": "dunes,grave,storm",
+   "tags": "dead",
+   "height": 11,
+   "scaleMin": 0.75,
+   "scaleMax": 1.15,
+   "sink": 0.2,
+   "weight": 0.5,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_desert_pine_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/pine_b.prefab",
+   "role": "tree",
+   "biomes": "dunes",
+   "tags": "pine,city",
+   "scaleMin": 0.85,
+   "scaleMax": 1.2,
+   "sink": 0.12,
+   "weight": 0.6,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_desert_pine_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/pine_c.prefab",
+   "role": "tree",
+   "biomes": "dunes",
+   "tags": "pine,city",
+   "scaleMin": 0.85,
+   "scaleMax": 1.2,
+   "sink": 0.12,
+   "weight": 0.6,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "tree_desert_pine_d",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_trees/pine_d.prefab",
+   "role": "tree",
+   "biomes": "dunes",
+   "tags": "pine,city",
+   "scaleMin": 0.85,
+   "scaleMax": 1.2,
+   "sink": 0.12,
+   "weight": 0.6,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "bush_01_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Bush_01_01.prefab",
+   "role": "bush",
+   "biomes": "verdant,grave,storm",
+   "tags": "bush",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "weight": 1.0,
+   "tint": "7FAE2E"
+  },
+  {
+   "key": "bush_01_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Bush_01_02.prefab",
+   "role": "bush",
+   "biomes": "verdant,grave,storm",
+   "tags": "bush",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "weight": 1.0,
+   "tint": "7FAE2E"
+  },
+  {
+   "key": "bush_02_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Bush_02_01.prefab",
+   "role": "bush",
+   "biomes": "verdant,grave,storm",
+   "tags": "bush",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "weight": 1.0
+  },
+  {
+   "key": "bush_02_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Bush_02_02.prefab",
+   "role": "bush",
+   "biomes": "verdant,grave,storm",
+   "tags": "bush",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "weight": 1.0
+  },
+  {
+   "key": "bush_03_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Bush_03_01.prefab",
+   "role": "bush",
+   "biomes": "verdant,grave,storm",
+   "tags": "bush",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "weight": 1.0
+  },
+  {
+   "key": "bush_03_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Bush_03_02.prefab",
+   "role": "bush",
+   "biomes": "verdant,grave,storm",
+   "tags": "bush",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "weight": 1.0
+  },
+  {
+   "key": "cattail_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cattail_01.prefab",
+   "role": "reed",
+   "biomes": "verdant,grave",
+   "tags": "water,reed",
+   "scaleMin": 0.85,
+   "scaleMax": 1.3,
+   "collider": "none",
+   "noShadow": true,
+   "weight": 1.0
+  },
+  {
+   "key": "lily_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/LilyPads_01.prefab",
+   "role": "lily",
+   "biomes": "verdant,grave",
+   "tags": "water",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "collider": "none",
+   "noShadow": true,
+   "weight": 1.0
+  },
+  {
+   "key": "cattail_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cattail_02.prefab",
+   "role": "reed",
+   "biomes": "verdant,grave",
+   "tags": "water,reed",
+   "scaleMin": 0.85,
+   "scaleMax": 1.3,
+   "collider": "none",
+   "noShadow": true,
+   "weight": 1.0
+  },
+  {
+   "key": "lily_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/LilyPads_02.prefab",
+   "role": "lily",
+   "biomes": "verdant,grave",
+   "tags": "water",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "collider": "none",
+   "noShadow": true,
+   "weight": 1.0
+  },
+  {
+   "key": "cattail_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cattail_03.prefab",
+   "role": "reed",
+   "biomes": "verdant,grave",
+   "tags": "water,reed",
+   "scaleMin": 0.85,
+   "scaleMax": 1.3,
+   "collider": "none",
+   "noShadow": true,
+   "weight": 1.0
+  },
+  {
+   "key": "lily_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/LilyPads_03.prefab",
+   "role": "lily",
+   "biomes": "verdant,grave",
+   "tags": "water",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "collider": "none",
+   "noShadow": true,
+   "weight": 1.0
+  },
+  {
+   "key": "waterlily_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Waterlily_01.prefab",
+   "role": "lily",
+   "biomes": "verdant",
+   "tags": "water,flower",
+   "scaleMin": 0.8,
+   "scaleMax": 1.2,
+   "collider": "none",
+   "noShadow": true,
+   "weight": 0.6
+  },
+  {
+   "key": "waterlily_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Waterlily_02.prefab",
+   "role": "lily",
+   "biomes": "verdant",
+   "tags": "water,flower",
+   "scaleMin": 0.8,
+   "scaleMax": 1.2,
+   "collider": "none",
+   "noShadow": true,
+   "weight": 0.6
+  },
+  {
+   "key": "fern",
+   "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Fern.prefab",
+   "role": "fern",
+   "biomes": "verdant,frozen,grave",
+   "tags": "forest",
+   "height": 0.8,
+   "scaleMin": 0.8,
+   "scaleMax": 1.4,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "mushroom_boletus",
+   "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Boletus_Edulis.prefab",
+   "role": "mushroom",
+   "biomes": "verdant",
+   "tags": "forest",
+   "height": 0.3,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "mushroom_purple",
+   "source": "Assets/Turntable_platforms/Prefabs/mushrooms/purple_mushrooms.prefab",
+   "role": "mushroom",
+   "biomes": "grave,verdant",
+   "tags": "magic,forest",
+   "height": 0.8,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "mushroom_red",
+   "source": "Assets/Turntable_platforms/Prefabs/mushrooms/red_mushooms.prefab",
+   "role": "mushroom",
+   "biomes": "grave,verdant",
+   "tags": "magic,forest",
+   "height": 0.8,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "detail_grass_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Grass_01.prefab",
+   "role": "grass",
+   "biomes": "verdant,grave,storm",
+   "tags": "grass",
+   "detail": true,
+   "noShadow": true,
+   "tint": "7DAE36"
+  },
+  {
+   "key": "detail_grass_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Grass_02.prefab",
+   "role": "grass",
+   "biomes": "verdant,grave,storm",
+   "tags": "grass",
+   "detail": true,
+   "noShadow": true,
+   "tint": "86B53B"
+  },
+  {
+   "key": "detail_grass_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Grass_03.prefab",
+   "role": "grass",
+   "biomes": "verdant,grave,storm",
+   "tags": "grass",
+   "detail": true,
+   "noShadow": true,
+   "tint": "74A532"
+  },
+  {
+   "key": "detail_grass_dry",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Grass_02.prefab",
+   "role": "grass",
+   "biomes": "dunes,frozen",
+   "tags": "grass,dry",
+   "detail": true,
+   "noShadow": true,
+   "tint": "C2AD62"
+  },
+  {
+   "key": "detail_grass_frost",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Grass_03.prefab",
+   "role": "grass",
+   "biomes": "frozen",
+   "tags": "grass,frost",
+   "detail": true,
+   "noShadow": true,
+   "tint": "B8CCC9"
+  },
+  {
+   "key": "detail_plants",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Plants.prefab",
+   "role": "plant",
+   "biomes": "verdant,grave",
+   "tags": "plant",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_reeds_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Reeds_01.prefab",
+   "role": "reed",
+   "biomes": "verdant,grave",
+   "tags": "water",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_reeds_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Reeds_02.prefab",
+   "role": "reed",
+   "biomes": "verdant,grave",
+   "tags": "water",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_reeds_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Reeds_03.prefab",
+   "role": "reed",
+   "biomes": "verdant,grave",
+   "tags": "water",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_meadow_blue",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Blue.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_meadow_orange",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Orange.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_meadow_pink",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Pink.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_meadow_purple",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Purple.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_meadow_red",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_Red.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_meadow_white",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_White.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_meadow_bluepurple",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_BluePurple.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_meadow_orangepinkredpurpleblue",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_OrangePinkRedPurpleBlue.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_meadow_redorange",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FlowerMeadow_RedOrange.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_flower_blue_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Flower_Blue_01.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "flower",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_flower_orange",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Flower_Orange.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "flower",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_flower_pink",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Flower_Pink.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "flower",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_flower_purple",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Flower_Purple.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "flower",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_flower_red",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Flower_Red.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "flower",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_flower_white",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Flower_White.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "flower",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_flower_yellow",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Flower_Yellow.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "flower",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_flower_yellowred",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Flower_YellowRed.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "flower",
+   "detail": true,
+   "noShadow": true
+  },
+  {
+   "key": "detail_fern",
+   "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Fern.prefab",
+   "role": "fern",
+   "biomes": "verdant,frozen",
+   "tags": "forest",
+   "detail": true,
+   "noShadow": true,
+   "height": 0.8
+  },
+  {
+   "key": "detail_dandelion",
+   "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Dandelion_02.prefab",
+   "role": "flower",
+   "biomes": "verdant",
+   "tags": "meadow",
+   "detail": true,
+   "noShadow": true,
+   "height": 0.45
+  },
+  {
+   "key": "rock_big_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_01.prefab",
+   "role": "rock_big",
+   "biomes": "verdant",
+   "tags": "rock",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "rock_medium_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_01.prefab",
+   "role": "rock",
+   "biomes": "verdant",
+   "tags": "rock",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "rock_small_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_01.prefab",
+   "role": "rock_small",
+   "biomes": "verdant",
+   "tags": "rock",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "stone_big_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Stone_Big_01.prefab",
+   "role": "stone",
+   "biomes": "verdant,grave,storm",
+   "tags": "pebble,water",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.15,
+   "align": 0.9,
+   "collider": "none"
+  },
+  {
+   "key": "stones_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Stones_01.prefab",
+   "role": "stone",
+   "biomes": "verdant,grave",
+   "tags": "pebble,path,water",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.04,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "rock_sand_big_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_01.prefab",
+   "role": "rock_big",
+   "biomes": "dunes",
+   "tags": "rock,sandstone",
+   "scaleMin": 0.8,
+   "scaleMax": 1.7,
+   "sink": 0.35,
+   "align": 0.5,
+   "tint": "E9C9A0",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "rock_sand_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_01.prefab",
+   "role": "rock",
+   "biomes": "dunes",
+   "tags": "rock,sandstone",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.6,
+   "tint": "E9C9A0",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "rock_big_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_02.prefab",
+   "role": "rock_big",
+   "biomes": "verdant",
+   "tags": "rock",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "rock_medium_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_02.prefab",
+   "role": "rock",
+   "biomes": "verdant",
+   "tags": "rock",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "rock_small_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_02.prefab",
+   "role": "rock_small",
+   "biomes": "verdant",
+   "tags": "rock",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "stone_big_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Stone_Big_02.prefab",
+   "role": "stone",
+   "biomes": "verdant,grave,storm",
+   "tags": "pebble,water",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.15,
+   "align": 0.9,
+   "collider": "none"
+  },
+  {
+   "key": "stones_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Stones_02.prefab",
+   "role": "stone",
+   "biomes": "verdant,grave",
+   "tags": "pebble,path,water",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.04,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "rock_sand_big_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_02.prefab",
+   "role": "rock_big",
+   "biomes": "dunes",
+   "tags": "rock,sandstone",
+   "scaleMin": 0.8,
+   "scaleMax": 1.7,
+   "sink": 0.35,
+   "align": 0.5,
+   "tint": "E9C9A0",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "rock_sand_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_02.prefab",
+   "role": "rock",
+   "biomes": "dunes",
+   "tags": "rock,sandstone",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.6,
+   "tint": "E9C9A0",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "rock_big_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_03.prefab",
+   "role": "rock_big",
+   "biomes": "verdant",
+   "tags": "rock",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "rock_medium_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_03.prefab",
+   "role": "rock",
+   "biomes": "verdant",
+   "tags": "rock",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "rock_small_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_03.prefab",
+   "role": "rock_small",
+   "biomes": "verdant",
+   "tags": "rock",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "stone_big_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Stone_Big_03.prefab",
+   "role": "stone",
+   "biomes": "verdant,grave,storm",
+   "tags": "pebble,water",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.15,
+   "align": 0.9,
+   "collider": "none"
+  },
+  {
+   "key": "stones_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Stones_03.prefab",
+   "role": "stone",
+   "biomes": "verdant,grave",
+   "tags": "pebble,path,water",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.04,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "rock_sand_big_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_03.prefab",
+   "role": "rock_big",
+   "biomes": "dunes",
+   "tags": "rock,sandstone",
+   "scaleMin": 0.8,
+   "scaleMax": 1.7,
+   "sink": 0.35,
+   "align": 0.5,
+   "tint": "E9C9A0",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "rock_sand_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_03.prefab",
+   "role": "rock",
+   "biomes": "dunes",
+   "tags": "rock,sandstone",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.6,
+   "tint": "E9C9A0",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "cliff_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_01.prefab",
+   "role": "cliff",
+   "biomes": "verdant",
+   "tags": "cliff",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "cliff_sand_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_01.prefab",
+   "role": "cliff",
+   "biomes": "dunes",
+   "tags": "cliff,sandstone",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "E7C497",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "cliff_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "cliff",
+   "biomes": "verdant",
+   "tags": "cliff",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "cliff_sand_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "cliff",
+   "biomes": "dunes",
+   "tags": "cliff,sandstone",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "E7C497",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "cliff_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_03.prefab",
+   "role": "cliff",
+   "biomes": "verdant",
+   "tags": "cliff",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "cliff_sand_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_03.prefab",
+   "role": "cliff",
+   "biomes": "dunes",
+   "tags": "cliff,sandstone",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "E7C497",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "cliff_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_04.prefab",
+   "role": "cliff",
+   "biomes": "verdant",
+   "tags": "cliff",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "cliff_sand_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_04.prefab",
+   "role": "cliff",
+   "biomes": "dunes",
+   "tags": "cliff,sandstone",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "E7C497",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "cliff_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_05.prefab",
+   "role": "cliff",
+   "biomes": "verdant",
+   "tags": "cliff",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "cliff_sand_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_05.prefab",
+   "role": "cliff",
+   "biomes": "dunes",
+   "tags": "cliff,sandstone",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "E7C497",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "rockset_01",
+   "source": "Assets/Mountain Terrain rocks and tree/Prefab/rock_set_01.prefab",
+   "role": "rock",
+   "biomes": "storm,dunes",
+   "tags": "rock,cluster",
+   "scaleMin": 0.9,
+   "scaleMax": 1.6,
+   "sink": 0.25,
+   "align": 0.6
+  },
+  {
+   "key": "rockset_02",
+   "source": "Assets/Mountain Terrain rocks and tree/Prefab/rock_set_02.prefab",
+   "role": "rock",
+   "biomes": "storm,dunes",
+   "tags": "rock,cluster",
+   "scaleMin": 0.9,
+   "scaleMax": 1.6,
+   "sink": 0.25,
+   "align": 0.6
+  },
+  {
+   "key": "rockset_03",
+   "source": "Assets/Mountain Terrain rocks and tree/Prefab/rock_set_03.prefab",
+   "role": "rock",
+   "biomes": "storm,dunes",
+   "tags": "rock,cluster",
+   "scaleMin": 0.9,
+   "scaleMax": 1.6,
+   "sink": 0.25,
+   "align": 0.6
+  },
+  {
+   "key": "rockset_04",
+   "source": "Assets/Mountain Terrain rocks and tree/Prefab/rock_set_04.prefab",
+   "role": "rock",
+   "biomes": "storm,dunes",
+   "tags": "rock,cluster",
+   "scaleMin": 0.9,
+   "scaleMax": 1.6,
+   "sink": 0.25,
+   "align": 0.6
+  },
+  {
+   "key": "camp_rock_a",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_A.prefab",
+   "role": "rock_small",
+   "biomes": "verdant,storm",
+   "tags": "rock,camp",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.15,
+   "align": 0.8
+  },
+  {
+   "key": "camp_rock_b",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_B.prefab",
+   "role": "rock_small",
+   "biomes": "verdant,storm",
+   "tags": "rock,camp",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.15,
+   "align": 0.8
+  },
+  {
+   "key": "camp_rock_c",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Rock_C.prefab",
+   "role": "rock_small",
+   "biomes": "verdant,storm",
+   "tags": "rock,camp",
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.15,
+   "align": 0.8
+  },
+  {
+   "key": "runestone_001",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Nature Pack - Forest/SFNP_Runestone_001.prefab",
+   "role": "shrine",
+   "biomes": "verdant,frozen,grave,storm",
+   "tags": "runestone,landmark",
+   "height": 2.2,
+   "scaleMin": 0.85,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "collider": "convex"
+  },
+  {
+   "key": "runestone_002",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Nature Pack - Forest/SFNP_Runestone_002.prefab",
+   "role": "shrine",
+   "biomes": "verdant,frozen,grave,storm",
+   "tags": "runestone,landmark",
+   "height": 2.2,
+   "scaleMin": 0.85,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "collider": "convex"
+  },
+  {
+   "key": "runestone_003",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Nature Pack - Forest/SFNP_Runestone_003.prefab",
+   "role": "shrine",
+   "biomes": "verdant,frozen,grave,storm",
+   "tags": "runestone,landmark",
+   "height": 2.2,
+   "scaleMin": 0.85,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "collider": "convex"
+  },
+  {
+   "key": "runestone_004",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Nature Pack - Forest/SFNP_Runestone_004.prefab",
+   "role": "shrine",
+   "biomes": "verdant,frozen,grave,storm",
+   "tags": "runestone,landmark",
+   "height": 2.2,
+   "scaleMin": 0.85,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "collider": "convex"
+  },
+  {
+   "key": "runestone_005",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Nature Pack - Forest/SFNP_Runestone_005.prefab",
+   "role": "shrine",
+   "biomes": "verdant,frozen,grave,storm",
+   "tags": "runestone,landmark",
+   "height": 2.2,
+   "scaleMin": 0.85,
+   "scaleMax": 1.3,
+   "sink": 0.1,
+   "collider": "convex"
+  },
+  {
+   "key": "stump_painted",
+   "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Stump.prefab",
+   "role": "log",
+   "biomes": "verdant,frozen",
+   "tags": "forest,stump",
+   "height": 0.9,
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.15,
+   "align": 0.5,
+   "collider": "convex"
+  },
+  {
+   "key": "branch_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Branch_01.prefab",
+   "role": "log",
+   "biomes": "verdant,grave",
+   "tags": "forest,small",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.02,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "branch_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Branch_02.prefab",
+   "role": "log",
+   "biomes": "verdant,grave",
+   "tags": "forest,small",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.02,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "branch_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Branch_03.prefab",
+   "role": "log",
+   "biomes": "verdant,grave",
+   "tags": "forest,small",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.02,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "branch_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Branch_04.prefab",
+   "role": "log",
+   "biomes": "verdant,grave",
+   "tags": "forest,small",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.02,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "branch_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Branch_05.prefab",
+   "role": "log",
+   "biomes": "verdant,grave",
+   "tags": "forest,small",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.02,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "branch_06",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Branch_06.prefab",
+   "role": "log",
+   "biomes": "verdant,grave",
+   "tags": "forest,small",
+   "scaleMin": 0.9,
+   "scaleMax": 1.5,
+   "sink": 0.02,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "house_house1",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/House1.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "house_house2",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/House2.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "house_house3",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/House3.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "house_woodenhouse_1",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenHouse_1.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "house_woodenhouse_2",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenHouse_2.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "house_woodenhouse_3",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenHouse_3.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "tavern_grand",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Tavern.prefab",
+   "role": "building",
+   "biomes": "verdant",
+   "tags": "tavern,landmark,town",
+   "collider": "mesh",
+   "cull": 0.004
+  },
+  {
+   "key": "windmill_grand",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Windmill.prefab",
+   "role": "building",
+   "biomes": "verdant",
+   "tags": "windmill,landmark,farm",
+   "collider": "mesh",
+   "cull": 0.003
+  },
+  {
+   "key": "windmill_small",
+   "source": "Assets/Polygrade/Top_Down Medieval City/Windmill_Free/Prefabs/Medieval_Windmill.prefab",
+   "role": "building",
+   "biomes": "verdant",
+   "tags": "windmill,farm",
+   "collider": "mesh"
+  },
+  {
+   "key": "house_big_village",
+   "source": "Assets/VillagePack/BigHouse/BigHousePrefab.prefab",
+   "role": "building",
+   "biomes": "verdant",
+   "tags": "house,village",
+   "collider": "mesh"
+  },
+  {
+   "key": "house_old_village",
+   "source": "Assets/VillagePack/OldHouse/OldHousePrefab.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,village",
+   "collider": "mesh"
+  },
+  {
+   "key": "armory_hall",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Armory Structure and Attachables/Armory.prefab",
+   "role": "building",
+   "biomes": "verdant",
+   "tags": "armory,smith,landmark",
+   "collider": "mesh"
+  },
+  {
+   "key": "town_arch",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Entrance Arch/EntranceArch.prefab",
+   "role": "gate",
+   "biomes": "verdant",
+   "tags": "arch,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "rpg_house_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Buildings/Bld_closed/rpgpp_lt_building_01.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,hamlet",
+   "collider": "mesh"
+  },
+  {
+   "key": "rpg_house_02",
+   "source": "Assets/RPGPP_LT/Prefabs/Buildings/Bld_closed/rpgpp_lt_building_02.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,hamlet",
+   "collider": "mesh"
+  },
+  {
+   "key": "rpg_house_03",
+   "source": "Assets/RPGPP_LT/Prefabs/Buildings/Bld_closed/rpgpp_lt_building_03.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,hamlet",
+   "collider": "mesh"
+  },
+  {
+   "key": "rpg_house_04",
+   "source": "Assets/RPGPP_LT/Prefabs/Buildings/Bld_closed/rpgpp_lt_building_04.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,hamlet",
+   "collider": "mesh"
+  },
+  {
+   "key": "rpg_house_05",
+   "source": "Assets/RPGPP_LT/Prefabs/Buildings/Bld_closed/rpgpp_lt_building_05.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "house,hamlet",
+   "collider": "mesh"
+  },
+  {
+   "key": "rpg_shed_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_shed_wood_01.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "shed,farm",
+   "collider": "mesh"
+  },
+  {
+   "key": "rpg_shed_02",
+   "source": "Assets/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_shed_wood_02.prefab",
+   "role": "building",
+   "biomes": "verdant,frozen",
+   "tags": "shed,farm",
+   "collider": "mesh"
+  },
+  {
+   "key": "stonewall_part1",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Wall_part1.prefab",
+   "role": "wall",
+   "biomes": "verdant",
+   "tags": "stonewall,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "stonewall_part2",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Wall_part2.prefab",
+   "role": "wall",
+   "biomes": "verdant",
+   "tags": "stonewall,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "stonewall_corner",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Wall_corner.prefab",
+   "role": "wall",
+   "biomes": "verdant",
+   "tags": "stonewall,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "stonewall_entrance",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Wall_entrance.prefab",
+   "role": "wall",
+   "biomes": "verdant",
+   "tags": "stonewall,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "stonewall_tower1",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Wall_tower1.prefab",
+   "role": "wall",
+   "biomes": "verdant",
+   "tags": "stonewall,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "stonewall_tower2",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Wall_tower2.prefab",
+   "role": "wall",
+   "biomes": "verdant",
+   "tags": "stonewall,town",
+   "collider": "mesh"
+  },
+  {
+   "key": "palisade_1",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_1.prefab",
+   "role": "wall",
+   "biomes": "verdant,frozen,storm",
+   "tags": "palisade,camp",
+   "collider": "mesh"
+  },
+  {
+   "key": "palisade_2",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_2.prefab",
+   "role": "wall",
+   "biomes": "verdant,frozen,storm",
+   "tags": "palisade,camp",
+   "collider": "mesh"
+  },
+  {
+   "key": "palisade_corner",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_Corner.prefab",
+   "role": "wall",
+   "biomes": "verdant,frozen,storm",
+   "tags": "palisade,camp",
+   "collider": "mesh"
+  },
+  {
+   "key": "palisade_entrace",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_Entrace.prefab",
+   "role": "wall",
+   "biomes": "verdant,frozen,storm",
+   "tags": "palisade,camp",
+   "collider": "mesh"
+  },
+  {
+   "key": "palisade_towers",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_Towers.prefab",
+   "role": "wall",
+   "biomes": "verdant,frozen,storm",
+   "tags": "palisade,camp",
+   "collider": "mesh"
+  },
+  {
+   "key": "palisade_towercorner",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenWall_TowerCorner.prefab",
+   "role": "wall",
+   "biomes": "verdant,frozen,storm",
+   "tags": "palisade,camp",
+   "collider": "mesh"
+  },
+  {
+   "key": "desert_house_01",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_01.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_12",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_12.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_13",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_13.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_16",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_16.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_20",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_20.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_26",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_26.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_28",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_28.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_30_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_30_a.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_30_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_30_c.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_30_d",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_30_d.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_30_f",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_30_f.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_31_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_31_a.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_31_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_31_c.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_31_d",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_31_d.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_31_g",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_31_g.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_32_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_32_a.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_32_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_32_c.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_32_e",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_32_e.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_33_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_33_a.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_33_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_33_c.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_33_f",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_33_f.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_33_h",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_33_h.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_34_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_34_a.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_34_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_34_c.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_34_g",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_34_g.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_35_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_35_a.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_35_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_35_b.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_35_d",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_35_d.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_38_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_a.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_38_d",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_d.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_38_f",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_38_f.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_39_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_39_a.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_39_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_39_c.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_39_e",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_39_e.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_40_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_40_b.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_40_d",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_40_d.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_40_f",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_40_f.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_41_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_41_a.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_41_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_41_b.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,city",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_42",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_42.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_43",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_43.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_house_44",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_44.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,desert,hut",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_ruin_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_a.prefab",
+   "role": "ruin",
+   "biomes": "dunes,storm",
+   "tags": "ruin,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_ruin_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_b.prefab",
+   "role": "ruin",
+   "biomes": "dunes,storm",
+   "tags": "ruin,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_ruin_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_c.prefab",
+   "role": "ruin",
+   "biomes": "dunes,storm",
+   "tags": "ruin,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_ruin_d",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_d.prefab",
+   "role": "ruin",
+   "biomes": "dunes,storm",
+   "tags": "ruin,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_ruin_e",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_e.prefab",
+   "role": "ruin",
+   "biomes": "dunes,storm",
+   "tags": "ruin,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_ruin_f",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_ruin_f.prefab",
+   "role": "ruin",
+   "biomes": "dunes,storm",
+   "tags": "ruin,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_citadel_main",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/citadel_main.prefab",
+   "role": "building",
+   "biomes": "dunes,storm",
+   "tags": "citadel,landmark,desert",
+   "collider": "mesh",
+   "cull": 0.003,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_church_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/church_b.prefab",
+   "role": "building",
+   "biomes": "dunes,storm",
+   "tags": "temple,landmark,desert",
+   "collider": "mesh",
+   "cull": 0.003,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_city_tower_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/city_tower_a.prefab",
+   "role": "tower",
+   "biomes": "dunes,storm",
+   "tags": "tower,landmark,desert",
+   "collider": "mesh",
+   "cull": 0.003,
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_castle_tower_round",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_tower_round.prefab",
+   "role": "tower",
+   "biomes": "dunes,storm",
+   "tags": "tower,wall,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_castle_tower_octagon",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_tower_octagon.prefab",
+   "role": "tower",
+   "biomes": "dunes,storm",
+   "tags": "tower,wall,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_castle_tower_rectangular",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_tower_rectangular.prefab",
+   "role": "tower",
+   "biomes": "dunes,storm",
+   "tags": "tower,wall,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_castle_wall_5m",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_wall_5m.prefab",
+   "role": "wall",
+   "biomes": "dunes,storm",
+   "tags": "wall,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_castle_wall_10m",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_wall_10m.prefab",
+   "role": "wall",
+   "biomes": "dunes,storm",
+   "tags": "wall,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_castle_wall_15m",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_wall_15m.prefab",
+   "role": "wall",
+   "biomes": "dunes,storm",
+   "tags": "wall,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_castle_wall_corner_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_wall_corner_a.prefab",
+   "role": "wall",
+   "biomes": "dunes,storm",
+   "tags": "wall,corner,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_castle_gate_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/castle_gate_b.prefab",
+   "role": "gate",
+   "biomes": "dunes,storm",
+   "tags": "gate,wall,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_fortification_gate",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/fortification_gate.prefab",
+   "role": "gate",
+   "biomes": "dunes,storm",
+   "tags": "gate,fort,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_fortification_tower_big",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/fortification_tower_big.prefab",
+   "role": "tower",
+   "biomes": "dunes,storm",
+   "tags": "tower,fort,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_fortification_tower_small",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/fortification_tower_small.prefab",
+   "role": "tower",
+   "biomes": "dunes,storm",
+   "tags": "tower,fort,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_sentinel_tower_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/sentinel_tower_a.prefab",
+   "role": "tower",
+   "biomes": "dunes,storm",
+   "tags": "tower,watch,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_sentinel_tower_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/sentinel_tower_b.prefab",
+   "role": "tower",
+   "biomes": "dunes,storm",
+   "tags": "tower,watch,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_overhang_building_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/overhang_building_a.prefab",
+   "role": "building",
+   "biomes": "dunes,storm",
+   "tags": "house,city,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_street_gate",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_unique_buildings/street_gate.prefab",
+   "role": "gate",
+   "biomes": "dunes,storm",
+   "tags": "gate,city,desert",
+   "collider": "mesh",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "oasis_house_1",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/House1.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,oasis,hut",
+   "collider": "mesh"
+  },
+  {
+   "key": "oasis_house_2",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/House2.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,oasis,hut",
+   "collider": "mesh"
+  },
+  {
+   "key": "oasis_house_3",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/House3.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,oasis,hut",
+   "collider": "mesh"
+  },
+  {
+   "key": "oasis_house_4",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/House4.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,oasis,hut",
+   "collider": "mesh"
+  },
+  {
+   "key": "oasis_house_5",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/House5.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,oasis,hut",
+   "collider": "mesh"
+  },
+  {
+   "key": "oasis_house_6",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/House6.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,oasis,hut",
+   "collider": "mesh"
+  },
+  {
+   "key": "oasis_house_5_broken",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/House5-Broken.prefab",
+   "role": "building",
+   "biomes": "dunes",
+   "tags": "house,oasis,hut",
+   "collider": "mesh"
+  },
+  {
+   "key": "desert_tent_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/tent_a.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "tent,market,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_tent_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/tent_b.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "tent,market,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_tent_c",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/tent_c.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "tent,market,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_well",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/well.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "well,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_fountain_a",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/fountain_a.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "fountain,plaza,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_fountain_b",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/fountain_b.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "fountain,plaza,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_barrel",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/barrel.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "barrel,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_barrel_group",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/barrel_group.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "barrel,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_box",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/box.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "crate,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_wagon",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/wagon.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "wagon,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_street_oil_light",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/street_oil_light.prefab",
+   "role": "lamp",
+   "biomes": "dunes",
+   "tags": "lamp,street,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_fire_cage",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/fire_cage.prefab",
+   "role": "lamp",
+   "biomes": "dunes",
+   "tags": "brazier,desert",
+   "collider": "convex",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "desert_banner",
+   "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_props/banner.prefab",
+   "role": "banner",
+   "biomes": "dunes",
+   "tags": "banner,desert",
+   "collider": "box",
+   "rot": {
+    "x": -90.0,
+    "y": 0.0,
+    "z": 0.0
+   }
+  },
+  {
+   "key": "oasis_jar_1",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/Jar1.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "jar,clutter",
+   "collider": "convex"
+  },
+  {
+   "key": "oasis_jar_2",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/Jar2.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "jar,clutter",
+   "collider": "convex"
+  },
+  {
+   "key": "oasis_jar_3",
+   "source": "Assets/PolyRonin/Desert Village/Prefabs/Jar3.prefab",
+   "role": "prop",
+   "biomes": "dunes",
+   "tags": "jar,clutter",
+   "collider": "convex"
+  },
+  {
+   "key": "tomb_001",
+   "source": "Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.001.prefab",
+   "role": "tombstone",
+   "biomes": "grave",
+   "tags": "tomb",
+   "height": 1.3,
+   "scaleMin": 0.85,
+   "scaleMax": 1.15,
+   "sink": 0.12,
+   "align": 0.3,
+   "collider": "box"
+  },
+  {
+   "key": "tomb_002",
+   "source": "Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.002.prefab",
+   "role": "tombstone",
+   "biomes": "grave",
+   "tags": "tomb",
+   "height": 1.1,
+   "scaleMin": 0.85,
+   "scaleMax": 1.15,
+   "sink": 0.12,
+   "align": 0.3,
+   "collider": "box"
+  },
+  {
+   "key": "tomb_003",
+   "source": "Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.003.prefab",
+   "role": "tombstone",
+   "biomes": "grave",
+   "tags": "tomb",
+   "height": 0.5,
+   "scaleMin": 0.85,
+   "scaleMax": 1.15,
+   "sink": 0.12,
+   "align": 0.3,
+   "collider": "box"
+  },
+  {
+   "key": "tomb_004",
+   "source": "Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.004.prefab",
+   "role": "tombstone",
+   "biomes": "grave",
+   "tags": "tomb",
+   "height": 1.2,
+   "scaleMin": 0.85,
+   "scaleMax": 1.15,
+   "sink": 0.12,
+   "align": 0.3,
+   "collider": "box"
+  },
+  {
+   "key": "tomb_005",
+   "source": "Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.005.prefab",
+   "role": "tombstone",
+   "biomes": "grave",
+   "tags": "tomb",
+   "height": 1.6,
+   "scaleMin": 0.85,
+   "scaleMax": 1.15,
+   "sink": 0.12,
+   "align": 0.3,
+   "collider": "box"
+  },
+  {
+   "key": "tomb_plain",
+   "source": "Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.prefab",
+   "role": "tombstone",
+   "biomes": "grave",
+   "tags": "tomb",
+   "height": 1.0,
+   "scaleMin": 0.85,
+   "scaleMax": 1.15,
+   "sink": 0.12,
+   "align": 0.3,
+   "collider": "box"
+  },
+  {
+   "key": "grave_fence_1",
+   "source": "Assets/CemeteryPack/Prefabs/Gate/MetObj_Fence1.prefab",
+   "role": "fence",
+   "biomes": "grave",
+   "tags": "ironfence",
+   "height": 1.9,
+   "collider": "box"
+  },
+  {
+   "key": "grave_fence_2",
+   "source": "Assets/CemeteryPack/Prefabs/Gate/MetObj_Fence2.prefab",
+   "role": "fence",
+   "biomes": "grave",
+   "tags": "ironfence",
+   "height": 1.9,
+   "collider": "box"
+  },
+  {
+   "key": "grave_gate_arch",
+   "source": "Assets/CemeteryPack/Prefabs/Gate/MetObj_GatesArch.prefab",
+   "role": "gate",
+   "biomes": "grave",
+   "tags": "ironfence,gate",
+   "height": 4.2,
+   "collider": "mesh"
+  },
+  {
+   "key": "grave_lamp",
+   "source": "Assets/CemeteryPack/Prefabs/CandleAndLamp/MetObj_Lamp.prefab",
+   "role": "lamp",
+   "biomes": "grave",
+   "tags": "lamp",
+   "height": 2.6,
+   "collider": "box",
+   "keepLights": true
+  },
+  {
+   "key": "grave_column",
+   "source": "Assets/CemeteryPack/Prefabs/Crypt/ColumnCrypt1.prefab",
+   "role": "ruin",
+   "biomes": "grave",
+   "tags": "column,crypt",
+   "height": 3.4,
+   "collider": "mesh"
+  },
+  {
+   "key": "grave_crypt_arch",
+   "source": "Assets/CemeteryPack/Prefabs/Crypt/CryptArch1.prefab",
+   "role": "ruin",
+   "biomes": "grave",
+   "tags": "arch,crypt",
+   "height": 3.6,
+   "collider": "mesh"
+  },
+  {
+   "key": "bonfire_a",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_A_Big_Fire.prefab",
+   "role": "campfire",
+   "biomes": "verdant,frozen,storm,dunes,grave",
+   "tags": "fire,camp",
+   "collider": "none",
+   "keepLights": true,
+   "height": 0.24
+  },
+  {
+   "key": "bonfire_b",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_B_Big_Fire.prefab",
+   "role": "campfire",
+   "biomes": "verdant,frozen,storm,dunes,grave",
+   "tags": "fire,camp",
+   "collider": "none",
+   "keepLights": true,
+   "height": 0.62
+  },
+  {
+   "key": "bonfire_c",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_C_Big_Fire.prefab",
+   "role": "campfire",
+   "biomes": "verdant,frozen,storm,dunes,grave",
+   "tags": "fire,camp",
+   "collider": "none",
+   "keepLights": true,
+   "height": 0.45
+  },
+  {
+   "key": "bonfire_cook",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Bonfire_D_to_Cook.prefab",
+   "role": "campfire",
+   "biomes": "verdant,frozen,storm",
+   "tags": "fire,camp,cook",
+   "collider": "none",
+   "keepLights": true,
+   "height": 0.45
+  },
+  {
+   "key": "firewood_a",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Firewood_A.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen,storm",
+   "tags": "firewood,camp",
+   "collider": "convex"
+  },
+  {
+   "key": "firewood_b",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Firewood_B.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen,storm",
+   "tags": "firewood,camp",
+   "collider": "convex"
+  },
+  {
+   "key": "firewood_c",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Firewood_C.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen,storm",
+   "tags": "firewood,camp",
+   "collider": "convex"
+  },
+  {
+   "key": "stake_a",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Stake_A.prefab",
+   "role": "prop",
+   "biomes": "verdant,storm,dunes,grave",
+   "tags": "stake,camp,defence",
+   "collider": "convex"
+  },
+  {
+   "key": "stake_b",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Stake_B.prefab",
+   "role": "prop",
+   "biomes": "verdant,storm,dunes,grave",
+   "tags": "stake,camp,defence",
+   "collider": "convex"
+  },
+  {
+   "key": "war_banner_a",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_A_(1)_Banner_War_Alone.prefab",
+   "role": "banner",
+   "biomes": "verdant,storm,dunes,frozen",
+   "tags": "banner,camp",
+   "collider": "box",
+   "keepAnim": true,
+   "height": 4.6
+  },
+  {
+   "key": "war_banner_b",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_B_(1)_Banner_War_Alone.prefab",
+   "role": "banner",
+   "biomes": "verdant,storm,dunes,frozen",
+   "tags": "banner,camp",
+   "collider": "box",
+   "keepAnim": true,
+   "height": 4.6
+  },
+  {
+   "key": "war_banner_c",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_C_(1)_Banner_War_Alone.prefab",
+   "role": "banner",
+   "biomes": "verdant,storm,dunes,frozen",
+   "tags": "banner,camp",
+   "collider": "box",
+   "keepAnim": true,
+   "height": 4.6
+  },
+  {
+   "key": "war_banner_e",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Banner_E_(1)_Banner_War_E_Alone.prefab",
+   "role": "banner",
+   "biomes": "verdant,storm,dunes,frozen",
+   "tags": "banner,camp",
+   "collider": "box",
+   "keepAnim": true,
+   "height": 4.8
+  },
+  {
+   "key": "barrels_mounted",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Barrels_Mounted.prefab",
+   "role": "prop",
+   "biomes": "verdant,storm",
+   "tags": "barrel,camp",
+   "collider": "convex",
+   "height": 2.4
+  },
+  {
+   "key": "camp_well",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Medieval_Well.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "well",
+   "collider": "mesh",
+   "height": 3.6
+  },
+  {
+   "key": "camp_cook",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Medieval_Cook .prefab",
+   "role": "prop",
+   "biomes": "verdant,storm",
+   "tags": "cook,camp",
+   "collider": "convex",
+   "keepLights": true
+  },
+  {
+   "key": "lantern_post",
+   "source": "Assets/Inguz Media Studio/The Beauty Medieval War Banners and PROPS/Prefab/Farol_Light_ON.prefab",
+   "role": "lamp",
+   "biomes": "verdant,frozen,storm",
+   "tags": "lamp,street",
+   "collider": "box",
+   "keepLights": true,
+   "height": 3.4
+  },
+  {
+   "key": "town_cart1",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/cart1.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "cart,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_cart2",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/cart2.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "cart,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_cart3",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/cart3.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "cart,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_storage_barrel",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_barrel.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "barrel,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_storage_barrel_fish",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_barrel_fish.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "barrel,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_storage_barrel_small",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_barrel_small.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "barrel,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_storage_basket",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_basket.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "basket,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_storage_bag_potato",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_bag_potato.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "sack,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_storage_bag_carrot",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_bag_carrot.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "sack,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_storage_jug",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_jug.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "jug,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_furniture_table",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Furniture_table.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "table,town",
+   "collider": "convex"
+  },
+  {
+   "key": "town_wall_props",
+   "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Wall_props.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "clutter,town",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_combatdummy",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Combat Dummy/CombatDummy.001.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "dummy,training",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_target",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Target/Target.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "target,training",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_oven",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Oven/Oven.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "oven,smith",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_torch",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Torch/Torch.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "torch",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_weaponrack",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Weapon Racks/WeaponRack.002.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "rack,smith",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_weaponrack_b",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Weapon Racks/WeaponRack.004.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "rack,smith",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_anvil",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Anvil and Airblower/Anvil.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "anvil,smith",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_cauldronandcampfire",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Cauldron and Campfire/CauldronandCampfire.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "cauldron,camp",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_box",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Box/Box.001.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "crate",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_barrel",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Barrel/Barrel.001.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "barrel",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_fence",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Fences/Fence.001.prefab",
+   "role": "fence",
+   "biomes": "verdant",
+   "tags": "fence",
+   "collider": "convex"
+  },
+  {
+   "key": "smith_sff_beehive_001",
+   "source": "Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Farm - Props/SFF_Beehive_001 Variant.prefab",
+   "role": "prop",
+   "biomes": "verdant",
+   "tags": "beehive,farm",
+   "collider": "convex"
+  },
+  {
+   "key": "village_fence_wood_01a",
+   "source": "Assets/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_fence_wood_01a.prefab",
+   "role": "fence",
+   "biomes": "verdant,frozen",
+   "tags": "fence,farm",
+   "collider": "box"
+  },
+  {
+   "key": "village_fence_wood_01b",
+   "source": "Assets/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_fence_wood_01b.prefab",
+   "role": "fence",
+   "biomes": "verdant,frozen",
+   "tags": "fence,farm",
+   "collider": "box"
+  },
+  {
+   "key": "village_fence_wood_02a",
+   "source": "Assets/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_fence_wood_02a.prefab",
+   "role": "fence",
+   "biomes": "verdant,frozen",
+   "tags": "fence,farm",
+   "collider": "box"
+  },
+  {
+   "key": "village_fence_wood_02b",
+   "source": "Assets/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_fence_wood_02b.prefab",
+   "role": "fence",
+   "biomes": "verdant,frozen",
+   "tags": "fence,farm",
+   "collider": "box"
+  },
+  {
+   "key": "village_barrel_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_barrel_01.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "barrel",
+   "collider": "convex"
+  },
+  {
+   "key": "village_crate_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_crate_01.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "crate",
+   "collider": "convex"
+  },
+  {
+   "key": "village_crate_02",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_crate_02.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "crate",
+   "collider": "convex"
+  },
+  {
+   "key": "village_sack_02_set",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_sack_02_set.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "sack",
+   "collider": "convex"
+  },
+  {
+   "key": "village_wagon_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_wagon_01.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "wagon",
+   "collider": "convex"
+  },
+  {
+   "key": "village_well_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_well_01.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "well",
+   "collider": "convex"
+  },
+  {
+   "key": "village_bench_wood_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Benches/rpgpp_lt_bench_wood_01.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "bench",
+   "collider": "convex"
+  },
+  {
+   "key": "village_trough_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Containers/rpgpp_lt_trough_01.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "trough,farm",
+   "collider": "convex"
+  },
+  {
+   "key": "village_log_wood_02a",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Wood/rpgpp_lt_log_wood_02a.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "firewood",
+   "collider": "convex"
+  },
+  {
+   "key": "village_hanger_clothes_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Hangers/rpgpp_lt_hanger_clothes_01.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "laundry,village",
+   "collider": "convex"
+  },
+  {
+   "key": "village_awning_standing_01a",
+   "source": "Assets/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_awning_standing_01a.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "stall,market",
+   "collider": "convex"
+  },
+  {
+   "key": "village_awning_standing_01b",
+   "source": "Assets/RPGPP_LT/Prefabs/Exterior/Wood_path/rpgpp_lt_awning_standing_01b.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "stall,market",
+   "collider": "convex"
+  },
+  {
+   "key": "village_bird_house_01",
+   "source": "Assets/RPGPP_LT/Prefabs/Props/Misc/rpgpp_lt_bird_house_01.prefab",
+   "role": "prop",
+   "biomes": "verdant,frozen",
+   "tags": "village",
+   "collider": "convex"
+  },
+  {
+   "key": "cloud_01",
+   "source": "Assets/SimpleSky/Prefabs/Cloud_01.prefab",
+   "role": "cloud",
+   "biomes": "any",
+   "tags": "cloud",
+   "collider": "none",
+   "noShadow": true,
+   "cull": 0.0008
+  },
+  {
+   "key": "cloud_02",
+   "source": "Assets/SimpleSky/Prefabs/Cloud_02.prefab",
+   "role": "cloud",
+   "biomes": "any",
+   "tags": "cloud",
+   "collider": "none",
+   "noShadow": true,
+   "cull": 0.0008
+  },
+  {
+   "key": "cloud_03",
+   "source": "Assets/SimpleSky/Prefabs/Cloud_03.prefab",
+   "role": "cloud",
+   "biomes": "any",
+   "tags": "cloud",
+   "collider": "none",
+   "noShadow": true,
+   "cull": 0.0008
+  },
+  {
+   "key": "cloud_04",
+   "source": "Assets/SimpleSky/Prefabs/Cloud_04.prefab",
+   "role": "cloud",
+   "biomes": "any",
+   "tags": "cloud",
+   "collider": "none",
+   "noShadow": true,
+   "cull": 0.0008
+  },
+  {
+   "key": "cloud_05",
+   "source": "Assets/SimpleSky/Prefabs/Cloud_05.prefab",
+   "role": "cloud",
+   "biomes": "any",
+   "tags": "cloud",
+   "collider": "none",
+   "noShadow": true,
+   "cull": 0.0008
+  },
+  {
+   "key": "cloud_06",
+   "source": "Assets/SimpleSky/Prefabs/Cloud_06.prefab",
+   "role": "cloud",
+   "biomes": "any",
+   "tags": "cloud",
+   "collider": "none",
+   "noShadow": true,
+   "cull": 0.0008
+  },
+  {
+   "key": "slash_physical",
+   "source": "Assets/Free Slash VFX/Prefabs/Slash VFX.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash",
+   "loop": false,
+   "fxScale": 1.0
+  },
+  {
+   "key": "slash_fire",
+   "source": "Assets/Free Slash VFX/Prefabs/Slash Fire VFX.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,fire",
+   "loop": false,
+   "fxScale": 1.0
+  },
+  {
+   "key": "slash_frost",
+   "source": "Assets/Free Slash VFX/Prefabs/Slash Water VFX.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,frost",
+   "loop": false,
+   "fxScale": 1.0
+  },
+  {
+   "key": "slash_storm",
+   "source": "Assets/Free Slash VFX/Prefabs/Slash Eletric VFX.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,storm",
+   "loop": false,
+   "fxScale": 1.0
+  },
+  {
+   "key": "slash_earth",
+   "source": "Assets/Free Slash VFX/Prefabs/Slash Earth VFX.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,earth",
+   "loop": false,
+   "fxScale": 1.0
+  },
+  {
+   "key": "slash_heavy_fire",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Charge slash red.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,heavy,fire",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.2
+  },
+  {
+   "key": "slash_heavy_frost",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Charge slash blue.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,heavy,frost",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.2
+  },
+  {
+   "key": "slash_heavy_arcane",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Charge slash purple.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,heavy,arcane",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.2
+  },
+  {
+   "key": "slash_snow",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Snow slash.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,frost",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 1.5
+  },
+  {
+   "key": "slash_electro",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Electro slash.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,storm",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 1.5
+  },
+  {
+   "key": "slash_stone",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Slash effects/Stone slash.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "slash,earth",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "impact_generic",
+   "source": "Assets/Free Slash VFX/Prefabs/Impact.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "hit",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 1.5
+  },
+  {
+   "key": "hit_fire",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Explosion.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "hit,fire",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "hit_frost",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Snow hit.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "hit,frost",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "hit_nature",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Green hit.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "hit,nature",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "hit_storm",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Electro hit.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "hit,storm",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 1.5
+  },
+  {
+   "key": "hit_holy",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Holy hit.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "hit,holy",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "hit_stone",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Stones hit.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "hit,earth",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "hit_crit",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Star hit.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "hit,crit",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "projectile_fire",
+   "source": "Assets/Free Slash VFX/Prefabs/Projectiles/Slash Projectile VFX Fire.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "projectile,fire",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "projectile_frost",
+   "source": "Assets/Free Slash VFX/Prefabs/Projectiles/Slash Projectile VFX Water.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "projectile,frost",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "projectile_storm",
+   "source": "Assets/Free Slash VFX/Prefabs/Projectiles/Slash Projectile VFX Eletric.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "projectile,storm",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "projectile_earth",
+   "source": "Assets/Free Slash VFX/Prefabs/Projectiles/Slash Projectile VFX Earth.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "projectile,earth",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "fireball",
+   "source": "Assets/Eric VFX Studio/Free Game VFX/Prefab/FX_Fireball.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "projectile,fire",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "aoe_ground",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Ground AOE explosion.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aoe,earth",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 3.0
+  },
+  {
+   "key": "aoe_snow",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Snow AOE.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aoe,frost",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 4.0
+  },
+  {
+   "key": "aoe_meteors",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Meteors AOE.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aoe,fire",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 6.0
+  },
+  {
+   "key": "aoe_smoke",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Smoke AOE explosion.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aoe,smoke",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 3.0
+  },
+  {
+   "key": "aoe_energy",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Red energy explosion.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aoe,arcane",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 3.0
+  },
+  {
+   "key": "aoe_crystals",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/Crystals front attack.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aoe,frost",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 3.2
+  },
+  {
+   "key": "aoe_slash",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/AoE effects/AoE slash orange.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aoe,slash",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.6
+  },
+  {
+   "key": "aura_buff",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Buff.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aura",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "aura_debuff",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Debuff.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aura",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "aura_heal",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Healing.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aura,heal",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 3.0
+  },
+  {
+   "key": "aura_lightning",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Character auras/Lightning aura.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aura,storm",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "circle_magic",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Magic circle.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "circle",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "circle_heal",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Healing circle.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "circle,heal",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "circle_freeze",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Magic circles/Freeze circle.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "circle,frost",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "shield_blue",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Magic shields/Magic shield blue.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "shield",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "portal_blue",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal blue.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "portal",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "portal_green",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal green.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "portal",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "portal_red",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal red.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "portal",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "portal_yellow",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Portals/Portal yellow.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "portal",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "teleport",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Teleport.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "teleport",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "crystal_blue",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Crystal effect blue.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "crystal",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "crystal_green",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Crystal effect green.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "crystal",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "crystal_red",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Environment/Crystal effect red.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "crystal",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "dust_puff",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust puff.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "dust",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.5
+  },
+  {
+   "key": "smoke_puff",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke puff.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "smoke,death",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.5
+  },
+  {
+   "key": "dust_ground",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust ground.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "dust,ambient",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "smoke_loop",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke loop.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "smoke,chimney",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "smoke_vortex",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Smoke vortex.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "smoke,rift",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "sparks_gold",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode yellow.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "sparks,reward",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "sparks_white",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode white.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "sparks",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "sparks_forge",
+   "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks flashing yellow.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "sparks,forge",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "loot_beam",
+   "source": "Assets/Eric VFX Studio/Free Game VFX/Prefab/FX_LightPillar.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "loot",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "loot_drop",
+   "source": "Assets/Eric VFX Studio/Free Game VFX/Prefab/FX_LootDrop_Blue.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "loot",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "magic_door",
+   "source": "Assets/Eric VFX Studio/Free Game VFX/Prefab/FX_Magic Door_Gold.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "portal,gold",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "levelup_pillar",
+   "source": "Assets/Eric VFX Studio/Free Game VFX/Prefab/FX_PinkCross_Up.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "reward",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 3.0
+  },
+  {
+   "key": "ga_heal",
+   "source": "Assets/Resources/VFX/ga_vfx_Heal_01.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "heal",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 3.0
+  },
+  {
+   "key": "ga_shockwave",
+   "source": "Assets/Resources/VFX/ga_vfx_Shockwave_01.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "aoe,shock",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.0
+  },
+  {
+   "key": "ga_lightning",
+   "source": "Assets/Resources/VFX/ga_vfx_Lightning_02.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "storm",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 2.5
+  },
+  {
+   "key": "ga_tornado",
+   "source": "Assets/Resources/VFX/ga_vfx_Tornado_01.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "storm,wind",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "ga_rain",
+   "source": "Assets/Resources/VFX/ga_vfx_Rain_01.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "weather",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "ga_portal",
+   "source": "Assets/Resources/VFX/ga_vfx_Portal_01.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "portal",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "ga_explosion",
+   "source": "Assets/Resources/VFX/ga_vfx_Explosion_01.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "explosion",
+   "loop": false,
+   "fxScale": 1.0,
+   "life": 3.0
+  },
+  {
+   "key": "fire_campfire",
+   "source": "Assets/Vefects/Free Fire VFX URP/Particles/VFX_Fire_01_Small.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "fire,camp",
+   "loop": true,
+   "fxScale": 1.0,
+   "note": "flames, embers, sparks and heat haze without the dark smoke/backdrop layers (those read as soot in daylight)"
+  },
+  {
+   "key": "fire_torch",
+   "source": "Assets/Vefects/Free Fire VFX URP/Particles/VFX_Fire_01_Small_Simple.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "fire,torch",
+   "loop": true,
+   "fxScale": 0.6
+  },
+  {
+   "key": "fire_bonfire",
+   "source": "Assets/Vefects/Free Fire VFX URP/Particles/VFX_Fire_01_Medium.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "fire,bonfire",
+   "loop": true,
+   "fxScale": 1.0,
+   "note": "flames, embers, sparks and heat haze without the dark smoke/backdrop layers (those read as soot in daylight)"
+  },
+  {
+   "key": "fire_big",
+   "source": "Assets/Vefects/Free Fire VFX URP/Particles/VFX_Fire_01_Big.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "fire,big",
+   "loop": true,
+   "fxScale": 1.0,
+   "note": "flames, embers, sparks and heat haze without the dark smoke/backdrop layers (those read as soot in daylight)"
+  },
+  {
+   "key": "fire_floor",
+   "source": "Assets/Vefects/Free Fire VFX URP/Particles/VFX_Fire_Floor_01.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "fire,ground",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "leaves_green",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FloatingLeafs_Green.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "ambient,leaves",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "leaves_yellow",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/FloatingLeafs_Yellow.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "ambient,leaves",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "godrays",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/GodRays.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "ambient,light",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "motes",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Particles.prefab",
+   "role": "vfx",
+   "biomes": "any",
+   "tags": "ambient,motes",
+   "loop": true,
+   "fxScale": 1.0
+  },
+  {
+   "key": "rock_big_frozen_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_01.prefab",
+   "role": "rock_big",
+   "biomes": "frozen",
+   "tags": "rock,snow",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "rock_big_frozen_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_02.prefab",
+   "role": "rock_big",
+   "biomes": "frozen",
+   "tags": "rock,snow",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "rock_big_frozen_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_03.prefab",
+   "role": "rock_big",
+   "biomes": "frozen",
+   "tags": "rock,snow",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "rock_big_grave_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_01.prefab",
+   "role": "rock_big",
+   "biomes": "grave",
+   "tags": "rock,grave",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "rock_big_grave_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_02.prefab",
+   "role": "rock_big",
+   "biomes": "grave",
+   "tags": "rock,grave",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "rock_big_grave_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_03.prefab",
+   "role": "rock_big",
+   "biomes": "grave",
+   "tags": "rock,grave",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "rock_big_storm_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_01.prefab",
+   "role": "rock_big",
+   "biomes": "storm",
+   "tags": "rock,storm",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "rock_big_storm_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_02.prefab",
+   "role": "rock_big",
+   "biomes": "storm",
+   "tags": "rock,storm",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "rock_big_storm_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Big_03.prefab",
+   "role": "rock_big",
+   "biomes": "storm",
+   "tags": "rock,storm",
+   "scaleMin": 0.8,
+   "scaleMax": 1.6,
+   "sink": 0.35,
+   "align": 0.6,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "rock_medium_frozen_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_01.prefab",
+   "role": "rock",
+   "biomes": "frozen",
+   "tags": "rock,snow",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "rock_medium_frozen_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_02.prefab",
+   "role": "rock",
+   "biomes": "frozen",
+   "tags": "rock,snow",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "rock_medium_frozen_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_03.prefab",
+   "role": "rock",
+   "biomes": "frozen",
+   "tags": "rock,snow",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "rock_medium_grave_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_01.prefab",
+   "role": "rock",
+   "biomes": "grave",
+   "tags": "rock,grave",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "rock_medium_grave_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_02.prefab",
+   "role": "rock",
+   "biomes": "grave",
+   "tags": "rock,grave",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "rock_medium_grave_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_03.prefab",
+   "role": "rock",
+   "biomes": "grave",
+   "tags": "rock,grave",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "rock_medium_storm_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_01.prefab",
+   "role": "rock",
+   "biomes": "storm",
+   "tags": "rock,storm",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "rock_medium_storm_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_02.prefab",
+   "role": "rock",
+   "biomes": "storm",
+   "tags": "rock,storm",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "rock_medium_storm_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Medium_03.prefab",
+   "role": "rock",
+   "biomes": "storm",
+   "tags": "rock,storm",
+   "scaleMin": 0.7,
+   "scaleMax": 1.4,
+   "sink": 0.3,
+   "align": 0.7,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "rock_small_frozen_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_01.prefab",
+   "role": "rock_small",
+   "biomes": "frozen",
+   "tags": "rock,snow",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "rock_small_frozen_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_02.prefab",
+   "role": "rock_small",
+   "biomes": "frozen",
+   "tags": "rock,snow",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "rock_small_frozen_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_03.prefab",
+   "role": "rock_small",
+   "biomes": "frozen",
+   "tags": "rock,snow",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "rock_small_grave_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_01.prefab",
+   "role": "rock_small",
+   "biomes": "grave",
+   "tags": "rock,grave",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "rock_small_grave_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_02.prefab",
+   "role": "rock_small",
+   "biomes": "grave",
+   "tags": "rock,grave",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "rock_small_grave_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_03.prefab",
+   "role": "rock_small",
+   "biomes": "grave",
+   "tags": "rock,grave",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "rock_small_storm_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_01.prefab",
+   "role": "rock_small",
+   "biomes": "storm",
+   "tags": "rock,storm",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "rock_small_storm_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_02.prefab",
+   "role": "rock_small",
+   "biomes": "storm",
+   "tags": "rock,storm",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "rock_small_storm_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Rock_Small_03.prefab",
+   "role": "rock_small",
+   "biomes": "storm",
+   "tags": "rock,storm",
+   "scaleMin": 0.6,
+   "scaleMax": 1.4,
+   "sink": 0.25,
+   "align": 0.8,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "cliff_frozen_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_01.prefab",
+   "role": "cliff",
+   "biomes": "frozen",
+   "tags": "cliff,snow",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "cliff_frozen_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "cliff",
+   "biomes": "frozen",
+   "tags": "cliff,snow",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "cliff_frozen_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_03.prefab",
+   "role": "cliff",
+   "biomes": "frozen",
+   "tags": "cliff,snow",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "cliff_frozen_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_04.prefab",
+   "role": "cliff",
+   "biomes": "frozen",
+   "tags": "cliff,snow",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "cliff_frozen_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_05.prefab",
+   "role": "cliff",
+   "biomes": "frozen",
+   "tags": "cliff,snow",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "cliff_grave_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_01.prefab",
+   "role": "cliff",
+   "biomes": "grave",
+   "tags": "cliff,grave",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "cliff_grave_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "cliff",
+   "biomes": "grave",
+   "tags": "cliff,grave",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "cliff_grave_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_03.prefab",
+   "role": "cliff",
+   "biomes": "grave",
+   "tags": "cliff,grave",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "cliff_grave_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_04.prefab",
+   "role": "cliff",
+   "biomes": "grave",
+   "tags": "cliff,grave",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "cliff_grave_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_05.prefab",
+   "role": "cliff",
+   "biomes": "grave",
+   "tags": "cliff,grave",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  },
+  {
+   "key": "cliff_storm_01",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_01.prefab",
+   "role": "cliff",
+   "biomes": "storm",
+   "tags": "cliff,storm",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "cliff_storm_02",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "cliff",
+   "biomes": "storm",
+   "tags": "cliff,storm",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "cliff_storm_03",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_03.prefab",
+   "role": "cliff",
+   "biomes": "storm",
+   "tags": "cliff,storm",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "cliff_storm_04",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_04.prefab",
+   "role": "cliff",
+   "biomes": "storm",
+   "tags": "cliff,storm",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "cliff_storm_05",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_05.prefab",
+   "role": "cliff",
+   "biomes": "storm",
+   "tags": "cliff,storm",
+   "scaleMin": 0.8,
+   "scaleMax": 1.5,
+   "sink": 0.3,
+   "align": 0.35,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "mountain_crag",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "mountain",
+   "biomes": "frozen",
+   "tags": "crag",
+   "scaleMin": 0.75,
+   "scaleMax": 1.25,
+   "sink": 0.42,
+   "align": 0.0,
+   "height": 40.0,
+   "tint": "8E98A6",
+   "coverage": "EEF3F8",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Snow_Albedo.png"
+  },
+  {
+   "key": "mountain_crag_storm",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "mountain",
+   "biomes": "storm",
+   "tags": "crag",
+   "scaleMin": 0.75,
+   "scaleMax": 1.25,
+   "sink": 0.42,
+   "align": 0.0,
+   "height": 40.0,
+   "tint": "9AA3AD",
+   "coverage": "8E9AA6"
+  },
+  {
+   "key": "mountain_crag_dunes",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "mountain",
+   "biomes": "dunes",
+   "tags": "crag",
+   "scaleMin": 0.75,
+   "scaleMax": 1.25,
+   "sink": 0.42,
+   "align": 0.0,
+   "height": 40.0,
+   "tint": "E7C497",
+   "coverage": "D6B47C",
+   "coverageTex": "Assets/GameContent/Terrain/Textures/Realm_Sand_Albedo.png"
+  },
+  {
+   "key": "tree_spruce_tall",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Trees/Fir/Prefabs/UNS_Spruce_01.prefab",
+   "role": "tree",
+   "biomes": "frozen",
+   "tags": "conifer,snow",
+   "height": 13,
+   "scaleMin": 0.85,
+   "scaleMax": 1.35,
+   "sink": 0.2,
+   "weight": 1.2
+  },
+  {
+   "key": "tree_spruce_young",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Trees/Fir/Prefabs/UNS_Spruce_02.prefab",
+   "role": "tree",
+   "biomes": "frozen",
+   "tags": "conifer,snow,young",
+   "height": 5.5,
+   "scaleMin": 0.8,
+   "scaleMax": 1.3,
+   "sink": 0.12,
+   "weight": 0.9
+  },
+  {
+   "key": "bush_spruce",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Vegetation/Bushes/Prefabs/UNS_Bush.prefab",
+   "role": "bush",
+   "biomes": "frozen,verdant",
+   "tags": "bush,cold",
+   "scaleMin": 0.8,
+   "scaleMax": 1.25,
+   "sink": 0.08,
+   "weight": 0.8
+  },
+  {
+   "key": "mushroom_patch",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Vegetation/Mushrooms/Prefabs/UNS_Mushroom_Patch.prefab",
+   "role": "mushroom",
+   "biomes": "verdant,grave",
+   "tags": "forest",
+   "height": 0.45,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "pebble_river_01",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Rocks/River/Prefabs/UNS_Tiny_Rock_01.prefab",
+   "role": "stone",
+   "biomes": "frozen,verdant",
+   "tags": "pebble,water",
+   "scaleMin": 1.5,
+   "scaleMax": 3.0,
+   "sink": 0.05,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "pebble_river_02",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Rocks/River/Prefabs/UNS_Tiny_Rock_02.prefab",
+   "role": "stone",
+   "biomes": "frozen,verdant",
+   "tags": "pebble,water",
+   "scaleMin": 1.5,
+   "scaleMax": 3.0,
+   "sink": 0.05,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "pebble_river_03",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Rocks/River/Prefabs/UNS_Tiny_Rock_03.prefab",
+   "role": "stone",
+   "biomes": "frozen,verdant",
+   "tags": "pebble,water",
+   "scaleMin": 1.5,
+   "scaleMax": 3.0,
+   "sink": 0.05,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "pebble_river_04",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Rocks/River/Prefabs/UNS_Tiny_Rock_04.prefab",
+   "role": "stone",
+   "biomes": "frozen,verdant",
+   "tags": "pebble,water",
+   "scaleMin": 1.5,
+   "scaleMax": 3.0,
+   "sink": 0.05,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "pebble_river_05",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Rocks/River/Prefabs/UNS_Tiny_Rock_05.prefab",
+   "role": "stone",
+   "biomes": "frozen,verdant",
+   "tags": "pebble,water",
+   "scaleMin": 1.5,
+   "scaleMax": 3.0,
+   "sink": 0.05,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "log_fallen",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Props/Logs/Prefabs/UNS_Log.prefab",
+   "role": "log",
+   "biomes": "verdant,frozen,grave",
+   "tags": "forest",
+   "scaleMin": 0.9,
+   "scaleMax": 1.6,
+   "sink": 0.1,
+   "align": 0.9,
+   "collider": "convex"
+  },
+  {
+   "key": "stump_old",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Props/Logs/Prefabs/UNS_Stump.prefab",
+   "role": "log",
+   "biomes": "verdant,frozen,grave",
+   "tags": "forest,stump",
+   "scaleMin": 0.8,
+   "scaleMax": 1.4,
+   "sink": 0.1,
+   "align": 0.5,
+   "collider": "convex"
+  },
+  {
+   "key": "branch_fallen",
+   "source": "Assets/InnerverseInteractive/Ultimate Nature – Starter/Environment/Props/Branches/Prefabs/UNS_Branch.prefab",
+   "role": "log",
+   "biomes": "verdant,frozen,grave",
+   "tags": "forest,small",
+   "scaleMin": 0.9,
+   "scaleMax": 1.6,
+   "sink": 0.02,
+   "align": 1.0,
+   "collider": "none",
+   "noShadow": true
+  },
+  {
+   "key": "mountain_crag_verdant",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "mountain",
+   "biomes": "verdant",
+   "tags": "crag",
+   "scaleMin": 0.75,
+   "scaleMax": 1.25,
+   "sink": 0.42,
+   "align": 0.0,
+   "height": 40.0,
+   "tint": "A39D92",
+   "coverage": "6E8E3C"
+  },
+  {
+   "key": "mountain_crag_grave",
+   "source": "Assets/Idyllic Fantasy Nature/Prefabs/Cliff_02.prefab",
+   "role": "mountain",
+   "biomes": "grave",
+   "tags": "crag",
+   "scaleMin": 0.75,
+   "scaleMax": 1.25,
+   "sink": 0.42,
+   "align": 0.0,
+   "height": 40.0,
+   "tint": "8F918A",
+   "coverage": "56603A"
+  }
+ ]
+}

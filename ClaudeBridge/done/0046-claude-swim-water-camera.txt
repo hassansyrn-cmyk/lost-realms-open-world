@@ -1,0 +1,44 @@
+log 0046 Claude: swimming pose (exact lean, floats at the waterline), water ripples and splashes, burst camera arc, barrel push, ragdoll kill
+refresh
+wait 3
+play
+waitplay 14
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+wait 1
+# Swimming: treading, breaststroke, fast swim, treading again; pose numbers go to the console
+call LostRealmsOW.OpenWorldMotionCapture.Sequence swim2 48 3 side 0:fill,0:water,0.8:pose,1:fwd,2.4:pose,3:sprint 1,3.9:pose,4.2:sprint 0,4.4:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence swim2_front 24 3 front 0:fill,0:fwd,1.8:pose
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence swim2_back 24 3 back 0:fill,0:fwd
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence swim2_follow 24 3 follow 0:fill,0:fwd
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+# A drop into deep water from 7 m: the big splash
+call LostRealmsOW.OpenWorldMotionCapture.Sequence dive 36 2 side 0:water,0.6:lift 7
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 1
+# Burst close-up from the gameplay camera: the lens should swing round her, not through her
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence burst_follow2 40 2 follow 0:element 2,0:fill,0.1:burst
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 3
+# A dash into a barrel
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence barrel 40 2 side 0:weapon 0,0:spawnprop village_barrel_01 3.4,0.3:fwd,0.55:dash,1.3:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 1
+call LostRealmsOW.OpenWorldMotionCapture.Sequence clear4 2 1 side 0:clear
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+# A killing burst into a ragdoll
+tp 0 -34 0 12
+wait 1.5
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ragdoll_kill 60 2 pair 0:element 0,0:spawn Goblin 3,0.2:weaken 0.5,0.3:fill,0.4:burst
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+wait 2
+timeofday 10:00 unlock
+stop
+log 0046 done

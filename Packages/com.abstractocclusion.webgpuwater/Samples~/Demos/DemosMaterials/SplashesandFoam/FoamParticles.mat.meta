@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b48528d07eeb7d040a4ca9ff8c448bff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/DemosMaterials/SplashesandFoam/FoamParticles.mat
+  uploadId: 977994

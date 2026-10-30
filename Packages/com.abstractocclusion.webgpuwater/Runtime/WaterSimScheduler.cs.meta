@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 490b81f25f00516429d1b307b0ff2ba8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterSimScheduler.cs
+  uploadId: 977994

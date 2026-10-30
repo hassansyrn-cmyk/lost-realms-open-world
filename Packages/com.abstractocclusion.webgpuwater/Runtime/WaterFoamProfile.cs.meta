@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 0e816f6b662842e45b344a2c2b234aa9
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterFoamProfile.cs
+  uploadId: 977994

@@ -1,0 +1,23 @@
+    0.0s kit entries 478
+    0.1s settlements planned, building footprints 171, pads 194
+    8.0s terrain sculpted 1025²
+   18.1s terrain painted 1024² x 8 layers
+   18.1s settlement pieces 663
+   20.9s ecosystem: trees 4008, bushes 934, cliffs 210, rocks 542, litter 229, water plants 169, detail instances 1227224
+splat hub plaza: Grass=0.03 Forest=0.05 Dirt=0.00 Cobble=0.92 Rock=0.00 Cliff=0.00 Sand=0.00 Snow=0.00 
+splat frostpine: Grass=0.00 Forest=0.00 Dirt=0.00 Cobble=0.00 Rock=0.00 Cliff=0.00 Sand=0.00 Snow=1.00 
+splat sunspire: Grass=0.00 Forest=0.00 Dirt=0.55 Cobble=0.00 Rock=0.00 Cliff=0.00 Sand=0.45 Snow=0.00 
+splat graveyard: Grass=0.00 Forest=0.00 Dirt=1.00 Cobble=0.00 Rock=0.00 Cliff=0.00 Sand=0.00 Snow=0.00 
+splat storm: Grass=0.00 Forest=0.00 Dirt=0.16 Cobble=0.00 Rock=0.84 Cliff=0.00 Sand=0.00 Snow=0.00 
+splat dragon peak: Grass=0.00 Forest=0.00 Dirt=0.00 Cobble=0.00 Rock=0.00 Cliff=0.00 Sand=0.00 Snow=1.00 
+   21.4s terrain asset saved (4942 trees, 28 detail layers, 2 splat textures)
+   23.2s placements, fields and atlas written (1845 placements)
+kinds: Landmark 34, Building 168, Prop 334, Fx 5, Fence 114, Lamp 32, Cliff 218, Rock 568, Foliage 229, WaterPlant 143
+zones: hub 42, oakvale 24, millbrook 37, caravan 12, frostpine 22, sunspire 181, oasis 29, duneruins 21, graveyard 219, storm 28, woods 10, ruins 11, ridge 13, wolfden 14, Mirror Lake 35, Hollow Mere 26, Sanctuary Pond 7, Grove Pond 7
+missing kit prefabs: 
+lake Mirror Lake surface 1.18
+lake Glacier Tarn surface 38.49
+lake Sunwell Oasis surface 11.59
+lake Hollow Mere surface 0.25
+lake Sanctuary Pond surface 5.97
+lake Grove Pond surface 4.75

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: c02a202646c146769b9fbc85f623bd7d
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterRiverFluid.cs
+  uploadId: 977994

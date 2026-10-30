@@ -1,0 +1,10 @@
+04:19:17 region OK: Audio/verdant_realm_theme, volume 0.380, cutoff 22000 Hz, night 0.00
+04:19:29 region OK: Audio/whiteout_realm_theme, volume 0.380, cutoff 22000 Hz, night 0.00
+04:19:41 region OK: Audio/sunscar_realm_theme, volume 0.380, cutoff 22000 Hz, night 0.00
+04:19:52 region OK: Audio/astral_theme, volume 0.171, cutoff 4575 Hz, night 0.00
+04:20:00 night OK: cutoff 1500 Hz, volume 0.120
+04:20:12 region OK: Audio/stormveil_theme, volume 0.413, cutoff 22000 Hz, night 0.00
+04:20:13 fight spawned: elite wraith 6 m ahead (boss-layer branch)
+04:20:22 combat OK: swapped to Audio/storm_guardian_theme, volume 0.311
+04:20:23 fight killed — waiting out the 7 s combat return
+04:20:34 return OK: back to Audio/stormveil_theme, volume 0.057

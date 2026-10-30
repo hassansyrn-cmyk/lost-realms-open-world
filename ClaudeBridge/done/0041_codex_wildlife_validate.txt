@@ -1,0 +1,14 @@
+refresh
+clearconsole
+play
+waitplay 6
+exec LostRealmsOW.WildlifeExpansionValidation.Verify
+exec LostRealmsOW.WildlifeExpansionValidation.PreviewHorse
+wait 1
+shot expansion_horse ui
+exec LostRealmsOW.WildlifeExpansionValidation.Cleanup
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Horse
+wait 3
+shot expansion_horse_habitat ui
+call LostRealmsOW.OpenWorldPopulation.DebugReport all
+stop

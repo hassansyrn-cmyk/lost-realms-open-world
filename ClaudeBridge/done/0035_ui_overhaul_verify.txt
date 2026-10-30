@@ -1,0 +1,35 @@
+refresh
+clearconsole
+play
+waitplay 4
+exec LostRealmsOW.LegendsUIValidation.RunFromBridge
+call LostRealmsOW.OpenWorldMobileHud.DebugUI hud
+wait 0.6
+shot ui_hud_gameplay ui
+wait 0.6
+call LostRealmsOW.OpenWorldMobileHud.DebugUI atlas
+wait 0.5
+shot ui_menu_atlas ui
+wait 0.5
+call LostRealmsOW.OpenWorldMobileHud.DebugUI arsenal
+wait 0.5
+shot ui_menu_arsenal ui
+wait 0.5
+call LostRealmsOW.OpenWorldMobileHud.DebugUI vault
+wait 0.5
+shot ui_menu_vault ui
+wait 0.5
+call LostRealmsOW.OpenWorldMobileHud.DebugUI pause
+wait 0.5
+shot ui_menu_pause ui
+wait 0.5
+call LostRealmsOW.OpenWorldMobileHud.DebugClock open
+wait 0.5
+shot ui_menu_clock ui
+wait 0.5
+call LostRealmsOW.OpenWorldMobileHud.DebugUI title
+wait 0.5
+shot ui_title_screen ui
+wait 0.5
+call LostRealmsOW.OpenWorldMobileHud.DebugUI hud
+stop

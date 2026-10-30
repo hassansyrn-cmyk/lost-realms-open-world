@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 51552354d736bc444b177c19af8f4efa
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterChunkFillAnimator.cs
+  uploadId: 977994

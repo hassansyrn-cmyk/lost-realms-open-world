@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c80a08f5051d884469b6f035a964f7a5
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Scenes/6. EXPERIMENTALOpen Water.unity
+  uploadId: 977994

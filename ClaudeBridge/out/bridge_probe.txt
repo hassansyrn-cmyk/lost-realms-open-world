@@ -1,0 +1,30 @@
+18:32:42.998 playing=False console grew 58 bytes on Debug.Log (size 947446); last append error: none; free 778.62 GB
+  logger enabled=True filter=Log handler=UnityEngine.DebugLogHandler
+  s_LogCallbackHandler: no listeners
+  s_LogCallbackHandlerThreaded: LostRealmsOW.ClaudeBridge.OnLog
+  enter play mode options: enabled=False options=None
+18:33:27.003 playing=True console grew 58 bytes on Debug.Log (size 949676); last append error: none; free 778.62 GB
+  logger enabled=True filter=Log handler=UnityEngine.DebugLogHandler
+  s_LogCallbackHandler: no listeners
+  s_LogCallbackHandlerThreaded: LostRealmsOW.ClaudeBridge.OnLog
+  enter play mode options: enabled=False options=None
+18:33:37.333 playing=False console grew 0 bytes on Debug.Log (size 949756); last append error: none; free 778.62 GB
+  logger enabled=True filter=Log handler=UnityEngine.DebugLogHandler
+  s_LogCallbackHandler: no listeners
+  s_LogCallbackHandlerThreaded: LostRealmsOW.ClaudeBridge.OnLog
+  enter play mode options: enabled=False options=None
+18:35:58.354 playing=False console grew 58 bytes on Debug.Log (size 951610); last append error: none; free 778.62 GB
+  logger enabled=True filter=Log handler=UnityEngine.DebugLogHandler
+  s_LogCallbackHandler: no listeners
+  s_LogCallbackHandlerThreaded: LostRealmsOW.ClaudeBridge.OnLog
+  enter play mode options: enabled=False options=None
+18:36:32.606 playing=True console grew 58 bytes on Debug.Log (size 953663); last append error: none; free 778.62 GB
+  logger enabled=True filter=Log handler=UnityEngine.DebugLogHandler
+  s_LogCallbackHandler: no listeners
+  s_LogCallbackHandlerThreaded: LostRealmsOW.ClaudeBridge.OnLog
+  enter play mode options: enabled=False options=None
+18:36:38.336 playing=False console grew 58 bytes on Debug.Log (size 953801); last append error: none; free 778.62 GB
+  logger enabled=True filter=Log handler=UnityEngine.DebugLogHandler
+  s_LogCallbackHandler: no listeners
+  s_LogCallbackHandlerThreaded: LostRealmsOW.ClaudeBridge.OnLog
+  enter play mode options: enabled=False options=None

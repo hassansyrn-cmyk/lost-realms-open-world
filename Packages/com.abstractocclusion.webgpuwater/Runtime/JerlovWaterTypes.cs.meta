@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: e729d51b93103a24fa4bbfbe0cd08da8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/JerlovWaterTypes.cs
+  uploadId: 977994

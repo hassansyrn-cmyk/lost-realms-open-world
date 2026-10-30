@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 9bfdcd1456389194089e8807e41596d2
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterSphereInteractor.cs
+  uploadId: 977994

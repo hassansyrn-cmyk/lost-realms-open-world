@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f3b6d04c62c9a3b4ba4ac814607282fc
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/LargeWaveField.cs
+  uploadId: 977994

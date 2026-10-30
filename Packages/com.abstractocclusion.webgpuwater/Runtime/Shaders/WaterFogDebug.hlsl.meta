@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b2f9038ac6154de4a97be03d1c8f6247
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WaterFogDebug.hlsl
+  uploadId: 977994

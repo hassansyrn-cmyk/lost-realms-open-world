@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8e69d6371ef044febe1dfbb5d24884f4
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Tests/Runtime/StaticStateFeatureTests.cs
+  uploadId: 977994

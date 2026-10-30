@@ -1,0 +1,9 @@
+refresh
+wait 3
+play
+waitplay 8
+exec LostRealmsOW.VerdantExperienceValidation.Begin
+call LostRealmsOW.VerdantExperienceValidation.Performance high_herd
+waitfor !LostRealmsOW.VerdantExperienceValidation.Busy 60
+exec LostRealmsOW.VerdantExperienceValidation.Cleanup
+stop

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 8af3cb5efa05f574db49df6ed3dbf6b1
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterVolume.LookPreset.cs
+  uploadId: 977994

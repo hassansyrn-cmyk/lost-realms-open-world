@@ -1,0 +1,20 @@
+log 0131 GLM: final Phase 4+5 checks — credits body + Phase 4 frame-cost tour
+refresh
+wait 10
+play
+waitplay 10
+waitfor LostRealmsOW.OpenWorldRegionWeather.HeroReady 90
+wait 5
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+call LostRealmsOW.GlmQuests.DebugCredits x
+wait 2
+shot glm5_credits4 ui
+call LostRealmsOW.GlmQuests.DebugClose x
+wait 2
+call LostRealmsOW.OpenWorldGraphics.DebugTier balanced
+wait 2
+call LostRealmsOW.GlmQaSuite.BeginRun balanced
+waitfor !LostRealmsOW.GlmQaSuite.Busy 240
+stop
+log 0131 done

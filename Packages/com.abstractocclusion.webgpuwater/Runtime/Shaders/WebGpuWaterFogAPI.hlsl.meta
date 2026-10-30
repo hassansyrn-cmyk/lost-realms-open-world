@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: db9ebd2fbdc4d8347a38d9df5e531661
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/Shaders/WebGpuWaterFogAPI.hlsl
+  uploadId: 977994

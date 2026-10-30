@@ -1,0 +1,2052 @@
+{
+  "entries": [
+    {
+      "key": "elf_sword",
+      "source": "Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab",
+      "address": "",
+      "category": "weapon",
+      "region": "Core",
+      "position": {
+        "x": -38,
+        "y": 0,
+        "z": -74
+      },
+      "height": 1.3,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": 11
+    },
+    {
+      "key": "elf_axe",
+      "source": "Assets/Elven Weapons/Prefabs/Elven_Axe_01.prefab",
+      "address": "",
+      "category": "weapon",
+      "region": "Core",
+      "position": {
+        "x": -34,
+        "y": 0,
+        "z": -74
+      },
+      "height": 1.3,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": 12
+    },
+    {
+      "key": "elf_spear",
+      "source": "Assets/Elven Weapons/Prefabs/Elven_Spear_01.prefab",
+      "address": "",
+      "category": "weapon",
+      "region": "Core",
+      "position": {
+        "x": -30,
+        "y": 0,
+        "z": -74
+      },
+      "height": 1.3,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": 13
+    },
+    {
+      "key": "elf_hammer",
+      "source": "Assets/Elven Weapons/Prefabs/Elven_Hammer_01.prefab",
+      "address": "",
+      "category": "weapon",
+      "region": "Core",
+      "position": {
+        "x": -26,
+        "y": 0,
+        "z": -74
+      },
+      "height": 1.3,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": 14
+    },
+    {
+      "key": "elf_staff",
+      "source": "Assets/Elven Weapons/Prefabs/Elven_Staff_01.prefab",
+      "address": "",
+      "category": "weapon",
+      "region": "Core",
+      "position": {
+        "x": -22,
+        "y": 0,
+        "z": -74
+      },
+      "height": 1.3,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": 15
+    },
+    {
+      "key": "npc_5b95ae1b57",
+      "source": "Assets/Character_Elf/Prefab/Character_Elf.prefab",
+      "address": "",
+      "category": "npc",
+      "region": "Core",
+      "position": {
+        "x": 16,
+        "y": 0,
+        "z": 8
+      },
+      "height": 1.8,
+      "yaw": 0,
+      "alias": "lyra",
+      "weaponId": -1
+    },
+    {
+      "key": "wildlife_fe036fe79f",
+      "source": "Assets/Fox/Prefabs/Fox.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "x": -36,
+        "y": 0,
+        "z": 48
+      },
+      "height": 0.7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "wildlife_10f9a82436",
+      "source": "Assets/Rabbits/Prefabs/Rabbit 1.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "x": -28,
+        "y": 0,
+        "z": 42
+      },
+      "height": 0.35,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "wildlife_3522f8e030",
+      "source": "Assets/living birds/resources/lb_robin.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "x": -20,
+        "y": 0,
+        "z": 54
+      },
+      "height": 0.18,
+      "yaw": 0,
+      "alias": "bird",
+      "weaponId": -1
+    },
+    {
+      "key": "wildlife_14fe7e3329",
+      "source": "Assets/living birds/resources/lb_sparrow.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "x": -52,
+        "y": 0,
+        "z": 38
+      },
+      "height": 0.16,
+      "yaw": 0,
+      "alias": "bird",
+      "weaponId": -1
+    },
+    {
+      "key": "wildlife_39b91bb111",
+      "source": "Assets/Rhino/Prefab/Rhino_PBR.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Dunes",
+      "position": {
+        "x": 145,
+        "y": 0,
+        "z": -110
+      },
+      "height": 1.6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "wildlife_5c1241df03",
+      "source": "Assets/ithappy/Animals_FREE/Prefabs/Chicken_001.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "x": -85.0,
+        "y": 0,
+        "z": -30.0
+      },
+      "height": 0.45,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "wildlife_83c3ea98a8",
+      "source": "Assets/ithappy/Animals_FREE/Prefabs/Deer_001.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "x": -100.63631850608942,
+        "y": 0,
+        "z": -23.920585827093614
+      },
+      "height": 1.4,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "wildlife_439813ed98",
+      "source": "Assets/ithappy/Animals_FREE/Prefabs/Dog_001.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "x": -93.21317259683,
+        "y": 0,
+        "z": -38.965539729297994
+      },
+      "height": 0.85,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "wildlife_a868c1dd18",
+      "source": "Assets/ithappy/Animals_FREE/Prefabs/Horse_001.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "x": -88.52404532874509,
+        "y": 0,
+        "z": -22.857597012324106
+      },
+      "height": 1.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "enemy_949fff1745",
+      "source": "Assets/Skeleton/Prefabs/Skeleton.prefab",
+      "address": "",
+      "category": "enemy",
+      "region": "Crypt",
+      "position": {
+        "x": -82,
+        "y": 0,
+        "z": -61
+      },
+      "height": 1.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "enemy_86bd5dc811",
+      "source": "Assets/DungeonCharacters/Skeletons_demo/DungeonSkeleton_demoPrefab.prefab",
+      "address": "",
+      "category": "enemy",
+      "region": "Crypt",
+      "position": {
+        "x": -76,
+        "y": 0,
+        "z": -72
+      },
+      "height": 1.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "enemy_5402163816",
+      "source": "Assets/cave_troll/prefabs/troll.prefab",
+      "address": "",
+      "category": "enemy",
+      "region": "Crypt",
+      "position": {
+        "x": -91,
+        "y": 0,
+        "z": -72
+      },
+      "height": 2.7,
+      "yaw": 0,
+      "alias": "brute",
+      "weaponId": -1
+    },
+    {
+      "key": "enemy_10b1fc0ab2",
+      "source": "Assets/Wolf_Animated/Prefabs/Wolf.prefab",
+      "address": "",
+      "category": "enemy",
+      "region": "Frost",
+      "position": {
+        "x": 55,
+        "y": 0,
+        "z": 155
+      },
+      "height": 1.1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "enemy_d5e3575646",
+      "source": "Assets/fantasySpider/spider_myOldOne.FBX",
+      "address": "",
+      "category": "enemy",
+      "region": "Crypt",
+      "position": {
+        "x": -85,
+        "y": 0,
+        "z": -82
+      },
+      "height": 1.1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_ebc5d887bc",
+      "source": "Assets/LowpolyBakersHouse/Prefabs/Baker_house.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Verdant",
+      "position": {
+        "x": -42,
+        "y": 0,
+        "z": -90
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_e8c895664f",
+      "source": "Assets/VillagePack/OldHouse/OldHousePrefab.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Verdant",
+      "position": {
+        "x": -50.0,
+        "y": 0,
+        "z": -104.0
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_e8ccafa6ca",
+      "source": "Assets/BrokenVector/LowPolyBrickHouses/Prefabs/House_1.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Verdant",
+      "position": {
+        "x": -76.0,
+        "y": 0,
+        "z": -100.0
+      },
+      "height": 6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_2fa3ec357c",
+      "source": "Assets/BrokenVector/LowPolyBrickHouses/Prefabs/House_2.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Verdant",
+      "position": {
+        "x": -100.32316212058355,
+        "y": 0,
+        "z": -90.54313350881229
+      },
+      "height": 6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_53e44be359",
+      "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/House1.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Verdant",
+      "position": {
+        "x": -98.0,
+        "y": 0,
+        "z": -102.0
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_2ad730e933",
+      "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/Windmill.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Verdant",
+      "position": {
+        "x": -129.27263701217885,
+        "y": 0,
+        "z": -89.84117165418724
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_c97df2f304",
+      "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenHouse_1.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Verdant",
+      "position": {
+        "x": -114.42634519366001,
+        "y": 0,
+        "z": -119.93107945859599
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_69b55d175c",
+      "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_01.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Dunes",
+      "position": {
+        "x": 161.0,
+        "y": 0,
+        "z": -82.0
+      },
+      "height": 6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_0b2c089ac1",
+      "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_02.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Dunes",
+      "position": {
+        "x": 133.2021004336188,
+        "y": 0,
+        "z": -71.19215258149976
+      },
+      "height": 6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "building_0d8d837660",
+      "source": "Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_03.prefab",
+      "address": "",
+      "category": "building",
+      "region": "Dunes",
+      "position": {
+        "x": 146.39880427230221,
+        "y": 0,
+        "z": -97.93873729652977
+      },
+      "height": 6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_145a6114fe",
+      "source": "Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -88.0,
+        "y": 0,
+        "z": 55.0
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_bc3f425c95",
+      "source": "Assets/Darth_Artisan/Free_Trees/Prefabs/Poplar_Tree.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -108.8484246747859,
+        "y": 0,
+        "z": 63.10588556387518
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_bc6ecdd561",
+      "source": "Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 01.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -98.0,
+        "y": 0,
+        "z": 82.0
+      },
+      "height": 6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_9e548c3cd8",
+      "source": "Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 02.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -118.8484246747859,
+        "y": 0,
+        "z": 90.10588556387518
+      },
+      "height": 6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_6d07816f72",
+      "source": "Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 01.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -108.95089679577335,
+        "y": 0,
+        "z": 70.04594702760267
+      },
+      "height": 6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_a5acedb7be",
+      "source": "Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 02.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -102.69872710499345,
+        "y": 0,
+        "z": 91.52320398356785
+      },
+      "height": 6,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_39c81322b9",
+      "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_01_Green.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -28.0,
+        "y": 0,
+        "z": 125.0
+      },
+      "height": 5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_94f5f62232",
+      "source": "Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_02_Green.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -48.848424674785896,
+        "y": 0,
+        "z": 133.10588556387518
+      },
+      "height": 5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_e8beaee972",
+      "source": "Assets/Idyllic Fantasy Nature/Prefabs/Bush_01_01.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -38.950896795773346,
+        "y": 0,
+        "z": 113.04594702760267
+      },
+      "height": 1.4,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_ce8ae0652b",
+      "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Cedar_Tree_03.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Frost",
+      "position": {
+        "x": 82.0,
+        "y": 0,
+        "z": 165.0
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_803d2346f0",
+      "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Larch_Tree.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Frost",
+      "position": {
+        "x": 61.151575325214104,
+        "y": 0,
+        "z": 173.10588556387518
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_6e0f5ff82f",
+      "source": "Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Pine_Tree.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Frost",
+      "position": {
+        "x": 71.04910320422665,
+        "y": 0,
+        "z": 153.04594702760267
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_99e4daba35",
+      "source": "Assets/A_piece_of_nature/Prefabs/Pine_tree.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -125.0,
+        "y": 0,
+        "z": 15.0
+      },
+      "height": 3,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_1c1a55904c",
+      "source": "Assets/A_piece_of_nature/Prefabs/Rock_3.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -142.37368722898825,
+        "y": 0,
+        "z": 21.75490463656265
+      },
+      "height": 3,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_c02a70933c",
+      "source": "Assets/A_piece_of_nature/Prefabs/Rock_4.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -134.12574732981113,
+        "y": 0,
+        "z": 5.038289189668895
+      },
+      "height": 3,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_1e4a1f94b0",
+      "source": "Assets/Mountain Terrain rocks and tree/Prefab/rock_set_01.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Frost",
+      "position": {
+        "x": 42.0,
+        "y": 0,
+        "z": 165.0
+      },
+      "height": 5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_d8050af450",
+      "source": "Assets/Mountain Terrain rocks and tree/Prefab/rock_set_02.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Frost",
+      "position": {
+        "x": 21.151575325214104,
+        "y": 0,
+        "z": 173.10588556387518
+      },
+      "height": 5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "mountain_c419d664bf",
+      "source": "Assets/Snow Mountain/Prefab/mountain_Snow_000.prefab",
+      "address": "",
+      "category": "mountain",
+      "region": "Frost",
+      "position": {
+        "x": 30,
+        "y": 0,
+        "z": 218
+      },
+      "height": 58,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "mountain_3fe2db3f8d",
+      "source": "Assets/Mountain Terrain rocks and tree/Prefab/mountain_terrain_01.prefab",
+      "address": "",
+      "category": "mountain",
+      "region": "Dunes",
+      "position": {
+        "x": 210,
+        "y": 0,
+        "z": -135
+      },
+      "height": 65,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_741704a930",
+      "source": "Assets/Free Simple Dungeon Props - YP/Prefabs/Jar.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Crypt",
+      "position": {
+        "x": -70.0,
+        "y": 0,
+        "z": -85.0
+      },
+      "height": 0.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_bc88208c4b",
+      "source": "Assets/Free Simple Dungeon Props - YP/Prefabs/Shield.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Crypt",
+      "position": {
+        "x": -76.9494748915953,
+        "y": 0,
+        "z": -82.29803814537495
+      },
+      "height": 0.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_85755b7969",
+      "source": "Assets/Free Simple Dungeon Props - YP/Prefabs/Skull.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Crypt",
+      "position": {
+        "x": -73.65029893192445,
+        "y": 0,
+        "z": -88.98468432413244
+      },
+      "height": 0.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_1b29d47f3a",
+      "source": "Assets/Free Simple Dungeon Props - YP/Prefabs/Treasure.prefab",
+      "address": "",
+      "category": "chest",
+      "region": "Crypt",
+      "position": {
+        "x": -71.56624236833115,
+        "y": 0,
+        "z": -81.82559867214405
+      },
+      "height": 0.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_f1871959ce",
+      "source": "Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.001.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Crypt",
+      "position": {
+        "x": -95.0,
+        "y": 0,
+        "z": -95.0
+      },
+      "height": 1.5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_feff225869",
+      "source": "Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.002.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Crypt",
+      "position": {
+        "x": -103.68684361449412,
+        "y": 0,
+        "z": -91.62254768171867
+      },
+      "height": 1.5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_5b032d0023",
+      "source": "Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.003.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Crypt",
+      "position": {
+        "x": -99.56287366490557,
+        "y": 0,
+        "z": -99.98085540516556
+      },
+      "height": 1.5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_6f2814d7fc",
+      "source": "Assets/Fantasy Chests PBR/Prefabs/Mesh_Chest_01_Mobile.prefab",
+      "address": "",
+      "category": "chest",
+      "region": "Crypt",
+      "position": {
+        "x": -73.0,
+        "y": 0,
+        "z": -100.0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_ab32fa6b20",
+      "source": "Assets/LowpolyBakersHouse/Prefabs/Barrel.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -44.0,
+        "y": 0,
+        "z": -84.0
+      },
+      "height": 1.2,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_df3d2463d2",
+      "source": "Assets/VillagePack/Well/Well.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -65.0,
+        "y": 0,
+        "z": -90.0
+      },
+      "height": 2,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_b0265ed606",
+      "source": "Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Bench.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -51,
+        "y": 0,
+        "z": -89
+      },
+      "height": 0.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "chest_d1f2603511",
+      "source": "Assets/A_piece_of_nature/Prefabs/Chest.prefab",
+      "address": "",
+      "category": "chest",
+      "region": "Verdant",
+      "position": {
+        "x": -124,
+        "y": 0,
+        "z": 28
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_378d89d774",
+      "source": "Assets/Low Poly Fire Particles/Prefabs/Yellow-FireWood.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Verdant",
+      "position": {
+        "x": 5.6,
+        "y": 0,
+        "z": -1.6
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_edeef669da",
+      "source": "Assets/Vefects/Free Fire VFX URP/Particles/VFX_Fire_01_Small_Simple.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Crypt",
+      "position": {
+        "x": -78,
+        "y": 0,
+        "z": -79
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_ebb557170d",
+      "source": "Assets/Magic Pig Games (Infinity PBR)/HOVL - AAA Stylized Projectiles Vol.1/Particles/Impacts/AAA Projectiles Vol 1 - Impact 1 nature arrow.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Verdant",
+      "position": {
+        "x": -41.0,
+        "y": 0,
+        "z": 125.0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_919460f982",
+      "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Explosion.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "impact_ember",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_4673b01fd4",
+      "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Snow hit.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "impact_frost",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_5d7fd18b4d",
+      "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Green hit.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "impact_gale",
+      "weaponId": -1
+    },
+    {
+      "key": "audio_sfx_step",
+      "source": "Assets/Footstep(Snow and Grass)/StepsLoop/grass/running/Running-1.wav",
+      "address": "",
+      "category": "audio",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "sfx_step",
+      "weaponId": -1
+    },
+    {
+      "key": "audio_sfx_step2",
+      "source": "Assets/Footsteps - Essentials/Footsteps_Grass/Foley_Grass/Footsteps_Grass_Tall_Movement_01.wav",
+      "address": "",
+      "category": "audio",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "sfx_step2",
+      "weaponId": -1
+    },
+    {
+      "key": "audio_sfx_step_snow",
+      "source": "Assets/Footstep(Snow and Grass)/StepsLoop/snow/running/Snowrunning1.wav",
+      "address": "",
+      "category": "audio",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "sfx_step_snow",
+      "weaponId": -1
+    },
+    {
+      "key": "audio_sfx_attack_slash_1",
+      "source": "Assets/SwordSoundPack/SWORD_01.wav",
+      "address": "",
+      "category": "audio",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "sfx_attack_slash_1",
+      "weaponId": -1
+    },
+    {
+      "key": "audio_sfx_attack_slash_2",
+      "source": "Assets/SwordSoundPack/SWORD_02.wav",
+      "address": "",
+      "category": "audio",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "sfx_attack_slash_2",
+      "weaponId": -1
+    },
+    {
+      "key": "audio_sfx_attack_slash_3",
+      "source": "Assets/SwordSoundPack/SWORD_03.wav",
+      "address": "",
+      "category": "audio",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "sfx_attack_slash_3",
+      "weaponId": -1
+    },
+    {
+      "key": "audio_sfx_impact",
+      "source": "Assets/Epic Game Hits SFX/Animation Block impact.wav",
+      "address": "",
+      "category": "audio",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "sfx_impact",
+      "weaponId": -1
+    },
+    {
+      "key": "audio_sfx_bird",
+      "source": "Assets/living birds/sounds/robin.wav",
+      "address": "",
+      "category": "audio",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "sfx_bird",
+      "weaponId": -1
+    },
+    {
+      "key": "npc_523b84c816",
+      "source": "Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Male_Peasant_01.prefab",
+      "address": "",
+      "category": "npc",
+      "region": "Core",
+      "position": {
+        "x": -16.5,
+        "y": 0,
+        "z": 8.2
+      },
+      "height": 1.8,
+      "yaw": 0,
+      "alias": "brom",
+      "weaponId": -1
+    },
+    {
+      "key": "npc_011f804056",
+      "source": "Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Peasant_01_a.prefab",
+      "address": "",
+      "category": "npc",
+      "region": "Core",
+      "position": {
+        "x": -14.2,
+        "y": 0,
+        "z": -3.2
+      },
+      "height": 1.8,
+      "yaw": 0,
+      "alias": "rowan",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_2d1e77a694",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_apples.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -105,
+        "y": 0,
+        "z": -55
+      },
+      "height": 5.5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_2ae58968c8",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -95,
+        "y": 0,
+        "z": -55
+      },
+      "height": 5.5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_000cf9065e",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_plums.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -85,
+        "y": 0,
+        "z": -55
+      },
+      "height": 5.5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_cbda5b6a8b",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -75,
+        "y": 0,
+        "z": -55
+      },
+      "height": 5.5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_273e0a549d",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_logs.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -117,
+        "y": 0,
+        "z": -70
+      },
+      "height": 0.65,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_d155f9f7c7",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_stump.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -112,
+        "y": 0,
+        "z": -70
+      },
+      "height": 0.65,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_581dc2c2a6",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -107,
+        "y": 0,
+        "z": -70
+      },
+      "height": 0.65,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_e173b3adc5",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -58,
+        "y": 0,
+        "z": 64
+      },
+      "height": 1.1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_7fdea75d8b",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_River_Rock_Pile_02.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -53,
+        "y": 0,
+        "z": 64
+      },
+      "height": 1.2,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_2e46f5c338",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -48,
+        "y": 0,
+        "z": 64
+      },
+      "height": 1.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_46cf8196d7",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Mushrooms/PT_Caesars_Mushroom_01.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -43,
+        "y": 0,
+        "z": 64
+      },
+      "height": 0.3,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_de9e3d58d8",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Flowers/PT_Poppy_02.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -38,
+        "y": 0,
+        "z": 64
+      },
+      "height": 0.5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_8efd1176c3",
+      "source": "Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Plants/PT_Grass_02.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -33,
+        "y": 0,
+        "z": 64
+      },
+      "height": 0.4,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_263d2c4df2",
+      "source": "Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak01.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -74,
+        "y": 0,
+        "z": 103
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_fb2b09c880",
+      "source": "Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak02.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -60,
+        "y": 0,
+        "z": 103
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_732b36cf04",
+      "source": "Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak03.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -46,
+        "y": 0,
+        "z": 103
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "nature_e7ced13ec3",
+      "source": "Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak04.prefab",
+      "address": "",
+      "category": "nature",
+      "region": "Verdant",
+      "position": {
+        "x": -32,
+        "y": 0,
+        "z": 103
+      },
+      "height": 7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_0e57d24b83",
+      "source": "Assets/Polytope Studio/Lowpoly_Props/Prefabs/PT_Village_Fence_Small_01.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -108,
+        "y": 0,
+        "z": -83
+      },
+      "height": 1.2,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_f3a0eabe10",
+      "source": "Assets/Polytope Studio/Lowpoly_Props/Prefabs/PT_Village_Fence_Small_02.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -104,
+        "y": 0,
+        "z": -83
+      },
+      "height": 1.2,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_8de774339c",
+      "source": "Assets/Polytope Studio/Lowpoly_Props/Prefabs/PT_Village_Fence_Small_03.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -100,
+        "y": 0,
+        "z": -83
+      },
+      "height": 1.2,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "prop_3d5fdeb474",
+      "source": "Assets/Polytope Studio/Lowpoly_Props/Prefabs/PT_Hayfork_01.prefab",
+      "address": "",
+      "category": "prop",
+      "region": "Verdant",
+      "position": {
+        "x": -96,
+        "y": 0,
+        "z": -83
+      },
+      "height": 1.2,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_7204ecfb48",
+      "source": "Assets/Free Slash VFX/Prefabs/Slash VFX.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "fx_slash",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_c749a81158",
+      "source": "Assets/Free Slash VFX/Prefabs/Slash Fire VFX.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "fx_slash_ember",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_fafe55d076",
+      "source": "Assets/Free Slash VFX/Prefabs/Slash Water VFX.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "fx_slash_frost",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_ca23bc3bb8",
+      "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust puff.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "fx_dust",
+      "weaponId": -1
+    },
+    {
+      "key": "vfx_c41bc980ea",
+      "source": "Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode yellow.prefab",
+      "address": "",
+      "category": "vfx",
+      "region": "Core",
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "height": 1,
+      "yaw": 0,
+      "alias": "fx_sparks",
+      "weaponId": -1
+    },
+    {
+      "key": "cloud_d06ca0be90",
+      "source": "Assets/SimpleSky/Prefabs/Cloud_01.prefab",
+      "address": "",
+      "category": "cloud",
+      "region": "Sky",
+      "position": {
+        "x": -40,
+        "y": 0,
+        "z": 35
+      },
+      "height": 12,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "cloud_9de3028ad6",
+      "source": "Assets/SimpleSky/Prefabs/Cloud_02.prefab",
+      "address": "",
+      "category": "cloud",
+      "region": "Sky",
+      "position": {
+        "x": 70,
+        "y": 0,
+        "z": -20
+      },
+      "height": 12,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "cloud_a7d9e398ce",
+      "source": "Assets/SimpleSky/Prefabs/Cloud_03.prefab",
+      "address": "",
+      "category": "cloud",
+      "region": "Sky",
+      "position": {
+        "x": 180,
+        "y": 0,
+        "z": -75
+      },
+      "height": 12,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_caravan_crate",
+      "source": "Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_SmallCrate01_color01.prefab",
+      "address": "",
+      "category": "expansion_prop",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": -102,
+        "z": -99
+      },
+      "height": 0.85,
+      "yaw": 20,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_caravan_barrel",
+      "source": "Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_BigBarrel_color01.prefab",
+      "address": "",
+      "category": "expansion_prop",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": -104,
+        "z": -99
+      },
+      "height": 1.1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_oakvale_cart",
+      "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/cart1.prefab",
+      "address": "",
+      "category": "expansion_prop",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": 72,
+        "z": 60
+      },
+      "height": 1.5,
+      "yaw": 110,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_oakvale_food",
+      "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/storage_barrel_fish.prefab",
+      "address": "",
+      "category": "expansion_prop",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": 53,
+        "z": 44
+      },
+      "height": 0.9,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_frost_supplies",
+      "source": "Assets/Crates And Barrels Pack Volume 1 - Free Version/Prefabs/Prefab_BigCrate_color01.prefab",
+      "address": "",
+      "category": "expansion_prop",
+      "region": "Frozen",
+      "position": {
+        "y": 0,
+        "x": -158,
+        "z": 270
+      },
+      "height": 1.2,
+      "yaw": 25,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_sunspire_cart",
+      "source": "Assets/FantasyEnvironments/Environments/Town/Prefabs/cart3.prefab",
+      "address": "",
+      "category": "expansion_prop",
+      "region": "Dunes",
+      "position": {
+        "y": 0,
+        "x": 375,
+        "z": -82
+      },
+      "height": 1.5,
+      "yaw": 80,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_orc_warrior",
+      "source": "Assets/Orcs Pack/Prefabs/Orc Warrior with Sword and Shield.prefab",
+      "address": "",
+      "category": "enemy",
+      "region": "Storm",
+      "position": {
+        "y": 0,
+        "x": 220,
+        "z": 170
+      },
+      "height": 2.2,
+      "yaw": 0,
+      "alias": "brute",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_orc_wizard",
+      "source": "Assets/Orcs Pack/Prefabs/Orc Wizard with Wand.prefab",
+      "address": "",
+      "category": "enemy",
+      "region": "Graveyard",
+      "position": {
+        "y": 0,
+        "x": -220,
+        "z": -180
+      },
+      "height": 2.0,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_iron_sword",
+      "source": "Assets/Free medieval weapons/Prefabs/Sword_OH.prefab",
+      "address": "",
+      "category": "weapon",
+      "region": "Core",
+      "position": {
+        "y": 0,
+        "x": -89,
+        "z": -109
+      },
+      "height": 1.1,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": 16
+    },
+    {
+      "key": "expansion_iron_axe",
+      "source": "Assets/Free medieval weapons/Prefabs/Axe_OS.prefab",
+      "address": "",
+      "category": "weapon",
+      "region": "Core",
+      "position": {
+        "y": 0,
+        "x": -87,
+        "z": -109
+      },
+      "height": 1.15,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": 17
+    },
+    {
+      "key": "expansion_cat",
+      "source": "Assets/ithappy/Animals_FREE/Prefabs/Kitty_001.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": 4,
+        "z": 6
+      },
+      "height": 0.34,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_shepherd",
+      "source": "Assets/RSG_DogsPack/HDRP/Prefabs/P_GermanShepherd.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": -6,
+        "z": 8
+      },
+      "height": 0.85,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_tiger",
+      "source": "Assets/ithappy/Animals_FREE/Prefabs/Tiger_001.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Dunes",
+      "position": {
+        "y": 0,
+        "x": 270,
+        "z": 130
+      },
+      "height": 1.15,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_penguin",
+      "source": "Assets/ithappy/Animals_FREE/Prefabs/Pinguin_001.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Frozen",
+      "position": {
+        "y": 0,
+        "x": 70,
+        "z": 300
+      },
+      "height": 0.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_bear",
+      "source": "Assets/Blink/Art/Animals/Stylized/Bear/Bear_Prefabs/Bear_4.prefab",
+      "address": "",
+      "category": "enemy",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": -220,
+        "z": 60
+      },
+      "height": 1.5,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_rhino",
+      "source": "Assets/Creature_Rhinoceros/Prefab/Rhinoceros.prefab",
+      "address": "",
+      "category": "enemy",
+      "region": "Dunes",
+      "position": {
+        "y": 0,
+        "x": 330,
+        "z": 60
+      },
+      "height": 1.8,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_rhino_ironhide",
+      "source": "Assets/Rhino/Prefab/Rhino_PBR.prefab",
+      "address": "",
+      "category": "enemy",
+      "region": "Storm",
+      "position": {
+        "y": 0,
+        "x": 250,
+        "z": -200
+      },
+      "height": 1.7,
+      "yaw": 0,
+      "alias": "",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_crow",
+      "source": "Assets/living birds/resources/lb_crow.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Graveyard",
+      "position": {
+        "y": 0,
+        "x": -210,
+        "z": -200
+      },
+      "height": 0.26,
+      "yaw": 0,
+      "alias": "bird",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_bluejay",
+      "source": "Assets/living birds/resources/lb_blueJay.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": -40,
+        "z": 60
+      },
+      "height": 0.2,
+      "yaw": 0,
+      "alias": "bird",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_cardinal",
+      "source": "Assets/living birds/resources/lb_cardinal.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": -60,
+        "z": 30
+      },
+      "height": 0.19,
+      "yaw": 0,
+      "alias": "bird",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_goldfinch",
+      "source": "Assets/living birds/resources/lb_goldFinch.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Verdant",
+      "position": {
+        "y": 0,
+        "x": -30,
+        "z": 20
+      },
+      "height": 0.13,
+      "yaw": 0,
+      "alias": "bird",
+      "weaponId": -1
+    },
+    {
+      "key": "expansion_chickadee",
+      "source": "Assets/living birds/resources/lb_chickadee.prefab",
+      "address": "",
+      "category": "wildlife",
+      "region": "Frozen",
+      "position": {
+        "y": 0,
+        "x": -140,
+        "z": 250
+      },
+      "height": 0.13,
+      "yaw": 0,
+      "alias": "bird",
+      "weaponId": -1
+    }
+  ]
+}

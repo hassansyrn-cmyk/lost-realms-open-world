@@ -1,0 +1,16 @@
+refresh
+play
+waitplay 5
+exec LostRealmsOW.VerdantSliceValidation.Begin
+exec LostRealmsOW.VerdantSliceValidation.VerifyCamera
+call LostRealmsOW.VerdantSliceValidation.GearPose 0 1
+wait 0.4
+shot verdant_palm_skin0
+call LostRealmsOW.VerdantSliceValidation.GearPose 2 1
+wait 0.4
+shot verdant_palm_skin2
+call LostRealmsOW.VerdantSliceValidation.GearPose 4 1
+wait 0.4
+shot verdant_palm_skin4
+exec LostRealmsOW.VerdantSliceValidation.Cleanup
+stop

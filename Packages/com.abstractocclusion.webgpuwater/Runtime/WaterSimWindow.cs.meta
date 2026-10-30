@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6b4b87b392e314b4486547cd6942dd79
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterSimWindow.cs
+  uploadId: 977994

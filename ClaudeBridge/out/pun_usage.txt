@@ -1,0 +1,10 @@
+PUN usage outside Assets/Photon — 2026-10-29 17:55
+
+PUN scripts, plugins and assembly definitions: 236
+
+Scanned 6132 files (11 large data files skipped). Code 0, assembly definitions 0, scenes/prefabs/assets 0.
+Define symbols (Android): UNITY_POST_PROCESSING_STACK_V2;PHOTON_REALTIME_4;PHOTON_UNITY_NETWORKING;PUN_2_0_OR_NEWER;PUN_2_OR_NEWER;PUN_2_19_OR_NEWER
+Nothing outside Assets/Photon uses PUN: safe to remove.
+
+Moved Assets/Photon to the system trash (restore it from the Recycle Bin if needed).
+Removed PUN define symbols from 18 build targets.

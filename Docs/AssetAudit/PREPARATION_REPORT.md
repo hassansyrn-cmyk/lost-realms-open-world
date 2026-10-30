@@ -1,0 +1,123 @@
+# Imported content preparation — 21 October 2026
+
+- PREPARED Core/weapon: Assets/Elven Weapons/Prefabs/Elven_Sword_01.prefab (404 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/weapon: Assets/Elven Weapons/Prefabs/Elven_Axe_01.prefab (724 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/weapon: Assets/Elven Weapons/Prefabs/Elven_Spear_01.prefab (464 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/weapon: Assets/Elven Weapons/Prefabs/Elven_Hammer_01.prefab (940 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/weapon: Assets/Elven Weapons/Prefabs/Elven_Staff_01.prefab (692 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/npc: Assets/Character_Elf/Prefab/Character_Elf.prefab (5546 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/wildlife: Assets/Fox/Prefabs/Fox.prefab (3450 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/wildlife: Assets/Rabbits/Prefabs/Rabbit 1.prefab (3368 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on wildlife_3522f8e030: lb_Bird
+- PREPARED Verdant/wildlife: Assets/living birds/resources/lb_robin.prefab (726 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on wildlife_14fe7e3329: lb_Bird
+- PREPARED Verdant/wildlife: Assets/living birds/resources/lb_sparrow.prefab (726 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+  - Rig diagnostic Attack: Character001/m_LocalRotation.x, Character001/m_LocalRotation.y, Character001/m_LocalRotation.z, Character001/m_LocalRotation.w
+  - Rig diagnostic Dead: Character001/m_LocalRotation.x, Character001/m_LocalRotation.y, Character001/m_LocalRotation.z, Character001/m_LocalRotation.w
+  - Rig diagnostic Eats: Character001/m_LocalRotation.x, Character001/m_LocalRotation.y, Character001/m_LocalRotation.z, Character001/m_LocalRotation.w
+  - Rig diagnostic Get_Hit: Character001/m_LocalRotation.x, Character001/m_LocalRotation.y, Character001/m_LocalRotation.z, Character001/m_LocalRotation.w
+- DEFERRED Assets/Rhino/Prefab/Rhino_PBR.prefab: no compatible idle clip. Source/library=8/8; root=Rhino_PBR(Clone); compatible clips=. Rig/animation binding needs review.
+- Copy adapter replaces scripts on wildlife_5c1241df03: ithappy.Animals_FREE.CreatureMover, ithappy.Animals_FREE.MovePlayerInput
+- PREPARED Verdant/wildlife: Assets/ithappy/Animals_FREE/Prefabs/Chicken_001.prefab (976 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on wildlife_83c3ea98a8: ithappy.Animals_FREE.CreatureMover, ithappy.Animals_FREE.MovePlayerInput
+- PREPARED Verdant/wildlife: Assets/ithappy/Animals_FREE/Prefabs/Deer_001.prefab (1914 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on wildlife_439813ed98: ithappy.Animals_FREE.CreatureMover, ithappy.Animals_FREE.MovePlayerInput
+- PREPARED Verdant/wildlife: Assets/ithappy/Animals_FREE/Prefabs/Dog_001.prefab (1010 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on wildlife_a868c1dd18: ithappy.Animals_FREE.CreatureMover, ithappy.Animals_FREE.MovePlayerInput
+- PREPARED Verdant/wildlife: Assets/ithappy/Animals_FREE/Prefabs/Horse_001.prefab (1732 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/enemy: Assets/Skeleton/Prefabs/Skeleton.prefab (4425 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- DEFERRED Assets/DungeonCharacters/Skeletons_demo/DungeonSkeleton_demoPrefab.prefab: incomplete compatible combat motion set: hit, death. Keep as a source library until retargeting is validated.
+  - Rig diagnostic walk: Box001/m_LocalRotation.x, Box001/m_LocalRotation.y, Box001/m_LocalRotation.z, Box001/m_LocalRotation.w
+  - Rig diagnostic run: Box001/m_LocalRotation.x, Box001/m_LocalRotation.y, Box001/m_LocalRotation.z, Box001/m_LocalRotation.w
+  - Rig diagnostic idle: Box001/m_LocalRotation.x, Box001/m_LocalRotation.y, Box001/m_LocalRotation.z, Box001/m_LocalRotation.w
+  - Rig diagnostic attack1: Box001/m_LocalRotation.x, Box001/m_LocalRotation.y, Box001/m_LocalRotation.z, Box001/m_LocalRotation.w
+- DEFERRED Assets/cave_troll/prefabs/troll.prefab: no compatible idle clip. Source/library=8/8; root=troll(Clone); compatible clips=. Rig/animation binding needs review.
+- PREPARED Frost/enemy: Assets/Wolf_Animated/Prefabs/Wolf.prefab (3300 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/enemy: Assets/fantasySpider/spider_myOldOne.FBX (1848 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/building: Assets/LowpolyBakersHouse/Prefabs/Baker_house.prefab (1025 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/building: Assets/VillagePack/OldHouse/OldHousePrefab.prefab (6752 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on building_e8ccafa6ca: ModelCustomizer
+- PREPARED Verdant/building: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/House_1.prefab (4978 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on building_2fa3ec357c: ModelCustomizer
+- PREPARED Verdant/building: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/House_2.prefab (5649 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/building: Assets/FantasyEnvironments/Environments/Town/Prefabs/House1.prefab (1262 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/building: Assets/FantasyEnvironments/Environments/Town/Prefabs/Windmill.prefab (8715 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/building: Assets/FantasyEnvironments/Environments/Town/Prefabs/WoodenHouse_1.prefab (5022 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Dunes/building: Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_01.prefab (3679 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Dunes/building: Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_02.prefab (4524 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Dunes/building: Assets/Polylised - Medieval Desert City/Prefabs/prefab_civilian_buildings/civilian_house_03.prefab (3382 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab (1967 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Darth_Artisan/Free_Trees/Prefabs/Poplar_Tree.prefab (1744 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 01.prefab (924 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type0 02.prefab (893 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 01.prefab (58 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/BrokenVector/LowPolyTreePack/Prefabs/Tree Type1 02.prefab (58 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_01_Green.prefab (7049 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Idyllic Fantasy Nature/Prefabs/BroadleafTree_02_Green.prefab (6859 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on nature_e8beaee972: IdyllicFantasyNature.BushLeafTrigger
+- PREPARED Verdant/nature: Assets/Idyllic Fantasy Nature/Prefabs/Bush_01_01.prefab (1212 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Frost/nature: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Cedar_Tree_03.prefab (383 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Frost/nature: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Larch_Tree.prefab (363 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Frost/nature: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Prefabs/Pine_Tree.prefab (865 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/A_piece_of_nature/Prefabs/Pine_tree.prefab (596 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/A_piece_of_nature/Prefabs/Rock_3.prefab (177 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/A_piece_of_nature/Prefabs/Rock_4.prefab (171 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Frost/nature: Assets/Mountain Terrain rocks and tree/Prefab/rock_set_01.prefab (488 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Frost/nature: Assets/Mountain Terrain rocks and tree/Prefab/rock_set_02.prefab (460 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Frost/mountain: Assets/Snow Mountain/Prefab/mountain_Snow_000.prefab (4318 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Dunes/mountain: Assets/Mountain Terrain rocks and tree/Prefab/mountain_terrain_01.prefab (9613 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/prop: Assets/Free Simple Dungeon Props - YP/Prefabs/Jar.prefab (336 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/prop: Assets/Free Simple Dungeon Props - YP/Prefabs/Shield.prefab (312 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/prop: Assets/Free Simple Dungeon Props - YP/Prefabs/Skull.prefab (980 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/chest: Assets/Free Simple Dungeon Props - YP/Prefabs/Treasure.prefab (850 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/prop: Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.001.prefab (328 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/prop: Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.002.prefab (400 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/prop: Assets/CemeteryPack/Prefabs/Tombstones/Tombstones.003.prefab (390 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/chest: Assets/Fantasy Chests PBR/Prefabs/Mesh_Chest_01_Mobile.prefab (952 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/LowpolyBakersHouse/Prefabs/Barrel.prefab (276 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/VillagePack/Well/Well.prefab (8421 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/BrokenVector/LowPolyBrickHouses/Prefabs/Bench.prefab (116 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/chest: Assets/A_piece_of_nature/Prefabs/Chest.prefab (654 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on vfx_378d89d774: GameSeed.LowPolyFire, UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+- PREPARED Verdant/vfx: Assets/Low Poly Fire Particles/Prefabs/Yellow-FireWood.prefab (230 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Crypt/vfx: Assets/Vefects/Free Fire VFX URP/Particles/VFX_Fire_01_Small_Simple.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/vfx: Assets/Magic Pig Games (Infinity PBR)/HOVL - AAA Stylized Projectiles Vol.1/Particles/Impacts/AAA Projectiles Vol 1 - Impact 1 nature arrow.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/vfx: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Explosion.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/vfx: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Snow hit.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/vfx: Assets/Hovl Studio/Magic effects pack/Prefabs/Hits and explosions/Green hit.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/npc: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Male_Peasant_01.prefab (3100 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/npc: Assets/Polytope Studio/Lowpoly_Characters/Prefabs/Modular_NPC/Peasants_Citizens/Sets/PT_Female_Peasant_01_a.prefab (4162 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_apples.prefab (5568 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_pears.prefab (5568 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_plums.prefab (5188 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_green.prefab (2156 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_logs.prefab (946 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Pine_Tree_03_stump.prefab (136 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Trees/PT_Fruit_Tree_01_logs.prefab (959 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Shrubs/PT_Generic_Shrub_01_green.prefab (712 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_River_Rock_Pile_02.prefab (548 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Rocks/PT_Ore_Rock_01.prefab (1698 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Mushrooms/PT_Caesars_Mushroom_01.prefab (64 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Flowers/PT_Poppy_02.prefab (136 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Polytope Studio/Lowpoly_Environments/Prefabs/Plants/PT_Grass_02.prefab (118 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak01.prefab (8588 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak02.prefab (8588 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak03.prefab (8588 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/nature: Assets/Symphonie/StylizedForestKit Samples/URP/Prefabs/Oak04.prefab (8588 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/Polytope Studio/Lowpoly_Props/Prefabs/PT_Village_Fence_Small_01.prefab (260 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/Polytope Studio/Lowpoly_Props/Prefabs/PT_Village_Fence_Small_02.prefab (260 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/Polytope Studio/Lowpoly_Props/Prefabs/PT_Village_Fence_Small_03.prefab (140 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Verdant/prop: Assets/Polytope Studio/Lowpoly_Props/Prefabs/PT_Hayfork_01.prefab (294 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on vfx_7204ecfb48: UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+- PREPARED Core/vfx: Assets/Free Slash VFX/Prefabs/Slash VFX.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on vfx_c749a81158: UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+- PREPARED Core/vfx: Assets/Free Slash VFX/Prefabs/Slash Fire VFX.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- Copy adapter replaces scripts on vfx_fafe55d076: UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+- PREPARED Core/vfx: Assets/Free Slash VFX/Prefabs/Slash Water VFX.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/vfx: Assets/Hovl Studio/Magic effects pack/Prefabs/Smoke effects/Dust puff.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Core/vfx: Assets/Hovl Studio/Magic effects pack/Prefabs/Sparks/Sparks explode yellow.prefab (0 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Sky/cloud: Assets/SimpleSky/Prefabs/Cloud_01.prefab (125 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Sky/cloud: Assets/SimpleSky/Prefabs/Cloud_02.prefab (150 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+- PREPARED Sky/cloud: Assets/SimpleSky/Prefabs/Cloud_03.prefab (82 triangles). Multi-material slots retained; vendor controllers removed from the prepared copy.
+
+Prepared 103 of 106 selected entries. Addressable bundles still need a platform build before player deployment. Texture residency and frame time require device profiling.

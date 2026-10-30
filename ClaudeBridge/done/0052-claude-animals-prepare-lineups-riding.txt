@@ -1,0 +1,78 @@
+log 0052 Claude: prepare the new animals (expansion + animal motion pass), lineup sheets, riding, hunting, predators, birds
+refresh
+wait 3
+exec LostRealmsOW.OpenWorldContentPreparation.PrepareExpansion
+wait 3
+refresh
+wait 3
+play
+waitplay 14
+timeofday 10:00 lock
+call LostRealmsOW.OpenWorldHero.DebugAction god
+wait 1
+call LostRealmsOW.OpenWorldPopulation.DebugReport summary
+# Contact sheets of every species (side profile), idle / walk / run
+tp -40 -160 0 10
+wait 4
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_herd_idle idle Horse,Deer,Elk
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_herd_run run Horse,Deer,Elk
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_beasts_idle idle Bear,Rhino,Tiger
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_beasts_walk walk Bear,Rhino,Tiger
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_beasts_attack attack Bear,Rhino,Tiger,Wolf
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_small_idle idle Wolf,Fox,Hound,Shepherd,Cat,Hare,Hen,Penguin
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_small_run run Wolf,Fox,Hound,Shepherd,Cat,Hare,Hen,Penguin
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_birds_idle idle Robin,Sparrow,Jay,Cardinal,Goldfinch,Crow,Chickadee
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_birds_fly fly Robin,Sparrow,Jay,Cardinal,Goldfinch,Crow,Chickadee
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+call LostRealmsOW.OpenWorldPopulation.DebugLineupShot lineup_death death Deer,Hare,Fox,Tiger
+waitfor !LostRealmsOW.OpenWorldPopulation.LineupBusy 60
+# Riding: vault on, walk, canter, gallop, turn, hop off, whistle
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Horse
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence mount_side 24 3 side 0:mount
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride_side 64 3 side 0:pose,0.3:fwd 0.45,2.2:pose,2.4:fwd 1,4.2:pose,4.4:sprint 1,6:pose,6.3:sprint 0,6.4:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride_front 30 3 front 0:fwd 0.45,2.8:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence ride_follow 50 3 follow 0:fwd 1,0.6:sprint 1,2:move 0.8 0.6,3.6:move -0.8 0.6,4.6:sprint 0,4.8:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence dismount_side 24 3 side 0.2:dismount
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldMotionCapture.Sequence whistle_high 50 3 high 0:fwd 1,2.5:move 0 0,2.8:whistle
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+# Hunting: sprint at a herd (they bolt together), then a standing spell kill and collecting the meat
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Meadow Deer
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence deer_flee 50 3 follow 0:approach Meadow Deer 13,0.4:fwd 1,0.6:sprint 1,4:sprint 0,4.2:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Meadow Deer
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence deer_kill 44 3 side 0:approach Meadow Deer 4.4,0.5:spell,3:fwd 1,3.5:move 0 0,3.8:interact
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+# Territorial predators: walking slowly towards a bear and a wolf pack
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Forest Bear
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence bear_territory 60 3 pair 0:approach Forest Bear 17,0.5:fwd 0.4,6:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Timber Wolf
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence wolf_territory 60 3 pair 0:approach Timber Wolf 16,0.5:fwd 0.4,6:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+# Birds: a flock takes off as she runs up
+call LostRealmsOW.OpenWorldPopulation.DebugVisit Robin
+wait 6
+call LostRealmsOW.OpenWorldMotionCapture.Sequence birds_flush 40 3 follow 0:approach Robin 9,0.3:fwd 1,2.5:move 0 0
+waitfor !LostRealmsOW.OpenWorldMotionCapture.Busy 60
+call LostRealmsOW.OpenWorldPopulation.DebugReport all
+timeofday 10:00 unlock
+stop
+log 0052 done

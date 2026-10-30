@@ -1,0 +1,79 @@
+row | label | length | loop | right hand peak | left hand peak | hips height | feet height | source
+p0r0 | cur_idle | 1.90s | loop | 0.1 m/s @0.94s (50%) | 0.1 m/s @0.79s (42%) | 1.05..1.05 | 0.13..0.14 | Assets/Resources/Animations/Aster/idle.anim 
+p0r1 | ki_idle | 2.70s | loop | 0.0 m/s @1.38s (51%) | 0.0 m/s @1.27s (47%) | 1.05..1.05 | 0.13..0.15 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx 
+p0r2 | cur_walk | 1.23s | loop | 1.2 m/s @1.12s (91%) | 0.9 m/s @0.08s (7%) | 1.05..1.05 | 0.12..0.16 | Assets/Resources/Animations/Aster/walk.anim 
+p0r3 | ki_walk | 0.80s | loop | 1.9 m/s @0.20s (24%) | 2.0 m/s @0.64s (80%) | 1.04..1.05 | 0.13..0.19 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Forward.fbx 
+p0r4 | cur_run | 0.53s | loop | 5.8 m/s @0.32s (59%) | 5.9 m/s @0.02s (3%) | 1.02..1.04 | 0.16..0.26 | Assets/Resources/Animations/Aster/run.anim 
+p0r5 | ki_run | 0.60s | loop | 5.8 m/s @0.20s (33%) | 6.0 m/s @0.48s (81%) | 1.02..1.04 | 0.16..0.25 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Forward.fbx 
+p1r0 | ki_sprint | 0.53s | loop | 8.8 m/s @0.40s (75%) | 8.7 m/s @0.13s (25%) | 1.02..1.06 | 0.22..0.36 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Forward.fbx 
+p1r1 | dl_sprint | 0.67s | loop | 0.8 m/s @0.57s (85%) | 4.4 m/s @0.13s (20%) | 1.02..1.04 | 0.13..0.45 | Assets/DoubleL/FBX Unity/One Hand Up/Movement/Sprint/Base/InPlace/1Hand_Up_Sprint_A_F_InPlace.fbx 
+p1r2 | bl_sprint | 0.60s | loop | 2.6 m/s @0.02s (3%) | 3.1 m/s @0.37s (61%) | 1.05..1.06 | 0.17..0.28 | Assets/Blink/Art/Animations/Movement/Sprint.fbx 
+p1r3 | ki_run_keepY | 0.60s | loop | 5.9 m/s @0.20s (33%) | 6.0 m/s @0.48s (81%) | 1.89..1.93 | 1.06..1.14 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Forward.fbx 
+p1r4 | ki_combat_idle_1h | 1.33s | loop | 0.2 m/s @1.28s (96%) | 0.1 m/s @0.35s (26%) | 1.01..1.02 | 0.23..0.29 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/1H/HumanM@CombatIdle1H01.fbx 
+p1r5 | ki_idle2 | 2.70s | loop | 0.0 m/s @1.30s (48%) | 0.0 m/s @1.28s (48%) | 1.05..1.05 | 0.14..0.15 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02.fbx 
+p2r0 | cur_jump | 2.43s | once | 6.3 m/s @0.63s (26%) | 6.0 m/s @0.62s (25%) | 1.00..1.08 | 0.03..0.42 | Assets/Resources/Animations/Aster/jump.anim 
+p2r1 | ki_jump_begin | 0.67s | once | 4.5 m/s @0.07s (10%) | 4.8 m/s @0.07s (10%) | 0.98..1.06 | 0.07..0.46 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Begin.fbx 
+p2r2 | ki_jump | 1.53s | once | 12.6 m/s @1.02s (67%) | 8.9 m/s @1.02s (67%) | 0.98..1.07 | 0.04..0.51 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01.fbx 
+p2r3 | ki_fall | 1.00s | loop | 0.3 m/s @0.73s (73%) | 0.4 m/s @0.13s (13%) | 1.00..1.00 | 0.16..0.20 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Fall01.fbx 
+p2r4 | ki_land | 0.60s | once | 12.2 m/s @0.15s (25%) | 8.6 m/s @0.15s (25%) | 1.01..1.07 | 0.04..0.51 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Land.fbx 
+p2r5 | ki_land_keepY | 0.60s | once | 14.8 m/s @0.15s (25%) | 13.5 m/s @0.12s (19%) | 1.59..2.03 | 1.03..1.10 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Land.fbx 
+p3r0 | cur_double_jump | 3.20s | once | 8.0 m/s @2.32s (73%) | 7.2 m/s @2.34s (73%) | 0.96..1.24 | 0.20..1.92 | Assets/Resources/Animations/Aster/double_jump.anim 
+p3r1 | ex_jump_flip | 0.47s | once | 9.6 m/s @0.03s (7%) | 9.5 m/s @0.06s (14%) | 0.92..1.20 | 0.03..1.53 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Jump-Flip.FBX 
+p3r2 | ex_2h_jump_flip | 0.47s | once | 14.0 m/s @0.05s (10%) | 11.5 m/s @0.05s (10%) | 0.94..1.17 | 0.01..1.67 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Jump-Flip.FBX 
+p3r3 | cur_fall | 1.07s | loop | 0.7 m/s @0.35s (33%) | 0.9 m/s @0.42s (39%) | 0.96..1.00 | 0.10..0.16 | Assets/Resources/Animations/Aster/fall.anim 
+p3r4 | ex_land | 0.43s | once | 8.2 m/s @0.05s (11%) | 10.2 m/s @0.05s (11%) | 0.96..1.02 | 0.18..0.63 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Land.FBX 
+p3r5 | bl_jump_running | 0.83s | once | 3.9 m/s @0.07s (8%) | 2.4 m/s @0.29s (35%) | 0.99..1.04 | 0.10..0.37 | Assets/Blink/Art/Animations/Movement/JumpWhileRunning.fbx 
+p4r0 | cur_roll | 1.33s | once | 9.1 m/s @0.05s (4%) | 9.0 m/s @0.73s (55%) | 0.93..1.18 | 0.10..1.83 | Assets/Resources/Animations/Aster/roll.anim 
+p4r1 | cur_dodge | 2.13s | once | 5.5 m/s @1.12s (52%) | 3.7 m/s @1.05s (49%) | 0.94..1.21 | 0.08..1.62 | Assets/Resources/Animations/Aster/dodge.anim 
+p4r2 | bl_roll_forward | 1.53s | once | 13.5 m/s @0.33s (22%) | 6.9 m/s @0.23s (15%) | 0.87..1.23 | 0.09..1.78 | Assets/Blink/Art/Animations/Movement/RollForward.fbx 
+p4r3 | ex_diveroll | 1.20s | once | 11.6 m/s @0.47s (39%) | 11.8 m/s @0.55s (46%) | 0.91..1.20 | 0.14..1.70 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-DiveRoll-Forward1.FBX 
+p4r4 | dl_ladder_idle | 2.00s | once | 0.0 m/s @1.53s (77%) | 0.1 m/s @1.58s (79%) | 1.87..1.88 | 1.00..1.03 | Assets/DoubleL/FBX Unity/Actions/Ladder/Ladder_Idle.fbx 
+p4r5 | ki_grip_hands | 0.33s | once | 0.0 m/s @0.00s (0%) | 0.0 m/s @0.00s (0%) | 1.05..1.05 | 0.11..0.11 | Assets/Kevin Iglesias/Human Animations/Animations/Masked Poses/Human@ObjectGripHands01.fbx 
+p5r0 | cur_attack_1 | 2.27s | once | 7.7 m/s @0.83s (36%) | 3.0 m/s @0.60s (26%) | 1.01..1.05 | 0.15..0.25 | Assets/Resources/Animations/Aster/attack_1.anim 
+p5r1 | cur_attack_2 | 1.87s | once | 2.6 m/s @0.56s (30%) | 3.1 m/s @0.30s (16%) | 0.98..1.03 | 0.08..0.23 | Assets/Resources/Animations/Aster/attack_2.anim 
+p5r2 | cur_attack_3 | 2.17s | once | 5.0 m/s @1.07s (49%) | 4.9 m/s @0.02s (1%) | 0.99..1.08 | -0.01..0.26 | Assets/Resources/Animations/Aster/attack_3.anim 
+p5r3 | dl_1h_A1 | 2.40s | once | 22.0 m/s @0.52s (22%) | 21.2 m/s @0.52s (22%) | 0.99..1.04 | 0.14..0.41 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_1_InPlace.fbx 
+p5r4 | dl_1h_A2 | 2.60s | once | 22.3 m/s @0.89s (34%) | 17.6 m/s @0.86s (33%) | 0.96..1.04 | 0.14..0.56 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_2_InPlace.fbx 
+p5r5 | dl_1h_A3 | 2.00s | once | 22.8 m/s @0.70s (35%) | 10.6 m/s @0.55s (28%) | 0.96..1.04 | 0.13..0.39 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_3_InPlace.fbx 
+p6r0 | dl_1h_B1 | 3.00s | once | 14.8 m/s @1.21s (40%) | 13.3 m/s @1.19s (40%) | 0.99..1.05 | 0.14..0.50 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_1_InPlace.fbx 
+p6r1 | dl_1h_B2 | 2.00s | once | 13.3 m/s @0.67s (33%) | 10.0 m/s @0.62s (31%) | 1.01..1.04 | 0.14..0.43 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_2_InPlace.fbx 
+p6r2 | dl_1h_B3 | 2.27s | once | 17.6 m/s @0.99s (44%) | 11.2 m/s @0.99s (44%) | 1.00..1.05 | 0.14..0.43 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_3_InPlace.fbx 
+p6r3 | ki_1h_R | 1.10s | once | 23.1 m/s @0.30s (27%) | 5.5 m/s @0.28s (26%) | 0.99..1.02 | 0.23..0.38 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/1H/HumanM@Attack1H01_R.fbx 
+p6r4 | ki_1h_L | 1.10s | once | 9.8 m/s @0.07s (6%) | 21.2 m/s @0.30s (27%) | 0.99..1.02 | 0.23..0.37 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/1H/HumanM@Attack1H01_L.fbx 
+p6r5 | bl_melee_1h | 0.87s | once | 10.7 m/s @0.33s (38%) | 7.3 m/s @0.36s (42%) | 1.02..1.07 | 0.11..0.22 | Assets/Blink/Art/Animations/Combat/MeeleeAttack_OneHanded.fbx 
+p7r0 | cur_chop_1 | 2.27s | once | 7.7 m/s @0.83s (36%) | 3.0 m/s @0.60s (26%) | 1.01..1.05 | 0.15..0.25 | Assets/Resources/Animations/Aster/chop_1.anim 
+p7r1 | cur_chop_2 | 3.63s | once | 9.3 m/s @2.15s (59%) | 4.4 m/s @1.93s (53%) | 1.01..1.04 | 0.14..0.26 | Assets/Resources/Animations/Aster/chop_2.anim 
+p7r2 | cur_chop_3 | 2.17s | once | 5.0 m/s @1.07s (49%) | 4.9 m/s @0.02s (1%) | 0.99..1.08 | -0.01..0.26 | Assets/Resources/Animations/Aster/chop_3.anim 
+p7r3 | ex_2h_a1 | 1.20s | once | 14.5 m/s @0.48s (40%) | 14.5 m/s @0.47s (39%) | 0.98..1.06 | 0.14..0.44 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack1.FBX 
+p7r4 | ex_2h_a2 | 1.20s | once | 17.4 m/s @0.47s (39%) | 14.4 m/s @0.47s (39%) | 0.95..1.01 | 0.30..0.52 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack2.FBX 
+p7r5 | ex_2h_a3 | 1.20s | once | 20.2 m/s @0.42s (35%) | 17.1 m/s @0.43s (36%) | 0.96..1.01 | 0.22..0.47 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack3.FBX 
+p8r0 | ex_2h_a4 | 1.20s | once | 21.3 m/s @0.52s (43%) | 24.4 m/s @0.52s (43%) | 0.99..1.03 | 0.19..0.42 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack4.FBX 
+p8r1 | ex_2h_a5 | 1.20s | once | 26.7 m/s @0.43s (36%) | 19.4 m/s @0.43s (36%) | 0.98..1.01 | 0.22..0.50 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX 
+p8r2 | ex_2h_a6 | 1.20s | once | 16.0 m/s @0.45s (38%) | 18.4 m/s @0.47s (39%) | 0.97..1.04 | 0.17..0.46 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack6.FBX 
+p8r3 | ex_2h_a7 | 1.20s | once | 11.4 m/s @0.33s (28%) | 14.5 m/s @0.32s (26%) | 0.99..1.03 | 0.21..0.35 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack7.FBX 
+p8r4 | ex_2h_a8 | 1.20s | once | 28.3 m/s @0.52s (43%) | 28.6 m/s @0.52s (43%) | 1.00..1.03 | 0.10..0.39 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack8.FBX 
+p8r5 | ex_2h_a9 | 1.20s | once | 18.9 m/s @0.38s (32%) | 8.6 m/s @0.38s (32%) | 1.00..1.02 | 0.26..0.31 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack9.FBX 
+p9r0 | ex_2h_a10 | 1.20s | once | 17.4 m/s @0.58s (49%) | 23.4 m/s @0.58s (49%) | 0.98..1.02 | 0.29..0.46 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack10.FBX 
+p9r1 | ex_2h_a11 | 1.20s | once | 14.0 m/s @0.65s (54%) | 10.7 m/s @0.67s (56%) | 0.97..1.04 | 0.07..0.41 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack11.FBX 
+p9r2 | ki_2h | 1.60s | once | 26.9 m/s @0.56s (35%) | 22.4 m/s @0.56s (35%) | 1.01..1.04 | 0.19..0.38 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/2H/HumanM@Attack2H01.fbx 
+p9r3 | ex_2h_run_attack | 0.80s | once | 22.4 m/s @0.26s (33%) | 14.9 m/s @0.26s (33%) | 1.00..1.04 | 0.21..0.42 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward-Attack1.FBX 
+p9r4 | bl_spin_2h | 0.80s | loop | 7.2 m/s @0.46s (57%) | 4.2 m/s @0.36s (45%) | 1.03..1.05 | 0.25..0.33 | Assets/Blink/Art/Animations/Combat/SpinAttack_TwoHanded.fbx 
+p9r5 | bl_spintowin_1h | 1.00s | loop | 7.6 m/s @0.30s (30%) | 8.4 m/s @1.00s (100%) | 0.99..1.01 | 0.21..0.30 | Assets/Blink/Art/Animations/Combat/SpinToWin_OneHanded.fbx 
+p10r0 | cur_spear_1 | 1.37s | once | 19.2 m/s @0.40s (29%) | 13.9 m/s @0.40s (29%) | 0.97..1.03 | 0.09..0.42 | Assets/Resources/Animations/Aster/spear_1.anim 
+p10r1 | ki_polearm | 1.37s | once | 19.4 m/s @0.40s (29%) | 12.8 m/s @0.40s (29%) | 0.98..1.03 | 0.09..0.39 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Polearm/HumanM@AttackPolearm01.fbx 
+p10r2 | wp_knight | 0.83s | once | 31.8 m/s @0.33s (39%) | 28.0 m/s @0.26s (31%) | 1.00..1.02 | 0.18..0.34 | Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Knight Warrior Mecanim Animation Pack/Animations/Knight@Attack1.FBX 
+p10r3 | wp_2handed | 1.33s | once | 28.6 m/s @0.63s (48%) | 26.2 m/s @0.63s (48%) | 1.01..1.07 | 0.09..0.31 | Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Attack1.FBX 
+p10r4 | wp_ninja | 0.87s | once | 23.4 m/s @0.18s (21%) | 29.6 m/s @0.21s (25%) | 0.95..1.02 | 0.18..0.49 | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Attack1.FBX 
+p10r5 | wp_brute | 1.50s | once | 13.5 m/s @0.53s (35%) | 9.3 m/s @0.53s (35%) | 0.93..1.06 | 0.14..0.52 | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Animations/Brute@Attack1.FBX 
+p11r0 | cur_cast | 2.97s | once | 7.3 m/s @1.62s (55%) | 7.6 m/s @1.66s (56%) | 0.97..1.02 | 0.19..0.57 | Assets/Resources/Animations/Aster/cast.anim 
+p11r1 | cur_charged | 2.27s | once | 7.7 m/s @0.83s (36%) | 3.0 m/s @0.60s (26%) | 1.01..1.05 | 0.15..0.25 | Assets/Resources/Animations/Aster/charged.anim 
+p11r2 | bl_spellcast | 2.20s | once | 4.5 m/s @1.33s (61%) | 3.7 m/s @0.12s (5%) | 1.03..1.06 | 0.12..0.20 | Assets/Blink/Art/Animations/Combat/SpellCast.fbx SpellCast
+p11r3 | bl_buff | 1.53s | once | 3.2 m/s @0.36s (24%) | 3.7 m/s @0.30s (19%) | 1.04..1.07 | 0.12..0.18 | Assets/Blink/Art/Animations/Combat/Buff.fbx 
+p11r4 | wp_mage | 1.33s | once | 15.7 m/s @0.42s (31%) | 8.9 m/s @0.37s (28%) | 1.01..1.04 | 0.10..0.23 | Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Mage Warrior Mecanim Animation Pack/Animations/Mage@Attack1.FBX 
+p11r5 | wp_sorceress | 1.33s | once | 27.5 m/s @0.63s (48%) | 10.0 m/s @0.63s (48%) | 1.01..1.07 | 0.04..0.16 | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations/Sorceress@Attack1.FBX 
+p12r0 | wp_karate | 1.13s | once | 36.6 m/s @0.30s (26%) | 35.6 m/s @0.30s (26%) | 0.98..1.05 | -0.05..0.38 | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations/Karate@Attack1.FBX 
+p12r1 | ex_un_L1 | 0.80s | once | 9.3 m/s @0.29s (37%) | 17.9 m/s @0.33s (41%) | 1.00..1.02 | 0.19..0.45 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L1.FBX 
+p12r2 | ex_un_R2 | 0.80s | once | 16.6 m/s @0.29s (37%) | 15.6 m/s @0.26s (33%) | 1.01..1.04 | 0.18..0.40 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R2.FBX 
+p12r3 | ex_hit_L | 0.50s | once | 18.6 m/s @0.03s (7%) | 13.2 m/s @0.02s (3%) | 1.02..1.05 | 0.19..0.43 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-L1.FBX 
+p12r4 | ex_knockback | 1.20s | once | 6.7 m/s @0.03s (3%) | 11.2 m/s @0.03s (3%) | 0.98..1.02 | 0.15..0.40 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Knockback-Back1.FBX 
+p12r5 | bl_casting_loop | 2.13s | loop | 3.6 m/s @1.27s (59%) | 3.0 m/s @0.12s (5%) | 1.03..1.06 | 0.12..0.20 | Assets/Blink/Art/Animations/Combat/CastingLoop.fbx 

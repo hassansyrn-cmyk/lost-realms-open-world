@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f4e112fa8f902dc4db23fdd36d395f23
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterVolume.Chunk.cs
+  uploadId: 977994

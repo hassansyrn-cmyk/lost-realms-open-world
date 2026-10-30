@@ -1,0 +1,3 @@
+log 0027 review sheets: burst diagnosis (baked vs asset vs fbx), burst candidates, knockdown/get-up and ladder clips for the physics pass
+call LostRealmsOW.OpenWorldAnimPreview.RenderList ClaudeBridge/anim-review4.txt
+log 0027 done

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f5cfd6d3304a70e4b8196d8fb282379f
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Samples~/Demos/Scenes/24. WebGpu Ocean.unity
+  uploadId: 977994

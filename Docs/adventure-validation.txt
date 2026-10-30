@@ -1,0 +1,1 @@
+PASS: Full sanctuary/sigil/outpost/guardian/reward flow; repeated reward rejection; world rebuild loads currency, equipment, collected items, captured camps, guardian state; two-slot save corruption recovery; corrupt/future-format data preserved. Tests use isolated temporary directories, never player saves.

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 2719954a5ce15554c9fe0d99ce38361a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterShoreDepthField.cs
+  uploadId: 977994

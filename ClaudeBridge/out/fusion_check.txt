@@ -1,0 +1,11 @@
+Fusion setup — 2026-10-29 18:43
+
+Fusion folder: present; PUN 2 folder: gone
+NetworkProjectConfig.fusion imports as: Fusion.NetworkProjectConfigAsset
+PhotonAppSettings.asset imports as: Fusion.Photon.Realtime.PhotonAppSettings
+Fusion finds its NetworkProjectConfigAsset: Assets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+Fusion finds its PhotonAppSettings: Assets/Photon/Fusion/Resources/PhotonAppSettings.asset
+Fusion App ID: entered (looks like a valid App ID)
+Realtime/Quantum App IDs: empty
+Defines (Android): Fusion yes, PUN leftovers none
+Unity 6000.6.0f1; import worker process: False

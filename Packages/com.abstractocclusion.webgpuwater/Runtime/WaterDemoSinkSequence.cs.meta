@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: cc309cd588b7e2b4297c32860e425c99
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterDemoSinkSequence.cs
+  uploadId: 977994

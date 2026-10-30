@@ -1,0 +1,12 @@
+log 0060 Claude: console capture check (console.log stopped receiving messages after Play mode started in 0059)
+refresh
+wait 4
+exec LostRealmsOW.ClaudeBridge.Probe
+play
+waitplay 30
+exec LostRealmsOW.ClaudeBridge.Probe
+wait 4
+stop
+wait 3
+exec LostRealmsOW.ClaudeBridge.Probe
+log 0060 done

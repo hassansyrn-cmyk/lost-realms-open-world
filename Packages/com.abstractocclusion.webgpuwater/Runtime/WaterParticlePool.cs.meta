@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: caac36f078bc444488ea37c8913e05ed
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterParticlePool.cs
+  uploadId: 977994

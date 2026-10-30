@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: aeea4a7463f6c104491ab3650d2558c8
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Runtime/WaterVolume.Frames.cs
+  uploadId: 977994

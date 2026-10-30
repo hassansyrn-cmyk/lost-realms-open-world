@@ -1,0 +1,79 @@
+# label | asset path | clip name | keepY  (rendered by OpenWorldAnimPreview.RenderList)
+cur_idle | Assets/Resources/Animations/Aster/idle.anim
+ki_idle | Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle01.fbx
+cur_walk | Assets/Resources/Animations/Aster/walk.anim
+ki_walk | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Forward.fbx
+cur_run | Assets/Resources/Animations/Aster/run.anim
+ki_run | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Forward.fbx
+ki_sprint | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Sprint/HumanM@Sprint01_Forward.fbx
+dl_sprint | Assets/DoubleL/FBX Unity/One Hand Up/Movement/Sprint/Base/InPlace/1Hand_Up_Sprint_A_F_InPlace.fbx
+bl_sprint | Assets/Blink/Art/Animations/Movement/Sprint.fbx
+ki_run_keepY | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_Forward.fbx |  | keepY
+ki_combat_idle_1h | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/1H/HumanM@CombatIdle1H01.fbx
+ki_idle2 | Assets/Kevin Iglesias/Human Animations/Animations/Male/Idles/HumanM@Idle02.fbx
+cur_jump | Assets/Resources/Animations/Aster/jump.anim
+ki_jump_begin | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Begin.fbx
+ki_jump | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01.fbx
+ki_fall | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Fall01.fbx
+ki_land | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Land.fbx
+ki_land_keepY | Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Jump/HumanM@Jump01 - Land.fbx |  | keepY
+cur_double_jump | Assets/Resources/Animations/Aster/double_jump.anim
+ex_jump_flip | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Jump-Flip.FBX
+ex_2h_jump_flip | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Jump-Flip.FBX
+cur_fall | Assets/Resources/Animations/Aster/fall.anim
+ex_land | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Land.FBX
+bl_jump_running | Assets/Blink/Art/Animations/Movement/JumpWhileRunning.fbx
+cur_roll | Assets/Resources/Animations/Aster/roll.anim
+cur_dodge | Assets/Resources/Animations/Aster/dodge.anim
+bl_roll_forward | Assets/Blink/Art/Animations/Movement/RollForward.fbx
+ex_diveroll | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-DiveRoll-Forward1.FBX
+dl_ladder_idle | Assets/DoubleL/FBX Unity/Actions/Ladder/Ladder_Idle.fbx
+ki_grip_hands | Assets/Kevin Iglesias/Human Animations/Animations/Masked Poses/Human@ObjectGripHands01.fbx
+cur_attack_1 | Assets/Resources/Animations/Aster/attack_1.anim
+cur_attack_2 | Assets/Resources/Animations/Aster/attack_2.anim
+cur_attack_3 | Assets/Resources/Animations/Aster/attack_3.anim
+dl_1h_A1 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_1_InPlace.fbx
+dl_1h_A2 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_2_InPlace.fbx
+dl_1h_A3 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_3_InPlace.fbx
+dl_1h_B1 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_1_InPlace.fbx
+dl_1h_B2 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_2_InPlace.fbx
+dl_1h_B3 | Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_3_InPlace.fbx
+ki_1h_R | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/1H/HumanM@Attack1H01_R.fbx
+ki_1h_L | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/1H/HumanM@Attack1H01_L.fbx
+bl_melee_1h | Assets/Blink/Art/Animations/Combat/MeeleeAttack_OneHanded.fbx
+cur_chop_1 | Assets/Resources/Animations/Aster/chop_1.anim
+cur_chop_2 | Assets/Resources/Animations/Aster/chop_2.anim
+cur_chop_3 | Assets/Resources/Animations/Aster/chop_3.anim
+ex_2h_a1 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack1.FBX
+ex_2h_a2 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack2.FBX
+ex_2h_a3 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack3.FBX
+ex_2h_a4 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack4.FBX
+ex_2h_a5 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX
+ex_2h_a6 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack6.FBX
+ex_2h_a7 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack7.FBX
+ex_2h_a8 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack8.FBX
+ex_2h_a9 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack9.FBX
+ex_2h_a10 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack10.FBX
+ex_2h_a11 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack11.FBX
+ki_2h | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/2H/HumanM@Attack2H01.fbx
+ex_2h_run_attack | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Run-Forward-Attack1.FBX
+bl_spin_2h | Assets/Blink/Art/Animations/Combat/SpinAttack_TwoHanded.fbx
+bl_spintowin_1h | Assets/Blink/Art/Animations/Combat/SpinToWin_OneHanded.fbx
+cur_spear_1 | Assets/Resources/Animations/Aster/spear_1.anim
+ki_polearm | Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/Polearm/HumanM@AttackPolearm01.fbx
+wp_knight | Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Knight Warrior Mecanim Animation Pack/Animations/Knight@Attack1.FBX
+wp_2handed | Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Attack1.FBX
+wp_ninja | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Ninja Warrior Mecanim Animation Pack/Animations/Ninja@Attack1.FBX
+wp_brute | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Brute Warrior Mecanim Animation Pack/Animations/Brute@Attack1.FBX
+cur_cast | Assets/Resources/Animations/Aster/cast.anim
+cur_charged | Assets/Resources/Animations/Aster/charged.anim
+bl_spellcast | Assets/Blink/Art/Animations/Combat/SpellCast.fbx | SpellCast
+bl_buff | Assets/Blink/Art/Animations/Combat/Buff.fbx
+wp_mage | Assets/ExplosiveLLC/Warrior Pack Bundle 2 FREE/Mage Warrior Mecanim Animation Pack/Animations/Mage@Attack1.FBX
+wp_sorceress | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Sorceress Warrior Mecanim Animation Pack/Animations/Sorceress@Attack1.FBX
+wp_karate | Assets/ExplosiveLLC/Warrior Pack Bundle 1 FREE/Karate Warrior Mecanim Animation Pack/Animations/Karate@Attack1.FBX
+ex_un_L1 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-L1.FBX
+ex_un_R2 | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-Attack-R2.FBX
+ex_hit_L | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/Unarmed/RPG-Character@Unarmed-GetHit-L1.FBX
+ex_knockback | Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Knockback-Back1.FBX
+bl_casting_loop | Assets/Blink/Art/Animations/Combat/CastingLoop.fbx

@@ -1,0 +1,3 @@
+FAIL
+Destroying assets is not permitted to avoid data loss.
+If you really want to remove an asset use DestroyImmediate (theObject, true);

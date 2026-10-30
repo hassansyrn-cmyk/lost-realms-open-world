@@ -1,0 +1,55 @@
+log 0014 photographic layered cliffs with relief normals, grained rock, snow ledges, warmer sand, textured snow
+refresh
+exec LostRealmsOW.OpenWorldKitBuilder.PrepareTerrainLayers
+exec LostRealmsOW.OpenWorldRealmBaker.Bake
+log 0014 bake done, entering play mode
+setting runInBackground
+play
+waitplay 25
+timeofday midday clear
+call LostRealmsOW.OpenWorldHero.DebugAction god
+tp -150 222 0 12
+wait 6
+shot j_frostpine
+tp 40 300 20 10
+wait 6
+shot j_northpass
+tp -60 300 10 2
+wait 6
+shot j_frost_range
+tp 0 -30 0 2
+wait 5
+shot j_skyline_north
+tp 0 0 90 2
+wait 4
+shot j_skyline_east
+tp 268 -48 90 12
+wait 6
+shot j_sunspire
+tp 210 -236 135 14
+wait 6
+shot j_storm
+tp 0 -26 0 14
+wait 5
+shot j_hub
+view 0 220 -380 0 14 60
+wait 5
+shot j_aerial_north
+view 330 170 -330 0 16 60
+wait 5
+shot j_aerial_desert
+view 120 150 -60 80 8 60
+wait 5
+shot j_aerial_east
+follow
+timeofday golden clear
+wait 3
+tp -150 104 0 8
+wait 5
+shot j_mirrorlake_golden
+tp 0 -30 0 2
+wait 4
+shot j_skyline_golden
+timeofday midday clear
+stop
+log 0014 done

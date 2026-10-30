@@ -1,0 +1,16 @@
+log 0019 Balanced tier keeps HDR
+refresh
+setting runInBackground
+play
+waitplay 25
+timeofday midday clear
+call LostRealmsOW.OpenWorldHero.DebugAction god
+call LostRealmsOW.OpenWorldGraphics.DebugTier Balanced
+tp -60 300 10 2
+wait 7
+shot o_frost_balanced
+call LostRealmsOW.OpenWorldGraphics.DebugTier High
+wait 3
+shot o_frost_high
+stop
+log 0019 done

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 6a11b57d987a023438b813beb3a33044
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterHullSlice.cs
+  uploadId: 977994

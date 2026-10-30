@@ -1,0 +1,4 @@
+log 0154 GLM: refresh so Unity compiles the PASS-message cleanup
+refresh
+wait 10
+log 0154 done

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: f6a120a00a2f862459afd2ed31ce4ff7
+AssetOrigin:
+  serializedVersion: 1
+  productId: 390962
+  packageName: WebGpu interactive water
+  packageVersion: 1.0
+  assetPath: Packages/com.abstractocclusion.webgpuwater/Editor/WaterChunkShaderRegistration.cs
+  uploadId: 977994

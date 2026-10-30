@@ -1,0 +1,137 @@
+# Animal motion preparation — 2026-10-30 03:27
+
+Clip picks per state, natural cycle speeds at the prepared prefab's scale (m/s, the runtime scales them with the spawned size), facing corrections and saddle measurements. Vendor packs were only read.
+
+- wildlife_a868c1dd18 (Horse_Realistic, wildlife, height 2.03 m at prefab scale): walk 1.40 m/s, run 5.81 m/s, trot 3.28 m/s (HorseRig|Horse_Trot), canter 4.57 m/s (HorseRig|Horse_Canter), tuck -1.00
+  - clips: idle HorseRig|Horse_Idle, walk HorseRig|Horse_Walk, trot HorseRig|Horse_Trot, canter HorseRig|Horse_Canter, run HorseRig|Horse_Gallop, attack HorseRig|Horse_Attack, attack2 HorseRig|Horse_Attack2, hit -, death HorseRig|Horse_Death, graze HorseRig|Horse_Graze, rest HorseRig|Horse_Rest, roar HorseRig|Horse_Roar, fly -
+  - facing check: walk cycle travels 0 deg from +Z, toes point 0 deg
+  - facing: model turned by 0 deg (set for this pack)
+  - back profile, tail to head every 0.18 m (height above the hooves): 1.35 1.43 1.47 1.47 1.42 1.42 1.50 1.57 1.68 1.74 1.78 1.85 
+  - saddle: seat 1.41 above the hooves at z 0.85 of 2.20 (bone BN_Spine_01_03); barrel half width 0.27; belly 0.58 below the seat; bit on BN_Head_00_016
+  - extra horse clips: walk_l HorseRig|Horse_Walk_L, walk_r HorseRig|Horse_Walk_R, gallop_l HorseRig|Horse_Gallop_L, gallop_r HorseRig|Horse_Gallop_R, runstop HorseRig|Horse_RunStop, buck HorseRig|Horse_Buck, swim HorseRig|Horse_Swim, jump HorseRig|Horse_Jump; banked cycles share base gait speeds and phase.
+  - material Horse_Body_Mat [Universal Render Pipeline/Lit] base Horse_Body_Albedo_2K 1024, normal Horse_Body_Normal_2K
+  - material Horse_Body_Mat [Universal Render Pipeline/Lit] base Horse_Body_Albedo_2K 1024, normal Horse_Body_Normal_2K
+  - material Horse_Body_Mat [Universal Render Pipeline/Lit] base Horse_Body_Albedo_2K 1024, normal Horse_Body_Normal_2K
+  - material Horse_Hair_Mat [Universal Render Pipeline/Lit] base Horse_Hair_Albedo_2K 1024, normal Horse_Hair_Normal_2K
+  - material Horse_Hair_Mat [Universal Render Pipeline/Lit] base Horse_Hair_Albedo_2K 1024, normal Horse_Hair_Normal_2K
+  - material Horse_Hair_Mat [Universal Render Pipeline/Lit] base Horse_Hair_Albedo_2K 1024, normal Horse_Hair_Normal_2K
+  - material Horse_Saddle_Mat [Universal Render Pipeline/Lit] base Horse_Saddle_Albedo_2K 1024, normal Horse_Saddle_Normal_2K
+  - material Horse_Saddle_Mat [Universal Render Pipeline/Lit] base Horse_Saddle_Albedo_2K 1024, normal Horse_Saddle_Normal_2K
+  - material Horse_Saddle_Mat [Universal Render Pipeline/Lit] base Horse_Saddle_Albedo_2K 1024, normal Horse_Saddle_Normal_2K
+- wildlife_83c3ea98a8 (Deer_001, wildlife, height 2.29 m at prefab scale): walk 0.77 m/s, run 6.59 m/s, tuck 0.13
+  - clips: idle Deer_001_idle, walk Deer_001_walk, trot -, canter -, run Deer_001_run, attack -, attack2 -, hit -, death -, graze -, rest -, roar -, fly -
+  - facing check: walk cycle travels 1 deg from +Z, toes point -83 deg
+  - material Material [Universal Render Pipeline/Lit] base Texture 1024, normal none
+- wildlife_439813ed98 (Dog_001, wildlife, height 0.76 m at prefab scale): walk 0.51 m/s, run 1.97 m/s, tuck 0.56
+  - clips: idle Dog_001_idle, walk Dog_001_walk, trot -, canter -, run Dog_001_run, attack -, attack2 -, hit -, death -, graze -, rest -, roar -, fly -
+  - facing check: walk cycle travels 0 deg from +Z, toes point 97 deg
+  - material Material [Universal Render Pipeline/Lit] base Texture 1024, normal none
+- wildlife_5c1241df03 (Chicken_001, wildlife, height 0.49 m at prefab scale): walk 0.71 m/s, run 1.93 m/s, tuck 0.19
+  - clips: idle Chicken_001_idle, walk Chicken_003_walk, trot -, canter -, run Chicken_002_run, attack -, attack2 -, hit -, death -, graze -, rest -, roar -, fly -
+  - facing check: walk cycle travels 0 deg from +Z, toes point -177 deg
+  - walk: planted-feet speed 0.00 m/s is implausible for a leg of 0.21 m; using the Froude estimate 0.71
+  - material Material [Universal Render Pipeline/Lit] base Texture 1024, normal none
+- expansion_cat (Kitty_001, wildlife, height 0.37 m at prefab scale): walk 0.67 m/s, run 0.95 m/s, tuck 0.38
+  - clips: idle Kitty_001_idle, walk Kitty_001_walk, trot -, canter -, run Kitty_001_run, attack -, attack2 -, hit -, death -, graze -, rest -, roar -, fly -
+  - facing check: walk cycle travels 0 deg from +Z, toes point 4 deg
+  - walk: planted-feet speed 0.27 m/s is implausible for a leg of 0.18 m; using the Froude estimate 0.67
+  - material Material [Universal Render Pipeline/Lit] base Texture 1024, normal none
+- expansion_tiger (Tiger_001, wildlife, height 1.50 m at prefab scale): walk 1.62 m/s, run 4.63 m/s, tuck 0.28
+  - clips: idle Tiger_001_idle, walk Tiger_001_walk, trot -, canter -, run Tiger_001_run, attack -, attack2 -, hit -, death -, graze Tiger_001_idle_rare, rest -, roar -, fly -
+  - facing check: walk cycle travels 0 deg from +Z, toes point 0 deg
+  - material Material [Universal Render Pipeline/Lit] base Texture 1024, normal none
+- expansion_penguin (Pinguin_001, wildlife, height 1.80 m at prefab scale): walk 1.36 m/s, run 3.85 m/s, tuck 0.16
+  - clips: idle Pinguin_001_idle, walk Pinguin_001_walk, trot -, canter -, run Pinguin_001_run, attack -, attack2 -, hit -, death -, graze -, rest -, roar -, fly -
+  - facing check: walk cycle travels 10 deg from +Z, toes point 105 deg
+  - walk: planted-feet speed 0.05 m/s is implausible for a leg of 0.76 m; using the Froude estimate 1.36
+  - run: planted-feet speed 0.09 m/s is implausible for a leg of 0.76 m; using the Froude estimate 3.85
+  - material Material [Universal Render Pipeline/Lit] base Texture 1024, normal none
+- wildlife_fe036fe79f (Fox, wildlife, height 1.78 m at prefab scale): walk 1.11 m/s, run 3.55 m/s, tuck 0.50
+  - clips: idle Fox_Idle, walk Fox_Walk, trot -, canter -, run Fox_Run, attack Fox_Attack_Paws, attack2 Fox_Attack_Tail, hit -, death -, graze Fox_Sit_Idle_Break, rest Fox_Sit2_Idle, roar -, fly -
+  - wildlife_fe036fe79f_c_walk: removed 1.11 m of baked travel from FoxTransform.z
+  - wildlife_fe036fe79f_c_run: removed 1.78 m of baked travel from FoxTransform.z
+  - facing check: walk cycle travels 0 deg from +Z, toes point 0 deg
+  - walk: speed from the cycle's baked travel 1.11 m/s (planted feet said 0.81)
+  - run: speed from the cycle's baked travel 3.55 m/s (planted feet said 2.42)
+  - material 4ad23863efbf001479d8ebd01ef00654_2100000_lit [Universal Render Pipeline/Lit] base T_Fox_BC 2048, normal T_Fox_Normal
+- wildlife_10f9a82436 (Rabbit 1, wildlife, height 0.27 m at prefab scale): walk 0.35 m/s, run 0.35 m/s, tuck -1.00
+  - clips: idle Idle, walk Run, trot -, canter -, run Run, attack -, attack2 -, hit -, death Dead, graze -, rest -, roar -, fly -
+  - wildlife_10f9a82436_c_walk: removed -0.47 m of baked travel from master.y
+  - wildlife_10f9a82436_c_run: removed -0.47 m of baked travel from master.y
+  - facing check: walk cycle travels 0 deg from +Z, toes point -180 deg
+  - walk: speed from the cycle's baked travel 0.35 m/s (planted feet said 0.13)
+  - run: speed from the cycle's baked travel 0.35 m/s (planted feet said 0.13)
+  - material 11f39b2ab10a2184d84e62f1906a4a05_2100000_lit [Universal Render Pipeline/Lit] base Rabbit1 512, normal Rabbit_Normal
+  - material d63f66543778067409d35df0810847bf_2100000_lit [Universal Render Pipeline/Lit] base Rabbit1 512, normal none
+- expansion_shepherd (P_GermanShepherd, wildlife, height 0.98 m at prefab scale): walk 0.73 m/s, run 3.29 m/s, tuck 0.44
+  - clips: idle 1 type_Idle Breathing, walk 1 type_Walk_Loop, trot -, canter -, run 1 type_Run Loop, attack -, attack2 -, hit -, death -, graze 1 type_Idle_Playing, rest -, roar -, fly -
+  - facing check: walk cycle travels 0 deg from +Z, toes point 0 deg
+  - material 3836024b02e79534bb0da2c69c2aba28_2100000_lit [Universal Render Pipeline/Lit] base T_GermanShepherd_B 2048, normal T_GermanShepherd_N
+  - material a3d8f160d8a665843b87febc4764a80d_2100000_lit [Universal Render Pipeline/Lit] base T_GermanShepherd_B 2048, normal T_GermanShepherd_N
+- enemy_10b1fc0ab2 (Wolf, enemy, height 2.83 m at prefab scale): walk 2.58 m/s, run 5.37 m/s, tuck -1.00
+  - clips: idle breathes, walk walk, trot -, canter -, run run, attack attack1, attack2 attack2, hit damege, death die, graze eating, rest sit, roar howl, fly -
+  - facing check: walk cycle travels -34 deg from +Z, toes point -34 deg
+  - material c19ce37bb54b73e45890d692ff1cd854_2100000_lit [Universal Render Pipeline/Lit] base Wolf_Albedo 1024, normal Wolf_normal
+- expansion_bear (Bear_4, enemy, height 2.02 m at prefab scale): walk 0.91 m/s, run 5.83 m/s, tuck -1.00
+  - clips: idle Bear_Idle, walk Bear_WalkForward, trot -, canter -, run Bear_RunForward, attack Bear_Attack1, attack2 Bear_Attack3, hit Bear_GetHitFromFront, death Bear_Death, graze Bear_Eat, rest Bear_Sit, roar Bear_Buff, fly -
+  - facing check: walk cycle travels -24 deg from +Z, toes point -24 deg
+  - coat FrostBear (frost) made from Stylized_Bear_Albedo4 (1024x1024), saved to Assets/Resources/World/Coats/FrostBear.png
+  - material b614f09dade340f4aa841aafe3df42b9_2100000_lit [Universal Render Pipeline/Lit] base Stylized_Bear_Albedo4 2048, normal Stylized_Bear_Normal
+- expansion_rhino (Rhinoceros, enemy, height 4.96 m at prefab scale): walk 1.36 m/s, run 6.23 m/s, tuck -1.00
+  - clips: idle Idle, walk Walk, trot -, canter -, run Run, attack Attack(1), attack2 Attack(3), hit Get_Hit, death Dead, graze -, rest -, roar Shout, fly -
+  - expansion_rhino_c_hit: removed -1.52 m of baked travel from CATRigHub002.z
+  - expansion_rhino_c_hit: removed -1.58 m of baked travel from CATRigLLegPlatform.z
+  - expansion_rhino_c_hit: removed -1.58 m of baked travel from CATRigRLegPlatform.z
+  - facing check: walk cycle travels 0 deg from +Z, toes point 178 deg
+  - facing: model turned by 0 deg (set for this pack)
+  - material 42bdf2ac465ca4c46bf21404b1cc1d07_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_diffuse 2048, normal Rhinoceros_normals
+  - material 42bdf2ac465ca4c46bf21404b1cc1d07_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_diffuse 2048, normal Rhinoceros_normals
+- expansion_rhino_ironhide (Rhino_PBR, enemy, height 1.72 m at prefab scale): walk 1.45 m/s, run 2.09 m/s, tuck -1.00
+  - clips: idle Idle, walk Walk, trot -, canter -, run Run, attack Attack, attack2 -, hit Get_Hit, death Dead, graze Eats, rest -, roar shout, fly -
+  - facing check: walk cycle travels 0 deg from +Z, toes point -11 deg
+  - walk: planted-feet speed 0.56 m/s is implausible for a leg of 0.86 m; using the Froude estimate 1.45
+  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
+  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
+  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
+  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
+  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
+  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
+  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
+  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
+- wildlife_3522f8e030 (lb_robin, wildlife, height 0.24 m at prefab scale): walk 0.21 m/s, run 0.21 m/s, tuck -1.00
+  - clips: idle watch01, walk forwardHop, trot -, canter -, run forwardHop, attack -, attack2 -, hit -, death die, graze peck, rest preen, roar sing, fly flyStraight
+  - wildlife_3522f8e030_c_walk: removed 0.06 m of baked travel from Bip01.z
+  - wildlife_3522f8e030_c_run: removed 0.06 m of baked travel from Bip01.z
+  - material 9cc778d5dda0a1a4c8a49555bf38e106_2100000_lit [Universal Render Pipeline/Lit] base robinDiffuse 1024, normal none
+- wildlife_14fe7e3329 (lb_sparrow, wildlife, height 0.16 m at prefab scale): walk 0.14 m/s, run 0.14 m/s, tuck -1.00
+  - clips: idle watch01, walk forwardHop, trot -, canter -, run forwardHop, attack -, attack2 -, hit -, death die, graze peck, rest preen, roar sing, fly flyStraight
+  - wildlife_14fe7e3329_c_walk: removed 0.04 m of baked travel from Bip01.z
+  - wildlife_14fe7e3329_c_run: removed 0.04 m of baked travel from Bip01.z
+  - material f0fc484a5791de64ebaebef058070013_2100000_lit [Universal Render Pipeline/Lit] base sparrowDiffuse 1024, normal none
+- expansion_crow (lb_crow, wildlife, height 0.42 m at prefab scale): walk 0.35 m/s, run 0.35 m/s, tuck -1.00
+  - clips: idle watch01, walk forwardHop, trot -, canter -, run forwardHop, attack -, attack2 -, hit -, death die, graze peck, rest ruffle, roar sing, fly flyStraight
+  - expansion_crow_c_walk: removed 0.10 m of baked travel from Bip01.z
+  - expansion_crow_c_run: removed 0.10 m of baked travel from Bip01.z
+  - material d0d4a67853aabd34c87abfa0fd43b68c_2100000_lit [Universal Render Pipeline/Lit] base crowDiffuse 1024, normal none
+- expansion_bluejay (lb_blueJay, wildlife, height 0.27 m at prefab scale): walk 0.23 m/s, run 0.23 m/s, tuck -1.00
+  - clips: idle watch01, walk forwardHop, trot -, canter -, run forwardHop, attack -, attack2 -, hit -, death die, graze peck, rest preen, roar sing, fly flyStraight
+  - expansion_bluejay_c_walk: removed 0.07 m of baked travel from Bip01.z
+  - expansion_bluejay_c_run: removed 0.07 m of baked travel from Bip01.z
+  - material aad92b912a4794345baee2af2e5ed3c6_2100000_lit [Universal Render Pipeline/Lit] base blueJayDIffuse 1024, normal none
+- expansion_cardinal (lb_cardinal, wildlife, height 0.25 m at prefab scale): walk 0.21 m/s, run 0.21 m/s, tuck -1.00
+  - clips: idle watch01, walk forwardHop, trot -, canter -, run forwardHop, attack -, attack2 -, hit -, death die, graze peck, rest preen, roar sing, fly flyStraight
+  - expansion_cardinal_c_walk: removed 0.06 m of baked travel from Bip01.z
+  - expansion_cardinal_c_run: removed 0.06 m of baked travel from Bip01.z
+  - material aae7627a8ea8a954d9d1fd75fe35f56b_2100000_lit [Universal Render Pipeline/Lit] base cardinalDiffuse 1024, normal none
+- expansion_goldfinch (lb_goldFinch, wildlife, height 0.16 m at prefab scale): walk 0.14 m/s, run 0.14 m/s, tuck -1.00
+  - clips: idle watch01, walk forwardHop, trot -, canter -, run forwardHop, attack -, attack2 -, hit -, death die, graze peck, rest preen, roar sing, fly flyStraight
+  - expansion_goldfinch_c_walk: removed 0.04 m of baked travel from Bip01.z
+  - expansion_goldfinch_c_run: removed 0.04 m of baked travel from Bip01.z
+  - material 82f512e5b1f894b47b6c242b59b08687_2100000_lit [Universal Render Pipeline/Lit] base goldfinchDiffuse 1024, normal none
+- expansion_chickadee (lb_chickadee, wildlife, height 0.16 m at prefab scale): walk 0.14 m/s, run 0.14 m/s, tuck -1.00
+  - clips: idle watch01, walk forwardHop, trot -, canter -, run forwardHop, attack -, attack2 -, hit -, death die, graze peck, rest preen, roar sing, fly flyStraight
+  - expansion_chickadee_c_walk: removed 0.04 m of baked travel from Bip01.z
+  - expansion_chickadee_c_run: removed 0.04 m of baked travel from Bip01.z
+  - material 9593f1cc3673e8f4e8708e2195bbf20c_2100000_lit [Universal Render Pipeline/Lit] base chickadeeDiffuse 1024, normal none
+
+Processed 21 prepared animal prefabs.
