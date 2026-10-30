@@ -14,8 +14,10 @@ namespace LostRealmsOW {
   // Invoke with -buildTarget Android. Development identity/signing cannot replace the original game.
   [MenuItem("Lost Realms OW/Build/Android Development APK")]
   public static void Build() {
-   if (EditorUserBuildSettings.activeBuildTarget != BuildTarget.Android)
-    throw new InvalidOperationException("Select Android first, or launch Unity with -buildTarget Android.");
+   if (EditorUserBuildSettings.activeBuildTarget != BuildTarget.Android) {
+    Debug.Log("[AndroidBuild] Switching active build target to Android...");
+    EditorUserBuildSettings.SwitchActiveBuildTarget(BuildTargetGroup.Android, BuildTarget.Android);
+   }
    if (!File.Exists("Assets/Resources/World/ImportedContent.json")) throw new InvalidOperationException("Prepare regional content first.");
    var free = new DriveInfo(Path.GetPathRoot(Path.GetFullPath("."))).AvailableFreeSpace;
    if (free < 6L * 1024 * 1024 * 1024) throw new IOException("At least 6 GB local free space is required before this build attempt; 10 GB is recommended for headroom.");
