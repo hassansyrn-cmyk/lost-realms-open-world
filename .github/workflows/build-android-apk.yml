@@ -43,7 +43,22 @@ jobs:
           haskell: true
           large-packages: true
           docker-images: true
-          swap-storage: true
+          swap-storage: false
+
+      - name: Provision Swap Buffer (Prevents OOM 137)
+        run: |
+          echo "=== Memory Before Provisioning ==="
+          free -h
+          sudo swapoff -a || true
+          sudo rm -f /swapfile || true
+          # Allocate 16 GB swap file on the primary SSD
+          sudo fallocate -l 16G /swapfile || sudo dd if=/dev/zero of=/swapfile bs=1M count=16384
+          sudo chmod 600 /swapfile
+          sudo mkswap /swapfile
+          sudo swapon /swapfile
+          echo "=== Memory & Swap Configured ==="
+          free -h
+          df -h /
 
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -75,7 +90,17 @@ jobs:
           buildMethod: LostRealmsOW.OpenWorldAndroidBuild.Run
           customParameters: -ow-runtime-speed
           manualExit: true
-          dockerShmSize: 2g
+          dockerShmSize: 4g
+
+      - name: Runner Diagnostics on Failure
+        if: failure()
+        run: |
+          echo "=== Memory and Swap Telemetry ==="
+          free -h
+          echo "=== Disk Space Telemetry ==="
+          df -h
+          echo "=== Kernel OOM Diagnostics ==="
+          dmesg -T | grep -iE 'oom[- ]killer|out of memory|killed process' || true
 
       - name: Upload Android APK Artifact
         uses: actions/upload-artifact@v4

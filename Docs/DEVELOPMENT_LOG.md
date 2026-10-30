@@ -806,3 +806,25 @@ Append new entries at the bottom after development, including incomplete work be
 - Reviewed staged paths, generated-file sizes (largest ~42 MB), source whitespace and credential patterns (no matches); Photon settings and GitHub workflows unchanged. Existing runtime/editor compilation and gameplay results are in the preceding handoffs; no new gameplay test or Android build this publication session. Commit includes [skip ci] to defer automatic Android build.
 - Live ClaudeBridge/status.txt, stale backup and transient completed job files remain local. Profiler raw captures remain in ignored Temp; text evidence and reviewed screenshots published. Existing GPU upload/Editor loading stalls remain OPEN as documented. All publication claims RELEASED.
 
+
+### 2026-10-30 15:21 Asia/Dubai — Codex — IN PROGRESS: investigate failed GitHub Android run
+- Read current workflow and build entry point. Latest failed run 41039469620 is manual attempt #8 at 681ec526 (before recent Codex pushes), 10:15:57–11:11:13 UTC. Unity step failed; log connector returns Transport closed. Claim append-only log and a diagnostic report if needed; no build rerun or gameplay/vendor changes.
+
+
+### 2026-10-30 15:23 Asia/Dubai — Codex — COMPLETE: failed Android CI diagnosis
+- Investigated run 41039469620 / job124008423786 (#8 manual, commit681ec526 before recent pushes). Full job log retrieved via GitHub REST after connector Transport closed; confirmed Killed / exit137 at11:11:02 UTC during cold texture import. ~16GB RAM, cleanup removed swap (0B), Library cache missed;20,298 import log entries. Likely OOM/SIGKILL; kernel memory events absent, so OOM not conclusively proven. No C# compiler error or disk-full matches. ~55m16 total, Unity step~50m52; no APK uploaded and post-cache save skipped.
+- Added Docs/Performance/GITHUB_BUILD_FAILURE_2026-10-30.md with evidence, limits and proposed RAM/swap/telemetry/cache safeguards. Read workflow and AndroidBuild source; neither modified. No rerun, Android build, vendor edit, commit or push. Raw log stays in ignored Temp and is not suitable for unredacted publication. All claims RELEASED; workflow remediation remains next step.
+
+### 2026-10-30 15:40 Asia/Dubai — Antigravity — COMPLETE: Android build diagnosis, CI swap safeguard, and handoff
+- Investigated local Unity Android build failure and GitHub Actions CI build failure (Run 41039469620).
+- Local failure cause: `UnityException: JDK not found`. Unity 6000.6.0f1 on this PC has the Android playback engine installed, but OpenJDK and Android SDK & NDK Tools sub-modules are missing in Unity Hub. Fix: In Unity Hub -> Installs -> 6000.6.0f1 -> Add Modules -> Android Build Support -> check "Android SDK & NDK Tools" and "OpenJDK".
+- Cloud CI failure cause: Exit code 137 (Linux OOM killer / SIGKILL) during cold asset import. The workflow runner has 16 GB RAM with 0B swap because `free-disk-space` had `swap-storage: true`.
+- Licensing check: Personal ULF license, email, and password succeeded in CI run 41039469620 (`Successfully returned ULF license`). No new license is required.
+- Remediated `.github/workflows/build-android-apk.yml`:
+  1. Disabled swap removal (`swap-storage: false`).
+  2. Provisioned a 16 GB swap file (`/swapfile`) before the build step to give 32 GB total virtual memory and prevent OOM 137.
+  3. Increased `dockerShmSize: 4g`.
+  4. Added failure telemetry (`free -h`, `df -h`, `dmesg`).
+- Files committed/pushed: `.github/workflows/build-android-apk.yml`, `Docs/DEVELOPMENT_LOG.md`. All claims RELEASED.
+
+
