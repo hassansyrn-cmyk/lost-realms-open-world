@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Imported_Frozen
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Imported_Frozen
+  m_GUID: f729833f3f63ea14f95f411bf686d5f3
+  m_SerializeEntries:
+  - m_GUID: 16745a9de3f1c09458ae94febd6de51c
+    m_Address: ow.imported.expansion_penguin
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab2e49b63c6c5f847ac79a94cd9729c4
+    m_Address: ow.imported.expansion_chickadee
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d07961890d94bb145a86abdd47c76af7
+    m_Address: ow.imported.expansion_frost_supplies
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: bbd50259cbff25a49896b7a7a04e4178, type: 2}
+    - {fileID: 11400000, guid: 3f6575ec58e05bb4795e4a42217d97bb, type: 2}
+    m_SchemaDisplayOrder:
+    - Imported_Frozen_BundledAssetGroupSchema
+    - Imported_Frozen_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

@@ -1,0 +1,31 @@
+Aster Phase 1 Mixamo integration
+Model: Assets/Art/Models/Aster.fbx
+Avatar: valid humanoid
+idle: 1.900s, loop=True
+walk: 1.233s, loop=True
+run: 0.700s, loop=True
+attack_1: 2.267s, loop=False
+attack_2: 1.867s, loop=False
+attack_3: 2.167s, loop=False
+charged: 2.267s, loop=False
+jump: 2.433s, loop=False
+double_jump: 3.200s, loop=False
+dodge: 2.133s, loop=False
+hit: 1.033s, loop=False
+death: 2.567s, loop=False
+chop_1: 2.267s, loop=False
+chop_2: 3.633s, loop=False
+chop_3: 2.167s, loop=False
+spear_1: 1.733s, loop=False
+spear_2: 1.300s, loop=False
+spear_3: 1.733s, loop=False
+unarmed_1: 1.867s, loop=False
+unarmed_2: 1.733s, loop=False
+unarmed_3: 1.200s, loop=False
+block: 0.467s, loop=False
+hit_2: 0.700s, loop=False
+hit_3: 0.967s, loop=False
+cast: 2.967s, loop=False
+roll: 1.333s, loop=False
+hit_4: 0.500s, loop=False
+hit_5: 0.500s, loop=False

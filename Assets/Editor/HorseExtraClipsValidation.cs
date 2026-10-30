@@ -16,10 +16,10 @@ namespace LostRealmsOW {
   static void Start(bool diag){diagnostic=diag;VerdantExperienceValidation.Begin();OpenWorldMobileHud.DebugUI("hud");File.WriteAllText(Report,"Horse extras + discovery polish "+DateTime.Now+"\n");Busy=true;OpenWorldManager.I.StartCoroutine(Run());}
   static Vector3 Arena(OpenWorldManager gm){
    Vector3 best=Vector3.zero;float score=float.MaxValue;
-   for(int x=-120;x<=-20;x+=10)for(int z=-210;z<=-110;z+=10){
+   for(int x=-150;x<=-20;x+=10)for(int z=-240;z<=-110;z+=10){
     var p=gm.HuntGround(new Vector3(x,0,z));float lo=p.y,hi=p.y;bool clear=true;
-    for(int ring=0;ring<5&&clear;ring++)for(int k=0;k<16;k++){
-     var q=gm.HuntGround(p+Quaternion.Euler(0,k*22.5f,0)*Vector3.forward*ring*4.5f);lo=Mathf.Min(lo,q.y);hi=Mathf.Max(hi,q.y);
+    for(int dx=-18;dx<=18&&clear;dx+=3)for(int dz=-18;dz<=18;dz+=3){
+     var q=gm.HuntGround(p+new Vector3(dx,0,dz));lo=Mathf.Min(lo,q.y);hi=Mathf.Max(hi,q.y);
      if(OpenWorldTerrainSculptor.WaterAt(q.x,q.z,out _,out _)||Physics.CheckSphere(q+Vector3.up*1.15f,1f,~0,QueryTriggerInteraction.Ignore)){clear=false;break;}
     }
     if(clear&&hi-lo<score){score=hi-lo;best=p;}

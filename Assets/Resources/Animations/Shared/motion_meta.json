@@ -1,0 +1,53 @@
+{
+    "version": 1,
+    "clips": [
+        {
+            "state": "knockdown",
+            "source": "Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Knockdown1.FBX",
+            "length": 1.533333420753479,
+            "loop": false,
+            "stride": 0.0,
+            "plant": -1.0,
+            "strikes": [
+                0.8999999761581421
+            ],
+            "height": []
+        },
+        {
+            "state": "knockdown_loop",
+            "source": "Assets/FightingMotionsVolume1/FBX/knockdown_loop_A.fbx",
+            "length": 2.0,
+            "loop": true,
+            "stride": 0.0,
+            "plant": -1.0,
+            "strikes": [
+                0.0
+            ],
+            "height": []
+        },
+        {
+            "state": "getup",
+            "source": "Assets/FightingMotionsVolume1/FBX/getup_A.fbx",
+            "length": 1.0,
+            "loop": false,
+            "stride": 0.0,
+            "plant": -1.0,
+            "strikes": [
+                0.8999999761581421
+            ],
+            "height": []
+        },
+        {
+            "state": "knockback",
+            "source": "Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Knockback-Back1.FBX",
+            "length": 1.2000000476837158,
+            "loop": false,
+            "stride": 0.0,
+            "plant": -1.0,
+            "strikes": [
+                0.03333333507180214
+            ],
+            "height": []
+        }
+    ]
+}

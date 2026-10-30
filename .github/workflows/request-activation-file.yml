@@ -1,0 +1,21 @@
+name: Request Unity Activation File (.alf)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  request_activation:
+    name: Request Unity Activation File
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request Activation File
+        uses: game-ci/unity-request-activation-file@v2
+        with:
+          unityVersion: 6000.6.0f1
+
+      - name: Upload Activation File Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Unity-Activation-File
+          path: '**/*.alf'
+          retention-days: 7

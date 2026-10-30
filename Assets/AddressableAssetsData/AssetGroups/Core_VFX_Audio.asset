@@ -1,0 +1,688 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Core_VFX_Audio
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Core_VFX_Audio
+  m_GUID: 6248c4fc13ea56b4bb417b806b202c91
+  m_SerializeEntries:
+  - m_GUID: 029db8e8d32801c44afe0e756c2bd8f5
+    m_Address: Audio/sfx_attack_slash_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0400ad6f3eb24f989ca4b807662b32ea
+    m_Address: Audio/lava_realm_theme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0791a6c9aa97bbb4dbf0991cc8da1098
+    m_Address: Audio/sfx_power_fail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08fcd5893bf142c49beb53d53aa2120e
+    m_Address: Audio/sfx_trap_spikes
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b3019fa1f9245b7b5657f38febbb966
+    m_Address: Audio/Lava_Portal_Teleport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f0d39a593db7e64fa0f84a7287149fc
+    m_Address: Audio/sfx_enemy_swoop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f3d407feb92ebb49b98d0157de5008a
+    m_Address: VFX/ga_vfx_Implosion_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f94c958497d5a248845e32121e6ef41
+    m_Address: Audio/sfx_boss_heartwood_roar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 108ca465382c11742bd2c91fe4fdb13f
+    m_Address: VFX/ga_vfx_Heal_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 114b85aa31dc4d4caf00eae9024eb798
+    m_Address: Audio/verdant_realm_theme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14360b9f461b3d8429c2e3bbe8577490
+    m_Address: Audio/sfx_trap_crush
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 152f3a6ff5d4fce4bb675190778fd7df
+    m_Address: Audio/sfx_trap_dart
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15c365a2094d58e4391c6054895c9e98
+    m_Address: Audio/sfx_attack_spear_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1731425cf73de7541b40acd38dba18ec
+    m_Address: VFX/ga_vfx_Rain_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 187283b39b831b347b691d3e009c6c17
+    m_Address: Audio/sfx_enemy_dash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18cd9d6a02bc2774ea3afaad30331d78
+    m_Address: Audio/sfx_sword_slash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d86029a3711d1242b9b99af78635761
+    m_Address: Audio/sfx_trap_poison
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f58a1dea6bbd9347843e4935585e6a2
+    m_Address: VFX/ga_vfx_MuzzleFlash_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2497d128708ed8b45a6c3fab7d7e5bba
+    m_Address: Audio/astral_guardian_theme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24d63d7f497421a4380ae8343c936ec9
+    m_Address: Audio/sfx_attack_slash_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27e1f8d7f98a5f9459047c99a3fced89
+    m_Address: Audio/sfx_boss_sunscar_roar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 29c2843803cd4abab0b357f152cda7e4
+    m_Address: Audio/sfx_heal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a981c52f0f54084d9bad77a183ad56f
+    m_Address: Audio/sfx_guardian_whiteout
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ee3ab3d7c2b2d44d9a05346771e9241
+    m_Address: Audio/sfx_trap_saw_loop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31e1448bbc469064e89a752925fc2ea4
+    m_Address: VFX/ga_vfx_Portal_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32c0a0135d176ab43bf0c2a08e4f7a7d
+    m_Address: Audio/sfx_attack_charged_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37b38098dd27c8e408f85b38d852b8df
+    m_Address: Audio/sfx_blade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 393f3f26682dbc94e84c1d76f7d8d694
+    m_Address: Audio/sfx_attack_chop_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ac6bc0d8e0a94d43834900b2f2f1c2d
+    m_Address: Audio/sfx_boss
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b29e3c3509e0ef47b2e6c27462192e2
+    m_Address: Audio/sfx_attack_charged_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f46a781afe65d948975f215a8f612bf
+    m_Address: Audio/sfx_player_dash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41fc0c13afcd92d46804459d0ee0fb14
+    m_Address: Audio/sfx_power
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 42bfee153da8469c9040b5ac536a24ad
+    m_Address: Audio/Desert_Portal_Activate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 460babe280fe4aa41adc3fefd46f0c0b
+    m_Address: VFX/ga_vfx_Tornado_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48ab199404a0bef40992009b427eec6f
+    m_Address: Audio/sfx_storm_ground
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ce6b0456410489c80fa4c72000a1aca
+    m_Address: Audio/Snow_Portal_Activate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e112dde1bf1faf438194bac3f0b8268
+    m_Address: Audio/sfx_coin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50f1354827c77ef4b99c4dca0ee3411d
+    m_Address: VFX/mayker_Slash Fire VFX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51d25d5687074d4f94c49357d5039965
+    m_Address: Audio/Snow_Portal_Loop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 520b569f8c53733469d518a70f3ca54b
+    m_Address: Audio/sfx_punch
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 586e04af22d04a545ae28b1eb6441403
+    m_Address: Audio/sfx_gem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59fa3818afbf4081a99b5371ae26fa74
+    m_Address: Audio/sunscar_realm_theme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a936c83b1746f14f9100db745e94f04
+    m_Address: VFX/ga_vfx_Sparks_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f3be237be3dc2943a2105a54b86661e
+    m_Address: Audio/sfx_attack_charged_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6164dc9cf48c435896e034eb4d52cc97
+    m_Address: Audio/whiteout_realm_theme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62d2d531bb8df8245896e0e42823fd82
+    m_Address: Audio/sfx_power_select
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 649d7555e94ec5e47b4a9efbae7a05c8
+    m_Address: Audio/sfx_guardian_heartwood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6555300494081614fa6b6a823cca9f64
+    m_Address: VFX/eric_FX_LightPillar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65b37c74d8bba11498ac982171abc8f4
+    m_Address: Audio/sfx_defeat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68101499d07aced4aa0ded4acb624942
+    m_Address: VFX/ga_vfx_Electricity_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69a132abe9350a248a58fdc5a9993e23
+    m_Address: Audio/sfx_trap_fan_loop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d15a47c206fce840ab2c9524c4cf325
+    m_Address: Audio/sfx_double_jump
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f4604a522a5dbe4e8625fe715957b93
+    m_Address: Audio/sfx_upgrade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 724d151229932ba47931fcc83c083470
+    m_Address: VFX/mayker_Slash Water VFX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 724fc5ca9c6cfe840b89dfff850c68f4
+    m_Address: Audio/sfx_frost_cast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76aca3e99c7ad9c42b0e7df0ead547f5
+    m_Address: Audio/sfx_trap_blade
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7702dbeb5698993479e89cb27104987b
+    m_Address: Audio/sfx_attack_unarmed_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77c0fb28aa442d94e8dd0936aca6eaa8
+    m_Address: Audio/sfx_hurt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ac879c2caac1ca41b6c438e77d8b25d
+    m_Address: VFX/mayker_Slash VFX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b50f00732434164ebd90e4cd6a09144
+    m_Address: Audio/sfx_astral_align
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ceff71d14bfcdf428fbbb6725107a98
+    m_Address: Audio/sfx_checkpoint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d39067bead4bc14aa0b451564aa5198
+    m_Address: VFX/ga_vfx_LootDrop_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81120afc9796c20459a6323618c91ea7
+    m_Address: Audio/sfx_attack_spear_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82066d902ed0dd6488ddfd32eb994801
+    m_Address: VFX/ga_vfx_Shockwave_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83ad694f134ab954580473212156b35a
+    m_Address: VFX/ga_vfx_Explosion_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8499af4960e6452488799d7d59b61a50
+    m_Address: Audio/sfx_attack_chop_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84f2452ebed8301489c9b53856b38d1a
+    m_Address: Audio/sfx_trap_boulder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86fc6a83d83345348ae2f7e780952820
+    m_Address: Audio/Snow_Portal_Teleport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b19903b42ba5e14381fd66df5e06458
+    m_Address: Audio/sfx_respawn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c602844218244348b527c344bad5bb9
+    m_Address: Audio/sfx_storm_thunder
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dadcf1fae9a4f55adadba52b02febf5
+    m_Address: Audio/boss_fight_theme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8efe71eae55b74b478c6cf6b2eecc8fc
+    m_Address: Audio/sfx_jump
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fa5143051527e949b0ae174c8430414
+    m_Address: VFX/ga_vfx_Flames_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90b9e8f2ea8a7d44a9c514715b4bbedd
+    m_Address: Audio/sfx_enemy_warning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 910fbdf14cdb47beb9bce2c692c3ebd4
+    m_Address: Audio/Verdant_Portal_Loop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97f8bced17c849edbe69754bcab048bc
+    m_Address: Audio/Verdant_Portal_Activate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98014615dd1348e78fdd8f5338f37176
+    m_Address: Audio/Lava_Portal_Activate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98245edd35fa8014dad6c016898c4e43
+    m_Address: Audio/sfx_gale_cast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0e3345889b23884b86640cca7b71f4d
+    m_Address: Audio/sfx_attack_chop_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2ccf81a1d5b163448ebdf66b5e746d6
+    m_Address: VFX/eric_FX_Purple_Hit_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2e726995e820cf4cbe2d25523473456
+    m_Address: Audio/sfx_guardian_warden
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a485dcf0944b472db791fd890b7a4d4c
+    m_Address: Audio/Verdant_Portal_Teleport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5f2e1a561eda814091741bf454dd28c
+    m_Address: VFX/eric_FX_Weapon Effect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6b9485267d745d7b3669f48020e00aa
+    m_Address: Audio/Desert_Portal_Teleport
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aceed336315c0354d8fd6f283eff01de
+    m_Address: Audio/sfx_land_hard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae9bdcaa1a8496449b1068fd7844906c
+    m_Address: VFX/ga_vfx_MeteorRain_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af410227adcef8e4a9406e57f5db804b
+    m_Address: Audio/sfx_boss_whiteout_roar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afb28bb9022e399458576db26f019b29
+    m_Address: Audio/sfx_guardian_astral
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b21d155ec7ea5a349a0e36106f913148
+    m_Address: VFX/ga_vfx_Heal_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3baaaea59a40134b9a212e07d82668d
+    m_Address: Audio/sfx_attack_unarmed_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bcd8c82b86fe48b6a14f089b92f76dfa
+    m_Address: Audio/Desert_Portal_Loop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd80fc835b6cc7d4bac912e37c045513
+    m_Address: Audio/sfx_enemy_defeat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bee6c237286c43069a6d1bf634cd591a
+    m_Address: Audio/Lava_Portal_Loop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1e648b40fef66048b135aece09bd9aa
+    m_Address: Audio/sfx_astral_pulse
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c29a29069cc69064e877a3a76d39d16f
+    m_Address: Audio/storm_guardian_theme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c44020114f0549a4486e4b0636eaba5b
+    m_Address: Audio/sfx_impact
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c50f9e2c685970e4c8ebcd5fc8c7b3e4
+    m_Address: VFX/ga_vfx_Lightning_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c564e0ae3532d3c4cb28b4e7681e136f
+    m_Address: Audio/sfx_air_strike
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c631df453f7ae0a47b3ff6952ed4506e
+    m_Address: Audio/sfx_attack_unarmed_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6473e8226fb13841ae32e8397b76c31
+    m_Address: Audio/sfx_weapon_pickup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccf28ea29cf499744ac31bab90073aba
+    m_Address: VFX/ga_vfx_Shield_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf1220e24b273604ab72cc8653bf6172
+    m_Address: Audio/sfx_storm_turn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf82839c411151342a7b2337bda9fb34
+    m_Address: VFX/ga_vfx_Explosion_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfbe374e708fb0a4fadf7417760f9edd
+    m_Address: Audio/sfx_step
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5774d459f0f43d4591f34994be1404e
+    m_Address: VFX/ga_vfx_Portal_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d610ea1269f553f48a6d9d65629f1688
+    m_Address: Audio/sfx_trap_warning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d78252bbeb3fbc84a811d67e5ea41a4d
+    m_Address: Audio/sfx_complete
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d860dbff6d19af4448c7d0e478fa5cef
+    m_Address: VFX/mayker_Slash Projectile VFX Eletric
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d968e294656b97546a51ea694189a0cb
+    m_Address: Audio/sfx_astral_shift
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da0cd508846d6f94a9ac7bbc6647cbfb
+    m_Address: Audio/sfx_trap_fire
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db8f7e925357b7549b88d43c2282d05d
+    m_Address: Audio/stormveil_theme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd6806419b02335428b62157a215edb1
+    m_Address: Audio/sfx_ember_cast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd9409b3ebfc61241abd5decb8f9f4eb
+    m_Address: Audio/sfx_boss_lavaboss_roar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df3d1d99d37a8eb47bfb060c3695a07d
+    m_Address: Audio/sfx_attack_slash_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1942e8ca57630742be54e5c3624c090
+    m_Address: Audio/astral_theme
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e21d164fc48fa814ab511cbe6e17eaa4
+    m_Address: Audio/sfx_boss_warning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4296a47e9f6cf147810d4d004c9d31f
+    m_Address: Audio/sfx_storm_wind
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5648bf22ca822d4e90f59fbb6ed90f1
+    m_Address: Audio/sfx_land_soft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6063dab568d2a14394c2bd3b9738e16
+    m_Address: Audio/sfx_menu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e83eef61ebb62be4f9b6592619e8e817
+    m_Address: Audio/sfx_guardian_tempest
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e953460ff16e0a6459684f9b77202b5c
+    m_Address: VFX/ga_vfx_LootDrop_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eccbc655050af0b4f81d8db39f84a58e
+    m_Address: VFX/eric_FX_Fireball
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee074fc55ddd98a4187982f8f9c09fbf
+    m_Address: Audio/sfx_trap_wind
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee71d8dfb36a7b048aef24b0bc8f9764
+    m_Address: VFX/ga_vfx_Hyperdrive_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f25c470f9e7aff84bb7ddaf751a83e90
+    m_Address: Audio/sfx_guardian_sunscar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2f526a19efaa1a499f260e12a31ddd1
+    m_Address: Audio/sfx_attack_spear_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f78aaaec3b393e24ca74cd6de8194347
+    m_Address: VFX/ga_vfx_Impact_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7967f33aeac15f48a3732e3fd3ac36c
+    m_Address: VFX/mayker_Slash Projectile VFX Water
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f90fc7acf1ef2fa4c85896a9afc17028
+    m_Address: VFX/mayker_Slash Eletric VFX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f95f14268899cee419ff72bdc72c08d0
+    m_Address: Audio/sfx_step2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb3b9b0b33d48c64c8c11e01dbe71caa
+    m_Address: VFX/eric_FX_LootDrop_Blue
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffd324976044c3043a182523533d4a72
+    m_Address: Audio/sfx_trap_frost
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8fa7e7b2b51cf09468a6c42c7260814e, type: 2}
+    - {fileID: 11400000, guid: b630a78f62e54484f871c761d92d7108, type: 2}
+    m_SchemaDisplayOrder:
+    - Core_VFX_Audio_BundledAssetGroupSchema
+    - Core_VFX_Audio_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

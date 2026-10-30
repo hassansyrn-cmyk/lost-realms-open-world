@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Imported_Crypt
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Imported_Crypt
+  m_GUID: 431e7d935a061c0488ade510efd0202d
+  m_SerializeEntries:
+  - m_GUID: 17e0c112c06483044958a2094569c17b
+    m_Address: ow.imported.prop_741704a930
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7da8878cdcd3ece4794bd80cffe7549c
+    m_Address: ow.imported.prop_feff225869
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e1988b1bd68f804cb8b40a994b3c525
+    m_Address: ow.imported.prop_85755b7969
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8374ab4645be17948b9290cc9c4925c8
+    m_Address: ow.imported.enemy_d5e3575646
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 936e264c3abeb1b4395d85a3ddcc3149
+    m_Address: ow.imported.enemy_949fff1745
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 975f8ebe3cdac2045934d3dc9b15b188
+    m_Address: ow.imported.prop_1b29d47f3a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a00901c638f149146ac8228cbf94ef61
+    m_Address: ow.imported.prop_bc88208c4b
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa1e5bc1728d4dc4c8d26a40482d50d2
+    m_Address: ow.imported.prop_f1871959ce
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b15007293fa6e064f9c45856c1084c92
+    m_Address: ow.imported.prop_6f2814d7fc
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7be58510cfdce2488b36db5509e82b8
+    m_Address: ow.imported.prop_5b032d0023
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6f281aab87e4f746ac04f6175120f75
+    m_Address: ow.imported.vfx_edeef669da
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a67ac948cbf3475438dc421e260564fa, type: 2}
+    - {fileID: 11400000, guid: 2b212437e48b8054a85df68a3e189782, type: 2}
+    m_SchemaDisplayOrder:
+    - Imported_Crypt_BundledAssetGroupSchema
+    - Imported_Crypt_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

@@ -1,0 +1,86 @@
+name: Build Android APK
+
+on:
+  workflow_dispatch:
+    inputs:
+      buildType:
+        description: 'Build Type'
+        required: true
+        default: 'Development'
+        type: choice
+        options:
+          - Development
+          - Release
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - 'Docs/**'
+      - 'README.md'
+      - '.vscode/**'
+      - 'ClaudeBridge/shots/**'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Android APK (${{ matrix.targetPlatform }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        targetPlatform:
+          - Android
+    steps:
+      - name: Free Disk Space
+        uses: jlumbroso/free-disk-space@main
+        with:
+          tool-cache: true
+          android: false
+          dotnet: true
+          haskell: true
+          large-packages: true
+          docker-images: true
+          swap-storage: true
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: true
+
+      - name: Git LFS Checkout
+        run: git lfs checkout
+
+      - name: Cache Library
+        uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-${{ matrix.targetPlatform }}-${{ hashFiles('Packages/manifest.json', 'ProjectSettings/ProjectVersion.txt') }}
+          restore-keys: |
+            Library-${{ matrix.targetPlatform }}-
+
+      - name: Build Android Player via GameCI
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
+        with:
+          targetPlatform: ${{ matrix.targetPlatform }}
+          unityVersion: 6000.6.0f1
+          buildMethod: LostRealmsOW.OpenWorldAndroidBuild.Run
+          customParameters: -ow-runtime-speed
+
+      - name: Upload Android APK Artifact
+        uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: LostRealmsOpenWorld-Android-APK
+          path: |
+            Builds/Android/*.apk
+            Docs/android-build-result.txt
+          retention-days: 14

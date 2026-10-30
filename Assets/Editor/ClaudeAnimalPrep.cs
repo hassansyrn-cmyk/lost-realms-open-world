@@ -64,6 +64,21 @@ namespace LostRealmsOW {
 
   static readonly List<string> report = new List<string>();
 
+  // Metadata-only alignment after the base gallop's export phase was re-centred. No clip changes.
+  public static void CalibrateHorseBankPhases(){
+   const string path=Output+"/Prefabs/wildlife_a868c1dd18.prefab";var root=PrefabUtility.LoadPrefabContents(path);
+   try{
+    var driver=root.GetComponent<OpenWorldImportedModel>();var sampler=root.GetComponentInChildren<Animator>().gameObject;
+    var spine=root.GetComponentsInChildren<Transform>(true).First(t=>t.name=="BN_Spine_01_03");const int n=96;
+    float[] Profile(AnimationClip clip){var y=new float[n];for(int i=0;i<n;i++){clip.SampleAnimation(sampler,i/(float)n*clip.length);y[i]=root.transform.InverseTransformPoint(spine.position).y;}float mean=y.Average();for(int i=0;i<n;i++)y[i]-=mean;return y;}
+    var reference=Profile(driver.Run);
+    float Offset(AnimationClip bank){var values=Profile(bank);float best=float.PositiveInfinity;int offset=0;for(int shift=0;shift<n;shift++){float error=0;for(int i=0;i<n;i++){float d=reference[i]-values[(i+shift)%n];error+=d*d;}if(error<best){best=error;offset=shift;}}return offset/(float)n;}
+    driver.GallopLeftPhaseOffset=Offset(driver.GallopLeft);driver.GallopRightPhaseOffset=Offset(driver.GallopRight);driver.Idle.SampleAnimation(sampler,0);PrefabUtility.SaveAsPrefabAsset(root,path);
+    File.AppendAllText("Docs/AssetAudit/ANIMAL_PREPARATION_REPORT.md",$"\nBanked torso phase alignment from 96 spine-height samples: L {driver.GallopLeftPhaseOffset:F4}, R {driver.GallopRightPhaseOffset:F4}. Metadata only; source/prepared clip curves unchanged.\n");
+    Debug.Log($"[AnimalPrep] gallop bank phase L {driver.GallopLeftPhaseOffset:F4}, R {driver.GallopRightPhaseOffset:F4}");
+   }finally{PrefabUtility.UnloadPrefabContents(root);}
+  }
+
   [MenuItem("Lost Realms OW/Content/Prepare Animal Motion (gaits, saddles)")]
   public static void Run() {
    report.Clear();
@@ -355,6 +370,26 @@ namespace LostRealmsOW {
      if (!rig) rig = root.AddComponent<OpenWorldMountRig>();
      if (driver.Idle) driver.Idle.SampleAnimation(sampler, 0f);
      MeasureSaddle(root.transform, rig, lines);
+     var toes=root.GetComponentsInChildren<Transform>(true).Where(t=>t.name=="BN_L_Toe_042_0"||t.name=="BN_R_Toe_047_0"||t.name=="BN_L_Toe_2_055_0"||t.name=="BN_R_Toe_2_059_0").ToArray();
+     driver.HasBankContactHeights=toes.Length==4&&driver.WalkLeft&&driver.WalkRight&&driver.GallopLeft&&driver.GallopRight;
+     Vector4 ContactHeights(AnimationClip clip){
+      var low=Vector4.one*float.MaxValue;
+      for(int frame=0;frame<96;frame++){clip.SampleAnimation(sampler,frame/96f*clip.length);for(int f=0;f<4;f++)low[f]=Mathf.Min(low[f],root.transform.InverseTransformPoint(toes[f].position).y);}
+      return low;
+     }
+     if(driver.HasBankContactHeights){
+      driver.WalkLeftContactY=ContactHeights(driver.WalkLeft);driver.WalkRightContactY=ContactHeights(driver.WalkRight);
+      driver.GallopLeftContactY=ContactHeights(driver.GallopLeft);driver.GallopRightContactY=ContactHeights(driver.GallopRight);
+      lines.Add("  - banked toe contact heights at prefab scale (hierarchy order): walk L "+driver.WalkLeftContactY.ToString("F3")+", walk R "+driver.WalkRightContactY.ToString("F3")+", gallop L "+driver.GallopLeftContactY.ToString("F3")+", gallop R "+driver.GallopRightContactY.ToString("F3"));
+      var gallopLow=ContactHeights(driver.Run);driver.GallopContactPhases=new Vector4[96];
+      for(int frame=0;frame<96;frame++){
+       driver.Run.SampleAnimation(sampler,frame/96f*driver.Run.length);var contacts=Vector4.zero;
+       for(int f=0;f<4;f++)contacts[f]=root.transform.InverseTransformPoint(toes[f].position).y<=gallopLow[f]+height*.03f?1:0;
+       driver.GallopContactPhases[frame]=contacts;
+      }
+      lines.Add("  - banked gallop: authored torso overlay over corrected straight-gallop legs; 96 calibrated contact-phase samples, shared natural speed and normalized phase.");
+      driver.Idle.SampleAnimation(sampler,0);
+     }
     } else if (rig) UnityEngine.Object.DestroyImmediate(rig);
 
     PrefabUtility.SaveAsPrefabAsset(root, path);

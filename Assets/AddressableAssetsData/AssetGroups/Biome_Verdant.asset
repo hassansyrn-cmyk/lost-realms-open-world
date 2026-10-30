@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Biome_Verdant
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Biome_Verdant
+  m_GUID: 44bcde1bbb199ee40b0c9006b6ba4254
+  m_SerializeEntries:
+  - m_GUID: 1026d6879b837794cae61de7c73fa141
+    m_Address: Islands/Island_Meadow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 132defeaee97b4544b46c5f0d1fc0857
+    m_Address: Props/Nature/Grass_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17a5d694acfa13041b20e1bc736a40cd
+    m_Address: Props/Village/rpgpp_lt_bush_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 198f387679fe16b42b6303802b119c1f
+    m_Address: Gates/TeleportGate_Desert
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cb17fcfc8bc86d43a1f2acabcce75ed
+    m_Address: Props/Village/rpgpp_lt_flower_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e0f48d6d3584f649a6f4cdb0798cd61
+    m_Address: Props/Village/rpgpp_lt_rock_small_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f2bf95b2a65a2345bb8376ab6d8df64
+    m_Address: Props/Village/rpgpp_lt_rock_small_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35ff04a9161d15e43a79cd0b8353adb2
+    m_Address: Props/Nature/Bush_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 386ac7fa0ff9d01498beab5e3fb41610
+    m_Address: Props/Nature/Rock_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a726b3cf15c8b542a2dc15b010b5a9e
+    m_Address: Props/Village/rpgpp_lt_barrel_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3cf2a5da7b94e6d4581026c4fa937b97
+    m_Address: Props/Village/rpgpp_lt_sack_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e260f9d4f6bf5e4ab27353a70655b68
+    m_Address: Props/Nature/Rock_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f7703af94cceda40bdad3048a8021aa
+    m_Address: Props/Village/rpgpp_lt_bucket_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ffde3c7cf0bf2149a114504ef76291a
+    m_Address: Props/Village/rpgpp_lt_tree_pine_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45cca20691c6ad545b93d78a0f31eabb
+    m_Address: Props/Village/rpgpp_lt_vase_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49c0b21213eda2f4d90d8b17ad73c0e1
+    m_Address: Props/Village/rpgpp_lt_well_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49cc18d5a69ddc54b94b25e1630f156b
+    m_Address: Islands/Island_Small
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b80f8f7cb8666c498b3c07a5bda4d46
+    m_Address: Props/Village/rpgpp_lt_crate_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55acd9d0434802043a984e992a18b01b
+    m_Address: Props/Village/rpgpp_lt_bench_wood_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f216d30ec57a674591d26a74e8e50e5
+    m_Address: Props/Nature/Bush_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64272c8ee10fa62408ce34acd5978e99
+    m_Address: Props/Village/rpgpp_lt_tree_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64ef3485eaa9d184096e3633f3053d40
+    m_Address: Gates/TeleportGate_Lava
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 678470d23d7571f47b0c1d44b514e18b
+    m_Address: Props/Nature/Bush_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d6c859afdac1b240a62c6adc9085aae
+    m_Address: Gates/TeleportGate_Snow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71051c92c04b50f49b6611820f8e17af
+    m_Address: Props/Nature/Tree_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73e2d6971dff28f40982d1b39c37e1e1
+    m_Address: Props/Village/rpgpp_lt_log_wood_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7be858ed450e8d9439ef4550255be774
+    m_Address: Props/Nature/Tree_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bf097233e4892e4890cda359e112d66
+    m_Address: Props/Nature/Stump_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80e9278f134bff447ab1e9ba1217648a
+    m_Address: Props/Nature/Grass_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b2464237a296a94abd04bfde3e0928b
+    m_Address: Props/Village/rpgpp_lt_wagon_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94d4c89e5b9efef46a47f1e9ce175e0e
+    m_Address: Props/Nature/Tree_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9603fcac272cf7e4196ead1277218ba3
+    m_Address: Props/Village/rpgpp_lt_rock_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98054c5a9170e7e429ceef916f5990bb
+    m_Address: Props/Village/rpgpp_lt_barrel_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ced8556f9a87b94c9b271c833adf214
+    m_Address: Props/Nature/Rock_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ef541989d099404fae3fcbda97e23e5
+    m_Address: Props/Village/rpgpp_lt_rock_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a04a0cef588cbb6459a8c06c65c6ed9e
+    m_Address: Props/Village/rpgpp_lt_box_wood_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a638452fcf1be7a41821551d797bda58
+    m_Address: Gates/TeleportGate_Verdant
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8bf6bc728aaff74bbfe9f0c01d42066
+    m_Address: Props/Village/rpgpp_lt_crate_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b39ed82aad3b7d448b360ef3288ed8c4
+    m_Address: Props/Village/rpgpp_lt_flower_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: baddd754b2c5efb438a5ea9d1fadb223
+    m_Address: Props/Village/rpgpp_lt_shed_wood_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c18435ddeff67764fbd8cedc05eaf244
+    m_Address: Props/Nature/Rock_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c854c0e91e5929443a1c0328d81bd79e
+    m_Address: Gates/TeleportGate_Root
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cab1da934410f3e4189e1a3831f9944b
+    m_Address: Props/Village/rpgpp_lt_bush_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d08658bd01558e14385ee3e6de148955
+    m_Address: Islands/Island_Plateau
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1c5f391bb619c742a8e5b7be60d5155
+    m_Address: Islands/Island_Crag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d242a6c4c08f8f0498f2a334b329a813
+    m_Address: Props/Nature/Mushroom_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6ad33960c02d4c4db0373c699c84ad5
+    m_Address: Props/Nature/Tree_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db4dbb6ab7a6a8641881d35766ea46df
+    m_Address: Props/Village/rpgpp_lt_rock_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eef78964d7521ea43868e3250127075e
+    m_Address: Props/Nature/Rock_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef1d61e2a1570d342aa1aab81378d171
+    m_Address: Props/Village/rpgpp_lt_grass_small_01a
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f229e795fb4acc940b1afc8f2d6f8f53
+    m_Address: Props/Village/rpgpp_lt_shed_wood_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7a857cd6b1b2004eba28de92e64d483
+    m_Address: Props/Nature/Flowers_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb86780b564dfd84b974d006bf06af80
+    m_Address: Props/Nature/Tree_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fef227eda8180904ab2f3aede4a457c4
+    m_Address: Props/Village/rpgpp_lt_tree_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4e1d3c632bed4db45914e4aaa9efbce5, type: 2}
+    - {fileID: 11400000, guid: 86af2e13ae07f6947ac6108e6214201f, type: 2}
+    m_SchemaDisplayOrder:
+    - Biome_Verdant_BundledAssetGroupSchema
+    - Biome_Verdant_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

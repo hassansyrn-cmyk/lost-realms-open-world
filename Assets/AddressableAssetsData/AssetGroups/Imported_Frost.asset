@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Imported_Frost
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Imported_Frost
+  m_GUID: 10effbe8c06d0bb408abcd7e5a09c6b0
+  m_SerializeEntries:
+  - m_GUID: a29d9c5e85f210541bbd27c0cb9b77ec
+    m_Address: ow.imported.mountain_c419d664bf
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aadd9653eceae6a438d1ee97ab7317bd
+    m_Address: ow.imported.nature_ce8ae0652b
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf91e88ff2dd5c544adf400df20025b3
+    m_Address: ow.imported.nature_1e4a1f94b0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c24949bb91226b449888e1aac0e8ea24
+    m_Address: ow.imported.enemy_10b1fc0ab2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0bbe88ebed32c7419013b5a8eb076eb
+    m_Address: ow.imported.nature_803d2346f0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb4bc1e9007efcc47a5fc977a37d53f3
+    m_Address: ow.imported.nature_d8050af450
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa06da8220a8a534a8fc1e6f14b8983b
+    m_Address: ow.imported.nature_6e0f5ff82f
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ea5da6c079e442846abade472c42d686, type: 2}
+    - {fileID: 11400000, guid: 2a9266be4b6a29a46b13c4f623a5e111, type: 2}
+    m_SchemaDisplayOrder:
+    - Imported_Frost_BundledAssetGroupSchema
+    - Imported_Frost_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

@@ -259,6 +259,7 @@ namespace LostRealmsOW {
    if ((flags & CollisionFlags.Sides) != 0) speed = Mathf.MoveTowards(speed, 0f, 30f * dt);
    if (motion) {
     if (Time.time<stopUntil) motion.State="runstop";
+    else if(gallop&&driving&&speed>(motion.State=="gallop"?6.4f:7.4f)) motion.State="gallop";
     else if (motion.Has("trot") || motion.Has("canter")) {
      motion.State = speed < 0.15f ? "idle" : speed < 2.65f ? "walk" : speed < 5.0f ? "trot" : speed < 7.4f ? "canter" : "gallop";
     } else {

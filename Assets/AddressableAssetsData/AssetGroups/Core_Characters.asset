@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Core_Characters
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Core_Characters
+  m_GUID: 2a5c1c8efff9d724a9ebe715c3791c88
+  m_SerializeEntries:
+  - m_GUID: 0c7fe7c2cf96f374b80fa38f4a968970
+    m_Address: Characters/Aster
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f1ec183465663f418711b1700726ebf
+    m_Address: Characters/Aster_DesertWarrior
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1409769dac37cb540a3cced0c1988987
+    m_Address: Characters/IronGoblin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3387be4224d52a04ca3fafa7df43960d
+    m_Address: Characters/Caster
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 414275de1b6300546b1d6356dbb9e82c
+    m_Address: Characters/Elite
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d462be34e38dbd4ea64ba566eb5299f
+    m_Address: Characters/Aster_KnightArmored
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 707bf9f7f4ff2a04ca7e121a25143fdf
+    m_Address: Characters/Goblin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7139c51d1b1957840a277638ad7b29eb
+    m_Address: Characters/Aster_Assassin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8465da123a31d4648a3079969b54e6ea
+    m_Address: Characters/Heartwood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 859aad238413bdd47ac28f617dffb344
+    m_Address: Characters/Bomber
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96b89efe959add941b83b106e11e2fb6
+    m_Address: Characters/Aster_Viking
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecdb7ca35cefb5742b82d8090b3f5ea4
+    m_Address: Characters/Aster_Knight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6b86daa69bce3c459bfdf882a6dd8d2
+    m_Address: Characters/StoneBrute
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d65300f035098a24f9e7730a6b133b81, type: 2}
+    - {fileID: 11400000, guid: 2048e860ad275db428d2baac8b7cf7f2, type: 2}
+    m_SchemaDisplayOrder:
+    - Core_Characters_BundledAssetGroupSchema
+    - Core_Characters_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

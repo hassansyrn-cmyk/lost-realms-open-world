@@ -13,6 +13,10 @@ namespace LostRealmsOW {
   // howl, the flight cycle of birds, a second attack, and distinct equine trot / canter gaits.
   public AnimationClip Graze, Rest, Roar, Fly, Attack2, Trot, Canter;
   public AnimationClip WalkLeft, WalkRight, GallopLeft, GallopRight, RunStop, Buck, Swim, Jump;
+  public bool HasBankContactHeights;
+  public Vector4 WalkLeftContactY,WalkRightContactY,GallopLeftContactY,GallopRightContactY;
+  public Vector4[] GallopContactPhases;
+  public float GallopLeftPhaseOffset,GallopRightPhaseOffset;
   // Natural ground speed of the walk, trot, canter and run/gallop cycles at this prefab's own scale (m/s, 0 = not measured).
   public float WalkSpeed, TrotSpeed, CanterSpeed, RunSpeed;
   // Normalised time of the run cycle where the legs are most gathered (the pose a fallen animal lies in).
@@ -29,6 +33,7 @@ namespace LostRealmsOW {
   PlayableGraph graph;
   AnimationMixerPlayable mixer;
   AnimationClipPlayable[] players;
+  AnimationClipPlayable[] gallopLegs;AvatarMask gallopTorsoMask;
   AnimationClip[] clips;
   bool[] loops;
   int current = -1;
@@ -108,13 +113,26 @@ namespace LostRealmsOW {
    graph.SetTimeUpdateMode(DirectorUpdateMode.GameTime);
    mixer = AnimationMixerPlayable.Create(graph, Count);
    players = new AnimationClipPlayable[Count];
+   gallopLegs=new AnimationClipPlayable[Count];
+   if(GallopLeft||GallopRight){
+    var bones=animator.GetComponentsInChildren<Transform>(true);gallopTorsoMask=new AvatarMask{transformCount=bones.Length};
+    for(int i=0;i<bones.Length;i++){
+     var bone=bones[i];string path="";for(var node=bone;node&&node!=animator.transform;node=node.parent)path=node.name+(path.Length>0?"/"+path:"");
+     gallopTorsoMask.SetTransformPath(i,path);string name=bone.name;
+     gallopTorsoMask.SetTransformActive(i,name.StartsWith("BN_Spine_")||name.StartsWith("BN_Neck_")||name.StartsWith("BN_Head_")||name.Contains("Ear_")||name.StartsWith("BN_Tail_"));
+    }
+   }
    var output = AnimationPlayableOutput.Create(graph, "Model", animator);
    output.SetSourcePlayable(mixer);
    for (int i = 0; i < Count; i++) {
     if (!clips[i] || clips[i].legacy) continue;
     players[i] = AnimationClipPlayable.Create(graph, clips[i]);
     players[i].SetApplyFootIK(false);
-    graph.Connect(players[i], 0, mixer, i);
+    if((i==SRunLeft||i==SRunRight)&&gallopTorsoMask){
+     gallopLegs[i]=AnimationClipPlayable.Create(graph,run);gallopLegs[i].SetApplyFootIK(false);
+     var layer=AnimationLayerMixerPlayable.Create(graph,2);graph.Connect(gallopLegs[i],0,layer,0);layer.SetInputWeight(0,1);
+     graph.Connect(players[i],0,layer,1);layer.SetInputWeight(1,1);layer.SetLayerMaskFromAvatarMask(1,gallopTorsoMask);graph.Connect(layer,0,mixer,i);
+    }else graph.Connect(players[i], 0, mixer, i);
    }
    graph.Play();
   }
@@ -159,6 +177,8 @@ namespace LostRealmsOW {
   }
 
   static bool IsLocoSlot(int slot) => slot == SWalk || slot == STrot || slot == SCanter || slot == SRun || slot == SFly || slot==SWalkLeft || slot==SWalkRight || slot==SRunLeft || slot==SRunRight;
+  float BankPhaseOffset(int slot)=>slot==SRunLeft?GallopLeftPhaseOffset:slot==SRunRight?GallopRightPhaseOffset:0;
+  double StridePhase(int slot)=>Mathf.Repeat((float)(players[slot].GetTime()/Mathf.Max(.01f,clips[slot].length))-BankPhaseOffset(slot),1);
 
   public static int SelectTurnBank(float degreesPerSecond,int previous){
    if(previous<0&&degreesPerSecond<-14)return -1;if(previous>0&&degreesPerSecond>14)return 1;
@@ -230,9 +250,10 @@ namespace LostRealmsOW {
     double t = 0;
     // Gait changes keep the cycle phase so the legs do not jump; everything else starts at the top.
     if (!restartOnly && fromLoco && toLoco && current >= 0 && players[current].IsValid() && clips[current] && clips[next])
-     t = (players[current].GetTime() % Mathf.Max(0.01f, clips[current].length)) / Mathf.Max(0.01f, clips[current].length) * clips[next].length;
+     t = StridePhase(current) * clips[next].length;
     current = next; observedRestart = RestartVersion;
     if (players[next].IsValid()) {
+     if(next==SRunLeft||next==SRunRight)t=Mathf.Repeat((float)(t/Mathf.Max(.01f,clips[next].length))+BankPhaseOffset(next),1)*clips[next].length;
      if (next == SPose) t = (TuckTime >= 0f ? TuckTime : 0f) * clips[SPose].length;
      players[next].SetTime(t); players[next].SetTime(t);
     }
@@ -251,7 +272,14 @@ namespace LostRealmsOW {
    else if (current == SCanter) speed = GaitRate("canter");
    else if (current == SRun || current==SRunLeft || current==SRunRight) speed = GaitRate("run");
    else if (current == SPose) speed = 0f;
-   if (players[current].IsValid()) players[current].SetSpeed(speed);
+   for(int i=0;i<gallopLegs.Length;i++)if(gallopLegs[i].IsValid()){
+    double phase=StridePhase(i);
+    gallopLegs[i].SetTime(phase*Run.length);gallopLegs[i].SetSpeed(players[i].GetSpeed()*Run.length/Mathf.Max(.01f,clips[i].length));
+   }
+   if (players[current].IsValid()){
+    if(gallopLegs[current].IsValid()){gallopLegs[current].SetSpeed(speed);players[current].SetSpeed(speed*clips[current].length/Mathf.Max(.01f,Run.length));}
+    else players[current].SetSpeed(speed);
+   }
    if (deathPose) StepFall(dt);
   }
 
@@ -297,8 +325,16 @@ namespace LostRealmsOW {
      bool banked=current==SWalkLeft||current==SWalkRight||current==SRunLeft||current==SRunRight;
      // The BN toe markers are above the visible sole. Preserve their standing clearance,
      // rather than treating a marker as a point on the bottom of the hoof.
-     float contactY=banked?Mathf.Max(ground,transform.TransformPoint(hoofRestLocal[i]).y):ground;
+     Vector3 rest=hoofRestLocal[i];
+     if(banked&&HasBankContactHeights){var heights=current==SWalkLeft?WalkLeftContactY:current==SWalkRight?WalkRightContactY:current==SRunLeft?GallopLeftContactY:GallopRightContactY;rest.y=heights[i];}
+     float contactY=banked?Mathf.Max(ground,transform.TransformPoint(rest).y):ground;
+     bool bankedGallop=current==SRunLeft||current==SRunRight;
      bool planted = banked?p.y<=contactY+.035f:hAboveGround<=.045f;
+     if(bankedGallop&&GallopContactPhases!=null&&GallopContactPhases.Length>0){
+      double phase=StridePhase(current);
+      planted=GallopContactPhases[Mathf.Min(GallopContactPhases.Length-1,(int)(phase*GallopContactPhases.Length))][i]>.5f;
+      contactY=Mathf.Max(ground,transform.TransformPoint(hoofRestLocal[i]).y);
+     }
      if (planted) {
       if (!isPlanted[i]) {
        isPlanted[i] = true;
@@ -307,12 +343,13 @@ namespace LostRealmsOW {
       }
       Vector3 diff = plantPos[i] - p;
       diff.y = 0f;
-      if (diff.magnitude < (banked ? .45f : .22f)) {
+      float limit=banked ? ((current==SRunLeft||current==SRunRight) ? .65f : .45f) : .22f;
+      if (diff.magnitude < limit) {
        var ankle = legAnkles[i];
        if (ankle) {
         if(banked){
          // During turns, ankle rotation alone cannot compensate the sideways motion of the
-         // shoulder/hip. Correct the three local leg joints, bounded to avoid stretching.
+         // shoulder/hip. Correct the cached local leg joints, bounded to avoid stretching.
          for(int iteration=0;iteration<5;iteration++){
           foreach(var joint in stanceJoints[i]){
            Vector3 cur=h.position-joint.position,want=plantPos[i]-joint.position;
@@ -426,6 +463,6 @@ namespace LostRealmsOW {
    if (parent) transform.SetPositionAndRotation(parent.TransformPoint(fallBasePos), parent.rotation * fallBaseRot);
   }
 
-  void OnDestroy() { if (graph.IsValid()) graph.Destroy(); }
+  void OnDestroy() { if (graph.IsValid()) graph.Destroy();if(gallopTorsoMask)Destroy(gallopTorsoMask); }
  }
 }

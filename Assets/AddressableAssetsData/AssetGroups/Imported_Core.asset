@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Imported_Core
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Imported_Core
+  m_GUID: f90c232b581953a49a3f73ffa7f0ddaa
+  m_SerializeEntries:
+  - m_GUID: 117bf3a9a38ebc34296bf85a7b539b60
+    m_Address: ow.imported.elf_hammer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17fc96aeadd9f4346a75779fe1c321f5
+    m_Address: ow.imported.vfx_7204ecfb48
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2297347d09698b848ad3da652b4e9944
+    m_Address: ow.imported.audio_sfx_step
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28b35b308e34b3344b45bce318cb4cb7
+    m_Address: ow.imported.elf_staff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b046904a21529d4293e9a1adff2f15b
+    m_Address: ow.imported.vfx_4673b01fd4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 497b056709893e341aae7d6d08dd5048
+    m_Address: ow.imported.elf_spear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49f6e288951074f43be0c3d98d5c0cc8
+    m_Address: ow.imported.npc_523b84c816
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ac2184f16955f64da167b182c1e2186
+    m_Address: ow.imported.elf_sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b10269b2bdd0454896f9569fe08e9c9
+    m_Address: ow.imported.vfx_c749a81158
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6acb4b16d870a4b45a47029d65df8a32
+    m_Address: ow.imported.npc_5b95ae1b57
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84b3e70a7e66ce24ca16d0275bcad048
+    m_Address: ow.imported.vfx_919460f982
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c6a66a7f1ad4fc47adcab74ed991112
+    m_Address: ow.imported.npc_011f804056
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96a75d62899bac147a16dff60151d63f
+    m_Address: ow.imported.vfx_fafe55d076
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97f8303545059ce48b8fa9a97b883467
+    m_Address: ow.imported.vfx_ca23bc3bb8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2c080251f6238942b88f8fb392b20ee
+    m_Address: ow.imported.audio_sfx_bird
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7736c1763bd76c4eb0d52aaad581deb
+    m_Address: ow.imported.audio_sfx_attack_slash_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9d1289d033af944186502423b4e7fb5
+    m_Address: ow.imported.vfx_c41bc980ea
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad5de75eeb6f27a49a13d399389a8f7b
+    m_Address: ow.imported.audio_sfx_step2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4be7b1713424c043afd652bcc82e907
+    m_Address: ow.imported.vfx_5d7fd18b4d
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5955b1ca51d47245ae5e5e10395d910
+    m_Address: ow.imported.audio_sfx_attack_slash_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7e73eecb1447a64f8ce0194366adf8d
+    m_Address: ow.imported.elf_axe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ced7c09d955e74b70a97af69106fb289
+    m_Address: ow.imported.audio_sfx_impact
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3a2c0fbda38b464c9fb99f801c251b0
+    m_Address: ow.imported.expansion_iron_axe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8cd1efaef9dd3946811ff05dc4cd5f3
+    m_Address: ow.imported.audio_sfx_step_snow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef18a5a7071e4a54ba749b93057e0864
+    m_Address: ow.imported.audio_sfx_attack_slash_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fe7e785429603f14a8077b709fe14959
+    m_Address: ow.imported.expansion_iron_sword
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e715dd7b4e3331b4abcd230abe8263c6, type: 2}
+    - {fileID: 11400000, guid: 781c0bb51155f3b44936206dcb71ea21, type: 2}
+    m_SchemaDisplayOrder:
+    - Imported_Core_BundledAssetGroupSchema
+    - Imported_Core_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

@@ -1,0 +1,412 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Imported_Verdant
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Imported_Verdant
+  m_GUID: 33572d79c788cfc46ad8c09025fcd71d
+  m_SerializeEntries:
+  - m_GUID: 01d8ce1e2d6973c46a2a116b57f64df2
+    m_Address: ow.imported.prop_f3a0eabe10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02e4a93e7e2bd6047a75cb2d859f953a
+    m_Address: ow.imported.expansion_caravan_crate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 083c301f659b87b4aba265146f485307
+    m_Address: ow.imported.wildlife_83c3ea98a8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d6b362771338094ea7d939795f8c399
+    m_Address: ow.imported.nature_bc3f425c95
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fea15db86a567f47bc315af8c54bffc
+    m_Address: ow.imported.expansion_shepherd
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12eb47e0db95f3146bc8d13fc2d95cf6
+    m_Address: ow.imported.nature_e7ced13ec3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20784f2f291fa1240be40ae27d9afacd
+    m_Address: ow.imported.expansion_cardinal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d3071932b8320b46a215964ed4e9d73
+    m_Address: ow.imported.nature_2ae58968c8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d40fd9191e5f304b92f50eebd272cb8
+    m_Address: ow.imported.wildlife_fe036fe79f
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2dbcbaa9aaeec6342aa18edf29febafc
+    m_Address: ow.imported.vfx_ebb557170d
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 350fb99cb658fa34daa46e6a6681ea55
+    m_Address: ow.imported.vfx_378d89d774
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dfbdfab127ac664fa55b474e709c93a
+    m_Address: ow.imported.nature_39c81322b9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f9c35b61fe79eb45bc05a3f9cbb73ec
+    m_Address: ow.imported.building_e8c895664f
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 410f09c8a18c5b24f8f3fd75eaadd75c
+    m_Address: ow.imported.building_e8ccafa6ca
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a9a397bdb1184f469265d155ec3d554
+    m_Address: ow.imported.expansion_caravan_barrel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c4a3779685970d4abb935716d4eb0a1
+    m_Address: ow.imported.expansion_bear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4dc9c9ed6fb7f4f49bc3f9f5f0957ea4
+    m_Address: ow.imported.prop_b0265ed606
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54c5bdf47af9378448dcab41fe50772c
+    m_Address: ow.imported.nature_6d07816f72
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 553c48e45534a4541b283fd8b3f5756a
+    m_Address: ow.imported.nature_732b36cf04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5581259b63e52a9478d2d76f3615d642
+    m_Address: ow.imported.expansion_goldfinch
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5796bc1d5f5a725429435ee60e035175
+    m_Address: ow.imported.building_2fa3ec357c
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57d827222bb322b469853d8b8e45813f
+    m_Address: ow.imported.expansion_oakvale_cart
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59ccc18967dd17948b5a6129c3664fcf
+    m_Address: ow.imported.nature_c02a70933c
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5afbec3dd717c4048ab947777cb8f79c
+    m_Address: ow.imported.nature_7fdea75d8b
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b73724df73b3e340b46567b38f96cf1
+    m_Address: ow.imported.building_53e44be359
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bdf25b083a2a044eb469ba468b9edcf
+    m_Address: ow.imported.prop_0e57d24b83
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d1420a8927dbda4daea0e00687295db
+    m_Address: ow.imported.prop_8de774339c
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6699c64d199c9b64589644000c1e63bd
+    m_Address: ow.imported.wildlife_10f9a82436
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 676e37aa01aaa4943a36fdd5754a5c72
+    m_Address: ow.imported.nature_8efd1176c3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 691bf803f1edb2342ab9a4bf49acf6bf
+    m_Address: ow.imported.building_c97df2f304
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7476c559ed9005a48b8052f28ebaee9b
+    m_Address: ow.imported.nature_a5acedb7be
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c2ee1b0ef2d6fb469c4c585c081c565
+    m_Address: ow.imported.nature_94f5f62232
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8797c162b88253847b0c7bc032c8cbf1
+    m_Address: ow.imported.nature_e8beaee972
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 879b3169be28f9a45abc86d259b4b511
+    m_Address: ow.imported.nature_145a6114fe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87be243c0e1dba84f8ebce58fd22cf2a
+    m_Address: ow.imported.nature_e173b3adc5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88acc209fe9f16945b042ff2bf8bfea6
+    m_Address: ow.imported.nature_46cf8196d7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ab91c3dab7423b488000c4d2e8f1334
+    m_Address: ow.imported.wildlife_439813ed98
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bdd87bc3a26f7841a639f5aa48c80fa
+    m_Address: ow.imported.wildlife_14fe7e3329
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9265939ee24abde4b907a01394b78b1c
+    m_Address: ow.imported.wildlife_3522f8e030
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b6f5fddafcd2764281733124804e518
+    m_Address: ow.imported.nature_cbda5b6a8b
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9df4c28043ff1814b97a597b285aee54
+    m_Address: ow.imported.wildlife_a868c1dd18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ecd21a4324dbac449004200ff999068
+    m_Address: ow.imported.prop_273e0a549d
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f66b34fea642b243b69b515e3070524
+    m_Address: ow.imported.chest_d1f2603511
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac9e1fd0e18c135429f90dcfc687eb99
+    m_Address: ow.imported.nature_2e46f5c338
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afdb59354f0e2cd49b05eceda656b255
+    m_Address: ow.imported.expansion_bluejay
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b258a7711445e8047b6aaf963b7818f6
+    m_Address: ow.imported.nature_1c1a55904c
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8421af0cacce9f4e958757feb19229a
+    m_Address: ow.imported.prop_3d5fdeb474
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9cec3bf7287c0e448b0b091a17cc176
+    m_Address: ow.imported.prop_df3d2463d2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9d964b3002eed14e86030b3bdfccd54
+    m_Address: ow.imported.nature_9e548c3cd8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdc33bed8380f4b48a746bcbae96f58e
+    m_Address: ow.imported.expansion_cat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4362f8a5e0e65a4c84bd85ee76e8a5c
+    m_Address: ow.imported.prop_d155f9f7c7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c44f21d1069986b4e889bb04332e620b
+    m_Address: ow.imported.nature_263d2c4df2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c68b2b21520fd8845803a3b239afb6b9
+    m_Address: ow.imported.nature_fb2b09c880
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8b4b8c429ab2ec4fa08da5ffa3e299a
+    m_Address: ow.imported.nature_000cf9065e
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdad5ef14034ae64f9dc910aff5a5b36
+    m_Address: ow.imported.building_2ad730e933
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d358984a6726bca4f8c9c75cd3051222
+    m_Address: ow.imported.nature_99e4daba35
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d661bb3d0427881488e4c56f4913fef1
+    m_Address: ow.imported.prop_ab32fa6b20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e084f8cc863bfbb40bfc18a81e049be0
+    m_Address: ow.imported.building_ebc5d887bc
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5de1377fefef404faeb65fb0c1b0c64
+    m_Address: ow.imported.nature_bc6ecdd561
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e74a940e6b113e543a2527a2b48ff944
+    m_Address: ow.imported.nature_de9e3d58d8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8819072f2918f94b93af3dcb03952a2
+    m_Address: ow.imported.nature_2d1e77a694
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f73b1c59549ba2e479bc108edc75eee5
+    m_Address: ow.imported.prop_581dc2c2a6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f73b4d068883ae04694a29a41aacee00
+    m_Address: ow.imported.wildlife_5c1241df03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdf441eca10324b47b539523d7857f13
+    m_Address: ow.imported.expansion_oakvale_food
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 26a22ef4e0a0e554baee9225070ac119, type: 2}
+    - {fileID: 11400000, guid: 7de4f5ee70a06ff4aa72d3faee2d129a, type: 2}
+    m_SchemaDisplayOrder:
+    - Imported_Verdant_BundledAssetGroupSchema
+    - Imported_Verdant_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

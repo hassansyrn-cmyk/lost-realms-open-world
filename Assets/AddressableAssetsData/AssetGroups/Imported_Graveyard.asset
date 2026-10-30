@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Imported_Graveyard
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Imported_Graveyard
+  m_GUID: 0245520d00e8ce0479cc71262aeb68b4
+  m_SerializeEntries:
+  - m_GUID: 8a241c5f0cac4d54faa93dfc6ecea6d2
+    m_Address: ow.imported.expansion_crow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a62ef3e2c812b144961b9a1546f58c7
+    m_Address: ow.imported.expansion_orc_wizard
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - ImportedContent
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6df5d0f44be6c6a48a5c95bf707a8e5a, type: 2}
+    - {fileID: 11400000, guid: d2ca2240dece0f049be02dd9108d03db, type: 2}
+    m_SchemaDisplayOrder:
+    - Imported_Graveyard_BundledAssetGroupSchema
+    - Imported_Graveyard_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1
