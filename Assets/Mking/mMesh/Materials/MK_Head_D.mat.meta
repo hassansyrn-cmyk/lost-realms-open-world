@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2c2ff18b5ef213044840411d4e337725
+timeCreated: 1443479789
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mMesh/Materials/MK_Head_D.mat
+  uploadId: 83392

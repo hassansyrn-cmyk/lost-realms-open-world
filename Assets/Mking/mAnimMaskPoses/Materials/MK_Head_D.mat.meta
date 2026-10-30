@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3b5b5e6a76390de41ba662259867f03f
+timeCreated: 1443551387
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mAnimMaskPoses/Materials/MK_Head_D.mat
+  uploadId: 83392

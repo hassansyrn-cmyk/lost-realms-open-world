@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fba34eba0b644c74191236adba085670
+timeCreated: 1443523952
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mAnimation/Mk_DemoAnmt.controller
+  uploadId: 83392

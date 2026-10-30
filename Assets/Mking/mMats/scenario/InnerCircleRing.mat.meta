@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e69d88bbaf752da46bdf459d7c715f7c
+timeCreated: 1443482347
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mMats/scenario/InnerCircleRing.mat
+  uploadId: 83392

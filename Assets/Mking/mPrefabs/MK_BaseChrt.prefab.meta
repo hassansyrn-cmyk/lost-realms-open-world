@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 065dec78ef0d3bc40a079978e607c379
+timeCreated: 1443524739
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mPrefabs/MK_BaseChrt.prefab
+  uploadId: 83392

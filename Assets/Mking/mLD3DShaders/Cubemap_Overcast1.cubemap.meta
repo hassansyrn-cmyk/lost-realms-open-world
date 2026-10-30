@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5a1f8899a17ce0a4e99db058a4b7b82b
+timeCreated: 1443479987
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mLD3DShaders/Cubemap_Overcast1.cubemap
+  uploadId: 83392

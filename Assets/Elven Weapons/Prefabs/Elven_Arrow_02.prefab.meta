@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 489019b5a17792d4da216ddedd5813a4
+timeCreated: 1431632881
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 36901
+  packageName: Elven Weapons
+  packageVersion: 1.0
+  assetPath: Assets/Elven Weapons/Prefabs/Elven_Arrow_02.prefab
+  uploadId: 63683

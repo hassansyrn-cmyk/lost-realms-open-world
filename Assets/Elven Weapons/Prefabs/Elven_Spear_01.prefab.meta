@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 607d3fb159352ec4aabd383c218e3e35
+timeCreated: 1431632876
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 36901
+  packageName: Elven Weapons
+  packageVersion: 1.0
+  assetPath: Assets/Elven Weapons/Prefabs/Elven_Spear_01.prefab
+  uploadId: 63683

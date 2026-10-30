@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 101241cca6e9ddc4e8d0e03b7371204b
+timeCreated: 1443523877
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mAnimation/Materials/MK_Body_D.mat
+  uploadId: 83392

@@ -1,0 +1,7 @@
+{
+  "name": "LostRealms.WarriorVendorDemo",
+  "defineConstraints": [
+    "LOST_REALMS_VENDOR_DEMOS"
+  ],
+  "autoReferenced": false
+}

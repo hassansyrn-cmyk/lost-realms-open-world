@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f95afe0e0e65853449072a0f92393e16
+timeCreated: 1443480569
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mMats/mk_Bar.mat
+  uploadId: 83392

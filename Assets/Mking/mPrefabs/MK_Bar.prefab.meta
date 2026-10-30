@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3553fbbdbae50164083b5fc0e9f145d5
+timeCreated: 1443526710
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mPrefabs/MK_Bar.prefab
+  uploadId: 83392

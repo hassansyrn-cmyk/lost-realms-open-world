@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 015b5e41a4f67364fb6efa67f440c8aa
+timeCreated: 1443524769
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mPrefabs/MK_Demo.prefab
+  uploadId: 83392

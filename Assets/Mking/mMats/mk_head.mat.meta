@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fdbab98fbd62874458b1419caba58345
+timeCreated: 1443480098
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 47069
+  packageName: Mking
+  packageVersion: 1.0
+  assetPath: Assets/Mking/mMats/mk_head.mat
+  uploadId: 83392
