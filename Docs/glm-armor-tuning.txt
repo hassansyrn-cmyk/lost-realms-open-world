@@ -1,0 +1,5 @@
+armor piece tuning (paste into Fits):
+Ch1 pos=(0.000, 0.100, 0.010) rot=(0.0, 0.0, 0.0) scale=0.011 bone=mixamorig:Spine1
+Ch2 pos=(0.000, 0.020, -0.020) rot=(0.0, 180.0, 0.0) scale=0.011 bone=mixamorig:Spine1
+Arm1 pos=(0.000, -0.100, 0.000) rot=(90.0, 0.0, 0.0) scale=0.011 bone=mixamorig:LeftArm
+Arm2 pos=(0.000, -0.100, 0.000) rot=(90.0, 0.0, 0.0) scale=0.011 bone=mixamorig:RightArm

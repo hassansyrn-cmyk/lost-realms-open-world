@@ -1,0 +1,5 @@
+PASS new journey owns no weapons
+PASS unarmed save round trip
+PASS existing armed save remains supported
+PASS unarmed combat profile
+PASS unarmed removes old weapon without replacement

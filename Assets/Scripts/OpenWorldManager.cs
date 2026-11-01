@@ -26,7 +26,7 @@ namespace LostRealmsOW {
   public int CampsCaptured;
   public bool GuardianDefeated;
 
-  public readonly HashSet<int> UnlockedWeapons = new HashSet<int> { 0, 1, 2 };
+  public readonly HashSet<int> UnlockedWeapons = new HashSet<int>();
   public readonly HashSet<int> UnlockedSkins = new HashSet<int> { 0 };
   public bool DeveloperMode { get; private set; }
   int testOriginalWeapon, testOriginalSkin;
@@ -49,7 +49,7 @@ namespace LostRealmsOW {
   bool pausedByMenu;
   float previousTimeScale = 1f;
   public void CloseMenus() {
-   ShowPauseModal = ShowMapModal = ShowVaultModal = ShowArsenalModal = ShowWardrobeModal = ShowClockModal = ShowQuestBoardModal = ShowCreditsModal = false;
+   ShowPauseModal = ShowMapModal = ShowVaultModal = ShowArsenalModal = ShowWardrobeModal = ShowClockModal = ShowQuestBoardModal = ShowCreditsModal = ShowMerchantModal = ShowWeaponShopModal = false;
    SyncPause();
   }
   void SyncPause() {
@@ -68,7 +68,8 @@ namespace LostRealmsOW {
   public bool ShowWardrobeModal;
   public bool ShowClockModal;
   public bool ShowCreditsModal;
-  public bool IsModalOpen => ShowPauseModal || ShowMapModal || ShowVaultModal || ShowArsenalModal || ShowWardrobeModal || ShowClockModal || ShowQuestBoardModal || ShowCreditsModal;
+  public bool IsModalOpen => OpenWorldTitleScreen.IsOpen || ShowPauseModal || ShowMapModal || ShowVaultModal || ShowArsenalModal || ShowWardrobeModal || ShowClockModal || ShowQuestBoardModal || ShowCreditsModal || ShowMerchantModal || ShowWeaponShopModal;
+   public bool ShowWeaponShopModal;
 
   string bannerText = "";
   float bannerUntil;
@@ -104,7 +105,7 @@ namespace LostRealmsOW {
   }
 
   void Start() {
-   if (WorldRoot == null) BuildOpenWorld();
+   if (WorldRoot == null) gameObject.AddComponent<OpenWorldTitleScreen>();
   }
 
   public void BuildOpenWorld() {
@@ -159,7 +160,7 @@ namespace LostRealmsOW {
 
    // Spawn Aster in the Heart of Realms Hub Plaza
    respawnPoint = new Vector3(0f, 0f, -6f);
-   Hero = OpenWorldHero.Spawn(respawnPoint, WorldRoot, 0, 0);
+   Hero = OpenWorldHero.Spawn(respawnPoint, WorldRoot, OpenWorldWeaponCatalog.UnarmedId, 0);
 
    var cam = Camera.main;
    if (!cam) {
@@ -303,8 +304,8 @@ namespace LostRealmsOW {
 
    // Hub Town structures arranged in a welcoming semicircle
    (string path, Vector3 pos, float height)[] structures = {
-    ("Props/Village/rpgpp_lt_shed_wood_01", new Vector3(-13f, 0f, 8f), 4.6f),
-    ("Props/Village/rpgpp_lt_shed_wood_02", new Vector3(13f, 0f, 8f), 4.6f),
+    ("Props/Village/rpgpp_lt_shed_wood_01", new Vector3(-28f, 0f, 5f), 4.6f),
+    ("Props/Village/rpgpp_lt_shed_wood_02", new Vector3(22f, 0f, 28f), 4.6f),
     ("Props/Village/rpgpp_lt_well_01", new Vector3(-8f, 0f, 3f), 2.4f),
     ("Props/Village/rpgpp_lt_wagon_01", new Vector3(9f, 0f, 2f), 2.1f),
     ("Props/Village/rpgpp_lt_tree_01", new Vector3(-16f, 0f, -6f), 6.2f),
@@ -394,9 +395,9 @@ namespace LostRealmsOW {
 
   void BuildOutpostCamps() {
    (string title, Vector3 pos, string gateId, string[] guards)[] defs = {
-    ("Whispering Woods Outpost", new Vector3(-65f, 0f, 65f), "woods", new[] { "Goblin", "Goblin", "IronGoblin" }),
-    ("Sunlit Ruins Outpost", new Vector3(68f, 0f, 58f), "ruins", new[] { "IronGoblin", "Bomber", "StoneBrute" }),
-    ("Bramble Ridge Outpost", new Vector3(62f, 0f, -62f), "ridge", new[] { "Goblin", "Caster", "Elite" })
+    ("Whispering Woods Outpost", new Vector3(-115f, 0f, 100f), "woods", new[] { "Goblin", "Goblin", "IronGoblin" }),
+    ("Sunlit Ruins Outpost", new Vector3(140f, 0f, 95f), "ruins", new[] { "IronGoblin", "Bomber", "StoneBrute" }),
+    ("Bramble Ridge Outpost", new Vector3(110f, 0f, -130f), "ridge", new[] { "Goblin", "IronGoblin", "Elite" })
    };
 
    foreach (var d in defs) {
@@ -414,8 +415,8 @@ namespace LostRealmsOW {
   void BuildKeysChestsAndPotions() {
    // 3 Collectible Temple Keys (disappear on pickup)
    Vector3[] keySpots = {
-    new Vector3(-58f, 0f, 72f),
-    new Vector3(74f, 0f, 64f),
+    new Vector3(-108f, 0f, 107f),
+    new Vector3(146f, 0f, 101f),
     new Vector3(-60f, 0f, -58f)
    };
    string[] keyTitles = { "WOODLAND KEY", "SUNLIT KEY", "CRYPT KEY" };
@@ -427,9 +428,9 @@ namespace LostRealmsOW {
    // 4 World Treasure Chests (disappear on pickup)
    Vector3[] chestSpots = {
     new Vector3(-10f, 0f, -14f),
-    new Vector3(-72f, 0f, 58f),
-    new Vector3(60f, 0f, 68f),
-    new Vector3(68f, 0f, -56f)
+    new Vector3(-122f, 0f, 93f),
+    new Vector3(132f, 0f, 105f),
+    new Vector3(116f, 0f, -124f)
    };
    for (int i = 0; i < chestSpots.Length; i++) {
     ReserveSpot(chestSpots[i], 3f);
@@ -590,7 +591,7 @@ namespace LostRealmsOW {
    SanctumTraps.Add(OpenWorldSanctumTrap.Spawn(true, totemPos, WorldRoot));
 
    // 2 Sanctum Sentinels guarding the Memory Altar
-   var acolyte = OpenWorldEnemy.Spawn("Caster", "Sanctum Acolyte", new Vector3(-65f, 0f, -58f), WorldRoot, false);
+   var acolyte = OpenWorldEnemy.Spawn("IronGoblin", "Sanctum Sentinel", new Vector3(-65f, 0f, -58f), WorldRoot, false);
    var warden = OpenWorldEnemy.Spawn("Elite", "Sanctum Warden", new Vector3(-55f, 0f, -58f), WorldRoot, false);
    SanctumGuards.Add(acolyte);
    SanctumGuards.Add(warden);
@@ -759,6 +760,7 @@ namespace LostRealmsOW {
   }
 
   void Update() {
+   if (!WorldRoot || OpenWorldTitleScreen.IsOpen) return;
    TickAdventure();
    TickVerdantHunt();
    TickGlmQuests();

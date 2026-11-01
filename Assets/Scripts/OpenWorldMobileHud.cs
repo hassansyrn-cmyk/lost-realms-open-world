@@ -723,6 +723,8 @@ namespace LostRealmsOW {
     atk.ChargeRing = attackChargeRing;
    } else if (title == "DASH") {
     b.gameObject.AddComponent<OpenWorldDashButton>();
+   } else if (title == "JUMP") {
+    b.gameObject.AddComponent<OpenWorldJumpButton>();
    } else {
     b.onClick.AddListener(() => {
      var gm = OpenWorldManager.I;
@@ -1003,6 +1005,7 @@ namespace LostRealmsOW {
     var a = cachedAnimals[i];
     if (!a || !a.isActiveAndEnabled || a.Rider != null) continue;
     if (!a.Horse && !(a.Deer && a.Dead)) continue;
+    if (TamingQuiet && a.Horse) continue;
     float d2 = (a.transform.position - hp).sqrMagnitude;
     if (d2 > 18f * 18f) continue;
 
@@ -1018,7 +1021,7 @@ namespace LostRealmsOW {
     if (a.Horse) {
      string horseTitle = !string.IsNullOrEmpty(a.SpeciesName) ? a.SpeciesName.ToUpperInvariant() : "STEED";
      m.titleLabel.text = horseTitle;
-     m.subLabel.text = "Mount & Ride [F]";
+     m.subLabel.text = a.Owned ? "Mount & Ride [F]" : "Tame Horse [F]";
      m.titleLabel.color = gold;
      m.icon.sprite = theme.Kit("g_horse");
      m.icon.color = gold;
@@ -1263,7 +1266,7 @@ namespace LostRealmsOW {
    objective.text = gm.SaveUnavailable ? "Progress is not being saved • check storage" : gm.QuestDetail;
 
    // Interact Prompt
-   string prompt = gm.InteractionPrompt;
+   string prompt = TamingQuiet ? "" : gm.InteractionPrompt;
    interact.gameObject.SetActive(!string.IsNullOrEmpty(prompt) && !overlayOpen);
    interactLabel.text = prompt;
    objectivePanel.SetActive(!overlayOpen);
@@ -1396,6 +1399,14 @@ namespace LostRealmsOW {
    if (gm && gm.Hero) gm.Hero.TouchSprintHeld = false;
   }
   void OnDisable() { if (pointer.HasValue) Release(); }
+ }
+
+ public sealed class OpenWorldJumpButton : MonoBehaviour, IPointerDownHandler {
+  public void OnPointerDown(PointerEventData e) {
+   var gm = OpenWorldManager.I;
+   if (!gm || !gm.Hero || gm.Hero.Dead || gm.IsModalOpen) return;
+   gm.Hero.TouchJump = true;
+  }
  }
 
  public sealed class OpenWorldAttackButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler {

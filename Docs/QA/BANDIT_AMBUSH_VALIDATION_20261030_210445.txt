@@ -1,0 +1,53 @@
+Bandit Ambush Validation 10/30/2026 9:04:45 PM
+
+PASS: ActiveTerrain is present
+--- 1. Testing Location & Clear Roadside Placement ---
+Road distance at anchor: 3.50m
+PASS: Ambush anchor is roadside (distance: 3.50m from road center, road remains fully clear)
+Distance to Oakvale village: 84.6m
+PASS: Location is safely away from Oakvale village (>60m)
+Distance to Caravan Post: 23.2m
+PASS: Location is distinct from Caravan Post (>20m)
+Distance to Thornhide quarry: 80.4m
+PASS: Location is distinct from Thornhide quarry (>60m)
+Distance to Briarfoot supply camp: 42.3m
+PASS: Location is distinct from Briarfoot camp encounter (>35m)
+--- 2. Testing Approach & Avoidance ---
+PASS: OpenWorldBanditAmbush instance acquired
+PASS: Bandit encounter built upon approach
+PASS: Both humanoid bandits spawned
+PASS: Hero can traverse along the road
+--- 3. Testing Props, Terrain Grounding & Collisions ---
+PASS: Reward cache spawned in cluster
+PASS: Reward cache has collision
+PASS: Cache sits properly on terrain ground
+--- 4. Testing Cache Remains Locked While Bandits Live ---
+PASS: Hero is within interaction range of cache
+PASS: CacheUnlocked is false while bandits are alive
+PASS: TryOpenCache refused while bandits are alive
+PASS: No rewards paid while cache is locked
+PASS: World ID not marked while locked
+--- 5. Testing Combat & Defeating Both Bandits ---
+PASS: Bandits start alive
+Bandit 1: Bandit Skirmisher (HP: 10/10)
+Bandit 2: Bandit Enforcer (HP: 16/16)
+PASS: Bandit 1 defeated
+PASS: Cache remains locked while Bandit 2 is still alive
+PASS: Bandit 2 defeated
+PASS: Cache is UNLOCKED after both bandits are defeated
+--- 6. Testing Reward Payout & Exactly-Once Guarantee ---
+PASS: TryOpenCache succeeded after defeating both bandits
+PASS: Gold awarded correctly (+45, now 1086)
+PASS: Gems awarded correctly (+2, now 57)
+PASS: Cache world ID saved in CollectedWorldIds
+PASS: Repeat TryOpenCache refused (cannot claim reward twice)
+PASS: Gold and gems unchanged on repeat attempt
+--- 7. Testing Save Persistence & Reload Resilience ---
+PASS: Save snapshot contains bandit cache world ID
+--- 8. Testing Streaming Teardown & Return (No Duplication) ---
+PASS: Bandits torn down when hero left the area
+PASS: Cache correctly recognized as already looted upon returning
+PASS: Defeated bandits not respawned after being looted
+PASS: Looted cache still refuses reward after re-entering
+
+ALL BANDIT AMBUSH VALIDATION CHECKS PASSED SUCCESSFULLY!

@@ -1,0 +1,4 @@
+block: procedural action change degrees=0, metres=0; PASS
+attack: procedural action change degrees=0, metres=0; PASS
+attack_2: procedural action change degrees=0, metres=0; PASS
+SKIP unavailable action heavy

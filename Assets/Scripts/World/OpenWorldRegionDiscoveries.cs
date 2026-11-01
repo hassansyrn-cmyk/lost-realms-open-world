@@ -56,6 +56,19 @@ namespace LostRealmsOW {
    new RegionDiscovery { Id = "glm-disc:storm-cache", Region = "Stormveil", Title = "LIGHTNING-SEALED CHEST",
     Note = "A chest struck so many times the bolts fused shut — then burst open one night. The storm got there first and left the best parts.",
     Position = new Vector3(258f, 0f, -296f), Gold = 40, Gems = 3, PropResource = "Props/Expansion/SecretCache", PropTexture = "Props/Expansion/Textures/SecretCache_basecolor", Cache = true },
+   // Third discovery per region: further afield, rewarding exploration beyond the quest paths.
+   new RegionDiscovery { Id = "glm-disc:frozen-shrine", Region = "Frozen Peaks", Title = "FROSTPINE WAYSTONE",
+    Note = "A waystone older than Frostpine itself. The carved runes glow faintly when the aurora passes overhead.",
+    Position = new Vector3(-100f, 0f, 320f), Gold = 15, Gems = 2, PropResource = "Props/Expansion/TrailShrine", PropTexture = "Props/Expansion/Textures/TrailShrine_basecolor", Cache = false },
+   new RegionDiscovery { Id = "glm-disc:dunes-oasis", Region = "Burning Dunes", Title = "BURIED OASIS SHRINE",
+    Note = "Half-swallowed by the sand, a shrine to the old caravan gods. offerings of water and shade, long dried.",
+    Position = new Vector3(280f, 0f, 140f), Gold = 15, Gems = 2, PropResource = "Props/Expansion/RitualAltar", PropTexture = "Props/Expansion/Textures/RitualAltar_basecolor", Cache = false },
+   new RegionDiscovery { Id = "glm-disc:marches-relic", Region = "Hollow Marches", Title = "WANDERING GRAVE",
+    Note = "A grave that was not here last week. The dirt is fresh, the headstone ancient, and the name is your own.",
+    Position = new Vector3(-180f, 0f, -250f), Gold = 20, Gems = 2, PropResource = "Props/Expansion/ReturnPassage", PropTexture = "Props/Expansion/Textures/ReturnPassage_basecolor", Cache = false },
+   new RegionDiscovery { Id = "glm-disc:storm-cache2", Region = "Stormveil", Title = "STORMRELAY SUPPLY DROP",
+    Note = "A supply crate dropped from the overlook above. The parachute caught on the rocks and the contents are soaked — but the gems inside are gemstones, not rain.",
+    Position = new Vector3(262f, 0f, -270f), Gold = 30, Gems = 2, PropResource = "Props/Expansion/SecretCache", PropTexture = "Props/Expansion/Textures/SecretCache_basecolor", Cache = true },
   };
 
   public static IReadOnlyList<RegionDiscovery> RegionalDiscoveries => Discoveries;

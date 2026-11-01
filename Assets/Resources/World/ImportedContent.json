@@ -2024,23 +2024,6 @@
             "weaponId": -1
         },
         {
-            "key": "expansion_rhino_ironhide",
-            "source": "Assets/Rhino/Prefab/Rhino_PBR.prefab",
-            "address": "ow.imported.expansion_rhino_ironhide",
-            "category": "enemy",
-            "region": "Storm",
-            "alias": "",
-            "triangles": 4298,
-            "position": {
-                "x": 250.0,
-                "y": 0.0,
-                "z": -200.0
-            },
-            "height": 1.7000000476837158,
-            "yaw": 0.0,
-            "weaponId": -1
-        },
-        {
             "key": "expansion_crow",
             "source": "Assets/living birds/resources/lb_crow.prefab",
             "address": "ow.imported.expansion_crow",

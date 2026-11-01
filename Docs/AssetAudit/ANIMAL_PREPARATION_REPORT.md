@@ -1,4 +1,4 @@
-# Animal motion preparation — 2026-10-30 06:32
+# Animal motion preparation — 2026-11-01 18:00
 
 Clip picks per state, natural cycle speeds at the prepared prefab's scale (m/s, the runtime scales them with the spawned size), facing corrections and saddle measurements. Vendor packs were only read.
 
@@ -31,7 +31,7 @@ Gallop stance calibration: robust near-ground windows, contacts per 96 samples (
   - material Material [Universal Render Pipeline/Lit] base Texture 1024, normal none
 - wildlife_5c1241df03 (Chicken_001, wildlife, height 0.49 m at prefab scale): walk 0.71 m/s, run 1.93 m/s, tuck 0.19
   - clips: idle Chicken_001_idle, walk Chicken_003_walk, trot -, canter -, run Chicken_002_run, attack -, attack2 -, hit -, death -, graze -, rest -, roar -, fly -
-  - facing check: walk cycle travels 0 deg from +Z, toes point -177 deg
+  - facing check: walk cycle travels 0 deg from +Z, toes point 3 deg
   - walk: planted-feet speed 0.00 m/s is implausible for a leg of 0.21 m; using the Froude estimate 0.71
   - material Material [Universal Render Pipeline/Lit] base Texture 1024, normal none
 - expansion_cat (Kitty_001, wildlife, height 0.37 m at prefab scale): walk 0.67 m/s, run 0.95 m/s, tuck 0.38
@@ -71,16 +71,17 @@ Gallop stance calibration: robust near-ground windows, contacts per 96 samples (
   - facing check: walk cycle travels 0 deg from +Z, toes point 0 deg
   - material 3836024b02e79534bb0da2c69c2aba28_2100000_lit [Universal Render Pipeline/Lit] base T_GermanShepherd_B 2048, normal T_GermanShepherd_N
   - material a3d8f160d8a665843b87febc4764a80d_2100000_lit [Universal Render Pipeline/Lit] base T_GermanShepherd_B 2048, normal T_GermanShepherd_N
-- enemy_10b1fc0ab2 (Wolf, enemy, height 2.83 m at prefab scale): walk 2.58 m/s, run 5.37 m/s, tuck -1.00
+- enemy_10b1fc0ab2 (Wolf, enemy, height 2.82 m at prefab scale): walk 2.58 m/s, run 5.34 m/s, tuck -1.00
   - clips: idle breathes, walk walk, trot -, canter -, run run, attack attack1, attack2 attack2, hit damege, death die, graze eating, rest sit, roar howl, fly -
   - facing check: walk cycle travels -34 deg from +Z, toes point -34 deg
   - material c19ce37bb54b73e45890d692ff1cd854_2100000_lit [Universal Render Pipeline/Lit] base Wolf_Albedo 1024, normal Wolf_normal
 - expansion_bear (Bear_4, enemy, height 2.02 m at prefab scale): walk 0.91 m/s, run 5.83 m/s, tuck -1.00
   - clips: idle Bear_Idle, walk Bear_WalkForward, trot -, canter -, run Bear_RunForward, attack Bear_Attack1, attack2 Bear_Attack3, hit Bear_GetHitFromFront, death Bear_Death, graze Bear_Eat, rest Bear_Sit, roar Bear_Buff, fly -
-  - facing check: walk cycle travels -24 deg from +Z, toes point -24 deg
+  - facing check: walk cycle travels 156 deg from +Z, toes point 156 deg
+  - facing: the walk cycle travels 156 deg from +Z; model turned by -180 deg
   - coat FrostBear (frost) made from Stylized_Bear_Albedo4 (1024x1024), saved to Assets/Resources/World/Coats/FrostBear.png
   - material b614f09dade340f4aa841aafe3df42b9_2100000_lit [Universal Render Pipeline/Lit] base Stylized_Bear_Albedo4 2048, normal Stylized_Bear_Normal
-- expansion_rhino (Rhinoceros, enemy, height 4.96 m at prefab scale): walk 1.36 m/s, run 6.23 m/s, tuck -1.00
+- expansion_rhino (Rhinoceros, enemy, height 4.59 m at prefab scale): walk 1.39 m/s, run 6.23 m/s, tuck -1.00
   - clips: idle Idle, walk Walk, trot -, canter -, run Run, attack Attack(1), attack2 Attack(3), hit Get_Hit, death Dead, graze -, rest -, roar Shout, fly -
   - expansion_rhino_c_hit: removed -1.52 m of baked travel from CATRigHub002.z
   - expansion_rhino_c_hit: removed -1.58 m of baked travel from CATRigLLegPlatform.z
@@ -89,18 +90,7 @@ Gallop stance calibration: robust near-ground windows, contacts per 96 samples (
   - facing: model turned by 0 deg (set for this pack)
   - material 42bdf2ac465ca4c46bf21404b1cc1d07_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_diffuse 2048, normal Rhinoceros_normals
   - material 42bdf2ac465ca4c46bf21404b1cc1d07_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_diffuse 2048, normal Rhinoceros_normals
-- expansion_rhino_ironhide (Rhino_PBR, enemy, height 1.72 m at prefab scale): walk 1.45 m/s, run 2.09 m/s, tuck -1.00
-  - clips: idle Idle, walk Walk, trot -, canter -, run Run, attack Attack, attack2 -, hit Get_Hit, death Dead, graze Eats, rest -, roar shout, fly -
-  - facing check: walk cycle travels 0 deg from +Z, toes point -11 deg
-  - walk: planted-feet speed 0.56 m/s is implausible for a leg of 0.86 m; using the Froude estimate 1.45
-  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
-  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
-  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
-  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
-  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
-  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
-  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
-  - material 0aa307174652d82429e8b8db57c20740_2100000_lit [Universal Render Pipeline/Lit] base Rhinoceros_Albedo 2048, normal Rhinoceros_normals
+- SKIPPED Assets/Rhino/Prefab/Rhino_PBR.prefab: not in the prepared manifest (deferred or not selected).
 - wildlife_3522f8e030 (lb_robin, wildlife, height 0.24 m at prefab scale): walk 0.21 m/s, run 0.21 m/s, tuck -1.00
   - clips: idle watch01, walk forwardHop, trot -, canter -, run forwardHop, attack -, attack2 -, hit -, death die, graze peck, rest preen, roar sing, fly flyStraight
   - wildlife_3522f8e030_c_walk: removed 0.06 m of baked travel from Bip01.z
@@ -137,7 +127,7 @@ Gallop stance calibration: robust near-ground windows, contacts per 96 samples (
   - expansion_chickadee_c_run: removed 0.04 m of baked travel from Bip01.z
   - material 9593f1cc3673e8f4e8708e2195bbf20c_2100000_lit [Universal Render Pipeline/Lit] base chickadeeDiffuse 1024, normal none
 
-Processed 21 prepared animal prefabs.
+Processed 20 prepared animal prefabs.
 
 Banked torso phase alignment from 96 spine-height samples: L 0.0000, R 0.0000. Metadata only; source/prepared clip curves unchanged.
 Gallop stance calibration: robust near-ground windows, contacts per 96 samples (29.00, 29.00, 29.00, 29.00); avoids a single seam dip defining the whole contact window.

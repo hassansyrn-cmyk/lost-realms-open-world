@@ -1,0 +1,22 @@
+PASS Title shown at startup
+PASS World and hero not constructed before selection
+PASS Title canvas exists
+PASS Touchable CONTINUE JOURNEY
+PASS Touchable NEW JOURNEY
+PASS Touchable SETTINGS
+PASS Touchable QUIT GAME
+PASS Touchable BEGIN NEW JOURNEY
+PASS Touchable GO BACK
+PASS Touchable 
+PASS Touchable 
+PASS Touchable BACK
+PASS Safe area CONTINUE JOURNEY
+PASS Safe area NEW JOURNEY
+PASS Safe area SETTINGS
+PASS Safe area QUIT GAME
+PASS New Journey awaits confirmation
+PASS Cancel keeps existing adventure untouched
+PASS Fresh start unarmed
+PASS New journey replaces active progress
+PASS Existing progress preserved in readable backup
+PASS Unreadable saves preserved

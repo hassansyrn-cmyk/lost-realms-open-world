@@ -1,0 +1,4 @@
+block: procedural action change degrees=3.029565, metres=0.2151386; FAIL
+attack: procedural action change degrees=5.848182, metres=0.2162121; FAIL
+attack_2: procedural action change degrees=6.269006, metres=0.2170568; FAIL
+SKIP unavailable action heavy

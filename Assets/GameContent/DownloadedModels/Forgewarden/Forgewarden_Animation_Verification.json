@@ -1,0 +1,129 @@
+{
+  "files": [
+    {
+      "file": "Forgewarden_Idle.fbx",
+      "bytes": 15504172,
+      "armatures": 1,
+      "meshes": 1,
+      "actions": [
+        {
+          "name": "Forgewarden_Rig|Scene",
+          "legacy_curves": null,
+          "layers": 1,
+          "slots": 1
+        }
+      ],
+      "channel_curves": 669,
+      "sampled_frame": 16,
+      "nonzero_rotation_bones": 6,
+      "moving_bone_examples": [
+        "mixamorig:Spine2",
+        "mixamorig:Neck",
+        "mixamorig:LeftArm",
+        "mixamorig:LeftForeArm",
+        "mixamorig:RightArm",
+        "mixamorig:RightForeArm"
+      ],
+      "bones": 66,
+      "vertices": 50267,
+      "triangles": 100914
+    },
+    {
+      "file": "Forgewarden_Hammering.fbx",
+      "bytes": 15528460,
+      "armatures": 1,
+      "meshes": 1,
+      "actions": [
+        {
+          "name": "Forgewarden_Rig|Scene",
+          "legacy_curves": null,
+          "layers": 1,
+          "slots": 1
+        }
+      ],
+      "channel_curves": 669,
+      "sampled_frame": 23,
+      "nonzero_rotation_bones": 6,
+      "moving_bone_examples": [
+        "mixamorig:Spine2",
+        "mixamorig:Neck",
+        "mixamorig:LeftArm",
+        "mixamorig:LeftForeArm",
+        "mixamorig:RightArm",
+        "mixamorig:RightForeArm"
+      ],
+      "bones": 66,
+      "vertices": 50267,
+      "triangles": 100914
+    },
+    {
+      "file": "Forgewarden_Walk.fbx",
+      "bytes": 15504172,
+      "armatures": 1,
+      "meshes": 1,
+      "actions": [
+        {
+          "name": "Forgewarden_Rig|Scene",
+          "legacy_curves": null,
+          "layers": 1,
+          "slots": 1
+        }
+      ],
+      "channel_curves": 669,
+      "sampled_frame": 16,
+      "nonzero_rotation_bones": 12,
+      "moving_bone_examples": [
+        "mixamorig:Spine2",
+        "mixamorig:Neck",
+        "mixamorig:LeftArm",
+        "mixamorig:LeftForeArm",
+        "mixamorig:RightArm",
+        "mixamorig:RightForeArm",
+        "mixamorig:LeftUpLeg",
+        "mixamorig:LeftLeg",
+        "mixamorig:LeftFoot",
+        "mixamorig:RightUpLeg",
+        "mixamorig:RightLeg",
+        "mixamorig:RightFoot"
+      ],
+      "bones": 66,
+      "vertices": 50267,
+      "triangles": 100914
+    },
+    {
+      "file": "Forgewarden_Talking.fbx",
+      "bytes": 15552796,
+      "armatures": 1,
+      "meshes": 1,
+      "actions": [
+        {
+          "name": "Forgewarden_Rig|Scene",
+          "legacy_curves": null,
+          "layers": 1,
+          "slots": 1
+        }
+      ],
+      "channel_curves": 669,
+      "sampled_frame": 25,
+      "nonzero_rotation_bones": 14,
+      "moving_bone_examples": [
+        "mixamorig:Spine2",
+        "mixamorig:Neck",
+        "mixamorig:LeftShoulder",
+        "mixamorig:LeftArm",
+        "mixamorig:LeftForeArm",
+        "mixamorig:RightShoulder",
+        "mixamorig:RightArm",
+        "mixamorig:RightForeArm",
+        "mixamorig:LeftUpLeg",
+        "mixamorig:LeftLeg",
+        "mixamorig:LeftFoot",
+        "mixamorig:RightUpLeg"
+      ],
+      "bones": 66,
+      "vertices": 50267,
+      "triangles": 100914
+    }
+  ],
+  "stage": "verified"
+}

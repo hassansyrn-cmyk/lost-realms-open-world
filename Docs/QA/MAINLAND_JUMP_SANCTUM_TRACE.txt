@@ -1,0 +1,130 @@
+=== SANCTUM TO TERRAIN WALK & JUMP TRACE ===
+Timestamp: 2026-10-31 04:21:41
+
+--- STEP 0: SPAWN AT SANCTUM GATE ---
+Hero Pos: (-60.0000, 6.8388, -45.2957), Terrain.y: 6.5829
+CC.isGrounded: True, ProbeGround: True, Hero.Grounded: True, Vel: (0.0000, -3.4758, 0.0000)
+Walk frame 01: pos=(-60.000, 6.839, -45.296), Terrain.y=6.583, diff=0.256, CC=True, Probe=True, Grounded=True, vel.y=-3.59, Stamina=100.0
+Walk frame 02: pos=(-60.000, 6.746, -45.400), Terrain.y=6.583, diff=0.163, CC=True, Probe=True, Grounded=True, vel.y=-3.34, Stamina=100.0
+Walk frame 03: pos=(-60.000, 6.668, -45.475), Terrain.y=6.583, diff=0.085, CC=False, Probe=True, Grounded=True, vel.y=-2.65, Stamina=100.0
+Walk frame 04: pos=(-60.000, 6.623, -45.563), Terrain.y=6.583, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.59, Stamina=100.0
+Walk frame 05: pos=(-60.000, 6.623, -45.778), Terrain.y=6.583, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-3.03, Stamina=100.0
+Walk frame 06: pos=(-60.000, 6.623, -46.003), Terrain.y=6.583, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.87, Stamina=100.0
+Walk frame 07: pos=(-60.000, 6.623, -46.147), Terrain.y=6.583, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.52, Stamina=100.0
+Walk frame 08: pos=(-60.000, 6.623, -46.412), Terrain.y=6.583, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.96, Stamina=100.0
+Walk frame 09: pos=(-60.000, 6.623, -46.560), Terrain.y=6.583, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.54, Stamina=100.0
+Walk frame 10: pos=(-60.000, 6.623, -46.715), Terrain.y=6.583, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.56, Stamina=100.0
+Walk frame 11: pos=(-60.000, 6.623, -46.882), Terrain.y=6.583, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.61, Stamina=100.0
+Walk frame 12: pos=(-60.000, 6.622, -47.030), Terrain.y=6.583, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.54, Stamina=100.0
+Walk frame 13: pos=(-60.000, 6.621, -47.181), Terrain.y=6.581, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.55, Stamina=100.0
+Walk frame 14: pos=(-60.000, 6.617, -47.553), Terrain.y=6.577, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-3.35, Stamina=100.0
+Walk frame 15: pos=(-60.000, 6.616, -47.709), Terrain.y=6.576, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.57, Stamina=100.0
+Walk frame 16: pos=(-60.000, 6.614, -47.842), Terrain.y=6.574, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.48, Stamina=100.0
+Walk frame 17: pos=(-60.000, 6.613, -48.014), Terrain.y=6.573, diff=0.040, CC=True, Probe=True, Grounded=True, vel.y=-2.63, Stamina=100.0
+Walk frame 18: pos=(-60.000, 11.969, -48.161), Terrain.y=6.573, diff=5.396, CC=True, Probe=True, Grounded=True, vel.y=-2.00, Stamina=100.0
+Walk frame 19: pos=(-60.000, 11.940, -48.447), Terrain.y=6.573, diff=5.368, CC=True, Probe=True, Grounded=True, vel.y=-3.04, Stamina=100.0
+Walk frame 20: pos=(-60.000, 11.869, -49.268), Terrain.y=6.570, diff=5.299, CC=True, Probe=True, Grounded=True, vel.y=-6.02, Stamina=100.0
+Walk frame 21: pos=(-59.999, 11.868, -49.268), Terrain.y=6.570, diff=5.298, CC=True, Probe=True, Grounded=True, vel.y=-2.74, Stamina=100.0
+Walk frame 22: pos=(-59.997, 11.868, -49.268), Terrain.y=6.570, diff=5.298, CC=True, Probe=True, Grounded=True, vel.y=-2.75, Stamina=100.0
+Walk frame 23: pos=(-59.996, 12.051, -49.339), Terrain.y=6.569, diff=5.482, CC=True, Probe=True, Grounded=True, vel.y=-2.58, Stamina=100.0
+Walk frame 24: pos=(-59.996, 12.180, -49.426), Terrain.y=6.568, diff=5.612, CC=True, Probe=True, Grounded=True, vel.y=-2.56, Stamina=100.0
+Walk frame 25: pos=(-59.996, 12.275, -49.529), Terrain.y=6.567, diff=5.708, CC=True, Probe=True, Grounded=True, vel.y=-2.55, Stamina=100.0
+Walk frame 26: pos=(-59.996, 12.341, -49.647), Terrain.y=6.566, diff=5.775, CC=True, Probe=True, Grounded=True, vel.y=-2.54, Stamina=100.0
+Walk frame 27: pos=(-59.995, 12.362, -49.775), Terrain.y=6.565, diff=5.797, CC=True, Probe=True, Grounded=True, vel.y=-2.52, Stamina=100.0
+Walk frame 28: pos=(-59.965, 12.310, -49.962), Terrain.y=6.563, diff=5.747, CC=True, Probe=True, Grounded=True, vel.y=-2.48, Stamina=100.0
+Walk frame 29: pos=(-59.966, 12.234, -50.136), Terrain.y=6.563, diff=5.671, CC=False, Probe=False, Grounded=True, vel.y=-2.63, Stamina=100.0
+Walk frame 30: pos=(-59.968, 11.645, -50.828), Terrain.y=6.563, diff=5.082, CC=False, Probe=False, Grounded=False, vel.y=-5.15, Stamina=100.0
+
+--- STEP 2: STATIONARY ON PURE TERRAIN (STAMINA TEST) ---
+Pos: (-59.9706, 7.8750, -51.8392), Terrain.y: 6.5624, diff=1.3126
+Stationary frame 01: pos.y=7.5336, Terrain.y=6.5624, CC=False, Probe=False, Grounded=False, vel.y=-12.63, Stamina=50.00
+Stationary frame 02: pos.y=7.2015, Terrain.y=6.5624, CC=False, Probe=False, Grounded=False, vel.y=-13.19, Stamina=50.00
+Stationary frame 03: pos.y=6.9628, Terrain.y=6.5624, CC=False, Probe=True, Grounded=False, vel.y=-13.57, Stamina=50.00
+Stationary frame 04: pos.y=6.9115, Terrain.y=6.5624, CC=False, Probe=True, Grounded=True, vel.y=-2.46, Stamina=50.67
+Stationary frame 05: pos.y=6.8295, Terrain.y=6.5624, CC=False, Probe=True, Grounded=True, vel.y=-2.67, Stamina=51.65
+Stationary frame 06: pos.y=6.7675, Terrain.y=6.5624, CC=False, Probe=True, Grounded=True, vel.y=-2.54, Stamina=52.43
+Stationary frame 07: pos.y=6.7174, Terrain.y=6.5624, CC=False, Probe=True, Grounded=True, vel.y=-2.45, Stamina=53.09
+Stationary frame 08: pos.y=6.6675, Terrain.y=6.5624, CC=False, Probe=True, Grounded=True, vel.y=-2.45, Stamina=53.74
+Stationary frame 09: pos.y=6.6192, Terrain.y=6.5624, CC=False, Probe=True, Grounded=True, vel.y=-2.44, Stamina=54.37
+Stationary frame 10: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.47, Stamina=55.06
+Stationary frame 11: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.53, Stamina=55.83
+Stationary frame 12: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.51, Stamina=56.58
+Stationary frame 13: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.61, Stamina=57.47
+Stationary frame 14: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.48, Stamina=58.17
+Stationary frame 15: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.56, Stamina=58.99
+Stationary frame 16: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.48, Stamina=59.68
+Stationary frame 17: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.51, Stamina=60.43
+Stationary frame 18: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.44, Stamina=61.06
+Stationary frame 19: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.54, Stamina=61.85
+Stationary frame 20: pos.y=6.6016, Terrain.y=6.5624, CC=True, Probe=True, Grounded=True, vel.y=-2.53, Stamina=62.61
+
+--- STEP 4: PRESS JUMP ON PURE TERRAIN ---
+Jump frame 01: pos.y=6.7923, vel.y=7.87, CC=False, Probe=True, Grounded=False, Gliding=False
+Jump frame 02: pos.y=6.9836, vel.y=7.29, CC=False, Probe=True, Grounded=False, Gliding=False
+Jump frame 03: pos.y=7.1263, vel.y=6.83, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 04: pos.y=7.2664, vel.y=6.34, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 05: pos.y=7.4011, vel.y=5.84, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 06: pos.y=7.5167, vel.y=5.36, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 07: pos.y=7.6454, vel.y=4.77, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 08: pos.y=7.7363, vel.y=4.30, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 09: pos.y=7.8155, vel.y=3.85, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 10: pos.y=7.8953, vel.y=3.32, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 11: pos.y=7.9653, vel.y=2.76, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 12: pos.y=8.0159, vel.y=2.28, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 13: pos.y=8.0544, vel.y=1.81, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 14: pos.y=8.0915, vel.y=0.91, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 15: pos.y=8.1008, vel.y=0.41, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 16: pos.y=8.1008, vel.y=0.00, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 17: pos.y=8.0914, vel.y=-0.45, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 18: pos.y=8.0741, vel.y=-0.88, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 19: pos.y=8.0448, vel.y=-1.36, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 20: pos.y=8.0081, vel.y=-1.81, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 21: pos.y=7.9541, vel.y=-2.32, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 22: pos.y=7.8873, vel.y=-2.84, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 23: pos.y=7.8223, vel.y=-3.27, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 24: pos.y=7.7271, vel.y=-3.82, CC=False, Probe=False, Grounded=False, Gliding=False
+Jump frame 25: pos.y=7.6332, vel.y=-4.30, CC=False, Probe=False, Grounded=False, Gliding=False
+
+--- STEP 6: KINGS ROAD / VERDANT HUNTING ROUTE (-100, 0) ---
+Road Stationary frame 01: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.61, Stamina=50.89
+Road Stationary frame 02: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.58, Stamina=51.72
+Road Stationary frame 03: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.62, Stamina=52.63
+Road Stationary frame 04: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.54, Stamina=53.42
+Road Stationary frame 05: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.44, Stamina=54.06
+Road Stationary frame 06: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.49, Stamina=54.77
+Road Stationary frame 07: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.46, Stamina=55.44
+Road Stationary frame 08: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.47, Stamina=56.13
+Road Stationary frame 09: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-9.33, Stamina=66.80
+Road Stationary frame 10: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.53, Stamina=67.56
+Road Stationary frame 11: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.46, Stamina=68.23
+Road Stationary frame 12: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.42, Stamina=68.84
+Road Stationary frame 13: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.44, Stamina=69.48
+Road Stationary frame 14: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.46, Stamina=70.15
+Road Stationary frame 15: pos.y=6.1568, Terrain.y=6.1168, CC=True, Probe=True, Grounded=True, vel.y=-2.47, Stamina=70.84
+
+--- STEP 9: PRESS JUMP ON ROAD ---
+Road Jump frame 01: pos.y=6.4310, vel.y=7.61, CC=False, Probe=True, Grounded=False, Gliding=False
+Road Jump frame 02: pos.y=6.5796, vel.y=7.15, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 03: pos.y=6.7331, vel.y=6.64, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 04: pos.y=6.8643, vel.y=6.17, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 05: pos.y=6.9914, vel.y=5.68, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 06: pos.y=7.1070, vel.y=5.19, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 07: pos.y=7.2049, vel.y=4.74, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 08: pos.y=7.4092, vel.y=3.43, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 09: pos.y=7.5158, vel.y=2.48, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 10: pos.y=7.5598, vel.y=1.99, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 11: pos.y=7.5949, vel.y=1.47, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 12: pos.y=7.6169, vel.y=0.97, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 13: pos.y=7.6273, vel.y=0.41, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 14: pos.y=7.6256, vel.y=-0.07, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 15: pos.y=7.5873, vel.y=-0.96, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 16: pos.y=7.5564, vel.y=-1.43, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 17: pos.y=7.5162, vel.y=-1.90, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 18: pos.y=7.4504, vel.y=-2.48, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 19: pos.y=7.3595, vel.y=-3.12, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 20: pos.y=7.2458, vel.y=-3.78, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 21: pos.y=7.1558, vel.y=-4.25, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 22: pos.y=7.0322, vel.y=-4.81, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 23: pos.y=6.9164, vel.y=-5.29, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 24: pos.y=6.7953, vel.y=-5.76, CC=False, Probe=False, Grounded=False, Gliding=False
+Road Jump frame 25: pos.y=6.6502, vel.y=-6.27, CC=False, Probe=False, Grounded=False, Gliding=False

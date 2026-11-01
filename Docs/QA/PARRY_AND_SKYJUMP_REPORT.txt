@@ -1,0 +1,43 @@
+=========================================================
+   PARRY LEG POSTURE & SKY JUMP VALIDATION REPORT        
+=========================================================
+Timestamp: 2026-10-31 21:27:27
+
+--- TEST 1: IDLE BONE POSTURE AT GROUND ---
+[Idle Ground] State: idle, InLoco: True, Grounded: True
+  Hips Y rel: 1.017m (world=7.265)
+  Left Foot: dist-to-hip=0.807m, rel-Y=0.224m (world=6.472)
+  Right Foot: dist-to-hip=0.813m, rel-Y=0.224m (world=6.472)
+  Posture: Natural extension (L_dist=0.807, R_dist=0.813)
+
+--- TEST 2: TRIGGER PARRY (BLOCK) ---
+[Mid-Parry (0.15s)] State: block, InLoco: False, Grounded: True
+  Hips Y rel: 1.025m (world=7.273)
+  Left Foot: dist-to-hip=0.748m, rel-Y=0.329m (world=6.577)
+  Right Foot: dist-to-hip=0.787m, rel-Y=0.330m (world=6.578)
+  Posture: Natural extension (L_dist=0.748, R_dist=0.787)
+[Post-Parry Recovery (0.55s)] State: idle, InLoco: True, Grounded: True
+  Hips Y rel: 1.016m (world=7.264)
+  Left Foot: dist-to-hip=0.805m, rel-Y=0.224m (world=6.472)
+  Right Foot: dist-to-hip=0.815m, rel-Y=0.224m (world=6.472)
+  Posture: Natural extension (L_dist=0.805, R_dist=0.815)
+
+--- TEST 3: HIGH ALTITUDE JUMP & FALL GRAVITY ---
+Mid-Air Pos: (0.00, 36.01, 0.00) (Terrain ~6.21)
+SampleGroundHeight: 6.21 (Expected terrain ~6.21, NOT pos.y)
+Hero Grounded in Mid-Air: False (Expected FALSE)
+Hero Vy initial: -2.74 m/s
+PASS: SampleGroundHeight correctly returns terrain elevation under open air.
+PASS: Hero correctly reports Grounded=FALSE in mid-air.
+After 0.45s fall: Pos.y=31.89 (fell 4.31m), Vy=-13.51 m/s
+PASS: Natural gravity accelerating downward (Vy=-13.51 m/s < -7 m/s, fell 4.31m; NOT floating at -2 m/s).
+
+--- TEST 4: MID-AIR JUMP & PREVENT INFINITE SKY CLIMB ---
+After first air jump: doubleJumpAvailable=False (Expected FALSE - consumed)
+Second air jump attempt: Grounded=False, Vy=0.75 m/s
+PASS: Infinite jump prevented. Grounded stays FALSE and jump cannot be spammed into sky.
+
+=========================================================
+   VALIDATION RUN FINISHED: ALL TESTS PASS               
+=========================================================
+

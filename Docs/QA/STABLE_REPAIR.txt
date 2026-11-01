@@ -1,0 +1,11 @@
+PASS Shop closed on approach
+PASS Labeled stablekeeper spawned
+PASS Three breed models displayed
+PASS Speaking opens stable list
+PASS Close dismisses list
+PASS Purchase prepared horse
+PASS Owned horse has all native gait clips
+PASS Walk actually moves skeleton
+PASS Owned horse mounts
+PASS Mounted horse moves under held stick input
+PASS Mounted horse skeleton animates

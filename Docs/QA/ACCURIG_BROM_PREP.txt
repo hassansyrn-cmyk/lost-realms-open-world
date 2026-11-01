@@ -1,0 +1,3 @@
+Idle: relaxed walk-stop final pose; Walk: native loop; Talk: native loop
+Skin triangles: 100914
+Prepared bounds: Center: (0.00, 0.96, 0.00), Extents: (0.61, 0.96, 0.37)

@@ -21,12 +21,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - ImportedContent
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 34dd16a17829b8144b865f7b314a355d
-    m_Address: ow.imported.expansion_rhino_ironhide
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - ImportedContent
-    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
   m_SchemaSet:

@@ -1,0 +1,9 @@
+22:01:37 built OK: cluster live, campfire registered once, 0 duplicates
+22:01:41 RawMeat seeded to 2 for the cooking check
+22:01:42 cook OK: RawMeat 2 -> 1 at the rest campfire (1 consumed)
+22:01:56 leave OK: cluster torn down, campfire unregistered
+22:02:06 rebuild OK: cluster rebuilt after leave/return, exactly one campfire, no duplicates
+22:13:18 built OK: cluster live, campfire registered once, 0 duplicates
+22:13:19 note OK: recorded in the journal and flagged glm-rest:note
+22:13:19 RawMeat seeded to 2 for the cooking check
+22:13:20 cook OK: RawMeat 2 -> 1 at the rest campfire (1 consumed)

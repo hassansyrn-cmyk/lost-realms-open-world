@@ -19,6 +19,8 @@ namespace LostRealmsOW {
   float gestureTimer;
   TextMesh nameplate;
   OpenWorldNpcRoutine routine;
+  GameObject bromTexturedModel;
+  Material bromMaterial;
 
   public static OpenWorldNPC Spawn(
    string id, string name, string roleTitle, string dialogue,
@@ -41,9 +43,22 @@ namespace LostRealmsOW {
    npc.patrols = Vector3.Distance(posA, posB) > 1.5f;
 
    npc.Visual = OpenWorldCharacterVisual.Attach(go.transform, "Aster", skinIndex);
+   if (id == "brom") { var smith = Resources.Load<GameObject>("World/NPCs/Brom_AccuRig"); if (smith) npc.Visual.AdoptImportedModel(smith, 1.92f); }
    if (npc.Visual && npc.Visual.RightHandBone && weaponId >= 0) {
     OpenWorldWeaponCatalog.AttachToHand(npc.Visual.RightHandBone, weaponId, out _);
    }
+   if (id == "brom" && npc.Visual && npc.Visual.ModelInstance && npc.Visual.ModelInstance.name != "Brom_AccuRig") {
+    foreach (var r in npc.Visual.ModelInstance.GetComponentsInChildren<Renderer>(true)) {
+     if (r is SkinnedMeshRenderer smr && smr.sharedMaterial) {
+      var smrMat = new Material(smr.sharedMaterial);
+      smrMat.name = "MasterSmithBrom_Material";
+      if (smrMat.HasProperty("_BaseColor")) smrMat.SetColor("_BaseColor", new Color(0.86f, 0.74f, 0.64f));
+      if (smrMat.HasProperty("_Color")) smrMat.SetColor("_Color", new Color(0.86f, 0.74f, 0.64f));
+      smr.sharedMaterial = smrMat;
+     }
+    }
+   }
+   if (id == "brom") go.transform.rotation = Quaternion.LookRotation(new Vector3(-posA.x, 0, -posA.z));
    npc.Visual?.Play("idle");
    npc.BuildNameplate();
    npc.routine = OpenWorldNpcRoutine.Attach(npc, posA, posB);
@@ -66,6 +81,7 @@ namespace LostRealmsOW {
 
   public void Converse(OpenWorldManager gm) {
    if (!gm || !gm.Hero) return;
+   if (NpcId == "stablekeeper") { if(OpenWorldHorseProgression.Instance && OpenWorldHorseProgression.Instance.OpenShop()){gestureTimer=2.5f;Visual?.Play("talk",true);} return; }
    if (NpcId == "kael" && gm.ConverseVerdantHunt()) {
     gestureTimer = 2.5f; Visual?.Play("talk", true);
     Vector3 facing = gm.Hero.transform.position - transform.position; facing.y = 0f;
@@ -76,6 +92,26 @@ namespace LostRealmsOW {
     gestureTimer = 2.5f; Visual?.Play("talk", true);
     Vector3 questFacing = gm.Hero.transform.position - transform.position; questFacing.y = 0f;
     if (questFacing.sqrMagnitude > .01f) transform.rotation = Quaternion.LookRotation(questFacing);
+    return;
+   }
+   // Master Smith Brom opens the Royal Forge weapon purchasing shop!
+   if (NpcId == "brom" && OpenWorldWeaponShop.OpenShop(gm)) {
+    gestureTimer = 2.5f; Visual?.Play("talk", true);
+    Vector3 forgeFacing = gm.Hero.transform.position - transform.position; forgeFacing.y = 0f;
+    if (forgeFacing.sqrMagnitude > .01f) transform.rotation = Quaternion.LookRotation(forgeFacing);
+    return;
+   }
+   if ((NpcId == "brom" || NpcId == "lyra" || NpcId == "rowan") && gm.GlmVillageConverse(NpcId)) {
+    gestureTimer = 2.5f; Visual?.Play("talk", true);
+    Vector3 villageFacing = gm.Hero.transform.position - transform.position; villageFacing.y = 0f;
+    if (villageFacing.sqrMagnitude > .01f) transform.rotation = Quaternion.LookRotation(villageFacing);
+    return;
+   }
+   // Trader Fenn opens his shop modal instead of the free-heal default below.
+   if (NpcId == "glm-merchant" && gm.GlmMerchantConverse()) {
+    gestureTimer = 2.5f; Visual?.Play("talk", true);
+    Vector3 merchantFacing = gm.Hero.transform.position - transform.position; merchantFacing.y = 0f;
+    if (merchantFacing.sqrMagnitude > .01f) transform.rotation = Quaternion.LookRotation(merchantFacing);
     return;
    }
    gestureTimer = Mathf.Clamp(Visual ? Visual.GetClipLength("talk") : 2f, 1.8f, 5f);
@@ -102,6 +138,15 @@ namespace LostRealmsOW {
   }
 
   void Update() {
+   if ((NpcId == "brom" || NpcId == "rowan") && Visual && Visual.ModelInstance && Visual.ModelInstance.name != "Brom_AccuRig" && bromTexturedModel != Visual.ModelInstance) {
+    bromTexturedModel = Visual.ModelInstance;
+    if (!bromMaterial) bromMaterial = OpenWorldMaterialHelper.CreateLit("Brom textured craftsman", Color.white, Resources.Load<Texture2D>(NpcId == "rowan" ? "World/NPCs/RowanClothing" : "World/BlacksmithShop/Textures/BromClothing"));
+    foreach (var renderer in bromTexturedModel.GetComponentsInChildren<SkinnedMeshRenderer>(true)) {
+     var slots = renderer.sharedMaterials;
+     for (int i=0;i<slots.Length;i++) slots[i]=bromMaterial;
+     renderer.sharedMaterials=slots;
+    }
+   }
    var gm = OpenWorldManager.I;
    if (!gm || !gm.Hero || gm.IsModalOpen) return;
 
@@ -184,11 +229,11 @@ namespace LostRealmsOW {
 
    // 5 Grand Multi-Story Medieval Buildings around the Hub outer perimeter (clear of camera corridor)
    (string path, Vector3 pos, float height, Vector3 lookAt)[] buildings = {
-    ("Props/Village/rpgpp_lt_building_01", new Vector3(-21f, 0f, 11f), 6.4f, new Vector3(0f, 0f, 4f)),
-    ("Props/Village/rpgpp_lt_building_02", new Vector3(21f, 0f, 11f), 6.4f, new Vector3(0f, 0f, 4f)),
-    ("Props/Village/rpgpp_lt_building_03", new Vector3(-23f, 0f, -7f), 6.2f, new Vector3(0f, 0f, -2f)),
-    ("Props/Village/rpgpp_lt_building_04", new Vector3(23f, 0f, -7f), 6.2f, new Vector3(0f, 0f, -2f)),
-    ("Props/Village/rpgpp_lt_building_05", new Vector3(-16f, 0f, 22f), 6.5f, new Vector3(0f, 0f, 14f))
+    // ("Props/Village/rpgpp_lt_building_01", new Vector3(-21f, 0f, 11f), 6.4f, new Vector3(0f, 0f, 4f)), // Replaced by Royal Forge Blacksmith Workshop
+    ("Props/Village/rpgpp_lt_building_02", new Vector3(32f, 0f, 5f), 6.4f, new Vector3(0f, 0f, 4f)),
+    ("Props/Village/rpgpp_lt_building_03", new Vector3(-32f, 0f, -15f), 6.2f, new Vector3(0f, 0f, -2f)),
+    ("Props/Village/rpgpp_lt_building_04", new Vector3(40f, 0f, -19f), 6.2f, new Vector3(0f, 0f, -2f)),
+    ("Props/Village/rpgpp_lt_building_05", new Vector3(-17f, 0f, 30f), 6.5f, new Vector3(0f, 0f, 14f))
    };
    foreach (var b in buildings) {
     gm.ReserveSpot(b.pos, 6.5f);
@@ -292,7 +337,7 @@ namespace LostRealmsOW {
    gm.NPCs.Add(OpenWorldNPC.Spawn(
     "brom", "Master Smith Brom", "Royal Forgemaster",
     "Keep your blade tempered, Aster! Heavy chops break shields, and Melt reactions shatter armor.",
-    3, 6, new Vector3(-16.5f, 0f, 8.2f), new Vector3(-16.5f, 0f, 8.2f), parent));
+    0, -1, new Vector3(-12.7f, 0f, 8.6f), new Vector3(-12.7f, 0f, 8.6f), parent));
 
    // 2. Elder Lorekeeper Lyra (Capital Study)
    gm.NPCs.Add(OpenWorldNPC.Spawn(

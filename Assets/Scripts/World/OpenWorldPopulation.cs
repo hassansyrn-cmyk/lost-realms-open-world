@@ -168,6 +168,10 @@ namespace LostRealmsOW {
    var penguin = Add(PenguinSrc, Kind.Wildlife, "", "Penguin", 0.8f, OWBiome.Frozen, 4, 3, 6, 60f);
    Wary(penguin, 0.55f, 1.6f, 3f, 6f); if (penguin != null) { penguin.nearWater = true; penguin.spacing = 30f; penguin.homeRadius = 6f; penguin.range = 20f; }
    Flock(Add(Birds + "lb_chickadee.prefab", Kind.Bird, "", "Chickadee", 0.2f, OWBiome.Frozen, 6, 2, 4, 0f));
+   // A ranged caster in the Frozen Peaks — the Orc Wizard model adapted to the cold, casting from range.
+   Add("Assets/Orcs Pack/Prefabs/Orc Wizard with Wand.prefab", Kind.Enemy, "Elite", "Frostpine Frostcaller", 2f, OWBiome.Frozen, 2, 1, 1, 100f, 9999f, 1.3f, 1.3f);
+   // Region elite (WANTED at the hub): the elder caster — purple ARCANE ERUPTION telegraph (Elite role, no beast flag).
+   Add("Assets/Orcs Pack/Prefabs/Orc Wizard with Wand.prefab", Kind.Enemy, "Elite", "Rimeclaw Matriarch", 2.6f, OWBiome.Frozen, 1, 1, 1, 120f, 9999f, 3.5f, 1.4f);
    // Burning Dunes
    Add("Assets/fantasySpider/spider_myOldOne.FBX", Kind.Enemy, "Goblin", "Dune Stalker", 1.1f, OWBiome.Dunes, 6, 1, 3, 60f, 9999f, 1.5f, 1.25f);
    // A horned brute on two legs (the Creature_Rhinoceros pack), not a rhino on four: a desert monster.
@@ -175,13 +179,24 @@ namespace LostRealmsOW {
    Predator(ravager, 9f, 16f, 6f, "GORING CHARGE", 0);
    var tiger = Add(TigerSrc, Kind.Enemy, "Elite", "Sand Tiger", 1.15f, OWBiome.Dunes, 3, 1, 1, 90f, 9999f, 1.1f, 1.4f);
    Predator(tiger, 10f, 14f, 6.8f, "POUNCE", 2);
+   // A heavy brute roaming the dune edges — the bear model adapted to the desert heat.
+   Add(BearSrc, Kind.Enemy, "StoneBrute", "Dune Bear", 1.75f, OWBiome.Dunes, 3, 1, 1, 100f, 9999f, 2.5f, 1.7f);
+   // Region elite (WANTED at the hub): a bull-sized ravager — HORN RUSH lunge telegraph.
+   var sunscar = Add(RhinoSrc, Kind.Enemy, "StoneBrute", "Sunscar Ravager", 3.6f, OWBiome.Dunes, 1, 1, 1, 120f, 9999f, 4f, 1.6f);
+   Predator(sunscar, 10f, 16f, 6.2f, "GORING CHARGE", 3);
    // Hollow Marches
    Add("Assets/Skeleton/Prefabs/Skeleton.prefab", Kind.Enemy, "Goblin", "Hollow Revenant", 1.8f, OWBiome.Graveyard, 7, 2, 3, 26f, 9999f, 1.7f, 1.35f);
+   // Region elite (WANTED at the hub): the graveyard's weaver — VENOM POUNCE telegraph.
+   var marshqueen = Add("Assets/fantasySpider/spider_myOldOne.FBX", Kind.Enemy, "Goblin", "Marsh Spider Queen", 2.6f, OWBiome.Graveyard, 1, 1, 1, 130f, 9999f, 3.5f, 1.5f);
+   Predator(marshqueen, 11f, 17f, 6.4f, "POUNCE", 2);
    Flock(Add(Birds + "lb_crow.prefab", Kind.Bird, "", "Crow", 0.38f, OWBiome.Graveyard, 8, 3, 5, 0f));
    // Stormveil Cliffs
    Add("Assets/fantasySpider/spider_myOldOne.FBX", Kind.Enemy, "Goblin", "Stormweb Spider", 1.25f, OWBiome.Storm, 4, 1, 2, 40f, 9999f, 1.9f, 1.45f);
    var thunder = Add(WolfSrc, Kind.Enemy, "Goblin", "Thunder Wolf", 1.2f, OWBiome.Storm, 3, 2, 3, 40f, 9999f, 1.9f, 1.45f);
    Predator(thunder, 12f, 18f, 6.6f, "SAVAGE LUNGE", 1);
+   // Region elite (WANTED at the hub): the pack's alpha — FANG LEAP telegraph.
+   var stormmane = Add(WolfSrc, Kind.Enemy, "Goblin", "Stormmane Alpha", 2.1f, OWBiome.Storm, 1, 1, 1, 120f, 9999f, 3f, 1.5f);
+   Predator(stormmane, 12f, 18f, 6.8f, "SAVAGE LUNGE", 2);
    var ironhide = Add(IronhideSrc, Kind.Enemy, "StoneBrute", "Ironhide Rhino", 1.9f, OWBiome.Storm, 3, 1, 2, 70f, 9999f, 3f, 1.9f);
    Predator(ironhide, 8f, 15f, 6f, "GORING CHARGE", 3);
    // Expansion packs enter only if the preparation gate accepted their rigs and clips.
@@ -400,6 +415,7 @@ namespace LostRealmsOW {
    Debug.LogWarning("[Population] load failed; retrying later: " + sp.source);return false;
   }
   void Spawn(Group g, OpenWorldManager gm) {
+   if (GlmEliteHunts.IsSlain(gm, g.species.display)) { g.spawning = false; g.active = false; g.clearedUntil = float.PositiveInfinity; return; }
    if (!Ensure(g.species)) return;
    long spawnStamp = OpenWorldStreamingDiagnostics.Start();
    if (!g.spawning) { g.active = true; g.generation++; g.spawnCursor = 0; g.spawning = true; }
@@ -564,6 +580,13 @@ namespace LostRealmsOW {
     foreach (var h in p.groups) if (h.species == g.species) { planned++; if (h.active) active++; live += h.live.Count; }
     string status = g.species.direct ? "baked " + g.species.direct.name : !g.species.requested ? "idle" : !g.species.handle.IsValid() ? "invalid" : !g.species.handle.IsDone ? "loading" : g.species.handle.Status.ToString();
     sb.AppendLine($"  {g.species.display} [{g.species.kind}{(g.species.territorial ? ", territorial" : "")}] {g.species.biome} groups {planned}/{g.species.groups}, active {active}, live {live}, asset {status}");
+   }
+   // Elite hunt diagnostics (GLM): group centers for the four region elites — their groups activate
+   // when the hero comes within 95 m of the center.
+   string[] eliteNames = { "Rimeclaw Matriarch", "Sunscar Ravager", "Marsh Spider Queen", "Stormmane Alpha" };
+   foreach (var g in p.groups) {
+    if (System.Array.IndexOf(eliteNames, g.species.display) < 0) continue;
+    sb.AppendLine($"  elite {g.species.display} group center {g.center.ToString("0.0")} active {g.active} live {g.live.Count}");
    }
    // "live" / "all" list every live actor; "live <name>" only the species whose name contains it.
    string only = arg != null && arg.StartsWith("live ") ? arg.Substring(5).Trim() : "";

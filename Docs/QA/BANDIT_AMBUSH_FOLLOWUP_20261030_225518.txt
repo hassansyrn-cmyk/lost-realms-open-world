@@ -1,0 +1,62 @@
+Bandit Ambush Follow-up Validation 10/30/2026 10:55:18 PM
+
+PASS: ActiveTerrain is present
+--- 1. Testing Location & Clear Roadside Placement ---
+Road distance at anchor: 3.50m
+PASS: Ambush anchor is roadside (3.50m from road center)
+PASS: Location is safely away from Oakvale village (84.6m)
+PASS: Location is distinct from Caravan Post (23.2m)
+PASS: Location is distinct from Thornhide quarry (80.4m)
+PASS: Location is distinct from Briarfoot camp (42.3m)
+--- 2. Testing Road Traversal & Prop Clearance ---
+PASS: Hero traversed road unblocked past ambush (reached x=116.0)
+PASS: OpenWorldBanditAmbush instance acquired
+PASS: Bandit encounter built upon approach
+PASS: Both humanoid bandits spawned
+--- 3. Testing Props, Terrain Grounding & Environmental Story ---
+PASS: Reward cache spawned in cluster
+PASS: Reward cache has active collision
+PASS: Cache sits properly on terrain
+PASS: Trade manifest note spawned in cluster
+PASS: Manifest note sits properly on terrain
+--- 4. Testing Trade Manifest Interaction ---
+PASS: Hero is near trade manifest note
+PASS: InteractionPrompt is 'INSPECT MANIFEST' (got 'INSPECT MANIFEST')
+PASS: Manifest marked as read
+PASS: ManifestWorldId saved in CollectedWorldIds
+PASS: Reading note does NOT award gold/currency (story only)
+PASS: InteractionPrompt updated to 'READ MANIFEST' (got 'READ MANIFEST')
+--- 5. Testing Cache Locked State with Mobile Interaction ---
+PASS: Hero is within interaction range of cache
+PASS: CacheUnlocked is false while bandits live
+PASS: InteractionPrompt is 'LOCKED CACHE' (got 'LOCKED CACHE')
+PASS: No gold awarded while cache is locked
+PASS: CacheWorldId not marked while locked
+PASS: ClearedWorldId not marked while bandits live
+--- 6. Testing Combat & Immediate Cleared Persistence ---
+PASS: Bandit 1 defeated
+PASS: Cache remains locked while Bandit 2 is still alive
+PASS: ClearedWorldId NOT saved with only 1 bandit defeated
+PASS: Bandit 2 defeated
+PASS: Cache is UNLOCKED after both bandits confirmed defeated
+PASS: ClearedWorldId saved IMMEDIATELY upon defeating both bandits
+PASS: CacheWorldId NOT marked yet (unlooted)
+--- 7. Testing Cleared-Unlooted Streaming (Leave without Looting -> Return) ---
+PASS: Bandits torn down when hero left the area
+PASS: Encounter remains cleared after returning
+PASS: Cache remains unlooted
+PASS: Defeated bandits did NOT respawn
+PASS: Cache remains UNLOCKED on return
+PASS: InteractionPrompt is 'OPEN CACHE' on return (got 'OPEN CACHE')
+--- 8. Testing Reward Payout via Mobile Interact & Single Payout ---
+PASS: Cache is now marked as looted
+PASS: Gold awarded correctly (+45, now 1158)
+PASS: Gems awarded correctly (+2, now 60)
+PASS: CacheWorldId saved in CollectedWorldIds
+PASS: Gold and gems unchanged on repeat attempt (exactly-once payout)
+--- 9. Testing Save & Disk Reload Simulation ---
+PASS: Save contains ClearedWorldId
+PASS: Save contains CacheWorldId
+PASS: Save contains ManifestWorldId
+
+ALL BANDIT AMBUSH FOLLOW-UP CHECKS PASSED SUCCESSFULLY!

@@ -18,6 +18,7 @@ Baked by AsterPhase1.BakeHeroMotionSet through OpenWorldMotionLab.BakeCopy: ever
 - BAKED attack_3: Assets/DoubleL/FBX Unity/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_3_InPlace.fbx [0.00..2.00s] 2.00s loop=False stride=0.00 plant=0.80 strikes=0.70 height=-0.27..0.02
 - BAKED attack_4: Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_3_InPlace.fbx [0.00..2.27s] 2.27s loop=False stride=0.25 plant=0.82 strikes=0.99 height=-0.30..0.01
 - BAKED charged: Assets/DoubleL/FBX Unity/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_2_InPlace.fbx [0.00..2.00s] 2.00s loop=False stride=0.01 plant=0.83 strikes=0.67 height=-0.27..0.00
+- BAKED block: Assets/DoubleL/FBX Unity/One Hand Up/Sheild/Hit/InPlace/1Hand_Up_Shield_Block_Hit_1_InPlace.fbx [0.00..0.80s] 0.80s loop=False stride=0.04 plant=-1.00 strikes=0.23,0.46 height=-0.01..0.00
 - BAKED chop_1: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack1.FBX [0.00..1.20s] 1.20s loop=False stride=3.92 plant=0.28 strikes=0.48 height=-0.19..0.16
 - BAKED chop_2: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack3.FBX [0.00..1.20s] 1.20s loop=False stride=0.00 plant=0.56 strikes=0.42 height=-0.17..0.10
 - BAKED chop_3: Assets/ExplosiveLLC/RPG Character Mecanim Animation Pack FREE/Animations/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX [0.00..1.20s] 1.20s loop=False stride=0.71 plant=0.14 strikes=0.43 height=-0.20..0.10

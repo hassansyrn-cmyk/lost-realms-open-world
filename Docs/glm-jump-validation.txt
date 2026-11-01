@@ -1,0 +1,2 @@
+06:54:31 after-equip: TouchJump=False, grounded=True, gliding=False, velY=-2.95, hp=5.0, pos.y=6.84
+06:54:39 after-walk: TouchJump=False, grounded=True, gliding=False, velY=-2.75, hp=5.0, pos.y=5.76

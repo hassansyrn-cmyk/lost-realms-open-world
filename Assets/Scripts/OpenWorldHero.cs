@@ -68,7 +68,8 @@ namespace LostRealmsOW {
   bool wasGrounded = true;
   float airTime, minAirVelocity;
   float airAnimHoldUntil;
-  readonly RaycastHit[] groundHits = new RaycastHit[8];
+  readonly RaycastHit[] groundHits = new RaycastHit[16];
+  readonly RaycastHit[] groundRayHits = new RaycastHit[12];
 
   // Sprint / dash
   bool sprinting, sprintHeld, dashing, airDashUsed;
@@ -140,6 +141,7 @@ namespace LostRealmsOW {
    cc.stepOffset = 0.38f;
    cc.slopeLimit = 50f;
    cc.skinWidth = 0.04f;
+   cc.minMoveDistance = 0f;
 
    var hero = go.AddComponent<OpenWorldHero>();
    hero.Controller = cc;
@@ -185,7 +187,8 @@ namespace LostRealmsOW {
   }
 
   public void EquipWeapon(int weaponId) {
-   EquippedWeaponId = Mathf.Clamp(weaponId, 0, OpenWorldWeaponCatalog.All.Length - 1);
+   if(weaponId==17)weaponId=OpenWorldWeaponCatalog.UnarmedId;
+   EquippedWeaponId = Mathf.Clamp(weaponId, OpenWorldWeaponCatalog.UnarmedId, OpenWorldWeaponCatalog.All.Length - 1);
    if (Visual && Visual.RightHandBone) {
     OpenWorldWeaponCatalog.AttachToHand(Visual.RightHandBone, EquippedWeaponId, out weaponTrail);
    }
@@ -320,11 +323,11 @@ namespace LostRealmsOW {
     return;
    }
 
-   // Paraglider: G in the air, or jump in the air once the double jump is spent.
+   // Paraglider: G in the air, or jump in the air once the double jump is spent and falling.
    if (!IsMounted && !Grounded && Input.GetKeyDown(KeyCode.G)) {
     SetGliding(!IsGliding);
    } else if (!IsMounted && jumpDown) {
-    if (!Grounded && !doubleJumpAvailable && now - lastGroundedTime > CoyoteWindow) {
+    if (airTime > 0.35f && !doubleJumpAvailable && velocity.y < -0.5f && now - lastGroundedTime > CoyoteWindow) {
      SetGliding(!IsGliding);
     } else {
      lastJumpPressedTime = now;
@@ -363,17 +366,53 @@ namespace LostRealmsOW {
   void OnApplicationFocus(bool focused) { if (!focused) ClearInput(); }
   void OnApplicationPause(bool paused) { if (paused) ClearInput(); }
 
-  // CharacterController.isGrounded flickers on slopes, steps and mesh seams (and on some devices stays
-  // false while standing still); a short sphere probe under the capsule settles it.
+  // CharacterController.isGrounded flickers on slopes, steps and mesh seams (and on Android devices
+  // stays false while standing still on TerrainCollider); this multi-tier ground probe ensures
+  // Aster is reliably grounded on mainland terrain, slopes, rocks, and floating isles.
   bool ProbeGround() {
-   float r = Controller.radius * 0.9f;
-   Vector3 origin = transform.position + Vector3.up * (r + 0.08f);
-   int n = Physics.SphereCastNonAlloc(origin, r, Vector3.down, groundHits, 0.18f, ~0, QueryTriggerInteraction.Ignore);
+   // 1. Direct Terrain height check: on mainland terrain, Terrain.SampleHeight provides the exact
+   // surface elevation without relying on PhysX raycast/spherecast queries that fail on mobile heightfields.
+   var terrain = OpenWorldManager.I ? OpenWorldManager.I.ActiveTerrain : Terrain.activeTerrain;
+   if (terrain && terrain.terrainData) {
+    Vector3 local = transform.position - terrain.transform.position;
+    Vector3 tSize = terrain.terrainData.size;
+    if (local.x >= 0f && local.z >= 0f && local.x <= tSize.x && local.z <= tSize.z) {
+     float th = terrain.SampleHeight(transform.position) + terrain.transform.position.y;
+     float diff = transform.position.y - th;
+     if (diff >= -0.15f && diff <= 0.28f) {
+      Vector3 norm = terrain.terrainData.GetInterpolatedNormal(local.x / tSize.x, local.z / tSize.z);
+      if (norm.y > 0.55f) return true;
+     }
+    }
+   }
+
+   // 2. SphereCast for rocks, wooden decks, bridges, and floating isle mesh colliders.
+   // Start sphere 0.22m above feet so it never overlaps bumps/vertices at the origin (which causes
+   // PhysX SphereCast to return 0 hits), sweeping 0.42m down to 0.20m below capsule bottom.
+   float r = Controller ? Controller.radius * 0.9f : 0.34f;
+   float footY = transform.position.y;
+   Vector3 origin = transform.position + Vector3.up * (r + 0.22f);
+   int n = Physics.SphereCastNonAlloc(origin, r, Vector3.down, groundHits, 0.42f, ~0, QueryTriggerInteraction.Ignore);
    for (int i = 0; i < n; i++) {
     var h = groundHits[i];
     if (!h.collider || h.collider == Controller || h.collider.transform.IsChildOf(transform)) continue;
-    if (h.normal.y > 0.55f) return true;
+    // Ground surface must have walkable slope AND be physically beneath feet (not an obstacle at knee/waist height)
+    if (h.normal.y > 0.55f && h.point.y >= footY - 0.25f && h.point.y <= footY + 0.12f) return true;
    }
+
+   // 3. Fallback downward Raycast from capsule center down through feet:
+   // Casts all hits to ensure the CharacterController capsule itself never blocks detection of the ground below.
+   float ccCenter = Controller ? Controller.center.y : 0.89f;
+   Vector3 rayOrigin = transform.position + Vector3.up * ccCenter;
+   int rayCount = Physics.RaycastNonAlloc(rayOrigin, Vector3.down, groundRayHits, ccCenter + 0.35f, ~0, QueryTriggerInteraction.Ignore);
+   for (int i = 0; i < rayCount; i++) {
+    var h = groundRayHits[i];
+    if (!h.collider || h.collider == Controller || h.collider.transform.IsChildOf(transform)) continue;
+    // Ground surface must be beneath feet (not a wall or ledge passed during a fall)
+    if (h.normal.y > 0.55f && h.point.y >= footY - 0.25f && h.point.y <= footY + 0.12f) return true;
+   }
+
+
    return false;
   }
 
@@ -392,7 +431,7 @@ namespace LostRealmsOW {
 
   void StepLocomotion(Vector2 move) {
    if (traverse != Traverse.None) { StepTraversal(move); return; }
-   float dt = Time.deltaTime;
+   float dt = Mathf.Min(Time.deltaTime, 0.05f);
    float now = Time.time;
    // Rising fast means airborne, whatever the controller's last contact says (a launch into the glider
    // from the ground would otherwise read as grounded for one frame and fold the canopy).
@@ -413,7 +452,9 @@ namespace LostRealmsOW {
 
    // Jump with Coyote Time & Jump Buffer
    if (now - lastJumpPressedTime <= JumpBufferWindow && !dashing && !(now < actionUntil && !actionMovable && now < cancelAt)) {
-    if (now - lastGroundedTime <= CoyoteWindow) {
+    // Grounded now takes priority over the stale lastGroundedTime: a Grounded flicker on the phone's
+    // terrain used to push the hero into the double-jump or glider path instead of the ground jump.
+    if (Grounded || now - lastGroundedTime <= CoyoteWindow) {
      SetGliding(false);
      EndAction(); CancelPendingStrikes();
      velocity.y = JumpVelocity;
@@ -563,13 +604,17 @@ namespace LostRealmsOW {
     OpenWorldManager.I?.ShowBanner("The dense mist of the outer realm turns you back.");
    }
 
-   // Keep Aster above the terrain floor even on steep transitions
-   float groundY = OpenWorldMaterialHelper.SampleGroundHeight(transform.position, transform);
-   if (transform.position.y < groundY - 0.05f) {
-    transform.position = new Vector3(transform.position.x, groundY + 0.04f, transform.position.z);
-    if (velocity.y < 0f) velocity.y = 0f;
-    SetGliding(false);
-    Grounded = true; wasGrounded = true; airTime = 0f;
+   // Keep Aster above the terrain floor even on steep transitions without snapping into mid-air
+   var activeTerrain = OpenWorldManager.I ? OpenWorldManager.I.ActiveTerrain : Terrain.activeTerrain;
+   if (activeTerrain != null) {
+    float th = activeTerrain.SampleHeight(transform.position) + activeTerrain.transform.position.y;
+    if (transform.position.y < th - 0.02f) {
+     transform.position = new Vector3(transform.position.x, th, transform.position.z);
+     Physics.SyncTransforms();
+     if (velocity.y < 0f) velocity.y = -2f;
+     SetGliding(false);
+     Grounded = true; wasGrounded = true; airTime = 0f;
+    }
    }
 
    UpdateAnimation(actualSpeed, wantsMove, inAction);
@@ -1076,7 +1121,8 @@ namespace LostRealmsOW {
     if (knockdown && Grounded && BeginKnockdown(away)) return;
     EndAction(); CancelPendingStrikes(); dashing = false; sprinting = false;
     actionUntil = now + 0.32f; cancelAt = now + 0.26f; chainAt = now + 0.26f;
-    string[] hitStates = { "hit", "hit_2", "hit_3" };
+    // The old hit_2/hit_3 retargets fold both legs into the torso.
+    string[] hitStates = { "hit_4" };
     Visual?.Play(hitStates[UnityEngine.Random.Range(0, hitStates.Length)], true);
     if (attacker) Visual?.TriggerFlinch(attacker.position, 1.1f);
     // The blow shoves her back (a heavy one further) before she recovers.

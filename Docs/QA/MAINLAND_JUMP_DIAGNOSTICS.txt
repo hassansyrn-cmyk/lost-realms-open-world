@@ -1,0 +1,86 @@
+=== MAINLAND JUMP & STAMINA DIAGNOSTIC TRACE ===
+Timestamp: 2026-10-31 04:16:11
+
+--- PHASE 1: ASTER HIERARCHY & COLLIDERS ---
+Total Colliders under Aster: 1
+  Aster (CharacterController), enabled=True, isTrigger=False, layer=Default
+
+--- PHASE 2: SPAWN / HUB ENVIRONMENT ---
+Hero Pos: (-60.0000, 6.8388, -45.2957), Terrain Height: 6.5829, SampleGroundHeight: 6.5829
+CC.isGrounded: True, ProbeGround: True, Hero.Grounded: True, Vel: (0.0000, -3.2707, 0.0000)
+Hub Stationary: CC.isGrounded=True, Probe=True, Grounded=True, StaminaStart=50.0, StaminaNow=53.58
+  Hub Moving frame 1: pos=(-60.000, 6.839, -45.296), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.490, 0.000), Stamina=50.71
+  Hub Moving frame 2: pos=(-60.000, 6.847, -45.282), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.486, 0.000), Stamina=51.42
+  Hub Moving frame 3: pos=(-60.000, 6.860, -45.255), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.481, 0.000), Stamina=52.12
+  Hub Moving frame 4: pos=(-60.000, 6.886, -45.171), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.817, 0.000), Stamina=53.31
+  Hub Moving frame 5: pos=(-60.000, 6.893, -45.105), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.497, 0.000), Stamina=54.03
+  Hub Moving frame 6: pos=(-60.000, 6.893, -45.030), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.471, 0.000), Stamina=54.72
+  Hub Moving frame 7: pos=(-60.000, 6.893, -44.939), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.485, 0.000), Stamina=55.42
+  Hub Moving frame 8: pos=(-60.000, 6.893, -44.837), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.477, 0.000), Stamina=56.12
+  Hub Moving frame 9: pos=(-60.000, 6.893, -44.702), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.546, 0.000), Stamina=56.91
+  Hub Moving frame 10: pos=(-60.000, 6.893, -44.586), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.428, 0.000), Stamina=57.53
+
+--- PHASE 3: OPEN MAINLAND TERRAIN (120, 120) ---
+Open Terrain Settle: Pos=(120.0000, 2.7474, 120.2026), Terrain.y=2.7064, CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.0000, -4.3579, 0.0000)
+Open Terrain Stationary: CC.isGrounded=True, Probe=True, Grounded=True, StaminaStart=50.0, StaminaNow=54.00
+  Open Terrain Moving frame 1: pos=(120.000, 2.747, 120.203), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.364, 0.000), Stamina=50.53
+  Open Terrain Moving frame 2: pos=(120.001, 2.748, 120.209), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.323, 0.000), Stamina=51.00
+  Open Terrain Moving frame 3: pos=(120.001, 2.748, 120.209), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.323, 0.000), Stamina=51.00
+  Open Terrain Moving frame 4: pos=(120.001, 2.748, 120.209), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.323, 0.000), Stamina=51.00
+  Open Terrain Moving frame 5: pos=(120.003, 2.749, 120.225), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.401, 0.000), Stamina=51.58
+  Open Terrain Moving frame 6: pos=(120.003, 2.749, 120.225), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.401, 0.000), Stamina=51.58
+  Open Terrain Moving frame 7: pos=(120.006, 2.751, 120.250), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.384, 0.000), Stamina=52.14
+  Open Terrain Moving frame 8: pos=(120.009, 2.753, 120.279), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.353, 0.000), Stamina=52.65
+  Open Terrain Moving frame 9: pos=(120.013, 2.755, 120.313), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.326, 0.000), Stamina=53.13
+  Open Terrain Moving frame 10: pos=(120.017, 2.759, 120.367), CC.isGrounded=True, Probe=True, Grounded=True, Vel=(0.000, -2.424, 0.000), Stamina=53.75
+
+--- PHASE 4: JUMP WHILE STATIONARY ON TERRAIN ---
+Pre-jump: Pos=(120.0200, 2.7619, 120.4012), Grounded=True, CC=True, Probe=True
+  Stationary Jump frame 01: pos.y=2.8877, vel.y=8.06, Grounded=False, CC=False, Probe=True, Gliding=False
+  Stationary Jump frame 02: pos.y=3.0197, vel.y=7.68, Grounded=False, CC=False, Probe=True, Gliding=False
+  Stationary Jump frame 03: pos.y=3.0197, vel.y=7.68, Grounded=False, CC=False, Probe=True, Gliding=False
+  Stationary Jump frame 04: pos.y=3.0197, vel.y=7.68, Grounded=False, CC=False, Probe=True, Gliding=False
+  Stationary Jump frame 05: pos.y=3.0197, vel.y=7.68, Grounded=False, CC=False, Probe=True, Gliding=False
+  Stationary Jump frame 06: pos.y=3.1927, vel.y=7.15, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 07: pos.y=3.3143, vel.y=6.75, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 08: pos.y=3.4201, vel.y=6.38, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 09: pos.y=3.5098, vel.y=6.06, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 10: pos.y=3.5957, vel.y=5.73, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 11: pos.y=3.6786, vel.y=5.39, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 12: pos.y=3.6786, vel.y=5.39, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 13: pos.y=3.6786, vel.y=5.39, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 14: pos.y=3.7910, vel.y=4.88, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 15: pos.y=3.8515, vel.y=4.60, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 16: pos.y=3.9322, vel.y=4.17, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 17: pos.y=3.9900, vel.y=3.84, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 18: pos.y=4.0481, vel.y=3.47, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 19: pos.y=4.1245, vel.y=2.89, Grounded=False, CC=False, Probe=False, Gliding=False
+  Stationary Jump frame 20: pos.y=4.1778, vel.y=2.40, Grounded=False, CC=False, Probe=False, Gliding=False
+
+--- PHASE 5: JUMP WHILE RUNNING ON TERRAIN ---
+Pre-running-jump (frame 5): Pos=(120.0419, 4.0258, 120.7787), Grounded=False, CC=False, Probe=False, Vel=(0.000, -3.012, 0.000)
+  Running Jump frame 01: pos.y=4.1881, vel.y=7.23, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 02: pos.y=4.3564, vel.y=6.68, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 03: pos.y=4.5505, vel.y=5.96, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 04: pos.y=4.6204, vel.y=5.69, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 05: pos.y=4.6991, vel.y=5.37, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 06: pos.y=4.6991, vel.y=5.37, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 07: pos.y=4.6991, vel.y=5.37, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 08: pos.y=4.8106, vel.y=4.87, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 09: pos.y=4.8746, vel.y=4.56, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 10: pos.y=4.9669, vel.y=4.06, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 11: pos.y=3.8754, vel.y=-3.27, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 12: pos.y=3.6335, vel.y=-4.47, Grounded=False, CC=False, Probe=False, Gliding=False
+  Running Jump frame 13: pos.y=3.2132, vel.y=-6.01, Grounded=False, CC=False, Probe=True, Gliding=False
+  Running Jump frame 14: pos.y=3.0917, vel.y=-2.92, Grounded=True, CC=False, Probe=True, Gliding=False
+  Running Jump frame 15: pos.y=3.0485, vel.y=-2.40, Grounded=True, CC=False, Probe=True, Gliding=False
+  Running Jump frame 16: pos.y=3.0348, vel.y=-2.39, Grounded=True, CC=True, Probe=True, Gliding=False
+  Running Jump frame 17: pos.y=3.0380, vel.y=-2.38, Grounded=True, CC=True, Probe=True, Gliding=False
+  Running Jump frame 18: pos.y=3.0412, vel.y=-2.38, Grounded=True, CC=True, Probe=True, Gliding=False
+  Running Jump frame 19: pos.y=3.0444, vel.y=-2.38, Grounded=True, CC=True, Probe=True, Gliding=False
+  Running Jump frame 20: pos.y=3.0476, vel.y=-2.38, Grounded=True, CC=True, Probe=True, Gliding=False
+  Running Jump frame 21: pos.y=3.0508, vel.y=-2.39, Grounded=True, CC=True, Probe=True, Gliding=False
+  Running Jump frame 22: pos.y=3.0540, vel.y=-2.39, Grounded=True, CC=True, Probe=True, Gliding=False
+  Running Jump frame 23: pos.y=3.0766, vel.y=-3.75, Grounded=True, CC=True, Probe=True, Gliding=False
+  Running Jump frame 24: pos.y=3.1226, vel.y=-5.08, Grounded=True, CC=True, Probe=True, Gliding=False
+  Running Jump frame 25: pos.y=3.1307, vel.y=-2.48, Grounded=True, CC=True, Probe=True, Gliding=False

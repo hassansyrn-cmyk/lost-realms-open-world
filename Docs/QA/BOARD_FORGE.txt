@@ -1,0 +1,20 @@
+PASS AccuRig replaces Brom
+PASS native idle walk talk present
+PASS all smith slots textured
+PASS smith grounded min=6.29 terrain=6.20
+PASS smith height=1.85
+PASS tool side rotated toward midtown
+PASS smith outside workshop tool side
+workshop Center: (-18.50, 8.62, 9.20), Extents: (4.31, 2.42, 3.30) smith (-12.70, 6.20, 8.60)
+PASS board placed beside northern road
+PASS physical paper with fixed ink
+PASS timber roof present
+PASS parchment text fits: Heading
+PASS parchment text fits: Notices
+PASS board footprint clear of road edge 10.5
+PASS board placed beside northern road
+PASS physical paper with fixed ink
+PASS timber roof present
+PASS parchment text fits: Heading
+PASS parchment text fits: Notices
+PASS board footprint clear of road edge 7.1

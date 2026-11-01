@@ -116,6 +116,7 @@ namespace LostRealmsOW {
    var gm = OpenWorldManager.I;
    if (!gm || !gm.Hero || !prefab) return;
    if (entry.alias.StartsWith("impact_") || entry.alias.StartsWith("fx_")) return;
+   if (entry.category == "weapon" && !OpenWorldWeaponCatalog.Available(entry.weaponId)) return;
    if (entry.category == "weapon" && gm.Hero.EquippedWeaponId == entry.weaponId) gm.Hero.EquipWeapon(entry.weaponId);
    if (entry.category == "chest" && gm.CollectedWorldIds.Contains("chest:imported_" + entry.key)) return;
    if (entry.category == "weapon" && gm.CollectedWorldIds.Contains("imported-weapon:" + entry.key)) return;
@@ -134,6 +135,7 @@ namespace LostRealmsOW {
     return;
    }
    if (entry.category == "npc") {
+    if (entry.alias == "brom" && Resources.Load<GameObject>("World/NPCs/Brom_AccuRig")) return; // Preserve the user-rigged smith.
     var npc = gm.NPCs.Find(n => n && n.NpcId == entry.alias);
     if (npc) { npc.Visual.AdoptImportedModel(prefab, entry.height); return; }
    }

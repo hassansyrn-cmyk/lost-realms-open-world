@@ -1,0 +1,5 @@
+Workshop bounds: Center: (-18.50, 8.62, 9.20), Extents: (3.30, 2.42, 4.31)
+Brom: (-13.70, 6.20, 3.10)
+PT_Male_Peasant_01_head material=OW_Brom textured craftsman texture=BromClothing
+PT_Male_Peasant_01_lower material=OW_Brom textured craftsman texture=BromClothing
+PT_Male_Peasant_01_upper material=OW_Brom textured craftsman texture=BromClothing

@@ -1,0 +1,653 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Duplicate Asset Isolation
+  m_GUID: 305c39bd1822200458d325bae5e8472b
+  m_SerializeEntries:
+  - m_GUID: 022ddf8971a59444e854ec20c6a5648a
+    m_Address: Assets/GameContent/Imported/Materials/616a777eb757ff14c82a79feeb35d9b1_2100000_particle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0406db5a14f94604a8c57ccfbc9f3b46
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 04b9c2ad29164d54fb8f93340423045e
+    m_Address: Assets/GameContent/Imported/Materials/c6010fd8a9033e94399bc3b59a4be473_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08b3912bdc0a5ed4d9a27125425a97f4
+    m_Address: Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0997be25b7c92fa448d699379dfa4461
+    m_Address: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Atlas_d.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0cc31af92331e9f4f9c7d693e4e64936
+    m_Address: Assets/Free Slash VFX/Materials/Slash World.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d046a8d6716a594c81a715d08f1ef50
+    m_Address: Assets/Free Slash VFX/Textures/Gradient 4.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0eb465b1a520a704cb3ea7e7579b003c
+    m_Address: Assets/Free Slash VFX/Materials/Water Version/Flying Particles Water.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f0fac1c900a11549b62bc8a6cae262a
+    m_Address: Assets/Idyllic Fantasy Nature/Textures/Moss/Moss_Mask.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fa9aca141a7eeb429a446e57e5f223d
+    m_Address: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Bark_03-2_d.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10f817a5e4a0d1144963fe79523ec53b
+    m_Address: Assets/GameContent/Imported/Materials/missing_particle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 12dad9de1371ac7469a1673f8a4c48a3
+    m_Address: Assets/GameContent/Imported/Materials/f43a7dc4f39c5654a8211b83259e32a9_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16427ff296aee2b489ff0ad11494ae90
+    m_Address: Assets/Mountain Terrain rocks and tree/Materials/Rock/rock_set_mat_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1676aaec11be33240a8f4ce9ecb04c8d
+    m_Address: Assets/GameContent/Imported/Materials/21f5d46cfbe5a1944a447dbbd51d3386_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17a37cd0101440044ba0b3e55a1ae61e
+    m_Address: Assets/Idyllic Fantasy Nature/Textures/Trees/Bark_Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a59d57b738d4764d92a57a7a0f918a8
+    m_Address: Assets/A_piece_of_nature/Textures/Rocks_3_4_texture.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1aad33c896fb7c041bcf914fbf3b32e2
+    m_Address: Assets/FantasyEnvironments/Environments/Town/Textures/cart.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dfba548e96f9f54da1df4317e249e70
+    m_Address: Assets/GameContent/Imported/Materials/4c25ff46585cd004986267bced340add_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f2ebf25d09b1b24ca0340d76fc6c70d
+    m_Address: Assets/VillagePack/OldHouse/VhRoofBeamBump.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2087d76899b31e54299fee34eef86710
+    m_Address: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Materials/Bark_03-2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 255283d354122406ebf8159c5ea35b7d
+    m_Address: Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 256f1f1a0d71e564fb59f2d59bac54df
+    m_Address: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Bark_03-1_s.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ac4507fdf3676345a0bceecb9455d53
+    m_Address: Assets/Free Simple Dungeon Props - YP/Material and Texture/Gradient.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2affd080f0247a2409435d9bde482780
+    m_Address: Assets/Idyllic Fantasy Nature/Textures/Trees/Bark_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d22c1b2dd1214c4d835fd1f6d436db7
+    m_Address: Assets/living birds/models/littleBird.FBX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31256510a50404e4e828097b505a4dd5
+    m_Address: Assets/Free Slash VFX/Materials/Variations/Flying var Vertex.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3230f6c5d09dd114c82b2287fcc7e15b
+    m_Address: Assets/Idyllic Fantasy Nature/Shader/Vegetation.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 327b98847d260e348b5a0a164d9ebba9
+    m_Address: Assets/Free Slash VFX/Textures/Crack 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 333733ceb992ddb448188a2f476222e8
+    m_Address: Assets/Idyllic Fantasy Nature/Materials/Trees/Tree_Bark.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34cc715c6265afb45ac0d557667559ae
+    m_Address: Assets/GameContent/Imported/Materials/e68f77e240a7f8643b5cc4253dc37516_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36e335017ad71d54fbb10842863188ae
+    m_Address: Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 376fa45d06450a54493a49d95434e15d
+    m_Address: Assets/Symphonie/StylizedForestKit Samples/Texture/Oak/T_Oak01_N.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 385f91aaf042eac4e90ffd93fc2dd68f
+    m_Address: Assets/Free Simple Dungeon Props - YP/Material and Texture/Gradient.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39643ee72dc6bff4da99236358980c94
+    m_Address: Assets/Crates And Barrels Pack Volume 1 - Free Version/Textures/Tex_CratesAndBarrelsVol1_A_color01.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3eec528b328a4bd89fc22f00eb652736
+    m_Address: Assets/Free Slash VFX/Textures/Razengan_texture_3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4115401363447dc4a80ad55d19905407
+    m_Address: Assets/Free Slash VFX/Shaders/Trail.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44e7eb8b5ecd6bc498f00e168e155aa8
+    m_Address: Assets/Free Slash VFX/Model/Slash/Slash .fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 497534591604c9c40922a9ea2ef833b2
+    m_Address: Assets/Hovl Studio/Magic effects pack/Textures/Flash.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b85d26c457c8cd4484b2a0d59d2fcc5
+    m_Address: Assets/Free Slash VFX/Materials/Variations/Var 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4cc1d7f109179114f88d3ee8340600b9
+    m_Address: Assets/GameContent/Imported/Materials/1ea4c726901de5b47a9464616b6e4f05_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4eff0d2d0da831849a9242f5331f8b64
+    m_Address: Assets/Free Slash VFX/Textures/Impact.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4faff89d1ac6bff4fa0e643c70958767
+    m_Address: Assets/GameContent/Imported/Materials/35b3f8b0173dcad42a78d7ace2476948_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55f2fad6733435a4aa13b4c6ab160672
+    m_Address: Assets/Free Slash VFX/Textures/Flare(2).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5697eaa072ef28444aede7174c36078f
+    m_Address: Assets/Mountain Terrain rocks and tree/Materials/Rock/rock_set_mat_MetallicSmoothness.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a1bd5dc420d90a4d8d1521b8c9bd8f6
+    m_Address: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Materials/Atlas.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aceb0c00fcb9834db8e440222f8ed56
+    m_Address: Assets/GameContent/Imported/Materials/0a1f44318dd467a45bfef81ad0e8855a_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aed89aa514f3444d800808ccb031304
+    m_Address: Assets/Free Slash VFX/Shaders/Orb Warp.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bf4d5ffdfd914a48be4d1bf61c86666
+    m_Address: Assets/ithappy/Animals_FREE/Textures/Texture.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c233ff217284ddb8cb5c4a7f8b05731
+    m_Address: Assets/Free Slash VFX/Textures/Noise.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5dc7c9fc26661b641acc24decf3af637
+    m_Address: Assets/Symphonie/StylizedForestKit Samples/Model/M_Oak01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 611663b87192dbd45be65b042f60fe5e
+    m_Address: Assets/Free Slash VFX/Shaders/Slash World.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 615e7bd5cafe2ff49b9f5fee5d0025a0
+    m_Address: Assets/Free Slash VFX/Materials/Variations/Impact Mat.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6271e6bc851533247a90f58042ab1ace
+    m_Address: Assets/Symphonie/StylizedForestKit Samples/Texture/Oak/T_Oak01_O.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 640e93060c8b460449dc5d4f16193387
+    m_Address: Assets/Hovl Studio/Magic effects pack/Textures/Point1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64815c4876494b029a73f069f525d729
+    m_Address: Assets/Free Slash VFX/Textures/Razengan_texture_2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65022e5f7458aa849aa615f2c5a262ba
+    m_Address: Assets/CemeteryPack/Textures/Tombstones_normals.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 680bc0248b1aeac48b87ca26169be1ec
+    m_Address: Assets/Free Slash VFX/Shaders/Impact.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a6dbf33a4fc25c439f623aa8ee6d297
+    m_Address: Assets/GameContent/Imported/Materials/c79855c6f54ed954293d041acc3120a8_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ca617350c210c5459d408750698a3be
+    m_Address: Assets/A_piece_of_nature/Textures/Rocks_3_4_normal.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e482e184d65b004caafff36567ba685
+    m_Address: Assets/GameContent/Imported/Materials/a6870fec01611b547b936fcacf143241_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e98b76e8af12a74a8380ba3010ed562
+    m_Address: Assets/GameContent/Imported/Materials/db3488de871721d4f83250ff2af716b7_2100000_particle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 705a647f8ab59aa418d6338f36c236e9
+    m_Address: Assets/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7081f23ddfe244d40a4fcd1aa6f853ee
+    m_Address: Assets/A_piece_of_nature/Textures/Rocks_3_4_specular.tif
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7173dc0334e13c8499e44ac372fb5208
+    m_Address: Assets/Free Slash VFX/Materials/Fire Version/Slash World Fire.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76965e06cf9289a4b9059a3dfe7d9b2d
+    m_Address: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Atlas_n.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7708bd344b26b814394f5bb88611e862
+    m_Address: Assets/GameContent/Imported/Materials/df3162d26d7433e44a7fbbb74023987d_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bab9ac1487e10c40b9ed77d4c551e04
+    m_Address: Assets/SimpleSky/Textures/SimpleSky.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e2e93e5d515a73449b19b84a9dd6d90
+    m_Address: Assets/Free Slash VFX/Materials/Slash.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f2c09fa4c36d064083944bc9331f95e
+    m_Address: Assets/Free Slash VFX/Model/Smoke/SmokeSphere01.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 876203fc19c94ca42b4c0b1cbaffe086
+    m_Address: Assets/Symphonie/StylizedForestKit Samples/Shader_URP/Shader/Waving&SnowLeaves_URP.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ba8b94b5ab0c214fa2810a7df98a1a9
+    m_Address: Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c0ee564c38995f45867d4a78aa1f53b
+    m_Address: Assets/Crates And Barrels Pack Volume 1 - Free Version/Textures/Tex_CratesAndBarrelsVol1_N.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d2bb70cbf9db8d4da26e15b26e74248
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/SimpleLit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8dad30b7202fd3d4a8630b1c7c27d150
+    m_Address: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Atlas_s.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e9e9cab61928be48bc45b48888f7218
+    m_Address: Assets/VillagePack/OldHouse/VHDecorationWoodReflection.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ef3044fd75012c4e9f85135fa954ae2
+    m_Address: Assets/GameContent/Imported/Materials/9b2f7a9877042784da6f113d45cd70e6_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 933532a4fcc9baf4fa0491de14d08ed7
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9399010bfbde4345a4a9ed2420404a5b
+    m_Address: Assets/Free Slash VFX/Textures/Voronoi Noise 1_albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93d507499c06a1241a8f1cbb7ae880c8
+    m_Address: Assets/GameContent/Imported/Materials/c758c5a4b3834b644b1145534af1f7b9_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96b5269f1b04f0d46b27d83b3c5c9e7d
+    m_Address: Assets/VillagePack/OldHouse/VhRoofBeam.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98be8ffaee9a16d46951c44ec47a245b
+    m_Address: Assets/Free Slash VFX/Textures/Noise_GrayScale/T_Lu_Noise_29.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aee63a8fb5917e479df7d2311f3bd99
+    m_Address: Assets/Free medieval weapons/Models/Weapons.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6525c3c7816b3240b43acfdedaedc60
+    m_Address: Assets/Mountain Terrain rocks and tree/Materials/Rock/rock_set_mat_AO.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6a320c52ceff3440ad3cf28d8155cfb
+    m_Address: Assets/Free Slash VFX/Textures/Gradient 2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a81e20f353afd6e469ab64de1f686803
+    m_Address: Assets/GameContent/Imported/Materials/93415edde47040648869ae6638d33ced_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8da1d54267c60e439556d76385f3314
+    m_Address: Assets/Free Slash VFX/Textures/Noise Dark.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab62098b6e725c14b9c87024566b2039
+    m_Address: Assets/VillagePack/OldHouse/VhRoofBeamReflection.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abe554664dc628d439bfd4c3004ddc41
+    m_Address: Assets/Idyllic Fantasy Nature/Textures/Trees/BroadleafTree_Leaves.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abef8c695905d2f409178ba2daeb6840
+    m_Address: Assets/GameContent/Imported/Materials/c681da389980e45469889866404b0744_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b09ddd850b05c71439414e3151feccb5
+    m_Address: Assets/VillagePack/OldHouse/VHDecorationWoodBump.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b32f987e367a5864e8b76d58821e2504
+    m_Address: Assets/VillagePack/OldHouse/VHFrameWoodBump.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b38fe8c1a6f453d4e9bc0d116a4da880
+    m_Address: Assets/GameContent/Imported/Materials/9923ec4feaebca94382cb2c29c582cfe_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6070cae57f0e2346847a81a55522b9c
+    m_Address: Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Bark_03-1_n.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b871b2c92bb308b4899d40f7fdc11da0
+    m_Address: Assets/VillagePack/OldHouse/VHFrameWoodReflection.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba0deb356051d8b4eb3e11a04f4987a7
+    m_Address: Assets/Free Slash VFX/Textures/Droplet.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc42bc760ad4f49478932ffe7d0e5dad
+    m_Address: Assets/GameContent/Imported/Materials/3922c043c1c52cb47a7b1bfed562a4b6_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1a71b6b56027674db9bc155396f4628
+    m_Address: Assets/Free Slash VFX/Materials/Flying Particles.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c389d16bfa3f65044bc90b2e6307d017
+    m_Address: Assets/GameContent/Imported/Materials/a0c6c4757d70d784b9a1cb379ed3b317_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9a17316ddcf7a648afd9112545c7049
+    m_Address: Assets/Mountain Terrain rocks and tree/Materials/Rock/rock_set_mat_AlbedoTransparency.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9e72467d1989ca458087dbe742d2e4a
+    m_Address: Assets/Free Slash VFX/Demo/Model/Sphere.fbx
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9f29e0077330d6409b9d521eb01a89c
+    m_Address: Assets/Free Slash VFX/Shaders/Slash.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc0677bfe3ce930428b0fa7a8628e94d
+    m_Address: Assets/CemeteryPack/Textures/Tombstones_Diffuse.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc787246631312346a9cdc3763379035
+    m_Address: Assets/Free Slash VFX/Textures/Blue Noise_Blue Noise.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf74ae86c2922f54683ad39b1e8c1d9c
+    m_Address: Assets/GameContent/Imported/Materials/870bcbe66fbf1e0479f611163b71d61e_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d235d21210cd9c341a773bb97a0a4ad4
+    m_Address: Assets/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Green.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5eb7e4e06f5ca34597ad309febb9151
+    m_Address: Assets/VillagePack/OldHouse/VHFrameWood.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6a9930c67a066e478aec31301ea89a7
+    m_Address: Assets/Symphonie/StylizedForestKit Samples/Texture/Oak/T_Oak01_M.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6e9a19c3678ded42a3bc431ebef7dbd
+    m_Address: Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef2aa9333fbc23b40ae6289389ebd8fb
+    m_Address: Assets/Idyllic Fantasy Nature/Shader/Surface.shadergraph
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f051b5fa273139c458d846b2496fb8f2
+    m_Address: Assets/Free Slash VFX/Materials/Fire Version/Flying Particles Fire.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0f58eeff45e63941a3d06ea32675666
+    m_Address: Assets/Crates And Barrels Pack Volume 1 - Free Version/Textures/Tex_CratesAndBarrelsVol1_M.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f13179b576c92ad44afcf30ef2d90a6f
+    m_Address: Assets/Crates And Barrels Pack Volume 1 - Free Version/Textures/Tex_CratesAndBarrelsVol1_O.tga
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1f3a21fbeb4283488049ea216fcaad9
+    m_Address: Assets/VillagePack/OldHouse/VHDecorationWood.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f376cc266817dee4da6304ba5d61d808
+    m_Address: Assets/Idyllic Fantasy Nature/Textures/Moss/Moss_Albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4f760de4c2434a4eb79cc34239fb2a8
+    m_Address: Assets/Symphonie/StylizedForestKit Samples/Shader_URP/Shader/T_snow_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f60771e5feb4bf243a6e08b846bfd9f1
+    m_Address: Assets/GameContent/Imported/Materials/fe3e3b8ebc1a32647b48b7ea88f534a8_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6446cef2231473fbf5ad32efe336831
+    m_Address: Assets/Free Slash VFX/Textures/Noise Circle_albedo.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6730b960ba6c914e9141395fc93249f
+    m_Address: Assets/ithappy/Animals_FREE/Materials/Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8b4fe87f2e07ae4880176cc0066981f
+    m_Address: Assets/GameContent/Imported/Materials/1156ea62e0e01d24386d2769ecbc417e_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbbd995df5b957648be34444c365cbd7
+    m_Address: Assets/Idyllic Fantasy Nature/Textures/Moss/Moss_Normal.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc362bf702c2298458d89d76ee39ac2e
+    m_Address: Assets/GameContent/Imported/Materials/e546d2d7171981b468cf29388d902e99_2100000_particle.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc8af1048efab6f45a43b483dbfd7f0c
+    m_Address: Assets/Free Slash VFX/Materials/Water Version/Ripple.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: febb2e410d6209b4882b3d7d60f7f1f9
+    m_Address: Assets/GameContent/Imported/Materials/af65c0942482e46aeb256506726ff0f7_2100000_lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff09c317c5ede04418ae5e4fb2cb772f
+    m_Address: Assets/Free Slash VFX/Materials/Variations/Impact Mat 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffcd96cc7a991ca4fa8a04b7e8fdaaa7
+    m_Address: Assets/Free Slash VFX/Textures/Noise_GrayScale/T_Lu_Noise_31.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f2dcc495878f75f4b83935a98be01b6a, type: 2}
+    - {fileID: 11400000, guid: 0756d3839efa0a3478ca898b39532be4, type: 2}
+    m_SchemaDisplayOrder:
+    - Duplicate Asset Isolation_BundledAssetGroupSchema
+    - Duplicate Asset Isolation_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

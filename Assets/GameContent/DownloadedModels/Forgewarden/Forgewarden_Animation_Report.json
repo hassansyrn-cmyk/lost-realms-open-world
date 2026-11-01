@@ -1,0 +1,16 @@
+{
+  "source": "C:\\Users\\Hasan\\Documents\\Lost-Realms-Open-World\\Assets\\GameContent\\DownloadedModels\\Forgewarden\\Forgewarden_Rigged_Mixamo.fbx",
+  "animations": [
+    {
+      "name": "Forgewarden_Idle_Loop",
+      "file": "C:\\Users\\Hasan\\Documents\\Lost-Realms-Open-World\\Assets\\GameContent\\DownloadedModels\\Forgewarden\\Forgewarden_Idle.fbx",
+      "bytes": 15504172
+    },
+    {
+      "name": "Forgewarden_Hammering_Loop",
+      "file": "C:\\Users\\Hasan\\Documents\\Lost-Realms-Open-World\\Assets\\GameContent\\DownloadedModels\\Forgewarden\\Forgewarden_Hammering.fbx",
+      "bytes": 15528460
+    }
+  ],
+  "stage": "exported"
+}

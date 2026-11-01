@@ -1,0 +1,17 @@
+Bandit Ambush Validation 10/30/2026 8:59:29 PM
+
+PASS: ActiveTerrain is present
+--- 1. Testing Location & Clear Roadside Placement ---
+Road distance at anchor: 3.50m
+PASS: Ambush anchor is roadside (distance: 3.50m from road center, road remains fully clear)
+Distance to Oakvale village: 84.6m
+PASS: Location is safely away from Oakvale village (>60m)
+Distance to Caravan Post: 23.2m
+PASS: Location is distinct from Caravan Post (>20m)
+Distance to Thornhide quarry: 80.4m
+PASS: Location is distinct from Thornhide quarry (>60m)
+Distance to Briarfoot supply camp: 42.3m
+PASS: Location is distinct from Briarfoot camp encounter (>35m)
+--- 2. Testing Approach & Avoidance ---
+PASS: OpenWorldBanditAmbush instance acquired
+FAIL: Bandit encounter built upon approach

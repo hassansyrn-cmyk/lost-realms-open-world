@@ -1,0 +1,18 @@
+01:41:14 setup: spawned test revenant 5 m ahead, hero parked in melee, AI aggro disabled
+01:41:20 setup: spawned test revenant 5 m ahead, hero parked in melee, AI aggro disabled
+01:41:21 cleanup done: cover removed, test revenant despawned, hero invulnerability restored
+01:48:11 setup: spawned test revenant 5 m ahead, hero parked in melee, AI aggro disabled
+01:48:12 windup OK: BONE SLAM, 0.8 s windup, amber 2.6 m warning live (screenshot next)
+01:48:18 setup: spawned test revenant 5 m ahead, hero parked in melee, AI aggro disabled
+01:48:18 windup OK: BONE SLAM, 0.8 s windup, amber 2.6 m warning live (screenshot next)
+01:48:18 strike OK: exactly one heavy application (5.00 -> 3.56)
+01:48:18 dodge OK: 4.5 m outside the 2.6 m slam — no damage
+01:48:18 cover OK: solid cover between skeleton and hero — no damage
+01:48:18 stagger OK: pending heavy cancelled, telegraph dismissed, no damage on resolve
+01:48:18 death OK: heavy cancelled by death — no delayed damage
+01:48:18 setup: spawned test revenant 5 m ahead, hero parked in melee, AI aggro disabled
+01:48:18 cooldown OK: normal CLEAVE only (next heavy in ~6.5 s), normal damage 5.00 -> 3.98
+01:48:18 others OK: Dune Stalker keeps VENOM BURST
+01:48:18 cleanup done: cover removed, test revenant despawned, hero invulnerability restored
+01:48:18 RunAll: every step PASS
+01:48:19 cleanup done: cover removed, test revenant despawned, hero invulnerability restored

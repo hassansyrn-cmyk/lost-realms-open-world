@@ -1,0 +1,40 @@
+Safe Horse Dismount Recovery Validation 10/30/2026 11:56:43 PM
+
+PASS: OpenWorldManager instance exists
+PASS: ActiveTerrain is present
+PASS: Hero is present
+--- 1. Testing Real Hero Controller Capsule Dimensions ---
+PASS: Hero has CharacterController attached
+PASS: Controller radius is 0.38m (actual: 0.38m)
+PASS: Controller height is 1.78m (actual: 1.78m)
+PASS: Controller center Y is 0.89m (actual: 0.89m)
+--- 2. Setting Up Validation Mount on Clear Open Ground ---
+PASS: Horse instance acquired and initialized
+--- 3. Testing Normal Dismount on Open Ground ---
+PASS: Normal dismount point found at (83.48, 5.57, 35.44)
+PASS: Normal dismount point Y (5.574) is safe on terrain surface (5.524)
+PASS: Normal dismount distance is within expected side range (1.60m)
+PASS: Hero successfully entered mount
+PASS: Hero successfully dismounted without being trapped
+PASS: Hero Controller re-enabled after dismount
+PASS: Hero final position (5.791) is safe on ground (5.741)
+--- 4. Testing Forced Underground-Origin Recovery on Open Ground ---
+PASS: Forced underground search origin successfully recovers safe surface candidate
+PASS: Recovered point Y (5.917) is on surface ground (5.867), NOT underground
+PASS: Recovered point Y (5.917) is close to surface ground level
+--- 5. Testing Asymmetric Obstacle (Left Blocked -> Selects Right) ---
+PASS: DismountPoint succeeds when left side is obstructed
+PASS: Dismount point selected opposite/right side (right alignment dot=1.00 > 0.2)
+--- 6. Testing Saddle Path Occlusion (Wall Between Saddle & Candidate) ---
+PASS: Saddle wall prevented dismounting into left wall corridor
+--- 7. Testing All Sides Blocked Refuses Safely (Zero Unchecked Success) ---
+PASS: All sides blocked safely returns FALSE (got False, point=(85.00, 5.59, 35.00))
+PASS: Hero mounted inside blocked ring
+PASS: Hero safely remains mounted when dismount is refused due to blocked surroundings
+PASS: Hero dismounted cleanly once blockers were removed
+--- 8. Testing Steep Slope, Water, and Bounds Rejection ---
+PASS: Candidate outside WorldBound correctly detected
+Water detection probe at (0,0): False
+PASS: TryWalk correctly rejects steep cliff / vertical drops (>0.65m)
+
+ALL DISMOUNT SAFETY AND RECOVERY CHECKS PASSED SUCCESSFULLY!

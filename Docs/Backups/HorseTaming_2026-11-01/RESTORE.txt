@@ -1,0 +1,23 @@
+Horse taming minigame - pre-change backup (2026-11-01)
+
+These files are the counterbalance mini-game ("BALANCE LEFT / BALANCE RIGHT") that shipped
+before the shrinking-ring "gentle the wild horse" redesign. Copy all FOUR back, let Unity
+recompile, then append a revert note to Docs/DEVELOPMENT_LOG.md.
+
+  OpenWorldHorseProgression.cs   -> Assets/Scripts/OpenWorldHorseProgression.cs
+  HorseProgressionHud.cs         -> Assets/Scripts/HorseProgressionHud.cs
+  HorseProgressionValidation.cs  -> Assets/Editor/HorseProgressionValidation.cs
+  OpenWorldMobileHud.cs          -> Assets/Scripts/OpenWorldMobileHud.cs
+
+OpenWorldMobileHud.cs matters: the ring build added a `TamingQuiet` gate (it hides the
+"Tame Horse [F]" prompt and the horse world marker during a round). That field lives in
+HorseProgressionHud.cs, so restoring the counterbalance HUD without restoring the mobile HUD
+leaves two unresolved references. The copy here is the pre-ring mobile HUD.
+
+Scope of the change: no prefab, scene, animation clip, save-format field or vendor asset was
+edited, so the restore needs nothing else. Handling-skill ids ("horse-skill:<breed>:<stamp>")
+written by the ring build are still just world ids and are ignored by the older code.
+
+Note: the intermediate ring build from the morning of 2026-11-01 (the first shrinking-ring
+iteration, gold ring + fading circle) was overwritten in place and is NOT archived here. This
+backup restores the counterbalance game, one step further back.

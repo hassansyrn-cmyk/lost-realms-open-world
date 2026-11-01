@@ -181,6 +181,7 @@ var report=new List<string>{"Aster Phase 1 Mixamo integration","Model: "+ModelPa
   new HeroMotion("attack_3", DL + "/One Hand Up/Attack_A/InPlace/1Hand_Up_Attack_A_3_InPlace.fbx", false, Height.First),
   new HeroMotion("attack_4", DL + "/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_3_InPlace.fbx", false, Height.First),
   new HeroMotion("charged", DL + "/One Hand Up/Attack_B/InPlace/1Hand_Up_Attack_B_2_InPlace.fbx", false, Height.First),
+  new HeroMotion("block", DL + "/One Hand Up/Sheild/Hit/InPlace/1Hand_Up_Shield_Block_Hit_1_InPlace.fbx", false, Height.First),
   new HeroMotion("chop_1", EX + "/2Hand-Sword/RPG-Character@2Hand-Sword-Attack1.FBX", false, Height.First),
   new HeroMotion("chop_2", EX + "/2Hand-Sword/RPG-Character@2Hand-Sword-Attack3.FBX", false, Height.First),
   new HeroMotion("chop_3", EX + "/2Hand-Sword/RPG-Character@2Hand-Sword-Attack5.FBX", false, Height.First),

@@ -24,8 +24,8 @@ namespace LostRealmsOW {
   public bool ConverseSled() {
    if (SledStage == 0) { SetSledFlag("accepted"); ShowBanner("MATTHIAS: A supply sled never reached Frostpine. Follow the tracks north — and mind the wolves, they have claimed worse cargoes than ours."); }
    else if (SledStage == 4) {
-    SetSledFlag("reward"); Gold += 110; Gems += 4; UnlockedWeapons.Add(17);
-    ShowBanner("THE LOST SUPPLY SLED COMPLETE • 110 gold, 4 gems • Woodsman's Axe unlocked"); OpenWorldAudio.Play("sfx_complete");
+    SetSledFlag("reward"); Gold += 110; Gems += 4; UnlockedWeapons.Add(4);
+    ShowBanner("THE LOST SUPPLY SLED COMPLETE • 110 gold, 4 gems • Ranger Axe unlocked"); OpenWorldAudio.Play("sfx_complete");
    } else if (SledStage == 5) ShowBanner("MATTHIAS: Frostpine eats well tonight thanks to you, Aster.");
    else ShowBanner("MATTHIAS: " + SledObjective + ".");
    return true;

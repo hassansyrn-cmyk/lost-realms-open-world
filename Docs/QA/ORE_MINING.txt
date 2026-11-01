@@ -1,0 +1,7 @@
+PASS standing over ore does not auto collect
+PASS contextual Mine button visible
+PASS explicit mine succeeds
+PASS one ore awarded
+PASS duplicate mine refused
+PASS Mine button hides after mining
+PASS ore visual buried half host height

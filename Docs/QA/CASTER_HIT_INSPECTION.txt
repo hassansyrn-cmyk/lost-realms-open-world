@@ -1,0 +1,10 @@
+Caster bounds=Center: (0.00, 1.00, 0.00), Extents: (0.84, 1.00, 0.36) animator=none
+mesh Caster vertices=59541
+Elite bounds=Center: (0.15, 0.47, 0.02), Extents: (0.58, 0.55, 0.22) animator=True
+Aster bounds=Center: (0.00, 1.80, 0.00), Extents: (0.50, 0.90, 0.44) animator=True
+idle minimum hip-foot=0.7961643
+hit minimum hip-foot=0.7961643
+hit_2 minimum hip-foot=0.7961643
+hit_3 minimum hip-foot=0.7961643
+hit_4 minimum hip-foot=0.7961643
+hit_5 minimum hip-foot=0.7961643

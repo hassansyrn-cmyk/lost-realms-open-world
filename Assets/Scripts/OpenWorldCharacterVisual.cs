@@ -194,7 +194,7 @@ namespace LostRealmsOW {
   void Build(string role, int skinIndex) {
    roleName = role;
    currentSkinIndex = Mathf.Clamp(skinIndex, 0, AsterSkins.Length - 1);
-   string prefabName = role == "Aster" ? AsterSkins[currentSkinIndex] : role;
+   string prefabName = role == "Aster" ? AsterSkins[currentSkinIndex] : role == "Caster" ? "Caster_Rigged" : role;
    var prefab = Resources.Load<GameObject>("Characters/" + prefabName) ?? Resources.Load<GameObject>("Characters/" + role);
 
    if (prefab) {
@@ -211,6 +211,19 @@ namespace LostRealmsOW {
     }
     if (!RightHandBone) RightHandBone = FindDeepChild(ModelInstance.transform, "RightHand", "Hand_R", "mixamorig:RightHand", "weapon_r");
     SetupPlayables(role);
+    if (prefabName == "Caster_Rigged" && graphValid) {
+     // Size and ground the evaluated idle skin, not the donor's bind-pose bounds.
+     graph.Evaluate(0f);
+     foreach (var skin in ModelInstance.GetComponentsInChildren<SkinnedMeshRenderer>()) {
+      var baked = new Mesh();
+      skin.BakeMesh(baked, false);
+      skin.localBounds = baked.bounds;
+      Destroy(baked);
+     }
+     var posed = OpenWorldMaterialHelper.ComputeRendererBounds(ModelInstance.transform);
+     ModelInstance.transform.position += new Vector3(transform.position.x - posed.center.x, transform.position.y - posed.min.y, transform.position.z - posed.center.z);
+     modelBaseLocal = ModelInstance.transform.localPosition;
+    }
    } else {
     // Fallback procedural visual if a role prefab isn't present
     ModelInstance = GameObject.CreatePrimitive(PrimitiveType.Capsule);
@@ -1015,6 +1028,13 @@ namespace LostRealmsOW {
   }
 
   void FootIk(float dt, bool dead) {
+   // Full-body actions own their authored knee bends and lifted feet. Grounding
+   // offsets carried from locomotion must not pull a parry/lunge into a crouch.
+   if (activeSlot != null) {
+    footIkWeight = pelvisOffset = pelvisVel = lFootOffset = rFootOffset = lFootVel = rFootVel = 0f;
+    lFootNormal = rFootNormal = Vector3.up;
+    return;
+   }
    float wanted = dead || glideWeight > 0.2f ? 0f : footIkTarget;
    footIkWeight = Mathf.MoveTowards(footIkWeight, wanted, dt / (wanted > footIkWeight ? 0.12f : 0.08f));
    if (!lFoot || !rFoot || !lThigh || !rThigh || !lKnee || !rKnee) return;

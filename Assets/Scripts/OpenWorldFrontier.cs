@@ -64,7 +64,7 @@ namespace LostRealmsOW {
   public static readonly (string title, string gateModel, string gateTex, Vector3 center, string bountyRole, string bountyName, int bountyElem, Color tint)[] Rifts = {
    ("SUNSCAR MIRAGE RIFT", "Gates/Gate_Desert", "Gates/Textures/Gate_Desert_basecolor", new Vector3(108f, 0f, -6f), "StoneBrute", "Sunscar Dune Stalker", 0, new Color(1.0f, 0.68f, 0.32f)),
    ("FROSTPEAK GLACIAL RIFT", "Gates/Gate_Snow", "Gates/Textures/Gate_Snow_basecolor", new Vector3(-104f, 0f, 8f), "Elite", "Whiteout Frost Howler", 1, new Color(0.45f, 0.88f, 1.0f)),
-   ("STORMVEIL TEMPEST OVERLOOK", "Gates/Gate_Storm", "Gates/Textures/Gate_Storm_basecolor", new Vector3(102f, 0f, -98f), "Caster", "Tempest Rift Caster", 2, new Color(0.58f, 0.45f, 1.0f))
+   ("STORMVEIL TEMPEST OVERLOOK", "Gates/Gate_Storm", "Gates/Textures/Gate_Storm_basecolor", new Vector3(102f, 0f, -98f), "Elite", "Tempest Rift Warden", 2, new Color(0.58f, 0.45f, 1.0f))
   };
 
   // In the 1 km realm each rift sits in its own biome: the Desert Rift in the Burning Dunes, the

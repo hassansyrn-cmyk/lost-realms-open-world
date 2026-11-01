@@ -1,0 +1,43 @@
+=== OPEN TERRAIN JUMP TRACE ===
+Timestamp: 2026-10-31 04:06:11
+
+--- 1. OPEN TERRAIN ENVIRONMENT ---
+Hero Position: (50.00, 5.96, 50.00), Terrain Height: 5.9243, SampleGroundHeight: 5.9243
+Diff (Hero.y - Terrain.y): 0.0400
+Colliders within 2m: 2
+  Realm Terrain (TerrainCollider), layer=8
+  Aster (CharacterController), layer=0
+
+--- 2. PRE-JUMP STATE ON OPEN TERRAIN ---
+Hero pos.y: 5.9643
+Controller.isGrounded: True
+ProbeGround(): True
+Hero.Grounded: True
+Hero.velocity: (0.0000, -4.2781, 0.0000)
+Hero.Stamina: 100.0
+Raycast from hero+0.1m down 1.0m: hit=True, col=Realm Terrain, pt=(50.0000, 5.9243, 50.0000), dist=0.1400
+SphereCastAll from hero+(r+0.08) radius=0.34 down 0.5m: count=2
+  hit: Realm Terrain (TerrainCollider), pt=(49.9965, 5.9243, 50.0000), dist=0.1200
+  hit: Aster (CharacterController), pt=(0.0000, 0.0000, 0.0000), dist=0.0000
+
+--- 3. JUMP PRESS TRACE (20 FRAMES) ---
+Frame 00: pos.y=6.5983, vel.y=6.12, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 01: pos.y=6.9963, vel.y=3.84, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 02: pos.y=7.1584, vel.y=1.57, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 03: pos.y=7.0846, vel.y=-0.71, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 04: pos.y=6.7749, vel.y=-2.99, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 05: pos.y=6.2293, vel.y=-5.27, Grounded=False, CC.isGrounded=False, Probe=True, Gliding=False, Stamina=100.0
+Frame 06: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 07: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 08: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 09: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 10: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 11: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 12: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 13: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 14: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 15: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 16: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 17: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 18: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0
+Frame 19: pos.y=5.9643, vel.y=-4.28, Grounded=True, CC.isGrounded=True, Probe=True, Gliding=False, Stamina=100.0

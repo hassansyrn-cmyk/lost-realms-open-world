@@ -153,16 +153,16 @@ namespace LostRealmsOW {
    if (Terrain.activeTerrain != null) {
     float th = Terrain.activeTerrain.SampleHeight(pos) + Terrain.activeTerrain.transform.position.y;
     if (pos.y > th + 6f) {
-     var skyHits = Physics.RaycastAll(new Vector3(pos.x, pos.y + 15f, pos.z), Vector3.down, 25f, ~0, QueryTriggerInteraction.Ignore);
-     float skyBest = pos.y;
+     var skyHits = Physics.RaycastAll(new Vector3(pos.x, pos.y + 15f, pos.z), Vector3.down, 40f, ~0, QueryTriggerInteraction.Ignore);
+     float skyBest = float.MinValue;
      foreach (var h in skyHits) {
       if (ignoreRoot && h.transform.IsChildOf(ignoreRoot)) continue;
       if (h.collider is CharacterController) continue;
-      if (h.normal.y > 0.5f && h.point.y >= th + 6f) {
+      if (h.normal.y > 0.5f && h.point.y >= th + 6f && h.point.y <= pos.y + 1f) {
        if (h.point.y > skyBest) skyBest = h.point.y;
       }
      }
-     return skyBest;
+     if (skyBest > float.MinValue) return skyBest;
     }
     // Also check solid non-character colliders (such as stone decks or bridges) above terrain
     var hits = Physics.RaycastAll(new Vector3(pos.x, th + 25f, pos.z), Vector3.down, 40f, ~0, QueryTriggerInteraction.Ignore);
@@ -170,7 +170,7 @@ namespace LostRealmsOW {
     foreach (var h in hits) {
      if (ignoreRoot && h.transform.IsChildOf(ignoreRoot)) continue;
      if (h.collider is CharacterController) continue;
-     if (h.normal.y > 0.55f && h.point.y >= th - 0.2f && h.point.y <= th + 6f) {
+     if (h.normal.y > 0.55f && h.point.y >= th - 0.2f && h.point.y <= Mathf.Min(th + 6f, pos.y + 0.3f)) {
       if (h.point.y > best) best = h.point.y;
      }
     }

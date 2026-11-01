@@ -62,13 +62,13 @@ MonoBehaviour:
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: 91f18e1585332e54d99ff3a5c9e504dd
   m_RemoteCatalogLoadPath:
     m_Id: 
   m_ContentStateBuildPathProfileVariableName: 
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
-  m_BuildAddressablesWithPlayerBuild: 0
+  m_BuildAddressablesWithPlayerBuild: 2
   m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
   m_GroupAssets:
   - {fileID: 11400000, guid: 6530a66ba86f0ba4d9c4cd94b1036cd6, type: 2}
@@ -76,6 +76,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b0c977c12f5aaad42bbca2d45c44ca0b, type: 2}
   - {fileID: 11400000, guid: a2964df4a9b878948b60a0e9cc1481df, type: 2}
   - {fileID: 11400000, guid: 3636261bdd4848348b8ab9f53f3468e9, type: 2}
+  - {fileID: 11400000, guid: 2b2f5d2b61f775e42ba3de70862a4c5a, type: 2}
   - {fileID: 11400000, guid: 5c93772b44f338441b577068c6edc51b, type: 2}
   - {fileID: 11400000, guid: 89989e3fecc44e949b11139060fdd430, type: 2}
   - {fileID: 11400000, guid: 8dfe9b62b89f54e4daa96923220d6964, type: 2}
@@ -83,6 +84,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3215d21741f734f4c9694f532ea56816, type: 2}
   - {fileID: 11400000, guid: acb0424d396bb4a449253819dd04883c, type: 2}
   - {fileID: 11400000, guid: d2927271881f98240af1e1d506464229, type: 2}
+  - {fileID: 11400000, guid: f9441c4bb977b7d44a9ed07bba4d4311, type: 2}
   - {fileID: 11400000, guid: cdbf1ee03b2c12d4d897031644f9dcac, type: 2}
   - {fileID: 11400000, guid: 1e77c880b1da8974b9a240a1b7ad9a73, type: 2}
   - {fileID: 11400000, guid: 6c51ac6560ab0ed4581ea790dfae717e, type: 2}

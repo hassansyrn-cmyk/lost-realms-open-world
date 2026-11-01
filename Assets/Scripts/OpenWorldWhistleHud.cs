@@ -20,10 +20,10 @@ namespace LostRealmsOW {
    if (Time.unscaledTime >= nextHorseScan) {
     nextHorseScan = Time.unscaledTime + .5f;
     var last = OpenWorldAnimalInteraction.LastRidden;
-    horseKnown = last && last.isActiveAndEnabled && !last.Dead;
+    horseKnown = last && last.Owned && last.isActiveAndEnabled && !last.Dead;
     var hero = OpenWorldManager.I ? OpenWorldManager.I.Hero : null;
     if (!horseKnown && hero) foreach (var a in Object.FindObjectsByType<OpenWorldAnimalInteraction>(FindObjectsSortMode.None)) {
-     if (a.Horse && !a.Dead && !a.Rider && (a.transform.position - hero.transform.position).sqrMagnitude < 8100f) { horseKnown = true; break; }
+     if (a.Owned && !a.Dead && !a.Rider ) { horseKnown = true; break; }
     }
    }
    var manager = OpenWorldManager.I;

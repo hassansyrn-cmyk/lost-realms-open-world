@@ -1,0 +1,10 @@
+{
+  "clip": "Forgewarden_Hammering.fbx",
+  "frame": 14,
+  "actions": [
+    "Forgewarden_Rig|Scene",
+    "Forgewarden_Rig|Scene.001",
+    "Forgewarden_Rig|Scene.002",
+    "Forgewarden_Rig|Scene.003"
+  ]
+}

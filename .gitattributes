@@ -1,1 +1,2 @@
 *.hdr filter=lfs diff=lfs merge=lfs -text
+Assets/Resources/World/NPCs/AccuRigBrom/Talk.anim filter=lfs diff=lfs merge=lfs -text

@@ -51,7 +51,10 @@ namespace LostRealmsOW {
    new OWWeaponDef(17, "WOODSMAN'S AXE", "expansion_iron_axe", 1.45f, .95f, .85f, 1.1f, Vector3.zero, "chop", OWWeaponRarity.Common, -1, "Caravan equipment • heavy chopping attacks")
   };
 
-  public static OWWeaponDef Get(int id) => All[Mathf.Clamp(id, 0, All.Length - 1)];
+  public static bool Available(int id) => id >= 0 && id < All.Length && id != 17;
+  public const int UnarmedId = -1;
+  static readonly OWWeaponDef Unarmed = new OWWeaponDef(-1, "UNARMED", "", .55f, .55f, 1.1f, 1f, Vector3.zero, "unarmed", OWWeaponRarity.Common, -1, "Find or forge a weapon");
+  public static OWWeaponDef Get(int id) => id == UnarmedId ? Unarmed : All[Mathf.Clamp(id, 0, All.Length - 1)];
 
   public static Quaternion ModelCorrection(int id) {
    string res = Get(id).Resource;
@@ -89,6 +92,7 @@ namespace LostRealmsOW {
     }
    }
 
+   if (weaponId == UnarmedId) return null;
    var def = Get(weaponId);
    var prefab = Resources.Load<GameObject>(def.Resource) ?? OpenWorldImportedContent.Prefab(def.Resource);
    if (!prefab) return null;
@@ -365,7 +369,7 @@ namespace LostRealmsOW {
    }
 
    float pickupRadius = Kind == OWCollectibleKind.SecretChest ? 2.1f : 1.55f;
-   if (dist <= pickupRadius) {
+   if (dist <= pickupRadius && (Kind != OWCollectibleKind.SecretChest || !Physics.Linecast(gm.Hero.transform.position + Vector3.up*.85f, transform.position + Vector3.up*.35f, out var obstruction, ~0, QueryTriggerInteraction.Ignore) || obstruction.transform.IsChildOf(transform) || obstruction.transform.IsChildOf(gm.Hero.transform))) {
     Collect(gm);
    }
   }

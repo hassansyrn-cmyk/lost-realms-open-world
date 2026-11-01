@@ -1,0 +1,17 @@
+=== TERRAIN COLLISION AUDIT ===
+Terrain Name: Realm Terrain, GameObject: Realm Terrain
+Terrain Layer: 8 (WorldStatic)
+Terrain Position: (-512.00, -12.00, -512.00)
+TerrainCollider exists: enabled=True, terrainData=True
+IgnoreLayerCollision(Default, TerrainLayer): False
+Hero found: Aster, Layer: 0 (Default)
+Hero pos: (-60.00, 6.84, -45.30)
+IgnoreLayerCollision(HeroLayer, TerrainLayer): False
+CharacterController: enabled=True, isGrounded=True, radius=0.38, height=1.78, center=(0.00, 0.89, 0.00), skinWidth=0.04, stepOffset=0.38, slopeLimit=50
+Hero Grounded property: True
+Raycast from hero+0.1m down 1.0m: hit=True
+  Hit collider: Realm Terrain (TerrainCollider), point=(-60.00, 6.58, -45.30), normal=(0.00, 1.00, 0.00), dist=0.355854
+SphereCastAll from hero+(r+0.08m) radius=0.342 down 0.5m: count=3
+  Sphere hit: Realm Terrain (TerrainCollider), pt=(-60.00, 6.58, -45.30), normal=(0.00, 1.00, 0.00), dist=0.3358545
+  Sphere hit: GateModel (BoxCollider), pt=(-60.00, 6.85, -45.10), normal=(0.00, 0.82, -0.57), dist=0.1272607
+  Sphere hit: Aster (CharacterController), pt=(0.00, 0.00, 0.00), normal=(0.00, 1.00, 0.00), dist=0

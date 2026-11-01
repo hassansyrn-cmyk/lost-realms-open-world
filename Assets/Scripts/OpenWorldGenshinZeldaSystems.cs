@@ -320,20 +320,27 @@ namespace LostRealmsOW {
 
   public void CookMeal(OpenWorldManager gm) {
    if (!gm || !gm.Hero) return;
-   if (gm.RawMeat < 1) { gm.ShowBanner("You need raw meat • Hunt deer and collect their meat first"); return; }
-   gm.RawMeat--; gm.MarkProgressDirty();
+   // Recipe-driven costs: peek the next recipe in the cycle and gate on ITS needs before consuming —
+   // an unaffordable recipe leaves the cycle pointer and the pantry untouched.
+   var recipe = OpenWorldCookingRecipes.Peek(this, gm);
+   if (gm.RawMeat < recipe.MeatCost) { gm.ShowBanner("You need raw meat • Hunt deer and collect their meat first"); return; }
+   if (gm.Herbs < recipe.HerbCost) { gm.ShowBanner("You need " + recipe.HerbCost + " wild herb" + (recipe.HerbCost > 1 ? "s" : "") + " • Pick the flowers along the paths"); return; }
+   gm.RawMeat -= recipe.MeatCost;
+   gm.Herbs -= recipe.HerbCost;
+   OpenWorldCookingRecipes.Advance(gm);
+   gm.MarkProgressDirty();
    OpenWorldAudio.Play("sfx_ember_cast", 0.55f);
    gm.SpawnBurst(transform.position + Vector3.up * 0.8f, new Color(1.0f, 0.72f, 0.24f), 20);
    gm.Hero.Heal(gm.Hero.MaxHealth);
-   gm.Hero.RestoreAether(gm.Hero.MaxAether);
-   gm.Hero.RefillStamina();
-   gm.Hero.ActivateMealBuff(180f);
+   if (recipe.RefillAether) gm.Hero.RestoreAether(gm.Hero.MaxAether);
+   if (recipe.RefillStamina) gm.Hero.RefillStamina();
+   if (recipe.BuffDuration > 0f) gm.Hero.ActivateMealBuff(recipe.BuffDuration);
    if (gm.CollectedWorldIds.Add("cooking:" + CampfireTitle)) {
     gm.MarkProgressDirty();
     gm.AddGold(15);
-    gm.ShowBanner("COOKED GOLDEN AETHER STEW! (+15% Attack & Stamina Buff, Full HP/Aether, +15 Gold)");
+    gm.ShowBanner(recipe.Banner + " (+15 Gold)");
    } else {
-    gm.ShowBanner("COOKED GOLDEN AETHER STEW! (+15% Attack & Stamina Buff, Full HP & Aether Restored)");
+    gm.ShowBanner(recipe.Banner);
    }
    gm.RecordVerdantMeal(this);
   }
@@ -418,20 +425,20 @@ namespace LostRealmsOW {
    OpenWorldMaterialHelper.SpawnModel("Astral/Arch", "Astral/Textures/Arch_basecolor",
     vista, archPos, 6.2f, Color.white, false);
 
-   Vector3 westTower = new Vector3(-13.5f, 0f, 30f);
+   Vector3 westTower = new Vector3(-31f, 0f, 25f);
    westTower.y = OpenWorldMaterialHelper.SampleGroundHeight(westTower);
    gm.ReserveSpot(westTower, 5.5f);
    OpenWorldMaterialHelper.SpawnModel("Stormveil/Tower", "Stormveil/Textures/Tower_basecolor",
     vista, westTower, 9.2f, Color.white, true);
 
-   Vector3 eastTower = new Vector3(13.5f, 0f, 30f);
+   Vector3 eastTower = new Vector3(31f, 0f, 25f);
    eastTower.y = OpenWorldMaterialHelper.SampleGroundHeight(eastTower);
    gm.ReserveSpot(eastTower, 5.5f);
    OpenWorldMaterialHelper.SpawnModel("Stormveil/Tower", "Stormveil/Textures/Tower_basecolor",
     vista, eastTower, 9.2f, Color.white, true);
 
    // Framed half-timbered guildhouses angled along the Northern Plaza View
-   Vector3 westGuild = new Vector3(-13.8f, 0f, 15.5f);
+   Vector3 westGuild = new Vector3(-13.8f, 0f, 18f);
    westGuild.y = OpenWorldMaterialHelper.SampleGroundHeight(westGuild);
    gm.ReserveSpot(westGuild, 5.8f);
    var wg = OpenWorldMaterialHelper.SpawnModel("Props/Village/rpgpp_lt_building_04", "Props/Textures/rpgpp_lt_tex_a",

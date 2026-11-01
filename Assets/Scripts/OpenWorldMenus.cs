@@ -22,15 +22,16 @@ namespace LostRealmsOW {
   ScrollRect menuScroll;
   int displayedMenu = -1;
   string menuFeedback = "";
+  float newJourneyConfirmUntil;
   readonly List<Action> refreshRows = new List<Action>();
   public bool MenuVisible => menuRoot && menuRoot.activeSelf;
   public int MenuRowCount { get; private set; }
   public bool RegionMapVisible => regionMapBox && regionMapBox.gameObject.activeSelf;
 
   public static void DebugUI(string arg) {
-   var gm = OpenWorldManager.I;
-   var hud = Instance;
-   if (!gm || !hud) return;
+   var gm = OpenWorldManager.I ?? FindAnyObjectByType<OpenWorldManager>();
+   var hud = Instance ?? FindAnyObjectByType<OpenWorldMobileHud>();
+   if (!gm || !hud) { Debug.LogError("[DebugUI] gm or hud missing"); return; }
    string cmd = (arg ?? "").Trim().ToLowerInvariant();
    hud.SetTitleScreenVisible(false);
    gm.CloseMenus();
@@ -44,7 +45,7 @@ namespace LostRealmsOW {
     case "vault": gm.ShowVaultModal = true; break;
     case "arsenal": gm.ShowArsenalModal = true; break;
     case "wardrobe": gm.ShowWardrobeModal = true; break;
-    case "pause": gm.ShowPauseModal = true; gm.SendMessage("Update"); break;
+    case "pause": gm.ShowPauseModal = true; break;
     case "title": hud.SetTitleScreenVisible(true); break;
    }
    hud.Update();
@@ -167,39 +168,52 @@ namespace LostRealmsOW {
    theme.Round(rim.gameObject, OpenWorldUITheme.GoldLine, 12f, true).raycastTarget = false;
    devBarObj = bar.gameObject;
 
-   devStatusLabel = Label(bar, "EQUIPMENT TESTING MODE  •  Enter 4-digit PIN to unlock all weapons & skins for this session", new Vector2(-180, 0), new Vector2(640, 32), new Vector2(0.5f, 0.5f), 13);
+   // Left status message clearly separated from buttons
+   devStatusLabel = Label(bar, "EQUIPMENT TESTING MODE  •  Enter 4-digit PIN to test all weapons & skins", new Vector2(328, 0), new Vector2(616, 32), new Vector2(0, 0.5f), 13);
    devStatusLabel.alignment = TextAnchor.MiddleLeft;
    devStatusLabel.color = OpenWorldUITheme.TextDim;
 
-   var pinBox = Rect("Developer password", bar, new Vector2(1, 0.5f), new Vector2(1, 0.5f), new Vector2(-220, 0), new Vector2(150, 32));
+   // CREDITS button placed to the left of the PIN box with clear gap
+   var creditsBtn = PillButton(bar, "CREDITS", new Vector2(-332, 0), new Vector2(108, 34), new Vector2(1, 0.5f), 13);
+   creditsBtn.onClick.AddListener(() => {
+    var gm = OpenWorldManager.I ?? UnityEngine.Object.FindAnyObjectByType<OpenWorldManager>();
+    if (!gm) return;
+    gm.CloseMenus();
+    gm.ShowCreditsModal = true;
+    OpenWorldAudio.Play("sfx_menu", 0.45f);
+   });
+
+   // 4-digit PIN InputField clearly framed with gold outline and number pad for mobile
+   var pinBox = Rect("Developer password", bar, new Vector2(1, 0.5f), new Vector2(1, 0.5f), new Vector2(-199, 0), new Vector2(130, 34));
    theme.Round(pinBox.gameObject, new Color(0.02f, 0.04f, 0.08f, 0.96f), 8f);
-   var pinText = Label(pinBox, "", Vector2.zero, new Vector2(130, 26), new Vector2(.5f, .5f), 16);
+   var pinRim = Rect("Outline", pinBox, Vector2.zero, Vector2.one, Vector2.zero, Vector2.zero);
+   pinRim.offsetMin = pinRim.offsetMax = Vector2.zero;
+   theme.Round(pinRim.gameObject, OpenWorldUITheme.GoldLine, 8f, true).raycastTarget = false;
+
+   var pinText = Label(pinBox, "", Vector2.zero, new Vector2(110, 26), new Vector2(.5f, .5f), 15);
+   pinText.color = OpenWorldUITheme.Gold;
+   pinText.alignment = TextAnchor.MiddleCenter;
    devPinInput = pinBox.gameObject.AddComponent<InputField>();
    devPinInput.textComponent = pinText;
    devPinInput.contentType = InputField.ContentType.Pin;
    devPinInput.characterLimit = 4;
-   var ph = Label(pinBox, "PIN CODE", Vector2.zero, new Vector2(130, 26), new Vector2(.5f, .5f), 12);
+   devPinInput.keyboardType = TouchScreenKeyboardType.NumberPad;
+   var ph = Label(pinBox, "PIN CODE", Vector2.zero, new Vector2(110, 26), new Vector2(.5f, .5f), 12);
    ph.color = OpenWorldUITheme.TextMuted;
+   ph.alignment = TextAnchor.MiddleCenter;
    devPinInput.placeholder = ph;
 
-   devToggleBtn = PillButton(bar, "UNLOCK", new Vector2(-68, 0), new Vector2(118, 32), new Vector2(1, 0.5f), 13);
+   // UNLOCK / DISABLE toggle button
+   devToggleBtn = PillButton(bar, "UNLOCK", new Vector2(-68, 0), new Vector2(108, 34), new Vector2(1, 0.5f), 13);
    devToggleLabel = devToggleBtn.GetComponentInChildren<Text>();
    devToggleBtn.onClick.AddListener(() => {
-    var gm = OpenWorldManager.I;
+    var gm = OpenWorldManager.I ?? UnityEngine.Object.FindAnyObjectByType<OpenWorldManager>();
     if (!gm) return;
     bool accepted = gm.SetDeveloperMode(devPinInput ? devPinInput.text : "");
     menuFeedback = accepted
      ? (gm.DeveloperMode ? "Developer mode enabled • All equipment available" : "Developer mode disabled • Original equipment restored")
      : "Incorrect password";
     if (devPinInput) devPinInput.text = "";
-    OpenWorldAudio.Play("sfx_menu", 0.45f);
-   });
-   var creditsBtn = PillButton(bar, "CREDITS", new Vector2(-196, 0), new Vector2(112, 32), new Vector2(1, 0.5f), 13);
-   creditsBtn.onClick.AddListener(() => {
-    var gm = OpenWorldManager.I;
-    if (!gm) return;
-    gm.CloseMenus();
-    gm.ShowCreditsModal = true;
     OpenWorldAudio.Play("sfx_menu", 0.45f);
    });
    devBarObj.SetActive(false);
@@ -349,7 +363,8 @@ namespace LostRealmsOW {
    gm.ShowArsenalModal ? 3 : gm.ShowWardrobeModal ? 4 : 0;
 
   void UpdateMenus() {
-   var gm = OpenWorldManager.I;
+   var gm = OpenWorldManager.I ?? FindAnyObjectByType<OpenWorldManager>();
+   if (!gm) return;
    int kind = CurrentMenu(gm);
    menuRoot.SetActive(kind != 0);
    if (kind == 0) { displayedMenu = 0; return; }
@@ -441,6 +456,7 @@ namespace LostRealmsOW {
     }
    } else if (kind == 3) {
     foreach (var weapon in OpenWorldWeaponCatalog.All) {
+     if(!OpenWorldWeaponCatalog.Available(weapon.Id))continue;
      var item = weapon;
      string styleTag = item.Style == "chop" ? "HEAVY CLEAVE" : item.Style == "spear" ? "POLEARM" : "SWIFT BLADE";
      string elemTag = item.ElementAffinity == 0 ? " • EMBER" : item.ElementAffinity == 1 ? " • FROST" : item.ElementAffinity == 2 ? " • GALE" : "";
@@ -460,6 +476,13 @@ namespace LostRealmsOW {
     }
    } else {
     AddMenuRow("Continue your journey", gm.QuestHeading, "Icons/UI_Icon_Play_Resume", gm.CloseMenus, () => true, () => "RESUME");
+    AddMenuRow("Start New Journey", "Start unarmed with no weapons. Previous adventure backed up. Tap twice to confirm.", "Icons/UI_Icon_Play_Resume",
+     () => {
+      if (Time.unscaledTime < newJourneyConfirmUntil) {
+       newJourneyConfirmUntil = 0;
+       if (!gm.StartNewJourney()) menuFeedback = "Could not start • Previous adventure preserved";
+      } else { newJourneyConfirmUntil = Time.unscaledTime + 5f; menuFeedback = "Tap New Journey again within 5 seconds to restart"; }
+     }, () => true, () => Time.unscaledTime < newJourneyConfirmUntil ? "CONFIRM" : "NEW");
     AddMenuRow("Save adventure", "Save progress at your last sanctuary or Realm Gate", "Icons/UI_Icon_Sanctuary",
      () => menuFeedback = gm.SaveAdventure() ? "Adventure saved" : "Save unavailable • Existing save files are preserved",
      () => true, () => "SAVE");

@@ -1,0 +1,8 @@
+PASS first open contains ten listings
+PASS scroll list present
+PASS large weapon icon
+PASS insufficient funds unchanged
+PASS exact single charge
+PASS duplicate purchase refused
+PASS destroyed workshop recreated
+PASS population eligibility blocks completed elite

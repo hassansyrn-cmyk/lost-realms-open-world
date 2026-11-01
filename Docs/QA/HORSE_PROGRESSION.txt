@@ -1,0 +1,17 @@
+PASS retired axe unavailable
+PASS old equipped axe becomes unarmed
+PASS wild horse cannot mount without taming
+PASS stable rejects insufficient funds
+PASS stable charges exactly350
+PASS ownership recorded
+PASS owned horse reselection free
+PASS taming challenge starts
+PASS three missed rings fail without ownership
+PASS taming round needs 5-12 rings
+PASS tap without a live ring is ignored
+PASS expired ring counts as one miss
+PASS focused ring tap adds one trust
+PASS second tap on consumed ring is ignored
+PASS successful ring round grants horse and handling skill
+PASS breed speed stamina differ
+PASS ownership and ore deadline survive save round trip

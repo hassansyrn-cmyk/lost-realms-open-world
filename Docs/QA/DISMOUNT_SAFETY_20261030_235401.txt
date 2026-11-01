@@ -1,0 +1,23 @@
+Safe Horse Dismount Recovery Validation 10/30/2026 11:54:01 PM
+
+PASS: OpenWorldManager instance exists
+PASS: ActiveTerrain is present
+PASS: Hero is present
+--- 1. Testing Real Hero Controller Capsule Dimensions ---
+PASS: Hero has CharacterController attached
+PASS: Controller radius is 0.38m (actual: 0.38m)
+PASS: Controller height is 1.78m (actual: 1.78m)
+PASS: Controller center Y is 0.89m (actual: 0.89m)
+--- 2. Setting Up Validation Mount on Clear Open Ground ---
+PASS: Horse instance acquired and initialized
+--- 3. Testing Normal Dismount on Open Ground ---
+PASS: Normal dismount point found at (83.87, 5.47, 36.13)
+PASS: Normal dismount point Y (5.466) is safe on terrain surface (5.416)
+PASS: Normal dismount distance is within expected side range (1.60m)
+PASS: Hero successfully entered mount
+PASS: Hero successfully dismounted without being trapped
+PASS: Hero Controller re-enabled after dismount
+PASS: Hero final position (5.855) is safe on ground (5.808)
+--- 4. Testing Forced Underground-Origin Recovery on Open Ground ---
+PASS: Forced underground search origin successfully recovers safe surface candidate
+FAIL: Recovered point Y (5.445) is on surface ground (5.590), NOT underground

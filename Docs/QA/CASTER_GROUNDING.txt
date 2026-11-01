@@ -1,0 +1,8 @@
+enemy=(0.00, 6.25, -2.00) visualScale=(0.80, 0.80, 0.80) modelPos=(0.00, -1.00, 0.00) modelScale=(1.11, 1.11, 1.11)
+renderer=Center: (0.09, 7.02, -1.90), Extents: (1.02, 1.03, 0.88) bakedLocal=Center: (0.05, 0.62, 0.13), Extents: (0.89, 0.99, 0.72) worldMin=(-0.70, 6.08, -2.54) worldMax=(0.78, 7.72, -1.35)
+enemy=(0.00, 6.25, -2.00) visualScale=(0.80, 0.80, 0.80) modelPos=(0.00, -1.00, 0.00) modelScale=(1.11, 1.11, 1.11)
+renderer=Center: (0.03, 6.19, -1.98), Extents: (0.90, 1.03, 0.77) bakedLocal=Center: (0.05, -0.20, 0.09), Extents: (0.82, 0.99, 0.68) worldMin=(-0.64, 5.40, -2.54) worldMax=(0.73, 7.05, -1.41)
+enemy=(0.00, 6.25, -2.00) visualScale=(0.83, 0.83, 0.83) modelPos=(-0.09, 0.31, -0.03) modelScale=(1.11, 1.11, 1.11)
+renderer=Center: (0.00, 7.27, -2.00), Extents: (0.83, 1.03, 0.70) bakedLocal=Center: (0.08, -0.21, 0.08), Extents: (0.83, 1.03, 0.70) worldMin=(-0.73, 6.42, -2.62) worldMax=(0.71, 8.19, -1.40)
+enemy=(0.00, 6.25, -2.00) visualScale=(0.83, 0.83, 0.83) modelPos=(-0.09, 0.31, -0.03) modelScale=(1.11, 1.11, 1.11)
+renderer=Center: (-0.02, 7.28, -1.98), Extents: (0.85, 1.03, 0.70) bakedLocal=Center: (0.06, -0.21, 0.10), Extents: (0.85, 1.03, 0.70) worldMin=(-0.76, 6.42, -2.60) worldMax=(0.70, 8.19, -1.39)

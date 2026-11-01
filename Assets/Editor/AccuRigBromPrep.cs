@@ -1,0 +1,29 @@
+using UnityEngine.Playables;using UnityEngine.Animations;
+using System;using System.IO;using System.Linq;using UnityEditor;using UnityEngine;
+namespace LostRealmsOW {public static class AccuRigBromPrep {
+ public const string Source="Assets/GameContent/DownloadedModels/AccuRigBrom";
+ public static void Inspect(){var lines=new System.Collections.Generic.List<string>();Directory.CreateDirectory(Source+"/Textures");AssetDatabase.Refresh();foreach(var file in new[]{"Brom","Talk","Walk","WalkStop"}){string path=Source+"/"+file+".fbx";var imp=(ModelImporter)AssetImporter.GetAtPath(path);imp.animationType=ModelImporterAnimationType.Generic;imp.importAnimation=true;imp.SaveAndReimport();if(file=="Brom")imp.ExtractTextures(Source+"/Textures");foreach(var c in AssetDatabase.LoadAllAssetsAtPath(path).OfType<AnimationClip>().Where(c=>!c.name.StartsWith("__")))lines.Add(file+" clip="+c.name+" length="+c.length+" curves="+AnimationUtility.GetCurveBindings(c).Length);var go=AssetDatabase.LoadAssetAtPath<GameObject>(path);foreach(var r in go.GetComponentsInChildren<SkinnedMeshRenderer>(true))lines.Add(file+" mesh="+r.name+" triangles="+r.sharedMesh.triangles.Length/3+" bones="+r.bones.Length+" mats="+string.Join(",",r.sharedMaterials.Select(m=>m?m.name:"NULL")));}AssetDatabase.Refresh();File.WriteAllLines("Docs/QA/ACCURIG_BROM_IMPORT.txt",lines);Debug.Log(string.Join("\n",lines));}
+
+ const string Output="Assets/Resources/World/NPCs/AccuRigBrom";
+ static AnimationClip Clip(string name){return AssetDatabase.LoadAllAssetsAtPath(Source+"/"+name+".fbx").OfType<AnimationClip>().First(c=>!c.name.StartsWith("__")&&!c.name.StartsWith("0_Open"));}
+ static AnimationClip SaveMotion(string name,string file,bool still){var source=Clip(file);var copy=UnityEngine.Object.Instantiate(source);copy.name=name;copy.legacy=false;
+  foreach(var binding in AnimationUtility.GetCurveBindings(copy)){var curve=AnimationUtility.GetEditorCurve(copy,binding);if(still){float v=curve.Evaluate(Mathf.Max(0,source.length-.03f));AnimationUtility.SetEditorCurve(copy,binding,AnimationCurve.Constant(0,3,v));}else if((binding.path=="root"||binding.path=="")&&(binding.propertyName=="m_LocalPosition.x"||binding.propertyName=="m_LocalPosition.z"))AnimationUtility.SetEditorCurve(copy,binding,AnimationCurve.Constant(0,source.length,curve.Evaluate(0)));}
+  var settings=AnimationUtility.GetAnimationClipSettings(copy);settings.loopTime=true;settings.loopBlend=true;AnimationUtility.SetAnimationClipSettings(copy,settings);
+  string path=Output+"/"+name+".anim";var prior=AssetDatabase.LoadAssetAtPath<AnimationClip>(path);if(prior){EditorUtility.CopySerialized(copy,prior);UnityEngine.Object.DestroyImmediate(copy);return prior;}AssetDatabase.CreateAsset(copy,path);return copy;
+ }
+ public static void Build(){Directory.CreateDirectory(Output);AssetDatabase.Refresh();
+  var diffuse=AssetDatabase.LoadAssetAtPath<Texture2D>(Source+"/Textures/Material_001_Diffuse.jpg");if(!diffuse)throw new Exception("Extracted blacksmith diffuse texture missing");
+  foreach(string texPath in AssetDatabase.FindAssets("t:Texture2D",new[]{Source+"/Textures"}).Select(AssetDatabase.GUIDToAssetPath)){var imp=(TextureImporter)AssetImporter.GetAtPath(texPath);imp.maxTextureSize=texPath.Contains("Normal")?1024:2048;if(texPath.Contains("Normal"))imp.textureType=TextureImporterType.NormalMap;imp.SaveAndReimport();}
+  var mat=AssetDatabase.LoadAssetAtPath<Material>(Output+"/Brom.mat");if(!mat){mat=OpenWorldMaterialHelper.CreateLit("Brom AccuRig leather and steel",Color.white,diffuse);AssetDatabase.CreateAsset(mat,Output+"/Brom.mat");}mat.mainTexture=diffuse;mat.SetTexture("_BaseMap",diffuse);mat.SetFloat("_Smoothness",.32f);var normal=AssetDatabase.LoadAssetAtPath<Texture2D>(Source+"/Textures/Material_001_Normal.jpg");if(normal){mat.SetTexture("_BumpMap",normal);mat.EnableKeyword("_NORMALMAP");}
+  var root=new GameObject("Brom_AccuRig");try{var model=UnityEngine.Object.Instantiate(AssetDatabase.LoadAssetAtPath<GameObject>(Source+"/Brom.fbx"),root.transform);model.name="AccuRig blacksmith";
+   foreach(var r in model.GetComponentsInChildren<SkinnedMeshRenderer>()){r.sharedMaterials=r.sharedMaterials.Select(_=>mat).ToArray();r.updateWhenOffscreen=true;}
+   var animator=model.GetComponentInChildren<Animator>();if(!animator)animator=model.AddComponent<Animator>();animator.runtimeAnimatorController=null;animator.applyRootMotion=false;
+   var driver=root.AddComponent<OpenWorldImportedModel>();driver.Idle=SaveMotion("Idle","WalkStop",true);driver.Walk=SaveMotion("Walk","Walk",false);driver.Talk=SaveMotion("Talk","Talk",false);driver.Run=driver.Walk;driver.WalkSpeed=1.15f;
+   var graph=UnityEngine.Playables.PlayableGraph.Create("Brom prep pose");var player=UnityEngine.Animations.AnimationClipPlayable.Create(graph,driver.Idle);var output=UnityEngine.Animations.AnimationPlayableOutput.Create(graph,"Pose",animator);output.SetSourcePlayable(player);graph.Play();graph.Evaluate(0);graph.Destroy();
+   foreach(var skin in model.GetComponentsInChildren<SkinnedMeshRenderer>()){var posed=new Mesh();skin.BakeMesh(posed,false);skin.localBounds=posed.bounds;UnityEngine.Object.DestroyImmediate(posed);}
+   var b=OpenWorldMaterialHelper.ComputeRendererBounds(root.transform);model.transform.localScale*=1.92f/Mathf.Max(.01f,b.size.y);b=OpenWorldMaterialHelper.ComputeRendererBounds(root.transform);model.transform.position+=new Vector3(-b.center.x,-b.min.y,-b.center.z);
+   PrefabUtility.SaveAsPrefabAsset(root,"Assets/Resources/World/NPCs/Brom_AccuRig.prefab");AssetDatabase.SaveAssets();
+   File.WriteAllText("Docs/QA/ACCURIG_BROM_PREP.txt","Idle: relaxed walk-stop final pose; Walk: native loop; Talk: native loop\nSkin triangles: "+model.GetComponentsInChildren<SkinnedMeshRenderer>().Sum(r=>r.sharedMesh.triangles.Length/3)+"\nPrepared bounds: "+OpenWorldMaterialHelper.ComputeRendererBounds(root.transform));
+  }finally{UnityEngine.Object.DestroyImmediate(root);}
+ }
+}}

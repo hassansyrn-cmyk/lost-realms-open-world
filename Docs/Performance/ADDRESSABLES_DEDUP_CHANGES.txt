@@ -1,0 +1,125 @@
+SKIP Packages/com.unity.render-pipelines.universal/Shaders/Utils/FallbackError.shader
+SKIP Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader
+SKIP Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/FallbackShader.shader
+SKIP Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Bark_03-1_s.png
+SKIP Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Atlas_s.png
+SKIP Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Atlas_n.png
+SKIP Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Atlas_d.png
+SKIP Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Bark_03-2_d.png
+SKIP Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Textures/Bark_03-1_n.png
+SKIP Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Materials/Atlas.mat
+SKIP Assets/Silver_Cats/Hand_Painted_Nature_Kit_LITE/Materials/Bark_03-2.mat
+SKIP Assets/Mountain Terrain rocks and tree/Materials/Rock/rock_set_mat_AlbedoTransparency.png
+SKIP Assets/Mountain Terrain rocks and tree/Materials/Rock/rock_set_mat_MetallicSmoothness.png
+SKIP Assets/Mountain Terrain rocks and tree/Materials/Rock/rock_set_mat_Normal.png
+SKIP Assets/GameContent/Imported/Materials/a6870fec01611b547b936fcacf143241_2100000_lit.mat
+SKIP Assets/Mountain Terrain rocks and tree/Materials/Rock/rock_set_mat_AO.png
+SKIP Assets/GameContent/Imported/Materials/e68f77e240a7f8643b5cc4253dc37516_2100000_lit.mat
+SKIP Assets/SimpleSky/Textures/SimpleSky.png
+SKIP Assets/GameContent/Imported/Materials/c681da389980e45469889866404b0744_2100000_lit.mat
+SKIP Assets/Crates And Barrels Pack Volume 1 - Free Version/Textures/Tex_CratesAndBarrelsVol1_O.tga
+SKIP Assets/Crates And Barrels Pack Volume 1 - Free Version/Textures/Tex_CratesAndBarrelsVol1_N.tga
+SKIP Assets/Crates And Barrels Pack Volume 1 - Free Version/Textures/Tex_CratesAndBarrelsVol1_A_color01.tga
+SKIP Assets/Crates And Barrels Pack Volume 1 - Free Version/Textures/Tex_CratesAndBarrelsVol1_M.tga
+SKIP Assets/GameContent/Imported/Materials/c758c5a4b3834b644b1145534af1f7b9_2100000_lit.mat
+SKIP Assets/ithappy/Animals_FREE/Materials/Material.mat
+SKIP Assets/ithappy/Animals_FREE/Textures/Texture.png
+SKIP Assets/GameContent/Imported/Materials/af65c0942482e46aeb256506726ff0f7_2100000_lit.mat
+SKIP Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png
+SKIP Assets/Symphonie/StylizedForestKit Samples/Texture/Oak/T_Oak01_O.png
+SKIP Assets/Symphonie/StylizedForestKit Samples/Texture/Oak/T_Oak01_N.png
+SKIP Assets/Symphonie/StylizedForestKit Samples/Texture/Oak/T_Oak01_M.png
+SKIP Packages/com.unity.shadergraph/Editor/Resources/Shaders/FallbackError.shader
+SKIP Assets/Symphonie/StylizedForestKit Samples/Model/M_Oak01.fbx
+SKIP Assets/Symphonie/StylizedForestKit Samples/Shader_URP/Shader/Waving&SnowLeaves_URP.shadergraph
+SKIP Assets/Symphonie/StylizedForestKit Samples/Shader_URP/Shader/T_snow_D.png
+SKIP Assets/GameContent/Imported/Materials/0a1f44318dd467a45bfef81ad0e8855a_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/3922c043c1c52cb47a7b1bfed562a4b6_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/missing_particle.mat
+SKIP Packages/com.unity.render-pipelines.universal/Shaders/Particles/ParticlesUnlit.shader
+SKIP Assets/Idyllic Fantasy Nature/Shader/Surface.shadergraph
+SKIP Assets/Idyllic Fantasy Nature/Materials/Trees/Broadleaf_Green.mat
+SKIP Assets/Idyllic Fantasy Nature/Materials/Trees/Tree_Bark.mat
+SKIP Assets/Idyllic Fantasy Nature/Textures/Moss/Moss_Normal.png
+SKIP Assets/Idyllic Fantasy Nature/Textures/Trees/Bark_Normal.png
+SKIP Assets/Idyllic Fantasy Nature/Textures/Moss/Moss_Albedo.png
+SKIP Assets/Idyllic Fantasy Nature/Textures/Moss/Moss_Mask.png
+SKIP Assets/Idyllic Fantasy Nature/Textures/Trees/BroadleafTree_Leaves.png
+SKIP Assets/Idyllic Fantasy Nature/Textures/Trees/Bark_Albedo.png
+SKIP Assets/Idyllic Fantasy Nature/Shader/Vegetation.shadergraph
+SKIP Assets/VillagePack/OldHouse/VHDecorationWoodReflection.png
+SKIP Assets/VillagePack/OldHouse/VHFrameWoodBump.png
+SKIP Assets/VillagePack/OldHouse/VHDecorationWood.png
+SKIP Assets/VillagePack/OldHouse/VHFrameWoodReflection.png
+SKIP Assets/VillagePack/OldHouse/VHDecorationWoodBump.png
+SKIP Assets/VillagePack/OldHouse/VhRoofBeamBump.png
+SKIP Assets/VillagePack/OldHouse/VhRoofBeamReflection.png
+SKIP Assets/VillagePack/OldHouse/VhRoofBeam.png
+SKIP Assets/GameContent/Imported/Materials/1156ea62e0e01d24386d2769ecbc417e_2100000_lit.mat
+SKIP Assets/VillagePack/OldHouse/VHFrameWood.png
+SKIP Assets/GameContent/Imported/Materials/4c25ff46585cd004986267bced340add_2100000_lit.mat
+SKIP Assets/BrokenVector/LowPolyBrickHouses/Palettes/Houses Colorscheme 2.png
+SKIP Assets/GameContent/Imported/Materials/35b3f8b0173dcad42a78d7ace2476948_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/fe3e3b8ebc1a32647b48b7ea88f534a8_2100000_lit.mat
+SKIP Assets/BrokenVector/LowPolyTreePack/Textures/Colorsheet Tree Normal.png
+SKIP Assets/living birds/models/littleBird.FBX
+SKIP Assets/FantasyEnvironments/Environments/Town/Textures/cart.png
+SKIP Assets/GameContent/Imported/Materials/df3162d26d7433e44a7fbbb74023987d_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/c6010fd8a9033e94399bc3b59a4be473_2100000_lit.mat
+SKIP Assets/A_piece_of_nature/Textures/Rocks_3_4_texture.tif
+SKIP Assets/A_piece_of_nature/Textures/Rocks_3_4_normal.tif
+SKIP Assets/A_piece_of_nature/Textures/Rocks_3_4_specular.tif
+SKIP Assets/GameContent/Imported/Materials/93415edde47040648869ae6638d33ced_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/f43a7dc4f39c5654a8211b83259e32a9_2100000_lit.mat
+SKIP Assets/Free Simple Dungeon Props - YP/Material and Texture/Gradient.mat
+SKIP Packages/com.unity.render-pipelines.universal/Shaders/SimpleLit.shader
+SKIP Assets/Free Simple Dungeon Props - YP/Material and Texture/Gradient.png
+SKIP Assets/CemeteryPack/Textures/Tombstones_Diffuse.tga
+SKIP Assets/GameContent/Imported/Materials/1ea4c726901de5b47a9464616b6e4f05_2100000_lit.mat
+SKIP Assets/CemeteryPack/Textures/Tombstones_normals.tga
+SKIP Assets/Free Slash VFX/Materials/Variations/Var 1.mat
+SKIP Assets/Free Slash VFX/Materials/Variations/Flying var Vertex.mat
+SKIP Assets/Free Slash VFX/Demo/Model/Sphere.fbx
+SKIP Assets/Free Slash VFX/Textures/Noise_GrayScale/T_Lu_Noise_29.png
+SKIP Assets/Free Slash VFX/Textures/Noise Circle_albedo.png
+SKIP Assets/Free Slash VFX/Textures/Droplet.png
+SKIP Assets/Free Slash VFX/Textures/Noise Dark.png
+SKIP Assets/Free Slash VFX/Shaders/Slash World.shadergraph
+SKIP Assets/Free Slash VFX/Textures/Gradient 4.png
+SKIP Assets/Free Slash VFX/Textures/Flare(2).png
+SKIP Assets/Free Slash VFX/Textures/Gradient 2.png
+SKIP Assets/Free Slash VFX/Textures/Razengan_texture_3.png
+SKIP Assets/Free Slash VFX/Materials/Water Version/Flying Particles Water.mat
+SKIP Assets/Free Slash VFX/Textures/Crack 2.png
+SKIP Assets/Free Slash VFX/Textures/Impact.png
+SKIP Assets/Free Slash VFX/Model/Smoke/SmokeSphere01.fbx
+SKIP Assets/Free Slash VFX/Materials/Fire Version/Flying Particles Fire.mat
+SKIP Assets/Free Slash VFX/Materials/Flying Particles.mat
+SKIP Assets/Free Slash VFX/Materials/Water Version/Ripple.mat
+SKIP Assets/Free Slash VFX/Shaders/Trail.shadergraph
+SKIP Assets/Free Slash VFX/Materials/Slash.mat
+SKIP Assets/Free Slash VFX/Shaders/Slash.shadergraph
+SKIP Assets/Free Slash VFX/Textures/Blue Noise_Blue Noise.png
+SKIP Assets/Free Slash VFX/Textures/Noise_GrayScale/T_Lu_Noise_31.png
+SKIP Assets/Free Slash VFX/Textures/Razengan_texture_2.png
+SKIP Assets/Free Slash VFX/Materials/Fire Version/Slash World Fire.mat
+SKIP Assets/Free Slash VFX/Materials/Variations/Impact Mat 1.mat
+SKIP Assets/Free Slash VFX/Shaders/Orb Warp.shadergraph
+SKIP Assets/Free Slash VFX/Materials/Slash World.mat
+SKIP Assets/Free Slash VFX/Textures/Noise.png
+SKIP Assets/Free Slash VFX/Model/Slash/Slash .fbx
+SKIP Assets/Free Slash VFX/Materials/Variations/Impact Mat.mat
+SKIP Assets/Free Slash VFX/Shaders/Impact.shadergraph
+SKIP Assets/Free Slash VFX/Textures/Voronoi Noise 1_albedo.png
+SKIP Assets/GameContent/Imported/Materials/870bcbe66fbf1e0479f611163b71d61e_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/a0c6c4757d70d784b9a1cb379ed3b317_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/21f5d46cfbe5a1944a447dbbd51d3386_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/9923ec4feaebca94382cb2c29c582cfe_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/9b2f7a9877042784da6f113d45cd70e6_2100000_lit.mat
+SKIP Assets/GameContent/Imported/Materials/e546d2d7171981b468cf29388d902e99_2100000_particle.mat
+SKIP Assets/GameContent/Imported/Materials/db3488de871721d4f83250ff2af716b7_2100000_particle.mat
+SKIP Assets/Hovl Studio/Magic effects pack/Textures/Flash.png
+SKIP Assets/Hovl Studio/Magic effects pack/Textures/Point1.png
+SKIP Assets/Hovl Studio/Magic effects pack/Textures/Smoke26.png
+SKIP Assets/GameContent/Imported/Materials/616a777eb757ff14c82a79feeb35d9b1_2100000_particle.mat
+SKIP Assets/GameContent/Imported/Materials/c79855c6f54ed954293d041acc3120a8_2100000_lit.mat

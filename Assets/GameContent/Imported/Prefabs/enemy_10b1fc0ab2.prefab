@@ -738,10 +738,10 @@ MonoBehaviour:
   GallopContactPhases: []
   GallopLeftPhaseOffset: 0
   GallopRightPhaseOffset: 0
-  WalkSpeed: 2.5754387
+  WalkSpeed: 2.5753157
   TrotSpeed: 0
   CanterSpeed: 0
-  RunSpeed: 5.3723135
+  RunSpeed: 5.338514
   TuckTime: -1
   State: idle
   RestartVersion: 0

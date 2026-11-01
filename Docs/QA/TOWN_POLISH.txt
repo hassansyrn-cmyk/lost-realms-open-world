@@ -1,0 +1,27 @@
+PASS no Caster enemies in world
+PASS Bramble Ridge Outpost hub=170.3 merchant=196.4
+PASS Bramble Ridge Outpost dry ground
+PASS Whispering Woods Outpost hub=152.4 merchant=178.2
+PASS Whispering Woods Outpost dry ground
+PASS Sunlit Ruins Outpost hub=169.2 merchant=88.8
+PASS Sunlit Ruins Outpost dry ground
+PASS Rowan imported clothing has colored texture
+PASS OW_rpgpp_lt_building_02 shrine clearance=8.8
+PASS OW_rpgpp_lt_building_02 road edge clearance=1.8
+OW_rpgpp_lt_building_02 Center: (32.00, 9.51, 5.00), Extents: (4.65, 3.20, 4.34)
+PASS OW_rpgpp_lt_building_03 shrine clearance=54.7
+PASS OW_rpgpp_lt_building_03 road edge clearance=5.8
+OW_rpgpp_lt_building_03 Center: (-32.00, 9.61, -15.00), Extents: (3.38, 3.10, 4.05)
+PASS OW_rpgpp_lt_building_04 shrine clearance=12.4
+PASS OW_rpgpp_lt_building_04 road edge clearance=6.0
+OW_rpgpp_lt_building_04 Center: (40.00, 10.05, -19.00), Extents: (3.93, 3.10, 3.71)
+PASS OW_rpgpp_lt_building_05 shrine clearance=50.0
+PASS OW_rpgpp_lt_building_05 road edge clearance=2.2
+OW_rpgpp_lt_building_05 Center: (-17.00, 9.26, 30.00), Extents: (5.22, 3.25, 5.22)
+PASS outer buildings 0/1 do not overlap
+PASS outer buildings 0/2 do not overlap
+PASS outer buildings 0/3 do not overlap
+PASS outer buildings 1/2 do not overlap
+PASS outer buildings 1/3 do not overlap
+PASS outer buildings 2/3 do not overlap
+PASS six enhanced ore veins

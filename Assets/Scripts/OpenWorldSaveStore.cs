@@ -7,7 +7,9 @@ using UnityEngine;
 namespace LostRealmsOW {
  [Serializable]
  public sealed class OpenWorldSaveData {
+  public static OpenWorldSaveData NewJourney() => new OpenWorldSaveData { weapon = OpenWorldWeaponCatalog.UnarmedId, weapons = Array.Empty<int>() };
   public int rawMeat;
+  public int herbs, ore; // gathering counters (GLM) — additive fields load as 0 from older saves
   public int gold = 120, gems = 10, weapon, skin, element, sanctumFoci, relics, bounties, cryptMask;
   public bool questStarted, guardianAwakened, guardianDefeated, questCompleted, sanctumCompleted, stormRelay;
   public string checkpoint = "hub";
@@ -78,9 +80,9 @@ namespace LostRealmsOW {
    using (var algorithm = SHA256.Create()) return Convert.ToBase64String(algorithm.ComputeHash(Encoding.UTF8.GetBytes(value)));
   }
   static void Validate(OpenWorldSaveData data) {
-   if (data == null || data.rawMeat < 0 || data.rawMeat > 999 || data.gold < 0 || data.gems < 0 || data.collected == null || data.camps == null ||
+   if (data == null || data.rawMeat < 0 || data.rawMeat > 999 || data.herbs < 0 || data.herbs > 999 || data.ore < 0 || data.ore > 999 || data.gold < 0 || data.gems < 0 || data.collected == null || data.camps == null ||
        data.gates == null || data.weapons == null || data.skins == null || string.IsNullOrEmpty(data.checkpoint) ||
-       data.element < 0 || data.element > 2 || data.weapon < 0 || data.skin < 0 ||
+       data.element < 0 || data.element > 2 || data.weapon < OpenWorldWeaponCatalog.UnarmedId || data.skin < 0 ||
        (data.questCompleted && (!data.guardianDefeated || !data.questStarted)) ||
        (data.guardianDefeated && !data.guardianAwakened) ||
        data.sanctumFoci < 0 || data.sanctumFoci > 7 ||

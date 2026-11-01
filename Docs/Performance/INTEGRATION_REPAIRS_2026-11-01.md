@@ -1,0 +1,15 @@
+# Integration repairs and forge presentation — 2026-11-01
+
+Codex completed source repairs and focused Editor verification. No APK build, phone test, commit or push.
+
+- First-open shop population: preserved Antigravity initial RefreshModal fix; added null-HUD guard. Tested all10 listings on initial open.
+- Purchases: UI callback now calls TryForge, validates live modal/hero, known listing, funds and ownership before deduction; duplicate queued calls refuse. Verified zero-funds refusal, exact40gold/1ore deduction, duplicate refusal; player snapshot/currency/equipment restored synchronously in finally.
+- Workshop lifecycle: tracks actual GameObject and parent instead of static boolean. Destroy/recreate test passed. Building retains existing organized footprint centered(-18.5,6.2,9.2), bounds extents(3.30,2.42,4.31); no unnecessary building transform change. Brom moved to exterior forecourt(-13.7,6.2,3.1), outside both wall footprint and roofed interior.
+- Brom: imported replacement model had three texture=NULL slots; initial skin material ran before replacement. NPC detects a new model once and assigns its own URP material. Matching NPC shader masks and source color properties baked into own Resources BromClothing.png; leather cloth tones, skin/eyes/hair retained. Vendor originals unchanged. Two preliminary atlas attempts were rejected by visual inspection. Final codex_brom_textured.jpg visibly shows colored clothing and grounded exterior placement.
+- Phone-facing shop:72px icon frames,88px rows, clamped vertical ScrollRect. Initial visible layout screenshot codex_forge_icons.png reviewed. First-open, scroll presence and large-icon assertions passed. Physical phone scrolling/readability not tested.
+- Elite lifecycle: Population.Spawn consults IsSlain before requesting/instantiating. Completed elites cannot spawn through this path; previous10second watcher retained as fallback. Flag eligibility assertion passed, actual region streaming/device regression not run.
+- WANTED poster: replaced blank legacy TextMesh with a world-space Canvas label, explicit font and reset state on reconstruction; split region/name lines. codex_wanted_canvas.jpg reviewed readable with existing SLAIN status.
+
+Evidence: Docs/QA/BLACKSMITH_TRANSACTIONS.txt (8passes); Docs/QA/BLACKSMITH_INTEGRATION.txt (Brom position and all3textured slots); ClaudeBridge/shots/codex_brom_textured.jpg, codex_forge_icons.png, codex_wanted_canvas.jpg. Runtime/editor compilation0errors; changed-source whitespace check passed. Initial inspector failed due static manager missing; corrected to find existing manager and reran successfully. No new guarantee of phone jump/parry fix: previous source review recommendations still require physical regression.
+
+Files: World/OpenWorldWeaponShop.cs, World/OpenWorldEliteHunts.cs, World/OpenWorldPopulation.cs, OpenWorldVillagesAndNPCs.cs; new Editor/BlacksmithIntegrationValidation.cs(+meta); own Resources/World/BlacksmithShop/Textures/BromClothing.png(+meta), reports, captures and shared log. Existing agents work preserved. Baked Aster animations, vendor packs, Photon and sibling untouched.

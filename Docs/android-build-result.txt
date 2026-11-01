@@ -1,1 +1,1 @@
-Succeeded: ARM64 IL2CPP development APK; 2059192583 bytes; 1 errors. Imported Addressables built for Android. Physical phone testing and release signing are separate requirements.
+Succeeded: ARM64 IL2CPP development APK; 2298295057 bytes; 1 errors. Imported Addressables built for Android. Physical phone testing and release signing are separate requirements.

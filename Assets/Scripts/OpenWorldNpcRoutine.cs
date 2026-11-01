@@ -12,6 +12,7 @@ namespace LostRealmsOW {
   public static DayPhase PhaseAt(float hour)=>hour>=5&&hour<8?DayPhase.Dawn:hour>=8&&hour<17?DayPhase.Work:hour>=17&&hour<21?DayPhase.Evening:DayPhase.Rest;
   public bool Tick(OpenWorldManager gm,float distance){
    if(!npc||!gm.ActiveTerrain)return false;
+   if (npc.NpcId == "brom" && npc.Visual.ModelInstance && npc.Visual.ModelInstance.name == "Brom_AccuRig") { Destination=home; Activity="At the forge"; npc.Visual.Play("idle"); return true; }
    var now=PhaseAt(OpenWorldAtmosphere.Instance?OpenWorldAtmosphere.Instance.Hour:12);Phase=now;
    if(distance>110){npc.Visual?.Play("idle");return true;}
    if(phase!=(int)now){phase=(int)now;excursion=false;nextPlan=0;workUntil=0;}

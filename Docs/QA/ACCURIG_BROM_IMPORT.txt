@@ -1,0 +1,12 @@
+Brom clip=0_Open A_UE5 length=29.98334 curves=1190
+Brom clip=sit-talk-378944 length=23.31667 curves=1190
+Brom mesh=mesh_0_001 triangles=100914 bones=100 mats=Material_001
+Talk clip=0_Open A_UE5 length=29.98334 curves=1190
+Talk clip=stand-talk-378997 length=28.13334 curves=1190
+Talk mesh=mesh_0_001 triangles=100914 bones=100 mats=Material_001
+Walk clip=walk-relaxed-2loop-378986 length=5.166667 curves=1190
+Walk clip=0_Open A_UE5 length=29.98334 curves=1190
+Walk mesh=mesh_0_001 triangles=100914 bones=100 mats=Material_001
+WalkStop clip=0_Open A_UE5 length=29.98334 curves=1190
+WalkStop clip=walk-relaxed-3end-378968 length=4.766667 curves=1190
+WalkStop mesh=mesh_0_001 triangles=100914 bones=100 mats=Material_001

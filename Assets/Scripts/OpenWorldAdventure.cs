@@ -135,6 +135,7 @@ namespace LostRealmsOW {
    get {
     if (Hero && Hero.IsMounted) return "DISMOUNT";
       if (OpenWorldMobileHud.Instance && OpenWorldMobileHud.Instance.RegionDiscoveryPrompt is string discoveryPrompt) return discoveryPrompt;
+    if (OpenWorldBanditAmbush.Instance && OpenWorldBanditAmbush.Instance.BanditAmbushPrompt is string ambushPrompt) return ambushPrompt;
     if (NearVerdantTracks) return "INSPECT TRACKS";
     if (NearVerdantCampfire) return RawMeat > 0 ? "COOK OAKVALE'S MEAL (1 MEAT)" : "COOK MEAL • NEED RAW MEAT";
     if (Near(SanctuaryPosition)) {
@@ -303,6 +304,7 @@ namespace LostRealmsOW {
    if (!adventureReady || IsModalOpen || !Hero || Hero.Dead) return;
    if (Hero.IsMounted) { Hero.LeaveMount(); return; }
    if (InspectVerdantTracks()) return;
+   if (OpenWorldBanditAmbush.Instance && OpenWorldBanditAmbush.Instance.TryInteractAmbush()) return;
    if (TryCookVerdantMeal()) return;
    if (GlmQuestInteract()) return;
    if (Near(SanctuaryPosition)) {
@@ -438,7 +440,7 @@ namespace LostRealmsOW {
    saveStore = new OpenWorldSaveStore(directory);
    try {
     var data = saveStore.Load();
-    if (data != null) RestoreAdventure(data);
+    RestoreAdventure(data ?? OpenWorldSaveData.NewJourney());
     ShowBanner(saveStore.RecoveredBackup ? "Adventure recovered from backup • Return to your journey" :
      data != null ? "Welcome back, Aster • " + QuestDetail : "A whisper calls from the sanctuary stone. Approach it to begin.");
    } catch (Exception e) when (e is IOException || e is UnauthorizedAccessException || e is NotSupportedException) {
@@ -521,7 +523,7 @@ namespace LostRealmsOW {
    var discovered = new List<string>();
    foreach (var gate in Gates) if (gate && gate.Discovered) discovered.Add(gate.WaypointId);
    return new OpenWorldSaveData {
-    gold = Gold, gems = Gems, weapon = SavedWeapon, rawMeat = RawMeat,
+    gold = Gold, gems = Gems, weapon = SavedWeapon, rawMeat = RawMeat, herbs = Herbs, ore = Ore,
     skin = SavedSkin, element = Hero ? Hero.ActiveElement : 0,
     sanctumFoci = SanctumFociMask, sanctumCompleted = SanctumCompleted,
     relics = RelicsMask, bounties = BountiesMask,
@@ -535,6 +537,8 @@ namespace LostRealmsOW {
 
   public void RestoreAdventure(OpenWorldSaveData data) {
    RawMeat = Mathf.Clamp(data.rawMeat, 0, 999);
+   Herbs = Mathf.Clamp(data.herbs, 0, 999);
+   Ore = Mathf.Clamp(data.ore, 0, 999);
    Gold = data.gold; Gems = data.gems;
    QuestStarted = data.questStarted; GuardianAwakened = data.guardianAwakened;
    GuardianDefeated = data.guardianDefeated; QuestCompleted = data.questCompleted;
@@ -560,14 +564,14 @@ namespace LostRealmsOW {
    }
    var discoveries = new HashSet<string>(data.gates);
    foreach (var gate in Gates) if (gate) gate.Discovered = gate.WaypointId == "hub" || discoveries.Contains(gate.WaypointId);
-   UnlockedWeapons.Clear(); UnlockedWeapons.UnionWith(new[] { 0, 1, 2 });
-   foreach (int id in data.weapons) if (id >= 0 && id < OpenWorldWeaponCatalog.All.Length) UnlockedWeapons.Add(id);
+   UnlockedWeapons.Clear(); // New journeys have no owned weapons.
+   foreach (int id in data.weapons) if (OpenWorldWeaponCatalog.Available(id)) UnlockedWeapons.Add(id);
    UnlockedSkins.Clear(); UnlockedSkins.Add(0);
    foreach (int id in data.skins) if (id >= 0 && id < OpenWorldCharacterVisual.AsterSkins.Length) UnlockedSkins.Add(id);
    Hero.MaxHealth = QuestCompleted ? 6f : 5f;
    Hero.MaxAether = SanctumCompleted ? 125f : 100f;
    Hero.Health = Hero.MaxHealth; Hero.Aether = Hero.MaxAether;
-   Hero.EquipWeapon(UnlockedWeapons.Contains(data.weapon) ? data.weapon : 0);
+   Hero.EquipWeapon(UnlockedWeapons.Contains(data.weapon) ? data.weapon : OpenWorldWeaponCatalog.UnarmedId);
    Hero.EquipSkin(UnlockedSkins.Contains(data.skin) ? data.skin : 0);
    Hero.RestoreElement(data.element);
    SetCheckpoint(data.checkpoint);
@@ -575,6 +579,24 @@ namespace LostRealmsOW {
    ApplySanctumState();
    ApplyRelicAndBountyState();
    ApplyCryptAndStormState();
+  }
+
+  public bool StartNewJourney() {
+   if (!adventureReady || saveBlocked || saveStore == null) return false;
+   try {
+    string directory = Path.Combine(Application.persistentDataPath, "Adventure");
+    string backup = Path.Combine(directory, "BeforeNewJourney-" + DateTime.UtcNow.ToString("yyyyMMdd-HHmmss-fffffff"));
+    Directory.CreateDirectory(backup);
+    foreach (string file in Directory.GetFiles(directory, "adventure-*.json")) File.Copy(file, Path.Combine(backup, Path.GetFileName(file)));
+    saveStore.Write(OpenWorldSaveData.NewJourney());
+   } catch (Exception e) when (e is IOException || e is UnauthorizedAccessException) {
+    Debug.LogWarning("New journey unavailable: " + e.Message); return false;
+   }
+   saveDirty = false; adventureReady = false;
+   CloseMenus();
+   if (DeveloperMode) SetDeveloperMode("");
+   BuildOpenWorld();
+   return true;
   }
 
   public bool SaveAdventure() {

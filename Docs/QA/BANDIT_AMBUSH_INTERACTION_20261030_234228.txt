@@ -1,0 +1,68 @@
+Bandit Ambush Interaction Correctness Validation 10/30/2026 11:42:28 PM
+
+PASS: ActiveTerrain is present
+PASS: OpenWorldBanditAmbush instance acquired
+PASS: Bandit encounter built
+--- 1. Testing Mobile HUD Button Presence & Delivery ---
+PASS: Mobile HUD interact button and label resolved via reflection
+--- 2. Testing Solid Cover Rejection ---
+PASS: Cache is targeted when unobstructed
+PASS: HasClearLineOfSight returns false when blocked by solid cover
+PASS: Solid cover blocks line of sight; cache is rejected
+PASS: Cache targeting restored after solid cover is removed
+--- 3. Testing Shared Nearest-Valid-Target Resolution & Overlap Range ---
+PASS: Note selected as nearest valid target in overlap zone
+PASS: InteractionPrompt is 'INSPECT MANIFEST' (got 'INSPECT MANIFEST')
+PASS: HUD interact button active near manifest
+PASS: HUD button label matches prompt ('INSPECT MANIFEST')
+[Overlap Debug] dCache=1.17m, dNote=2.36m, target=Cache
+PASS: Cache selected as nearest valid target when closer in overlap zone (target=Cache)
+PASS: InteractionPrompt is 'LOCKED CACHE' (got 'LOCKED CACHE')
+PASS: HUD button label matches 'LOCKED CACHE' ('LOCKED CACHE')
+--- 4. Testing Locked Cache Mobile HUD Click & No-Fallthrough ---
+PASS: Locked cache click awards zero gold
+PASS: CacheWorldId not marked while locked
+PASS: Locked cache interaction did NOT fall through to manifest note
+--- 5. Testing Trade Manifest Read & Reread via Mobile HUD Button ---
+PASS: HUD button label is 'INSPECT MANIFEST'
+PASS: Manifest marked as read
+PASS: ManifestWorldId saved in CollectedWorldIds
+PASS: Reading manifest awards no currency
+PASS: Prompt updated to 'READ MANIFEST' (got 'READ MANIFEST')
+PASS: Rereading manifest produces no currency and does not double-process
+--- 6. Testing Combat & Missing Enemy Reference Safety ---
+PASS: Both bandits present
+PASS: Bandit 1 confirmed defeated
+PASS: Cache remains locked with 1 bandit alive
+PASS: ClearedWorldId not saved
+PASS: Missing/destroyed enemy reference does NOT unlock cache
+PASS: Missing reference does NOT write ClearedWorldId
+PASS: Bandit 2 confirmed defeated
+PASS: Cache UNLOCKED after both bandits confirmed defeated
+PASS: ClearedWorldId saved IMMEDIATELY upon both confirmed dead
+PASS: CacheWorldId NOT marked yet (unlooted)
+--- 7. Testing Cleared-Unlooted Streaming (Leave -> Return) ---
+PASS: Enemies torn down when hero left the area
+PASS: Encounter remains cleared upon returning
+PASS: Cache remains unlooted
+PASS: Defeated bandits did NOT respawn
+PASS: Cache remains UNLOCKED on return
+PASS: Prompt is 'OPEN CACHE' on return (got 'OPEN CACHE')
+PASS: HUD button label is 'OPEN CACHE' ('OPEN CACHE')
+--- 8. Testing Reward Payout via Mobile HUD Button Click ---
+PASS: Cache marked looted
+PASS: Gold awarded correctly (+45, now 1158)
+PASS: Gems awarded correctly (+2, now 60)
+PASS: CacheWorldId saved in CollectedWorldIds
+PASS: Gold and gems unchanged on repeat click (exactly-once payout)
+--- 9. Testing Isolated Disk Reload Verification ---
+PASS: Disk load returned valid snapshot
+PASS: Disk-loaded data confirms ClearedWorldId
+PASS: Disk-loaded data confirms Cache is unlooted
+PASS: Disk load returned valid looted snapshot
+PASS: Disk-loaded data confirms ClearedWorldId in looted state
+PASS: Disk-loaded data confirms CacheWorldId in looted state
+PASS: Disk-loaded data confirms ManifestWorldId in looted state
+PASS: Isolated disk save & load verified successfully without touching user save slots
+
+ALL INTERACTION CORRECTNESS CHECKS PASSED SUCCESSFULLY!

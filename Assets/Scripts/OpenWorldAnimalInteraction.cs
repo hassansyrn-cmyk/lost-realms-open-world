@@ -15,6 +15,8 @@ namespace LostRealmsOW {
  public sealed class OpenWorldAnimalInteraction : MonoBehaviour {
   static readonly List<OpenWorldAnimalInteraction> live = new List<OpenWorldAnimalInteraction>();
   public static OpenWorldAnimalInteraction LastRidden { get; private set; }
+  public bool Owned => Horse && PersistentId != null && PersistentId.StartsWith("owned-horse:");
+  public int Breed; public float HorseStamina=100f;
   public bool Horse, Deer;  // Deer: any huntable prey (the HUD shows its health bar and carcass marker)
   public int Meat = 2;
   public string SpeciesName = "Wild Deer";
@@ -47,7 +49,7 @@ namespace LostRealmsOW {
   public bool JustTamed { get; private set; }
   public bool Calm => Horse || Time.time < calmUntil || Dead;
   public bool BeingPetted => Time.time < calmUntil;
-  public string Prompt => Dead ? "COLLECT " + Meat + " RAW MEAT" : Horse ? "RIDE HORSE" : "PET ANIMAL";
+  public string Prompt => Dead ? "COLLECT " + Meat + " RAW MEAT" : Horse ? (Owned ? "RIDE HORSE" : "TAME HORSE") : "PET ANIMAL";
 
   public static OpenWorldAnimalInteraction Attach(GameObject root, string species, string id) {
    string name = (species ?? "").ToLowerInvariant();
@@ -59,6 +61,7 @@ namespace LostRealmsOW {
    a.Meat = name.Contains("hare") || name.Contains("rabbit") ? 1 : 2;
    a.SpeciesName = ResolveSpeciesName(species, root ? root.name : "");
    a.PersistentId = id;
+   if(a.Horse){a.Breed=OpenWorldHorseProgression.BreedFor(id);root.AddComponent<OpenWorldHorseCoat>();}
    a.wildlife = root.GetComponent<OpenWorldWildlife>();
    a.motion = root.GetComponentInChildren<OpenWorldImportedModel>();
    if (a.Horse) {
@@ -131,7 +134,7 @@ namespace LostRealmsOW {
     gm.RawMeat = Mathf.Min(999, gm.RawMeat + Meat); gm.MarkProgressDirty();
     gm.ShowBanner("Collected " + Meat + " raw meat • Cook at a campfire");
     gameObject.SetActive(false); Destroy(gameObject);
-   } else if (Horse) gm.Hero.EnterMount(this);
+   } else if (Horse) { if(Owned)gm.Hero.EnterMount(this);else OpenWorldHorseProgression.Begin(this); }
    else { calmUntil = Time.time + 8f; if (motion) motion.State = "idle"; gm.ShowBanner("The animal relaxes beside Aster."); }
   }
 
@@ -173,7 +176,7 @@ namespace LostRealmsOW {
   }
 
   public bool Mount(OpenWorldHero hero) {
-   if (!Horse || Dead || Rider || !capsule) return false;
+   if (!Horse || !Owned || Dead || Rider || !capsule) return false;
    Rider = hero; LastRidden = this; speed = 0f;hadDrive=false;stopUntil=buckUntil=0; buckPending=false;
    JustTamed = false;
    if (wildlife && wildlife.Nature != OpenWorldWildlife.Temper.Tame) {
@@ -209,7 +212,13 @@ namespace LostRealmsOW {
    if(ControlsLocked){
     speed=0;hadDrive=false;stopUntil=0;
     if(motion)motion.State=mountT>=1f&&Time.time<buckUntil?"buck":"idle";
-    capsule.Move(Vector3.down*12f*dt);return;
+    capsule.Move(Vector3.down*12f*dt);
+    var t = gm ? gm.ActiveTerrain : null;
+    if (t) {
+     float gY = t.SampleHeight(transform.position) + t.transform.position.y;
+     if (transform.position.y < gY) transform.position = new Vector3(transform.position.x, gY, transform.position.z);
+    }
+    return;
    }
    if(buckUntil>0){buckUntil=0;gm?.ShowBanner("Horse calmed • Move to ride • Interact to dismount");}
    Vector3 f = Camera.main ? Camera.main.transform.forward : Rider.transform.forward;
@@ -222,6 +231,10 @@ namespace LostRealmsOW {
    hadDrive=driving;
    // Gait from the stick: a light touch walks, a push canters, the sprint button gallops.
    float want = mag < 0.08f ? 0f : gallop ? GallopPace : mag < 0.6f ? Mathf.Lerp(1.1f, WalkPace, mag / 0.6f) : Mathf.Lerp(WalkPace * 1.6f, CanterPace, (mag - 0.6f) / 0.4f);
+   var breed=OpenWorldHorseProgression.Breeds[Mathf.Clamp(Breed,0,2)];
+   HorseStamina=Mathf.Clamp(HorseStamina+(gallop&&driving?-18f:12f)*dt,0,breed.Stamina);
+   if(gallop&&HorseStamina<8)want=Mathf.Min(want,CanterPace);
+   want*=breed.Speed/9f;
    if (mountT < 1f) want = 0f;
    // Uphill costs speed, downhill a little extra (from the ground ahead of and behind the hooves).
    var terrain = gm ? gm.ActiveTerrain : null;
@@ -259,6 +272,10 @@ namespace LostRealmsOW {
    if (!safe) speed = Mathf.MoveTowards(speed, 0f, 25f * dt);
    var flags = capsule.Move((safe ? transform.forward * speed : Vector3.zero) * dt + Vector3.down * 12f * dt);
    if ((flags & CollisionFlags.Sides) != 0) speed = Mathf.MoveTowards(speed, 0f, 30f * dt);
+   if (terrain) {
+    float gY = terrain.SampleHeight(transform.position) + terrain.transform.position.y;
+    if (transform.position.y < gY) transform.position = new Vector3(transform.position.x, gY, transform.position.z);
+   }
    if (motion) {
     if (Time.time<stopUntil) motion.State="runstop";
     else if(gallop&&driving&&speed>(motion.State=="gallop"?6.4f:7.4f)) motion.State="gallop";
@@ -294,37 +311,101 @@ namespace LostRealmsOW {
    hero.Visual?.SetRide(rig, weight, speed, Gallop01, yawRate);
   }
 
-  static readonly RaycastHit[] wallHits = new RaycastHit[8];
-  // Where she lands hopping off: the left side first (the usual side), then the right, then behind.
-  // The spot must be free and nothing solid may stand between the saddle and it (a barn wall beside
+  static readonly RaycastHit[] wallHits = new RaycastHit[16];
+  static readonly Collider[] capsuleHits = new Collider[16];
+
+  static bool IsIgnoredDismountCollider(Collider c, Transform horseTransform, OpenWorldHero hero) {
+   if (!c || c is TerrainCollider) return true;
+   if (c.transform.IsChildOf(horseTransform)) return true;
+   if (hero && (c.transform.IsChildOf(hero.transform) || c.GetComponentInParent<OpenWorldHero>() == hero)) return true;
+   if (c.attachedRigidbody && !c.attachedRigidbody.isKinematic) return true;
+   return false;
+  }
+
+  // Where she lands hopping off: the left side first (the usual side), then the right, then rear angles, then behind.
+  // The spot must be free, valid, dry, and nothing solid may stand between the saddle and it (a barn wall beside
   // the horse would otherwise put her inside the barn).
   public bool DismountPoint(OpenWorldHero hero, out Vector3 point) {
-   if (!OpenWorldManager.I || !OpenWorldManager.I.ActiveTerrain) { point = transform.position; return false; }
+   point = transform.position;
+   if (!OpenWorldManager.I || !OpenWorldManager.I.ActiveTerrain) return false;
    var terrain = OpenWorldManager.I.ActiveTerrain;
+
    float side = 1.6f * Mathf.Max(1f, rig ? rig.BarrelHalf / 0.3f : 1f);
-   var directions = new[] { -transform.right, transform.right, (-transform.right - transform.forward).normalized, (transform.right - transform.forward).normalized, -transform.forward };
+   float baseGround = terrain.SampleHeight(transform.position) + terrain.transform.position.y;
+   // Ground an underground search origin before candidate evaluation
+   Vector3 basePos = new Vector3(transform.position.x, Mathf.Max(transform.position.y, baseGround), transform.position.z);
+
+   // Saddle origin for path spherecast: grounded if horse/rig sank underground
+   Vector3 seatOffset = rig ? (rig.SeatSteady - transform.position) : Vector3.up * 1.3f;
+   if (seatOffset.y < 0.8f) seatOffset.y = 1.3f;
+   Vector3 saddlePos = basePos + seatOffset - Vector3.up * 0.2f;
+
+   // Real Aster CharacterController capsule dimensions
+   float capRadius = hero && hero.Controller ? hero.Controller.radius : 0.38f;
+   float capHeight = hero && hero.Controller ? hero.Controller.height : 1.78f;
+   Vector3 capCenter = hero && hero.Controller ? hero.Controller.center : new Vector3(0f, 0.89f, 0f);
+   float halfSpan = Mathf.Max(0.01f, capHeight * 0.5f - capRadius);
+
+   var directions = new[] {
+    -transform.right,
+    transform.right,
+    (-transform.right - transform.forward).normalized,
+    (transform.right - transform.forward).normalized,
+    -transform.forward,
+    (-transform.right + transform.forward).normalized,
+    (transform.right + transform.forward).normalized
+   };
+
+   // Evaluate primary dismount steps (1.6m, 2.2m) then recovery step (2.8m)
    foreach (var direction in directions) {
-    for (int step = 0; step < 2; step++) {
-     Vector3 p = transform.position + direction * (side + step * 0.6f);
-     if (!OpenWorldGrounding.TryWalk(terrain, transform.position, p, out float ground)) continue;
+    for (int step = 0; step < 3; step++) {
+     Vector3 p = basePos + direction * (side + step * 0.6f);
+
+     // 1. Valid world and terrain bounds
+     if (Mathf.Abs(p.x) > OpenWorldHero.WorldBound || Mathf.Abs(p.z) > OpenWorldHero.WorldBound) continue;
+
+     // 2. Walkable support, max slope <= 35 deg, and step height delta
+     if (!OpenWorldGrounding.TryWalk(terrain, basePos, p, out float ground)) continue;
+
+     // 3. Dry ground (above water)
      if (OpenWorldTerrainSculptor.WaterAt(p.x, p.z, out _, out _)) continue;
-     p.y = ground + .1f;
-     if (Physics.CheckCapsule(p + Vector3.up * .45f, p + Vector3.up * 1.5f, .35f, ~0, QueryTriggerInteraction.Ignore)) continue;
-     Vector3 from = (rig ? rig.SeatSteady : transform.position + Vector3.up * 1.2f) - Vector3.up * 0.2f, to = p + Vector3.up * 0.9f;
-     Vector3 d = to - from;
-     int n = Physics.SphereCastNonAlloc(from, 0.2f, d.normalized, wallHits, d.magnitude, ~0, QueryTriggerInteraction.Ignore);
+
+     p.y = ground + 0.05f;
+
+     // 4. Full Aster CharacterController capsule clearance
+     Vector3 capBottom = p + capCenter - Vector3.up * halfSpan;
+     Vector3 capTop = p + capCenter + Vector3.up * halfSpan;
+     int numOverlaps = Physics.OverlapCapsuleNonAlloc(capBottom, capTop, capRadius, capsuleHits, ~0, QueryTriggerInteraction.Ignore);
+     bool blocked = false;
+     for (int i = 0; i < numOverlaps; i++) {
+      if (!IsIgnoredDismountCollider(capsuleHits[i], transform, hero)) {
+       blocked = true;
+       break;
+      }
+     }
+     if (blocked) continue;
+
+     // 5. Unobstructed path from saddle to candidate landing spot
+     Vector3 to = p + capCenter;
+     Vector3 d = to - saddlePos;
+     int numWallHits = Physics.SphereCastNonAlloc(saddlePos, 0.2f, d.normalized, wallHits, d.magnitude, ~0, QueryTriggerInteraction.Ignore);
      bool walled = false;
-     for (int i = 0; i < n && !walled; i++) {
-      var c = wallHits[i].collider;
-      if (!c || c is TerrainCollider || c.transform.IsChildOf(transform) || c.GetComponentInParent<OpenWorldHero>()) continue;
-      if (c.attachedRigidbody && !c.attachedRigidbody.isKinematic) continue;
-      walled = true;
+     for (int i = 0; i < numWallHits; i++) {
+      if (!IsIgnoredDismountCollider(wallHits[i].collider, transform, hero)) {
+       walled = true;
+       break;
+      }
      }
      if (walled) continue;
-     point = p; return true;
+
+     // Candidate passed all strict safety tests
+     point = p;
+     return true;
     }
    }
-   point = transform.position; return false;
+
+   // All candidate directions and steps failed safety validation: keep rider mounted safely
+   return false;
   }
 
   // Puts an animal on free ground behind Aster, out of the camera's view, so it can run in to her
@@ -356,11 +437,11 @@ namespace LostRealmsOW {
   public static void CallHorse(OpenWorldHero hero) {
    if (!hero || hero.IsMounted) return;
    var gm = OpenWorldManager.I;
-   OpenWorldAnimalInteraction horse = LastRidden && LastRidden.isActiveAndEnabled && !LastRidden.Dead ? LastRidden : null;
+   OpenWorldAnimalInteraction horse = LastRidden && LastRidden.isActiveAndEnabled && LastRidden.Owned && !LastRidden.Dead ? LastRidden : null;
    if (!horse) {
-    float best = 90f * 90f;
+    float best = float.MaxValue;
     foreach (var a in live) {
-     if (!a || !a.Horse || a.Dead || a.Rider) continue;
+     if (!a || !a.Horse || !a.Owned || a.Dead || a.Rider) continue;
      float d = (a.transform.position - hero.transform.position).sqrMagnitude;
      if (d < best) { best = d; horse = a; }
     }

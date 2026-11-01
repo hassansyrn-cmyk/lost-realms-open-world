@@ -1,0 +1,18 @@
+Bandit Ambush Interaction Correctness Validation 10/30/2026 11:31:05 PM
+
+PASS: ActiveTerrain is present
+PASS: OpenWorldBanditAmbush instance acquired
+PASS: Bandit encounter built
+--- 1. Testing Mobile HUD Button Presence & Delivery ---
+PASS: Mobile HUD interact button and label resolved via reflection
+--- 2. Testing Solid Cover Rejection ---
+PASS: Cache is targeted when unobstructed
+PASS: HasClearLineOfSight returns false when blocked by solid cover
+PASS: Solid cover blocks line of sight; cache is rejected
+PASS: Cache targeting restored after solid cover is removed
+--- 3. Testing Shared Nearest-Valid-Target Resolution & Overlap Range ---
+PASS: Note selected as nearest valid target in overlap zone
+PASS: InteractionPrompt is 'INSPECT MANIFEST' (got 'INSPECT MANIFEST')
+PASS: HUD interact button active near manifest
+PASS: HUD button label matches prompt ('INSPECT MANIFEST')
+FAIL: Cache selected as nearest valid target when closer in overlap zone

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Duplicate Asset Isolation1
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Duplicate Asset Isolation1
+  m_GUID: a37270dc8bcac044f99e2442ea4986cf
+  m_SerializeEntries:
+  - m_GUID: 0061c05b6757c9648b7188b211e39305
+    m_Address: Assets/Symphonie/StylizedForestKit Samples/URP/Materials/MT_Oak01_URP.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31321ba15b8f8eb4c954353edc038b1d
+    m_Address: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e253ee42671f4b141a345ab7afa4830f
+    m_Address: Assets/Symphonie/StylizedForestKit Samples/Texture/Oak/T_Oak01_D.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10c86cd7885419c4c905d1d4c4a1873b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8daa82027873aa248a12a0495e80a538, type: 2}
+    - {fileID: 11400000, guid: 761420e2c3d197a4fb4cbc0d7c50297e, type: 2}
+    m_SchemaDisplayOrder:
+    - Duplicate Asset Isolation1_BundledAssetGroupSchema
+    - Duplicate Asset Isolation1_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

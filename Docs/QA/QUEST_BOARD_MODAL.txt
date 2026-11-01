@@ -1,0 +1,16 @@
+PASS five quest rows in clipped scroll list
+PASS text contained: A HUNTER'S PROMISE — Oakvale
+PASS text contained: Active — Inspect tracks beyond Oakvale
+PASS text contained: Reward: 120 gold • 5 gems • Ranger Axe
+PASS text contained: THE LOST SUPPLY SLED — Frozen Peaks
+PASS text contained: Not started — find the quest giver
+PASS text contained: Reward: 110 gold • 4 gems • Woodsman's Axe
+PASS text contained: TRIAL OF THE SUNSPIRE — Burning Dunes
+PASS text contained: Not started — find the quest giver
+PASS text contained: Reward: 120 gold • 6 gems
+PASS text contained: RESTLESS LANTERNS — Hollow Marches
+PASS text contained: Not started — find the quest giver
+PASS text contained: Reward: 140 gold • 5 gems • night only
+PASS text contained: THE CONDUCTOR — Stormveil
+PASS text contained: Not started — find the quest giver
+PASS text contained: Reward: 120 gold • 5 gems • Reaper's Spear

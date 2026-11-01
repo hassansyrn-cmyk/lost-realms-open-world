@@ -1,0 +1,67 @@
+=== MAINLAND JUMP & TERRAIN COLLISION TRACE ===
+Timestamp: 2026-10-31 03:59:58
+
+--- 1. TERRAIN & COLLIDER ENVIRONMENT ---
+Terrain: Realm Terrain, Pos: (-512.00, -12.00, -512.00)
+Terrain Layer: 8 (WorldStatic)
+TerrainCollider: exists=True, enabled=True, bounds=Center: (0.00, 138.33, 0.00), Extents: (512.00, 140.54, 512.00)
+Hero: Aster, Layer: 0 (Default)
+CharacterController: enabled=True, radius=0.38, height=1.78, center=(0.00, 0.89, 0.00), skinWidth=0.04, stepOffset=0.38
+Physics.GetIgnoreLayerCollision(Hero, Terrain): False
+Physics.queriesHitBackfaces: False
+Hero Position: (-60.00, 6.84, -45.30), Terrain Height: 6.583, SampleGroundHeight: 6.583
+Raycast down from hero+0.1m (dist 1.0m): hit=True, collider=Realm Terrain (TerrainCollider), pt=(-60.000, 6.583, -45.296), normal=(0.000, 1.000, 0.000)
+SphereCastAll from hero+(r+0.08) radius=0.34 down 0.5m: count=3
+  hit: Realm Terrain (TerrainCollider), pt=(-60.000, 6.583, -45.296), normal=(0.000, 1.000, 0.000), dist=0.336
+  hit: GateModel (BoxCollider), pt=(-60.000, 6.853, -45.100), normal=(0.000, 0.820, -0.572), dist=0.127
+  hit: Aster (CharacterController), pt=(0.000, 0.000, 0.000), normal=(0.000, 1.000, 0.000), dist=0.000
+
+--- 2. MAINLAND PRE-JUMP STATE ---
+Hero pos.y: 6.839
+Controller.isGrounded: True
+ProbeGround(): True
+Hero.Grounded: True
+Hero.velocity: (0.000, -2.499, 0.000)
+Hero.Stamina: 100.0
+
+--- 3. MAINLAND JUMP EXECUTION (15 FRAMES) ---
+Frame 00: pos.y=7.0179, vel.y=7.90, Grounded=False, CC.isGrounded=False, Probe=True, Gliding=False, Stamina=100.0
+Frame 01: pos.y=7.1857, vel.y=7.40, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 02: pos.y=7.3422, vel.y=6.90, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 03: pos.y=7.4873, vel.y=6.41, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 04: pos.y=7.6212, vel.y=5.91, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 05: pos.y=7.7438, vel.y=5.41, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 06: pos.y=7.8551, vel.y=4.91, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 07: pos.y=7.9551, vel.y=4.41, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 08: pos.y=8.0437, vel.y=3.91, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 09: pos.y=8.1211, vel.y=3.41, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 10: pos.y=8.1872, vel.y=2.91, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 11: pos.y=8.2419, vel.y=2.42, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 12: pos.y=8.2854, vel.y=1.92, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 13: pos.y=8.3175, vel.y=1.42, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Frame 14: pos.y=8.3384, vel.y=0.92, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+
+--- 4. TESTING SOLID MESH GROUNDING (SANCTUM RING / ROCK) ---
+Platform pos: (-55.00, 8.84, -45.30)
+Hero on platform pos.y: 9.573
+Controller.isGrounded on platform: False
+ProbeGround() on platform: False
+Hero.Grounded on platform: False
+Hero.velocity on platform: (0.000, -1.573, 0.000)
+
+--- 5. PLATFORM JUMP EXECUTION (15 FRAMES) ---
+Platform Frame 00: pos.y=9.7370, vel.y=7.23, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 01: pos.y=9.8896, vel.y=6.73, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 02: pos.y=10.0308, vel.y=6.23, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 03: pos.y=10.1608, vel.y=5.73, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 04: pos.y=10.2794, vel.y=5.23, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 05: pos.y=10.3868, vel.y=4.74, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 06: pos.y=10.4828, vel.y=4.24, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 07: pos.y=10.5676, vel.y=3.74, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 08: pos.y=10.6410, vel.y=3.24, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 09: pos.y=10.7031, vel.y=2.74, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 10: pos.y=10.7540, vel.y=2.24, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 11: pos.y=10.7935, vel.y=1.74, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 12: pos.y=10.8217, vel.y=1.25, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 13: pos.y=10.8387, vel.y=0.75, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0
+Platform Frame 14: pos.y=10.8443, vel.y=0.25, Grounded=False, CC.isGrounded=False, Probe=False, Gliding=False, Stamina=100.0

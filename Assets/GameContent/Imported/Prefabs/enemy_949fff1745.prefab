@@ -1596,6 +1596,35 @@ MonoBehaviour:
   Hit: {fileID: 7400000, guid: b9ef01f07e92ab64a9d0e83045935a58, type: 2}
   Death: {fileID: 7400000, guid: fcc6dbf44fb657f4cba3a37af5483c4b, type: 2}
   Talk: {fileID: 0}
+  Run: {fileID: 0}
+  Graze: {fileID: 0}
+  Rest: {fileID: 0}
+  Roar: {fileID: 0}
+  Fly: {fileID: 0}
+  Attack2: {fileID: 0}
+  Trot: {fileID: 0}
+  Canter: {fileID: 0}
+  WalkLeft: {fileID: 0}
+  WalkRight: {fileID: 0}
+  GallopLeft: {fileID: 0}
+  GallopRight: {fileID: 0}
+  RunStop: {fileID: 0}
+  Buck: {fileID: 0}
+  Swim: {fileID: 0}
+  Jump: {fileID: 0}
+  HasBankContactHeights: 0
+  WalkLeftContactY: {x: 0, y: 0, z: 0, w: 0}
+  WalkRightContactY: {x: 0, y: 0, z: 0, w: 0}
+  GallopLeftContactY: {x: 0, y: 0, z: 0, w: 0}
+  GallopRightContactY: {x: 0, y: 0, z: 0, w: 0}
+  GallopContactPhases: []
+  GallopLeftPhaseOffset: 0
+  GallopRightPhaseOffset: 0
+  WalkSpeed: 0
+  TrotSpeed: 0
+  CanterSpeed: 0
+  RunSpeed: 0
+  TuckTime: -1
   State: idle
   RestartVersion: 0
   Driver: {fileID: 0}

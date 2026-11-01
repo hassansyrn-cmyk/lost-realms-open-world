@@ -1,0 +1,15 @@
+{
+  "animations": [
+    {
+      "name": "Forgewarden_Walk_Loop",
+      "file": "C:\\Users\\Hasan\\Documents\\Lost-Realms-Open-World\\Assets\\GameContent\\DownloadedModels\\Forgewarden\\Forgewarden_Walk.fbx",
+      "bytes": 15504172
+    },
+    {
+      "name": "Forgewarden_Talking_Gestures",
+      "file": "C:\\Users\\Hasan\\Documents\\Lost-Realms-Open-World\\Assets\\GameContent\\DownloadedModels\\Forgewarden\\Forgewarden_Talking.fbx",
+      "bytes": 15552796
+    }
+  ],
+  "stage": "exported"
+}

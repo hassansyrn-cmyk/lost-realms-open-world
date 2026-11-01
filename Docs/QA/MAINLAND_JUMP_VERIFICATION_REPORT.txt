@@ -1,0 +1,130 @@
+=================================================================
+   LOST REALMS: MAINLAND JUMP & GROUNDING VERIFICATION REPORT   
+=================================================================
+Timestamp: 2026-10-31 04:34:33
+
+--- TEST 1: MAINLAND OPEN TERRAIN (50, 50) GROUNDING & STAMINA ---
+Stationary Grounding: CC.isGrounded=True, ProbeGround=True, Hero.Grounded=True
+Stamina Regeneration: Start=40.0, After 10 frames=52.88 (Regen Active: True)
+[PASS]: Stationary Hero must be Grounded on mainland terrain
+[PASS]: Stamina must regenerate while standing on mainland terrain
+Walking Grounding (frame 10): pos=(50.000, 5.973, 50.859), CC.isGrounded=True, ProbeGround=True, Hero.Grounded=True
+Walking Stamina Regen: Start=40.0, Now=47.62 (Regen Active: True)
+[PASS]: Walking Hero must stay Grounded on mainland terrain
+[PASS]: Stamina must regenerate while walking normally on mainland terrain
+
+--- TEST 2: JUMP FROM MAINLAND TERRAIN (DISPLACEMENT & AIRTIME) ---
+Pre-jump State: pos.y=5.9773, Grounded=True, CC.isGrounded=True, Gliding=False
+  Jump Frame 01: pos.y=6.2349, vel.y=7.66, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 02: pos.y=6.4982, vel.y=6.81, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 03: pos.y=6.6831, vel.y=6.15, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 04: pos.y=6.8323, vel.y=5.56, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 05: pos.y=6.9684, vel.y=4.95, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 06: pos.y=7.1610, vel.y=3.85, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 07: pos.y=7.2987, vel.y=2.75, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 08: pos.y=7.3640, vel.y=2.05, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 09: pos.y=7.3992, vel.y=1.55, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 10: pos.y=7.4233, vel.y=1.05, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 11: pos.y=7.4357, vel.y=0.56, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 12: pos.y=7.4393, vel.y=0.25, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 13: pos.y=7.4357, vel.y=-0.18, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 14: pos.y=7.4104, vel.y=-0.84, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 15: pos.y=7.3882, vel.y=-1.24, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 16: pos.y=7.3587, vel.y=-1.63, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 17: pos.y=7.3208, vel.y=-2.04, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 18: pos.y=7.2744, vel.y=-2.46, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 19: pos.y=7.2211, vel.y=-2.87, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 20: pos.y=7.1590, vel.y=-3.28, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 21: pos.y=7.0900, vel.y=-3.69, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 22: pos.y=7.0145, vel.y=-4.10, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 23: pos.y=6.9245, vel.y=-4.54, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 24: pos.y=6.8371, vel.y=-4.93, Grounded=False, CC=False, Probe=False, Gliding=False
+  Jump Frame 25: pos.y=6.7362, vel.y=-5.34, Grounded=False, CC=False, Probe=False, Gliding=False
+Jump Apex Height: 1.462m (Apex pos.y=7.439, Start=5.977, TimeToApex=0.172s)
+Accidental Glider Check: Gliding=False (Must be False)
+[PASS]: Jump height must be >= 1.2m (actual: 1.462m)
+[PASS]: Ground jump press must NEVER trigger glider!
+
+--- TEST 3: MAINLAND SLOPED TERRAIN (95, -35) ---
+Slope Settle: pos=(95.000, 8.742, -35.000), terrain.y=8.701, CC.isGrounded=True, ProbeGround=True, Hero.Grounded=True, Stamina=49.87
+[PASS]: Hero must be Grounded on walkable slope terrain
+  Slope Jump Frame 01: pos.y=8.9661, vel.y=7.77, Grounded=False, Gliding=False
+  Slope Jump Frame 02: pos.y=9.1612, vel.y=7.17, Grounded=False, Gliding=False
+  Slope Jump Frame 03: pos.y=9.3336, vel.y=6.59, Grounded=False, Gliding=False
+  Slope Jump Frame 04: pos.y=9.4957, vel.y=6.00, Grounded=False, Gliding=False
+  Slope Jump Frame 05: pos.y=9.6298, vel.y=5.46, Grounded=False, Gliding=False
+  Slope Jump Frame 06: pos.y=9.7433, vel.y=4.95, Grounded=False, Gliding=False
+  Slope Jump Frame 07: pos.y=9.8446, vel.y=4.45, Grounded=False, Gliding=False
+  Slope Jump Frame 08: pos.y=9.9787, vel.y=3.64, Grounded=False, Gliding=False
+  Slope Jump Frame 09: pos.y=10.0524, vel.y=3.12, Grounded=False, Gliding=False
+  Slope Jump Frame 10: pos.y=10.1149, vel.y=2.59, Grounded=False, Gliding=False
+  Slope Jump Frame 11: pos.y=10.1637, vel.y=2.07, Grounded=False, Gliding=False
+  Slope Jump Frame 12: pos.y=10.2014, vel.y=1.53, Grounded=False, Gliding=False
+  Slope Jump Frame 13: pos.y=10.2256, vel.y=0.99, Grounded=False, Gliding=False
+  Slope Jump Frame 14: pos.y=10.2364, vel.y=0.42, Grounded=False, Gliding=False
+  Slope Jump Frame 15: pos.y=10.2343, vel.y=-0.09, Grounded=False, Gliding=False
+  Slope Jump Frame 16: pos.y=10.2191, vel.y=-0.63, Grounded=False, Gliding=False
+  Slope Jump Frame 17: pos.y=10.2037, vel.y=-0.97, Grounded=False, Gliding=False
+  Slope Jump Frame 18: pos.y=10.1715, vel.y=-1.46, Grounded=False, Gliding=False
+  Slope Jump Frame 19: pos.y=10.1278, vel.y=-1.95, Grounded=False, Gliding=False
+  Slope Jump Frame 20: pos.y=10.0733, vel.y=-2.44, Grounded=False, Gliding=False
+Slope Jump Height: 1.494m (Apex pos.y=10.236, Start=8.742)
+[PASS]: Slope jump height must be >= 1.2m (actual: 1.494m)
+
+--- TEST 4: ELEVATED MESH STRUCTURE (SANCTUM GATE) ---
+Gate Settle: pos=(-60.000, 6.836, -45.300), CC.isGrounded=True, ProbeGround=True, Hero.Grounded=True, Stamina=45.14
+[PASS]: Hero must be Grounded on elevated mesh structure
+[PASS]: Stamina must regenerate on elevated mesh structure
+  Mesh Jump Frame 01: pos.y=6.9950, vel.y=7.96, Grounded=False, Gliding=False
+  Mesh Jump Frame 02: pos.y=7.1482, vel.y=7.51, Grounded=False, Gliding=False
+  Mesh Jump Frame 03: pos.y=7.3297, vel.y=6.94, Grounded=False, Gliding=False
+  Mesh Jump Frame 04: pos.y=7.4378, vel.y=6.58, Grounded=False, Gliding=False
+  Mesh Jump Frame 05: pos.y=7.5644, vel.y=6.12, Grounded=False, Gliding=False
+  Mesh Jump Frame 06: pos.y=7.6828, vel.y=5.66, Grounded=False, Gliding=False
+  Mesh Jump Frame 07: pos.y=7.7899, vel.y=5.21, Grounded=False, Gliding=False
+  Mesh Jump Frame 08: pos.y=7.8877, vel.y=4.75, Grounded=False, Gliding=False
+  Mesh Jump Frame 09: pos.y=7.9953, vel.y=4.19, Grounded=False, Gliding=False
+  Mesh Jump Frame 10: pos.y=8.0722, vel.y=3.74, Grounded=False, Gliding=False
+  Mesh Jump Frame 11: pos.y=8.1377, vel.y=3.30, Grounded=False, Gliding=False
+  Mesh Jump Frame 12: pos.y=8.1956, vel.y=2.85, Grounded=False, Gliding=False
+  Mesh Jump Frame 13: pos.y=8.2443, vel.y=2.41, Grounded=False, Gliding=False
+  Mesh Jump Frame 14: pos.y=8.2843, vel.y=1.96, Grounded=False, Gliding=False
+  Mesh Jump Frame 15: pos.y=8.3178, vel.y=1.45, Grounded=False, Gliding=False
+  Mesh Jump Frame 16: pos.y=8.3367, vel.y=1.06, Grounded=False, Gliding=False
+  Mesh Jump Frame 17: pos.y=8.3493, vel.y=0.61, Grounded=False, Gliding=False
+  Mesh Jump Frame 18: pos.y=8.3524, vel.y=0.15, Grounded=False, Gliding=False
+  Mesh Jump Frame 19: pos.y=8.3413, vel.y=-0.42, Grounded=False, Gliding=False
+  Mesh Jump Frame 20: pos.y=8.3161, vel.y=-0.99, Grounded=False, Gliding=False
+Mesh Jump Height: 1.516m (Apex pos.y=8.352, Start=6.836)
+[PASS]: Mesh jump height must be >= 1.2m (actual: 1.516m)
+
+--- TEST 5: CELESTIAL SKY ISLE GROUNDING & JUMP ---
+Sky Isle Settle: pos=(-84.000, 44.271, 92.000), CC.isGrounded=False, ProbeGround=True, Hero.Grounded=True, Stamina=49.84
+[PASS]: Hero must be Grounded on sky isle
+[PASS]: Stamina must regenerate on sky isle
+  Sky Isle Jump Frame 01: pos.y=44.5342, vel.y=7.64, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 02: pos.y=44.7489, vel.y=6.96, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 03: pos.y=44.9082, vel.y=6.42, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 04: pos.y=45.0393, vel.y=5.93, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 05: pos.y=45.1665, vel.y=5.41, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 06: pos.y=45.2677, vel.y=4.97, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 07: pos.y=45.3550, vel.y=4.54, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 08: pos.y=45.4320, vel.y=4.13, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 09: pos.y=45.5019, vel.y=3.72, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 10: pos.y=45.5661, vel.y=3.29, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 11: pos.y=45.6265, vel.y=2.82, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 12: pos.y=45.6721, vel.y=2.40, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 13: pos.y=45.7100, vel.y=1.98, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 14: pos.y=45.7398, vel.y=1.56, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 15: pos.y=45.7611, vel.y=1.16, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 16: pos.y=45.7750, vel.y=0.75, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 17: pos.y=45.7815, vel.y=0.36, Grounded=False, Gliding=False
+  Sky Isle Jump Frame 18: pos.y=45.7808, vel.y=-0.04, Grounded=True, Gliding=False
+  Sky Isle Jump Frame 19: pos.y=45.7381, vel.y=-2.39, Grounded=True, Gliding=False
+  Sky Isle Jump Frame 20: pos.y=45.6938, vel.y=-2.41, Grounded=True, Gliding=False
+Sky Isle Jump Height: 1.510m (Apex pos.y=45.781, Start=44.271)
+[PASS]: Sky isle jump height must be >= 1.2m (actual: 1.510m)
+
+=================================================================
+   ALL VERIFICATION CHECKS PASSED: MAINLAND JUMP & GROUNDING FIXED
+=================================================================

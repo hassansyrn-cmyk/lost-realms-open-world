@@ -54,6 +54,8 @@ namespace LostRealmsOW {
   bool awaitingImpact;
   float impactAt;
   float lightStaggerReadyAt;
+  float nextHeavyAt;
+  bool heavyIsSkeleton;
   Vector3 strikeFacing;
   public string CombatMove { get; private set; }
   bool RangedCaster => Role == "Elite" && !Beast && !IsBoss;
@@ -307,8 +309,12 @@ namespace LostRealmsOW {
      if (stateTimer <= 0f) {
       ReleaseToken();
       state = AIState.Recover;
-      stateTimer = specialAttack ? 1.5f : IsBoss ? 0.75f : 1.05f;
-      Visual?.Play("idle");
+      stateTimer = specialAttack ? (heavyIsSkeleton ? 1.1f : 1.5f) : IsBoss ? 0.75f : 1.05f;
+      if (heavyIsSkeleton) {
+       // The swing's follow-through runs to ~1.55 s of the 1.567 s clip; blending to idle at the
+       // Recover transition would cut it mid-return, so the idle switch is delayed to the clip end.
+       Schedule(0.5f, () => Visual?.Play("idle"));
+      } else Visual?.Play("idle");
      }
      break;
 
@@ -412,8 +418,24 @@ namespace LostRealmsOW {
    bossSwingCount++;
    isSlamAttack = (IsBoss || IsBountyElite) && (bossSwingCount % 3 == 0);
    specialAttack = !isSlamAttack && bossSwingCount % 2 == 0;
+   // Hollow Revenant heavy: an occasional BONE SLAM when Aster is in melee range, on its own
+   // cooldown so it stays occasional. Every other behaviour keeps the ordinary cadence.
+   bool skeletonHeavy = false;
+   var heroRef = OpenWorldManager.I && OpenWorldManager.I.Hero ? OpenWorldManager.I.Hero.transform : null;
+   if (!isSlamAttack && !Beast && (DisplayName + " " + SpecialName).ToLowerInvariant().Contains("revenant")) {
+    // The Hollow Revenant special slot IS its heavy: when the cooldown is ready and Aster is in
+    // melee range it becomes the BONE SLAM; while cooling down the revenant uses ordinary attacks.
+    if (Time.time >= nextHeavyAt && heroRef && Vector3.Distance(transform.position, heroRef.position) <= AttackRange + 1.5f) {
+     specialAttack = true;
+     skeletonHeavy = true;
+     nextHeavyAt = Time.time + 6.5f;
+    } else {
+     specialAttack = false;
+    }
+   }
+   heavyIsSkeleton = specialAttack && skeletonHeavy;
    float windup = IsBoss ? (isSlamAttack ? 0.9f : (bossPhase >= 2 ? 0.65f : 0.8f)) : 0.72f;
-   if (specialAttack) windup = 1.15f;
+   if (specialAttack) windup = heavyIsSkeleton ? 0.8f : 1.15f;
    stateTimer = windup;
    strikeCenter = transform.position;
    strikeFacing = transform.forward;
@@ -431,12 +453,15 @@ namespace LostRealmsOW {
     OpenWorldCombatPopup.Spawn(transform.position + Vector3.up * 1.6f, CombatMove, strikeColor, 1f);
    } else if (specialAttack) {
     bool brute = Role == "StoneBrute" || IsBoss;
-    strikeSize = brute ? 4f : Role == "Elite" ? 3.2f : 1.6f;
-    if (!brute && OpenWorldManager.I && OpenWorldManager.I.Hero) strikeCenter = OpenWorldManager.I.Hero.transform.position;
-    strikeColor = brute ? new Color(1f, .6f, .15f) : Role == "Elite" ? new Color(.65f, .35f, 1f) : new Color(.25f, 1f, .55f);
-    CombatMove = brute ? "EARTHSHATTER" : Role == "Elite" ? "ARCANE ERUPTION" : "VENOM BURST";
+    bool skeleton = heavyIsSkeleton;
+    strikeSize = brute ? 4f : skeleton ? 2.6f : Role == "Elite" ? 3.2f : 1.6f;
+    if (!brute && !skeleton && OpenWorldManager.I && OpenWorldManager.I.Hero) strikeCenter = OpenWorldManager.I.Hero.transform.position;
+    // The skeleton's amber is slightly brighter than the brute's: the Graveyard's dark, misty ground
+    // swallows the ring otherwise. Same hue family, no extra particles.
+    strikeColor = brute ? new Color(1f, .6f, .15f) : skeleton ? new Color(1f, .72f, .12f) : Role == "Elite" ? new Color(.65f, .35f, 1f) : new Color(.25f, 1f, .55f);
+    CombatMove = brute ? "EARTHSHATTER" : skeleton ? "BONE SLAM" : Role == "Elite" ? "ARCANE ERUPTION" : "VENOM BURST";
     OpenWorldCombatPopup.Spawn(transform.position + Vector3.up * CombatHeight,
-     brute ? "EARTHSHATTER" : Role == "Elite" ? "ARCANE ERUPTION" : "VENOM BURST", strikeColor, 1f);
+     CombatMove, strikeColor, 1f);
    }
    string atkClip = isSlamAttack ? "slam" : ((bossSwingCount & 1) == 0 ? "attack_2" : "attack_1");
    Visual?.Play(atkClip, true);
